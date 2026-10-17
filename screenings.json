@@ -1,0 +1,1504 @@
+{
+"updated": "2026-10-16T17:30:00+02:00",
+"city": "Gent",
+"excluded": [
+"Kinepolis"
+],
+"venues": {
+"sphinx": {
+"name": "Sphinx",
+"addr": "Sint-Michielshelling 3",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx",
+"kind": "arthouse"
+},
+"skoop": {
+"name": "Studio Skoop",
+"addr": "Sint-Annaplein 63",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/",
+"kind": "arthouse"
+},
+"kask": {
+"name": "KASKcinema",
+"addr": "Godshuizenlaan 4",
+"url": "https://kaskcinema.be/",
+"kind": "filmclubs: Film-Plateau, Kinoautomat, F*Q, Kuru"
+},
+"rio": {
+"name": "Ciné Rio",
+"addr": "Meibloemstraat 86 (De Koer)",
+"url": "https://dekoer.be/cine-rio/",
+"kind": "buurtcinema · cineclub"
+}
+},
+"notices": [
+"Film Fest Gent runs until 18 Oct (Sphinx, Skoop, KASKcinema and others). Its day schedule loads only in a browser, so check filmfestival.be for festival screenings.",
+"KASKcinema is handed over to Film Fest Gent until 18 Oct; its own programme resumes 20 Oct.",
+"Ciné Rio lists dates without start times; check the event page."
+],
+"screenings": [
+{
+"v": "skoop",
+"d": "2026-10-16",
+"t": "14:30",
+"title": "Digger",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-16",
+"t": "14:30",
+"title": "Mémoire de fille",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-16",
+"t": "14:30",
+"title": "Primetime",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "sphinx",
+"d": "2026-10-16",
+"t": "14:30",
+"title": "The Invite",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-16",
+"t": "14:30",
+"title": "The Last One for the Road",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-16",
+"t": "14:30",
+"title": "The Social Reckoning",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "skoop",
+"d": "2026-10-16",
+"t": "17:15",
+"title": "Franz",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-16",
+"t": "17:15",
+"title": "Naza",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-16",
+"t": "17:15",
+"title": "Tegenwoordig heet iedereen sorry",
+"note": "familiefilm",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "sphinx",
+"d": "2026-10-16",
+"t": "17:15",
+"title": "Digger",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-16",
+"t": "17:30",
+"title": "Naza",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-16",
+"t": "17:30",
+"title": "The Invite",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "skoop",
+"d": "2026-10-16",
+"t": "19:30",
+"title": "Sense and Sensibility",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-16",
+"t": "19:45",
+"title": "The Invite",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-16",
+"t": "20:00",
+"title": "Primetime",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "sphinx",
+"d": "2026-10-16",
+"t": "20:30",
+"title": "Garance",
+"note": "OV · NL st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-16",
+"t": "20:30",
+"title": "L'Espèce explosive",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-16",
+"t": "20:30",
+"title": "Primetime",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "skoop",
+"d": "2026-10-16",
+"t": "22:00",
+"title": "The Social Reckoning",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-16",
+"t": "22:15",
+"title": "Digger",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-16",
+"t": "22:15",
+"title": "The Devils (1971)",
+"note": "4K restauratie",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "sphinx",
+"d": "2026-10-17",
+"t": "11:00",
+"title": "La Grande rêvasion",
+"note": "NL versie",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-17",
+"t": "11:00",
+"title": "Sense and Sensibility",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-17",
+"t": "11:00",
+"title": "The Invite",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-17",
+"t": "11:00",
+"title": "The Pout-Pout Fish",
+"note": "NL versie",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-17",
+"t": "11:00",
+"title": "The Social Reckoning",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-17",
+"t": "14:00",
+"title": "Notre salut",
+"note": "OV · NL st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "skoop",
+"d": "2026-10-17",
+"t": "14:15",
+"title": "Digger",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-17",
+"t": "14:15",
+"title": "Franz",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-17",
+"t": "14:30",
+"title": "Magische Jungle",
+"note": "familiefilm",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-17",
+"t": "14:30",
+"title": "Tegenwoordig heet iedereen sorry",
+"note": "familiefilm",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "sphinx",
+"d": "2026-10-17",
+"t": "14:30",
+"title": "Mochy",
+"note": "NL versie",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-17",
+"t": "14:30",
+"title": "Naza",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-17",
+"t": "14:30",
+"title": "Tegenwoordig heet iedereen sorry",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "skoop",
+"d": "2026-10-17",
+"t": "16:30",
+"title": "The Odyssey",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-17",
+"t": "17:00",
+"title": "Mémoire de fille",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-17",
+"t": "17:00",
+"title": "Sense and Sensibility",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-17",
+"t": "17:30",
+"title": "Naza",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "sphinx",
+"d": "2026-10-17",
+"t": "17:30",
+"title": "Garance",
+"note": "OV · NL st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-17",
+"t": "17:30",
+"title": "L'Espèce explosive",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-17",
+"t": "17:30",
+"title": "Primetime",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-17",
+"t": "17:30",
+"title": "The Last One for the Road",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "skoop",
+"d": "2026-10-17",
+"t": "19:45",
+"title": "Digger",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-17",
+"t": "19:45",
+"title": "Franz",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-17",
+"t": "20:00",
+"title": "Primetime",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-17",
+"t": "20:00",
+"title": "The Invite",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "sphinx",
+"d": "2026-10-17",
+"t": "20:15",
+"title": "Digger",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-17",
+"t": "20:15",
+"title": "Sense and Sensibility",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-17",
+"t": "20:30",
+"title": "Naza",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-17",
+"t": "20:30",
+"title": "The Invite",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "skoop",
+"d": "2026-10-17",
+"t": "22:15",
+"title": "The Devils (1971)",
+"note": "4K restauratie",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-17",
+"t": "22:15",
+"title": "The Invite",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-17",
+"t": "22:15",
+"title": "The Social Reckoning",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-17",
+"t": "22:15",
+"title": "Trainspotting (1996)",
+"note": "4K restauratie",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-18",
+"t": "11:00",
+"title": "Akira (1988)",
+"note": "4K restauratie",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-18",
+"t": "11:00",
+"title": "Coward",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-18",
+"t": "11:00",
+"title": "Franz",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-18",
+"t": "11:00",
+"title": "Tegenwoordig heet iedereen sorry",
+"note": "familiefilm",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-18",
+"t": "11:00",
+"title": "Wicker",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "sphinx",
+"d": "2026-10-18",
+"t": "11:00",
+"title": "Born in the Jungle",
+"note": "NL versie",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-18",
+"t": "11:00",
+"title": "Mochy",
+"note": "NL versie",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-18",
+"t": "11:00",
+"title": "Naza",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-18",
+"t": "11:00",
+"title": "Notre salut",
+"note": "OV · NL st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-18",
+"t": "11:00",
+"title": "Tegenwoordig heet iedereen sorry",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "skoop",
+"d": "2026-10-18",
+"t": "13:30",
+"title": "De grote droom",
+"note": "familiefilm",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-18",
+"t": "14:00",
+"title": "The Odyssey",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-18",
+"t": "14:15",
+"title": "Sense and Sensibility",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-18",
+"t": "14:15",
+"title": "Tegenwoordig heet iedereen sorry",
+"note": "familiefilm",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "sphinx",
+"d": "2026-10-18",
+"t": "14:15",
+"title": "Digger",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "skoop",
+"d": "2026-10-18",
+"t": "14:30",
+"title": "Yugly",
+"note": "Vlaamse versie",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "sphinx",
+"d": "2026-10-18",
+"t": "14:30",
+"title": "L'Espèce explosive",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-18",
+"t": "14:30",
+"title": "La Grande rêvasion",
+"note": "NL versie",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-18",
+"t": "14:30",
+"title": "The Pout-Pout Fish",
+"note": "NL versie",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "skoop",
+"d": "2026-10-18",
+"t": "17:15",
+"title": "Digger",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-18",
+"t": "17:15",
+"title": "Mémoire de fille",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-18",
+"t": "17:15",
+"title": "Primetime",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "sphinx",
+"d": "2026-10-18",
+"t": "17:15",
+"title": "Sense and Sensibility",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "skoop",
+"d": "2026-10-18",
+"t": "17:30",
+"title": "The Invite",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "sphinx",
+"d": "2026-10-18",
+"t": "17:30",
+"title": "Naza",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-18",
+"t": "17:30",
+"title": "Tegenwoordig heet iedereen sorry",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-18",
+"t": "17:30",
+"title": "The Invite",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "skoop",
+"d": "2026-10-18",
+"t": "20:00",
+"title": "Franz",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-18",
+"t": "20:00",
+"title": "The Devils (1971)",
+"note": "4K restauratie",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-18",
+"t": "20:00",
+"title": "The Invite",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-18",
+"t": "20:00",
+"title": "The Social Reckoning",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "sphinx",
+"d": "2026-10-18",
+"t": "20:15",
+"title": "Notre salut",
+"note": "OV · NL st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-18",
+"t": "20:30",
+"title": "Primetime",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-18",
+"t": "20:30",
+"title": "The Last One for the Road",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-18",
+"t": "20:30",
+"title": "The Social Reckoning",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-19",
+"t": "14:15",
+"title": "Sense and Sensibility",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "skoop",
+"d": "2026-10-19",
+"t": "14:30",
+"title": "Digger",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-19",
+"t": "14:30",
+"title": "Mémoire de fille",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-19",
+"t": "14:30",
+"title": "Naza",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-19",
+"t": "14:30",
+"title": "Primetime",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-19",
+"t": "14:30",
+"title": "The Invite",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "sphinx",
+"d": "2026-10-19",
+"t": "14:30",
+"title": "Naza",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-19",
+"t": "14:30",
+"title": "Tegenwoordig heet iedereen sorry",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-19",
+"t": "14:30",
+"title": "The Invite",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-19",
+"t": "17:00",
+"title": "Notre salut",
+"note": "OV · NL st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-19",
+"t": "17:00",
+"title": "The Last One for the Road",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "skoop",
+"d": "2026-10-19",
+"t": "17:15",
+"title": "Franz",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-19",
+"t": "17:15",
+"title": "The Devils (1971)",
+"note": "4K restauratie",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-19",
+"t": "17:15",
+"title": "The Social Reckoning",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "sphinx",
+"d": "2026-10-19",
+"t": "17:15",
+"title": "Digger",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "skoop",
+"d": "2026-10-19",
+"t": "17:30",
+"title": "Akira (1988)",
+"note": "4K restauratie",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-19",
+"t": "17:30",
+"title": "Tegenwoordig heet iedereen sorry",
+"note": "familiefilm",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "sphinx",
+"d": "2026-10-19",
+"t": "17:30",
+"title": "Primetime",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-19",
+"t": "17:30",
+"title": "The Social Reckoning",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-19",
+"t": "19:30",
+"title": "Coward",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "skoop",
+"d": "2026-10-19",
+"t": "19:45",
+"title": "Sense and Sensibility",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-19",
+"t": "19:45",
+"title": "The Invite",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-19",
+"t": "20:00",
+"title": "Coward",
+"note": "Avant-première · Q&A Lukas Dhont",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-19",
+"t": "20:00",
+"title": "Primetime",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "sphinx",
+"d": "2026-10-19",
+"t": "20:15",
+"title": "Shall We Dance? (1996)",
+"note": "OV · NL st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "skoop",
+"d": "2026-10-19",
+"t": "20:30",
+"title": "Coward",
+"note": "Avant-première · Q&A Lukas Dhont",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "sphinx",
+"d": "2026-10-19",
+"t": "20:30",
+"title": "Garance",
+"note": "OV · NL st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-19",
+"t": "20:30",
+"title": "L'Espèce explosive",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-19",
+"t": "20:30",
+"title": "The Invite",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-20",
+"t": "14:00",
+"title": "Notre salut",
+"note": "OV · NL st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-20",
+"t": "14:15",
+"title": "Digger",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "skoop",
+"d": "2026-10-20",
+"t": "14:30",
+"title": "Franz",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-20",
+"t": "14:30",
+"title": "Sense and Sensibility",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-20",
+"t": "14:30",
+"title": "The Invite",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-20",
+"t": "14:30",
+"title": "The Social Reckoning",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "sphinx",
+"d": "2026-10-20",
+"t": "14:30",
+"title": "Primetime",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-20",
+"t": "14:30",
+"title": "Rose",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-20",
+"t": "14:30",
+"title": "The Social Reckoning",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "skoop",
+"d": "2026-10-20",
+"t": "17:15",
+"title": "Mémoire de fille",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-20",
+"t": "17:15",
+"title": "Primetime",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "sphinx",
+"d": "2026-10-20",
+"t": "17:15",
+"title": "Shall We Dance? (1996)",
+"note": "OV · NL st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "skoop",
+"d": "2026-10-20",
+"t": "17:30",
+"title": "Naza",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-20",
+"t": "17:30",
+"title": "Tegenwoordig heet iedereen sorry",
+"note": "familiefilm",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-20",
+"t": "17:30",
+"title": "Trainspotting (1996)",
+"note": "4K restauratie",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "sphinx",
+"d": "2026-10-20",
+"t": "17:30",
+"title": "Garance",
+"note": "OV · NL st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-20",
+"t": "17:30",
+"title": "L'Espèce explosive",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-20",
+"t": "17:30",
+"title": "Tegenwoordig heet iedereen sorry",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-20",
+"t": "17:30",
+"title": "The Invite",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "skoop",
+"d": "2026-10-20",
+"t": "20:00",
+"title": "Coward",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-20",
+"t": "20:00",
+"title": "Digger",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-20",
+"t": "20:00",
+"title": "Franz",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-20",
+"t": "20:00",
+"title": "The Devils (1971)",
+"note": "4K restauratie",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-20",
+"t": "20:00",
+"title": "The Invite",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "sphinx",
+"d": "2026-10-20",
+"t": "20:15",
+"title": "Digger",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "kask",
+"d": "2026-10-20",
+"t": "20:30",
+"title": "Offside (2006)",
+"note": "Jafar Panahi · i.s.m. Film-Plateau",
+"url": "https://kaskcinema.be/film/offside/"
+},
+{
+"v": "sphinx",
+"d": "2026-10-20",
+"t": "20:30",
+"title": "Coward",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-20",
+"t": "20:30",
+"title": "Primetime",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-20",
+"t": "20:30",
+"title": "Rose",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "sphinx",
+"d": "2026-10-20",
+"t": "20:30",
+"title": "The Last One for the Road",
+"note": "OV · NL/FR st",
+"url": "https://cinebel.dhnet.be/cinema/994/Sphinx"
+},
+{
+"v": "skoop",
+"d": "2026-10-21",
+"t": "14:30",
+"title": "Coward",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-21",
+"t": "14:30",
+"title": "Shaun het Schaap: Het Beest op de Boerderij",
+"note": "familiefilm",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-21",
+"t": "17:15",
+"title": "Coward",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-21",
+"t": "17:15",
+"title": "Shaun het Schaap: Het Beest op de Boerderij",
+"note": "familiefilm",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-21",
+"t": "19:45",
+"title": "Coward",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-21",
+"t": "19:45",
+"title": "The Return (2003)",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-21",
+"t": "20:00",
+"title": "Hard Ticket to Hawaii",
+"note": "Cinema Obscura",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "kask",
+"d": "2026-10-21",
+"t": "20:30",
+"title": "The Golden Spurtle (2025)",
+"note": "met gratis kom havermout",
+"url": "https://kaskcinema.be/film/the-golden-spurtle/"
+},
+{
+"v": "skoop",
+"d": "2026-10-21",
+"t": "22:00",
+"title": "Coward",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-22",
+"t": "14:30",
+"title": "Coward",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-22",
+"t": "17:15",
+"title": "Coward",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-22",
+"t": "19:45",
+"title": "Coward",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "kask",
+"d": "2026-10-22",
+"t": "20:30",
+"title": "Love That Moves the Slug",
+"note": "kortfilms, samengesteld door Anouk De Clercq",
+"url": "https://kaskcinema.be/film/love-that-moves-the-slug/"
+},
+{
+"v": "skoop",
+"d": "2026-10-22",
+"t": "22:00",
+"title": "Coward",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "rio",
+"d": "2026-10-22",
+"t": null,
+"title": "Time of the Gypsies (1988)",
+"note": "Emir Kusturica",
+"url": "https://dekoer.be/programma/time-of-the-gypsies/"
+},
+{
+"v": "skoop",
+"d": "2026-10-23",
+"t": "14:30",
+"title": "Coward",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-23",
+"t": "17:15",
+"title": "Coward",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-23",
+"t": "19:45",
+"title": "Coward",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-10-23",
+"t": "22:00",
+"title": "Coward",
+"note": "",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "kask",
+"d": "2026-10-25",
+"t": "10:30",
+"title": "KIDScinema: The Best of Filem'On",
+"note": "kinderen 4+",
+"url": "https://kaskcinema.be/film/kidscinema-the-best-of-filemon/"
+},
+{
+"v": "kask",
+"d": "2026-10-27",
+"t": "20:30",
+"title": "Apolline + Bruges-La-Morte",
+"note": "i.s.m. Film-Plateau · inleiding Steven Jacobs",
+"url": "https://kaskcinema.be/film/apolline-bruges-la-morte/"
+},
+{
+"v": "kask",
+"d": "2026-10-28",
+"t": "20:30",
+"title": "Mortu Nega (1988)",
+"note": "Flora Gomes",
+"url": "https://kaskcinema.be/film/mortu-nega/"
+},
+{
+"v": "rio",
+"d": "2026-10-28",
+"t": null,
+"title": "Cinéconcert voor kinderen",
+"note": "Ciné Bambino · 4+",
+"url": "https://dekoer.be/programma/cineconcert-voor-kinderen-kinderfilm/"
+},
+{
+"v": "kask",
+"d": "2026-10-29",
+"t": "20:30",
+"title": "Damned if You Don't + Dildotectónica",
+"note": "i.s.m. F*Q",
+"url": "https://kaskcinema.be/film/damned-if-you-dont-dildotectonica/"
+},
+{
+"v": "rio",
+"d": "2026-10-29",
+"t": null,
+"title": "Near Dark (1987)",
+"note": "Kathryn Bigelow · i.s.m. Kuru",
+"url": "https://dekoer.be/programma/near-dark-film/"
+},
+{
+"v": "kask",
+"d": "2026-10-30",
+"t": "20:30",
+"title": "Night of the Horror: Bad Trip",
+"note": "i.s.m. Kuru",
+"url": "https://kaskcinema.be/film/night-of-the-horror-bad-trip/"
+},
+{
+"v": "rio",
+"d": "2026-11-05",
+"t": null,
+"title": "Fat City (1972) + For Mouna",
+"note": "John Huston",
+"url": "https://dekoer.be/programma/fat-city-film/"
+},
+{
+"v": "skoop",
+"d": "2026-11-08",
+"t": "17:00",
+"title": "Minotaur",
+"note": "Avant-première",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "rio",
+"d": "2026-11-08",
+"t": null,
+"title": "De Ijzeren Reus (1999)",
+"note": "Ciné Bambino · 6+",
+"url": "https://dekoer.be/programma/de-ijzeren-reus-kinderfilm/"
+},
+{
+"v": "rio",
+"d": "2026-11-08",
+"t": null,
+"title": "Inmate Sessions Live!",
+"note": "cinéconcert + gesprek",
+"url": "https://dekoer.be/programma/inmate-sessions-live/"
+},
+{
+"v": "skoop",
+"d": "2026-11-10",
+"t": "20:00",
+"title": "An American Werewolf in London",
+"note": "Kuru Cult Night",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "rio",
+"d": "2026-11-13",
+"t": null,
+"title": "Coyote Ugly + Cocktail",
+"note": "films & cocktails",
+"url": "https://dekoer.be/programma/coyote-ugly-cocktail-film/"
+},
+{
+"v": "skoop",
+"d": "2026-11-18",
+"t": "20:00",
+"title": "Donnie Darko (2001)",
+"note": "4K restauratie",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-11-19",
+"t": "20:00",
+"title": "Freeride Filmfestival",
+"note": "cinema edition",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+},
+{
+"v": "skoop",
+"d": "2026-12-15",
+"t": "20:00",
+"title": "Dune: Part Three",
+"note": "Avant-première",
+"url": "https://www.studioskoop.be/agenda-studio-skoop/"
+}
+]
+}

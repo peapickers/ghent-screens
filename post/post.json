@@ -1,0 +1,303 @@
+{
+ "date": "2026-10-17",
+ "slides": [
+  "slide-01.png",
+  "slide-02.png",
+  "slide-03.png",
+  "slide-04.png",
+  "slide-05.png",
+  "slide-06.png",
+  "slide-07.png"
+ ],
+ "caption": "Ghent on screen · Saturday 17 October\n20 films at Ghent's arthouse cinemas and film clubs, rarest first.\n\n1. La Grande rêvasion — Sphinx 11:00 (rare · 2× this week)\n   Money: Autour de Minuit · Kwassa Films\n2. The Pout-Pout Fish — Sphinx 11:00 (rare · 2× this week)\n   Money: MIMO Studios · Like a Photon Creative\n3. Born in the Jungle — Studio Skoop 14:30 (rare · 2× this week)\n   Money: Atom Art · Letko\n4. The Odyssey — Studio Skoop 16:30 (rare · 2× this week)\n   Money: Universal Pictures · Syncopy\n5. Trainspotting (1996) — Studio Skoop 22:15 (rare · 2× this week)\n   Money: Figment Films\n6. Yugly — Sphinx 14:30 (rare · 3× this week)\n   Money: nWave Studios · Octopolis\n7. Garance — Sphinx 17:30 (rare · 3× this week)\n   Money: Chi-Fou-Mi Productions · Trésor Films\n8. Mémoire de fille — Studio Skoop 17:00 (4× this week)\n   Money: Windy Production\n9. L'Espèce explosive — Sphinx 17:30 (4× this week)\n   Money: 5à7 Films\n10. The Last One for the Road — Sphinx 17:30 (4× this week)\n   Money: Vivo Film · Maze Pictures\n11. The Devils (1971) — Studio Skoop 22:15 (4× this week)\n   Money: Russo Productions · Warner Bros.\n12. Notre salut — Sphinx 14:00 (5× this week)\n   Money: Kidam · Michigan Films\n13. Franz — Studio Skoop 14:15 · 19:45 (7× this week)\n   Money: Marlene Film Production · X Filme Creative Pool\n14. Sense and Sensibility — Sphinx 11:00 · 20:15; Studio Skoop 17:00 (8× this week)\n   Money: Working Title Films · November Pictures\n15. The Social Reckoning — Sphinx 11:00; Studio Skoop 22:15 (8× this week)\n   Money: Columbia Pictures (Sony) · Alcon Entertainment\n16. Naza — Sphinx 14:30 · 20:30; Studio Skoop 17:30 (8× this week)\n   Money: JW Films · The Guardian\n17. Digger — Studio Skoop 14:15 · 19:45; Sphinx 20:15 (10× this week)\n   Money: Legendary Pictures · Warner Bros. Pictures\n…full list in the slides\n\nSphinx · Studio Skoop · KASKcinema · Ciné Rio\nTimes can change, check the venue before you go.\n\n#gent #ghent #filmgent #arthouse #cinema #filmclub #wattedoeningent",
+ "films": [
+  {
+   "rank": 1,
+   "title": "La Grande rêvasion",
+   "count": 2,
+   "tag": "RARE · 2× THIS WEEK",
+   "money": "Autour de Minuit · Kwassa Films",
+   "where": [
+    {
+     "venue": "Sphinx",
+     "times": "11:00"
+    }
+   ]
+  },
+  {
+   "rank": 2,
+   "title": "The Pout-Pout Fish",
+   "count": 2,
+   "tag": "RARE · 2× THIS WEEK",
+   "money": "MIMO Studios · Like a Photon Creative",
+   "where": [
+    {
+     "venue": "Sphinx",
+     "times": "11:00"
+    }
+   ]
+  },
+  {
+   "rank": 3,
+   "title": "Born in the Jungle",
+   "count": 2,
+   "tag": "RARE · 2× THIS WEEK",
+   "money": "Atom Art · Letko",
+   "where": [
+    {
+     "venue": "Studio Skoop",
+     "times": "14:30"
+    }
+   ]
+  },
+  {
+   "rank": 4,
+   "title": "The Odyssey",
+   "count": 2,
+   "tag": "RARE · 2× THIS WEEK",
+   "money": "Universal Pictures · Syncopy",
+   "where": [
+    {
+     "venue": "Studio Skoop",
+     "times": "16:30"
+    }
+   ]
+  },
+  {
+   "rank": 5,
+   "title": "Trainspotting (1996)",
+   "count": 2,
+   "tag": "RARE · 2× THIS WEEK",
+   "money": "Figment Films",
+   "where": [
+    {
+     "venue": "Studio Skoop",
+     "times": "22:15"
+    }
+   ]
+  },
+  {
+   "rank": 6,
+   "title": "Yugly",
+   "count": 3,
+   "tag": "RARE · 3× THIS WEEK",
+   "money": "nWave Studios · Octopolis",
+   "where": [
+    {
+     "venue": "Sphinx",
+     "times": "14:30"
+    }
+   ]
+  },
+  {
+   "rank": 7,
+   "title": "Garance",
+   "count": 3,
+   "tag": "RARE · 3× THIS WEEK",
+   "money": "Chi-Fou-Mi Productions · Trésor Films",
+   "where": [
+    {
+     "venue": "Sphinx",
+     "times": "17:30"
+    }
+   ]
+  },
+  {
+   "rank": 8,
+   "title": "Mémoire de fille",
+   "count": 4,
+   "tag": "4× THIS WEEK",
+   "money": "Windy Production",
+   "where": [
+    {
+     "venue": "Studio Skoop",
+     "times": "17:00"
+    }
+   ]
+  },
+  {
+   "rank": 9,
+   "title": "L'Espèce explosive",
+   "count": 4,
+   "tag": "4× THIS WEEK",
+   "money": "5à7 Films",
+   "where": [
+    {
+     "venue": "Sphinx",
+     "times": "17:30"
+    }
+   ]
+  },
+  {
+   "rank": 10,
+   "title": "The Last One for the Road",
+   "count": 4,
+   "tag": "4× THIS WEEK",
+   "money": "Vivo Film · Maze Pictures",
+   "where": [
+    {
+     "venue": "Sphinx",
+     "times": "17:30"
+    }
+   ]
+  },
+  {
+   "rank": 11,
+   "title": "The Devils (1971)",
+   "count": 4,
+   "tag": "4× THIS WEEK",
+   "money": "Russo Productions · Warner Bros.",
+   "where": [
+    {
+     "venue": "Studio Skoop",
+     "times": "22:15"
+    }
+   ]
+  },
+  {
+   "rank": 12,
+   "title": "Notre salut",
+   "count": 5,
+   "tag": "5× THIS WEEK",
+   "money": "Kidam · Michigan Films",
+   "where": [
+    {
+     "venue": "Sphinx",
+     "times": "14:00"
+    }
+   ]
+  },
+  {
+   "rank": 13,
+   "title": "Franz",
+   "count": 7,
+   "tag": "7× THIS WEEK",
+   "money": "Marlene Film Production · X Filme Creative Pool",
+   "where": [
+    {
+     "venue": "Studio Skoop",
+     "times": "14:15 · 19:45"
+    }
+   ]
+  },
+  {
+   "rank": 14,
+   "title": "Sense and Sensibility",
+   "count": 8,
+   "tag": "8× THIS WEEK",
+   "money": "Working Title Films · November Pictures",
+   "where": [
+    {
+     "venue": "Sphinx",
+     "times": "11:00 · 20:15"
+    },
+    {
+     "venue": "Studio Skoop",
+     "times": "17:00"
+    }
+   ]
+  },
+  {
+   "rank": 15,
+   "title": "The Social Reckoning",
+   "count": 8,
+   "tag": "8× THIS WEEK",
+   "money": "Columbia Pictures (Sony) · Alcon Entertainment",
+   "where": [
+    {
+     "venue": "Sphinx",
+     "times": "11:00"
+    },
+    {
+     "venue": "Studio Skoop",
+     "times": "22:15"
+    }
+   ]
+  },
+  {
+   "rank": 16,
+   "title": "Naza",
+   "count": 8,
+   "tag": "8× THIS WEEK",
+   "money": "JW Films · The Guardian",
+   "where": [
+    {
+     "venue": "Sphinx",
+     "times": "14:30 · 20:30"
+    },
+    {
+     "venue": "Studio Skoop",
+     "times": "17:30"
+    }
+   ]
+  },
+  {
+   "rank": 17,
+   "title": "Digger",
+   "count": 10,
+   "tag": "10× THIS WEEK",
+   "money": "Legendary Pictures · Warner Bros. Pictures",
+   "where": [
+    {
+     "venue": "Studio Skoop",
+     "times": "14:15 · 19:45"
+    },
+    {
+     "venue": "Sphinx",
+     "times": "20:15"
+    }
+   ]
+  },
+  {
+   "rank": 18,
+   "title": "Tegenwoordig heet iedereen sorry",
+   "count": 10,
+   "tag": "10× THIS WEEK",
+   "money": "deMENSEN · CALA Filmproduktion",
+   "where": [
+    {
+     "venue": "Studio Skoop",
+     "times": "14:30"
+    },
+    {
+     "venue": "Sphinx",
+     "times": "14:30"
+    }
+   ]
+  },
+  {
+   "rank": 19,
+   "title": "Primetime",
+   "count": 10,
+   "tag": "10× THIS WEEK",
+   "money": "A24 · Icki Eneo Arlo",
+   "where": [
+    {
+     "venue": "Sphinx",
+     "times": "17:30"
+    },
+    {
+     "venue": "Studio Skoop",
+     "times": "20:00"
+    }
+   ]
+  },
+  {
+   "rank": 20,
+   "title": "The Invite",
+   "count": 14,
+   "tag": "14× THIS WEEK",
+   "money": "Annapurna",
+   "where": [
+    {
+     "venue": "Sphinx",
+     "times": "11:00 · 20:30"
+    },
+    {
+     "venue": "Studio Skoop",
+     "times": "20:00 · 22:15"
+    }
+   ]
+  }
+ ]
+}

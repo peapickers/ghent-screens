@@ -1,0 +1,268 @@
+<title>Ghent Screens</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800&family=Atkinson+Hyperlegible:wght@400;700&display=swap">
+<style>
+/* Layout: marquee header, day strip, a filter drawer of tag groups, then one running list of screenings; each film opens to its Funding article */
+:root{
+  --bg:#eef0f2; --surface:#ffffff; --sunk:#e3e6ea; --fg:#15181d; --muted:#5d6570; --line:#d5d9de;
+  --accent:#9b1f35; --accent-ink:#ffffff; --money:#6b5413; --money-bg:#f4ecd3;
+  --v-sphinx:#2f5d8a; --v-skoop:#9b1f35; --v-kask:#3c7a52; --v-rio:#8a5a14; --v-other:#5b4a8a;
+  --display:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;
+  --body:"Atkinson Hyperlegible",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#111419; --surface:#1a1e25; --sunk:#23282f; --fg:#e8eaee; --muted:#9aa2ad; --line:#2b313a;
+  --accent:#e0566f; --accent-ink:#14070a; --money:#e3c46f; --money-bg:#2c2716;
+  --v-sphinx:#7fb0e0; --v-skoop:#e88a9b; --v-kask:#84c79a; --v-rio:#d9aa5e; --v-other:#b6a6e6; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#111419; --surface:#1a1e25; --sunk:#23282f; --fg:#e8eaee; --muted:#9aa2ad; --line:#2b313a;
+  --accent:#e0566f; --accent-ink:#14070a; --money:#e3c46f; --money-bg:#2c2716;
+  --v-sphinx:#7fb0e0; --v-skoop:#e88a9b; --v-kask:#84c79a; --v-rio:#d9aa5e; --v-other:#b6a6e6; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.45;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 48px}
+.wrap{max-width:780px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(2.6rem,9vw,3.6rem);line-height:.9;margin:0;text-transform:uppercase}
+h1 span{color:var(--accent)}
+.sub{color:var(--muted);font-size:.9rem;margin:4px 0 0}
+button{font:inherit;color:inherit}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.days{display:flex;gap:6px;overflow-x:auto;padding-bottom:4px}
+.day{flex:0 0 auto;border:1px solid var(--line);background:var(--surface);border-radius:6px;padding:6px 10px;min-width:58px;text-align:center;cursor:pointer;display:flex;flex-direction:column;line-height:1.1}
+.day b{font-family:var(--display);font-size:1.5rem;font-weight:800}
+.day small{font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.day .n{font-size:.68rem;opacity:.8}
+.day[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.day[aria-pressed="true"] small{color:var(--accent-ink)}
+/* filters */
+details.filters{background:var(--surface);border:1px solid var(--line);border-radius:8px}
+details.filters>summary{cursor:pointer;padding:10px 12px;font-weight:700;display:flex;justify-content:space-between;align-items:center;gap:8px;list-style:none}
+details.filters>summary::-webkit-details-marker{display:none}
+details.filters>summary::after{content:"＋";color:var(--muted)}
+details.filters[open]>summary::after{content:"－"}
+.fbody{padding:0 12px 12px;display:flex;flex-direction:column;gap:14px}
+.group h3{margin:0 0 6px;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font-size:.85rem;border:1px solid var(--line);background:transparent;border-radius:999px;padding:4px 10px;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+.chip i{width:9px;height:9px;border-radius:50%;background:var(--c)}
+.chip[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.chip.money[aria-pressed="true"]{background:var(--money);border-color:var(--money);color:var(--bg)}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+select,input[type=search]{font:inherit;font-size:.9rem;background:var(--bg);color:var(--fg);border:1px solid var(--line);border-radius:6px;padding:6px 8px;min-width:0}
+input[type=search]{flex:1 1 220px}
+.active{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:.85rem}
+.active .chip{background:var(--sunk);border-color:transparent}
+.active .chip::after{content:"✕";font-size:.7rem;color:var(--muted)}
+.link{background:none;border:0;padding:0;color:var(--accent);cursor:pointer;text-decoration:underline;font-size:.85rem}
+/* list */
+.daytitle{font-family:var(--display);font-weight:600;font-size:1.6rem;text-transform:uppercase;letter-spacing:.03em;margin:0;display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.daytitle small{font-family:var(--body);font-size:.85rem;color:var(--muted);text-transform:none;letter-spacing:0;font-weight:400}
+.daybreak{font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding:10px 12px 4px;background:var(--sunk)}
+ol{list-style:none;margin:0;padding:0;background:var(--surface);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+li.s{border-top:1px solid var(--line)}
+li.s:first-child{border-top:0}
+li.past>.head{opacity:.45}
+.head{display:grid;grid-template-columns:3.6rem 1fr auto;gap:12px;padding:10px 12px;align-items:baseline;width:100%;background:none;border:0;text-align:left;cursor:pointer}
+.time{font-variant-numeric:tabular-nums;font-weight:700;font-size:1.05rem}
+.time.tba{font-weight:400;color:var(--muted);font-size:.8rem}
+.info{min-width:0;display:flex;flex-direction:column;gap:3px}
+.title{font-weight:700}
+.meta{font-size:.82rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 10px;align-items:center}
+.ven{display:inline-flex;align-items:center;gap:5px;color:var(--c);font-weight:700}
+.ven::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--c)}
+.moneyline{font-size:.8rem;color:var(--money);background:var(--money-bg);border-radius:4px;padding:1px 6px;align-self:flex-start;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.caret{color:var(--muted);font-size:.85rem}
+.head[aria-expanded="true"] .caret{transform:rotate(180deg)}
+.funding{padding:2px 12px 14px calc(3.6rem + 24px);display:flex;flex-direction:column;gap:10px}
+.funding h4{margin:0;font-family:var(--display);font-size:1.25rem;text-transform:uppercase;letter-spacing:.04em;color:var(--money)}
+.funding p{margin:0;max-width:62ch}
+dl{margin:0;display:grid;grid-template-columns:max-content 1fr;gap:4px 12px;font-size:.85rem}
+dt{color:var(--muted)}
+dd{margin:0;min-width:0;display:flex;flex-wrap:wrap;gap:4px}
+dd .chip{font-size:.78rem;padding:2px 8px}
+.src{font-size:.78rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 10px}
+.src a{color:var(--muted)}
+.ext{font-size:.85rem}
+.ext a{color:var(--accent);font-weight:700}
+.empty{padding:22px 14px;color:var(--muted);text-align:center}
+@media (max-width:520px){.funding{padding-left:12px}.head{grid-template-columns:3.2rem 1fr auto;gap:10px}}
+/* post */
+.post{display:flex;flex-direction:column;gap:10px}
+.slides{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:6px}
+.slides img{flex:0 0 auto;width:min(260px,70vw);aspect-ratio:4/5;border-radius:8px;border:1px solid var(--line);scroll-snap-align:start;max-width:100%}
+textarea{width:100%;font:inherit;font-size:.85rem;background:var(--surface);color:var(--fg);border:1px solid var(--line);border-radius:8px;padding:10px;resize:vertical}
+.notes{font-size:.85rem;color:var(--muted);display:flex;flex-direction:column;gap:6px;margin:0;padding-left:1.1em}
+.venues{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px;font-size:.85rem}
+.venues div{min-width:0}
+.venues a{color:var(--c);font-weight:700}
+footer{font-size:.78rem;color:var(--muted)}
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Ghent <span>Screens</span></h1>
+    <p class="sub">Arthouse cinemas and film clubs, and the money behind each film. Kinepolis left out.</p>
+  </header>
+
+  <nav class="days" id="days" aria-label="Choose a day"></nav>
+
+  <details class="filters" id="filters">
+    <summary><span>Filters <span id="fcount" class="sub" style="display:inline"></span></span></summary>
+    <div class="fbody">
+      <div class="group"><h3>Search</h3>
+        <div class="row"><input type="search" id="q" placeholder="Film, director, studio, fund…" aria-label="Search films, directors and funders"></div></div>
+      <div class="group"><h3>Cinema</h3><div class="chips" id="g-venue"></div></div>
+      <div class="group"><h3>Starts</h3>
+        <div class="row"><label for="tfrom" class="sub" style="margin:0">from</label><select id="tfrom"></select>
+        <label for="tto" class="sub" style="margin:0">to</label><select id="tto"></select>
+        <div class="chips" id="g-part"></div></div></div>
+      <div class="group"><h3>Kind of film</h3><div class="chips" id="g-kind"></div></div>
+      <div class="group"><h3>Funding: who paid</h3><div class="chips" id="g-backing"></div></div>
+      <div class="group"><h3>Funding: studio, producer or fund</h3>
+        <div class="row"><select id="company" aria-label="Pick a studio, producer or fund"><option value="">Choose a company or fund…</option></select></div></div>
+      <div class="group"><h3>Country of production</h3><div class="chips" id="g-country"></div></div>
+      <div class="group"><h3>Screening</h3><div class="chips" id="g-extra"></div></div>
+      <button class="link" id="reset" type="button">Clear all filters</button>
+    </div>
+  </details>
+  <div class="active" id="active"></div>
+
+  <section>
+    <h2 class="daytitle" id="daytitle">Loading…</h2>
+    <ol id="list"><li class="empty">Loading listings…</li></ol>
+  </section>
+
+  <section class="post" id="post" hidden>
+    <h2 class="daytitle">Today's Instagram post<small id="postmeta"></small></h2>
+    <div class="slides" id="slides"></div>
+    <textarea id="caption" readonly rows="8" aria-label="Caption"></textarea>
+    <div class="row"><button class="chip" id="copy" type="button">Copy caption</button></div>
+  </section>
+  <ul class="notes" id="notes"></ul>
+  <p class="sub" id="rss" hidden>Follow in any feed reader: <a href="feed.xml">RSS feed</a></p>
+  <div class="venues" id="venues"></div>
+  <footer id="foot"></footer>
+</div>
+
+<script>
+const $=id=>document.getElementById(id);
+const VC={sphinx:"var(--v-sphinx)",skoop:"var(--v-skoop)",kask:"var(--v-kask)",rio:"var(--v-rio)"};
+const vc=k=>VC[k]||"var(--v-other)";
+const DAYS=["zo","ma","di","wo","do","vr","za"],DAYL=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],MON=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const KINDS={"new release":"New release","repertory":"Classic / repertory","family":"Family & kids","programme":"Programme / event"};
+const PARTS=[["morning","Morning",0,12],["afternoon","Afternoon",12,17],["evening","Evening",17,22],["late","Late night",22,24]];
+const EXTRAS=[["ov","Original version",s=>/OV|st\b/i.test(s.note)||s.v==="kask"],["nl","Dutch / Flemish version",s=>/NL versie|Vlaamse/i.test(s.note)],["restored","Restored / 35mm",s=>/4K|restaur|35/i.test(s.note)||s.film?.id==="odyssey"],["premiere","Avant-première & Q&A",s=>/Avant|Q&A/i.test(s.note)],["club","Film club screening",s=>/i\.s\.m\.|Kuru|Cinema Obscura|cineclub/i.test(s.note)||s.v==="rio"||s.v==="kask"]];
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+let D,FILMS=[],BY={},sel=null,open=new Set();
+const st={venue:new Set(),kind:new Set(),backing:new Set(),country:new Set(),extra:new Set(),part:new Set(),company:"",q:"",from:"",to:""};
+function save(){try{localStorage.setItem("gs-f2",JSON.stringify({...st,venue:[...st.venue],kind:[...st.kind],backing:[...st.backing],country:[...st.country],extra:[...st.extra],part:[...st.part]}))}catch(e){}}
+function load(){try{const j=JSON.parse(localStorage.getItem("gs-f2")||"null");if(!j)return;for(const k of ["venue","kind","backing","country","extra","part"])st[k]=new Set(j[k]||[]);st.company=j.company||"";st.q=j.q||"";st.from=j.from||"";st.to=j.to||""}catch(e){}}
+function nowBxl(){const p=new Intl.DateTimeFormat("en-CA",{timeZone:"Europe/Brussels",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hour12:false}).formatToParts(new Date());const g=t=>p.find(x=>x.type===t).value;return{d:`${g("year")}-${g("month")}-${g("day")}`,t:`${g("hour")}:${g("minute")}`}}
+const dt=s=>new Date(s+"T12:00:00");
+const companies=f=>f?[...f.studios,...f.public,...f.broadcasters,...f.distributors,...f.sales]:[];
+const countries=f=>f&&f.country?f.country.split("/"):[];
+
+function matches(s){
+  const f=s.film;
+  if(st.venue.size&&!st.venue.has(s.v))return false;
+  if(st.kind.size&&!(f&&st.kind.has(f.kind)))return false;
+  if(st.backing.size&&!(f&&f.backing.some(b=>st.backing.has(b))))return false;
+  if(st.country.size&&!countries(f).some(c=>st.country.has(c)))return false;
+  if(st.company&&!companies(f).includes(st.company))return false;
+  for(const [k,,fn] of EXTRAS)if(st.extra.has(k)&&!fn(s))return false;
+  if(st.from&&(!s.t||s.t<st.from))return false;
+  if(st.to&&(!s.t||s.t>st.to))return false;
+  if(st.part.size){if(!s.t)return false;const h=+s.t.slice(0,2);if(!PARTS.some(([k,,a,b])=>st.part.has(k)&&h>=a&&h<b))return false}
+  if(st.q){const hay=[s.title,s.note,D.venues[s.v]?.name,f?.director,f?.funding,...companies(f),...(f?.backing||[])].join(" ").toLowerCase();if(!st.q.toLowerCase().split(/\s+/).every(w=>hay.includes(w)))return false}
+  return true;
+}
+function chipGroup(id,items,set,cls=""){ // items: [key,label,color?]
+  $(id).innerHTML=items.map(([k,l,c])=>`<button type="button" class="chip ${cls}" ${c?`style="--c:${c}"`:""} aria-pressed="${set.has(k)}" data-g="${id}" data-k="${esc(k)}">${c?"<i></i>":""}${esc(l)}</button>`).join("");
+}
+function buildFilters(){
+  chipGroup("g-venue",Object.entries(D.venues).map(([k,v])=>[k,v.name,vc(k)]),st.venue);
+  chipGroup("g-part",PARTS.map(([k,l])=>[k,l]),st.part);
+  chipGroup("g-kind",Object.entries(KINDS),st.kind);
+  const bk=[...new Set(FILMS.flatMap(f=>f.backing))].sort();
+  chipGroup("g-backing",bk.map(b=>[b,b]),st.backing,"money");
+  const cs=[...new Set(FILMS.flatMap(countries))].sort();
+  chipGroup("g-country",cs.map(c=>[c,c]),st.country);
+  chipGroup("g-extra",EXTRAS.map(([k,l])=>[k,l]),st.extra);
+  const co=[...new Set(FILMS.flatMap(companies))].sort((a,b)=>a.localeCompare(b));
+  $("company").innerHTML=`<option value="">Choose a company or fund…</option>`+co.map(c=>`<option ${c===st.company?"selected":""}>${esc(c)}</option>`).join("");
+  const times=[...new Set(D.screenings.map(s=>s.t).filter(Boolean))].sort();
+  $("tfrom").innerHTML=`<option value="">any time</option>`+times.map(t=>`<option ${t===st.from?"selected":""}>${t}</option>`).join("");
+  $("tto").innerHTML=`<option value="">any time</option>`+times.map(t=>`<option ${t===st.to?"selected":""}>${t}</option>`).join("");
+  $("q").value=st.q;
+}
+function activeChips(){
+  const a=[];const add=(g,k,l)=>a.push(`<button type="button" class="chip" data-rm="${g}" data-k="${esc(k)}">${esc(l)}</button>`);
+  st.venue.forEach(k=>add("venue",k,D.venues[k]?.name||k));st.part.forEach(k=>add("part",k,PARTS.find(p=>p[0]===k)[1]));
+  st.kind.forEach(k=>add("kind",k,KINDS[k]));st.backing.forEach(k=>add("backing",k,"Funding: "+k));st.country.forEach(k=>add("country",k,k));
+  st.extra.forEach(k=>add("extra",k,EXTRAS.find(e=>e[0]===k)[1]));
+  if(st.company)add("company","",st.company);if(st.q)add("q","",`“${st.q}”`);if(st.from)add("from","","from "+st.from);if(st.to)add("to","","until "+st.to);
+  $("active").innerHTML=a.join("");$("fcount").textContent=a.length?`· ${a.length} active`:"";
+}
+function fundingHTML(s){
+  const f=s.film;
+  if(!f)return `<div class="funding"><h4>Funding</h4><p class="sub">Not researched yet. The daily update fills this in for new titles.</p></div>`;
+  const row=(label,arr,click=true)=>arr&&arr.length?`<dt>${label}</dt><dd>${arr.map(x=>click?`<button type="button" class="chip" data-company="${esc(x)}">${esc(x)}</button>`:`<span>${esc(x)}</span>`).join("")}</dd>`:"";
+  const tags=`<dt>Money type</dt><dd>${f.backing.map(b=>`<button type="button" class="chip money" data-backing="${esc(b)}">${esc(b)}</button>`).join("")}</dd>`;
+  return `<div class="funding"><h4>Funding</h4><p>${esc(f.funding)}</p><dl>${tags}${row("Studios & producers",f.studios)}${row("Public money",f.public)}${row("Broadcasters",f.broadcasters)}${row("Distribution",f.distributors)}${row("World sales",f.sales)}${f.budget?`<dt>Budget</dt><dd><span>${esc(f.budget)}</span></dd>`:""}${f.director?`<dt>Director</dt><dd><span>${esc(f.director)}</span></dd>`:""}${f.country?`<dt>Country</dt><dd><span>${esc(f.country)}${f.year?" · "+f.year:""}</span></dd>`:""}</dl>
+  <div class="src">Sources: ${f.sources.map((u,i)=>`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(new URL(u).hostname.replace("www.",""))}</a>`).join("")}</div>
+  <div class="ext"><a href="${esc(s.url||D.venues[s.v].url)}" target="_blank" rel="noopener">Tickets and info at ${esc(D.venues[s.v].name)}</a></div></div>`;
+}
+function render(){
+  const now=nowBxl();
+  const all=D.screenings.filter(s=>s.d>=now.d);
+  const dates=[...new Set(all.map(s=>s.d))].sort();
+  const vis=all.filter(matches);
+  if(sel!=="all"&&(!sel||!dates.includes(sel)))sel=dates[0];
+  $("days").innerHTML=`<button class="day" aria-pressed="${sel==="all"}" data-d="all"><small>all</small><b>∞</b><span class="n">${vis.length}</span></button>`+dates.map(d=>{const x=dt(d),n=vis.filter(s=>s.d===d).length;return `<button class="day" aria-pressed="${d===sel}" data-d="${d}"><small>${d===now.d?"today":DAYS[x.getDay()]}</small><b>${x.getDate()}</b><span class="n">${MON[x.getMonth()]} · ${n}</span></button>`}).join("");
+  const rows=sel==="all"?vis:vis.filter(s=>s.d===sel);
+  const x=sel==="all"?null:dt(sel);
+  $("daytitle").innerHTML=`${sel==="all"?"All upcoming":(sel===now.d?"Today":DAYL[x.getDay()])+` ${x.getDate()} ${MON[x.getMonth()]}`}<small>${rows.length} screening${rows.length===1?"":"s"}</small>`;
+  let last="",html="";
+  rows.forEach((s,i)=>{
+    if(sel==="all"&&s.d!==last){const y=dt(s.d);html+=`<li class="daybreak">${DAYL[y.getDay()]} ${y.getDate()} ${MON[y.getMonth()]}</li>`;last=s.d}
+    const id=s.d+s.t+s.v+s.title, v=D.venues[s.v], f=s.film, past=s.d===now.d&&s.t&&s.t<now.t, ex=open.has(id);
+    const money=f&&f.studios.length?f.studios.slice(0,2).join(" · "):"";
+    html+=`<li class="s ${past?"past":""}"><button type="button" class="head" aria-expanded="${ex}" data-open="${esc(id)}"><span class="time ${s.t?"":"tba"}">${s.t||"time on site"}</span><span class="info"><span class="title">${esc(s.title)}</span><span class="meta"><span class="ven" style="--c:${vc(s.v)}">${esc(v.name)}</span>${s.note?`<span>${esc(s.note)}</span>`:""}</span>${money?`<span class="moneyline">Money: ${esc(money)}</span>`:""}</span><span class="caret">▾</span></button>${ex?fundingHTML(s):""}</li>`;
+  });
+  $("list").innerHTML=html||`<li class="empty">No screenings match these filters. <button class="link" type="button" data-reset>Clear filters</button></li>`;
+  activeChips();
+}
+function renderStatic(){
+  $("notes").innerHTML=(D.notices||[]).map(n=>`<li>${esc(n)}</li>`).join("");
+  $("venues").innerHTML=Object.entries(D.venues).map(([k,v])=>`<div style="--c:${vc(k)}"><a href="${esc(v.url)}" target="_blank" rel="noopener">${esc(v.name)}</a><br>${esc(v.addr)}<br>${esc(v.kind)}</div>`).join("");
+  $("foot").textContent=`Listings refreshed ${new Date(D.updated).toLocaleString("en-GB",{timeZone:"Europe/Brussels",weekday:"short",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"})}. Funding comes from festival, fund and trade-press records linked under each film. Times can change; check the venue before you go.`;
+}
+const SETS=["venue","kind","backing","country","extra","part"];
+document.addEventListener("click",e=>{
+  const t=e.target.closest("button");if(!t)return;
+  if(t.dataset.d){sel=t.dataset.d;render();return}
+  if(t.dataset.g){const g=t.dataset.g.slice(2),k=t.dataset.k;st[g].has(k)?st[g].delete(k):st[g].add(k);t.setAttribute("aria-pressed",st[g].has(k));save();render();return}
+  if(t.dataset.rm){const g=t.dataset.rm;SETS.includes(g)?st[g].delete(t.dataset.k):st[g]="";save();buildFilters();render();return}
+  if(t.dataset.open!==undefined){const id=t.dataset.open;open.has(id)?open.delete(id):open.add(id);render();return}
+  if(t.dataset.company){st.company=t.dataset.company;save();buildFilters();render();return}
+  if(t.dataset.backing){st.backing.add(t.dataset.backing);save();buildFilters();render();return}
+  if(t.id==="reset"||t.dataset.reset!==undefined){SETS.forEach(g=>st[g].clear());st.company=st.q=st.from=st.to="";save();buildFilters();render();return}
+  if(t.id==="copy"){const c=$("caption");navigator.clipboard.writeText(c.value).then(()=>t.textContent="Copied",()=>{c.focus();c.select();t.textContent="Selected: copy it now"})}
+});
+$("q").addEventListener("input",e=>{st.q=e.target.value.trim();save();render()});
+$("company").addEventListener("change",e=>{st.company=e.target.value;save();render()});
+$("tfrom").addEventListener("change",e=>{st.from=e.target.value;save();render()});
+$("tto").addEventListener("change",e=>{st.to=e.target.value;save();render()});
+load();
+if(/^#\d{4}-\d{2}-\d{2}$/.test(location.hash))sel=location.hash.slice(1);
+Promise.all([fetch("screenings.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}),fetch("films.json",{cache:"no-store"}).then(r=>r.ok?r.json():{films:[]}).catch(()=>({films:[]}))])
+.then(([s,f])=>{D=s;FILMS=f.films||[];FILMS.forEach(x=>x.match.forEach(m=>BY[m.toLowerCase()]=x));D.screenings.forEach(x=>x.film=BY[x.title.toLowerCase()]||null);
+  buildFilters();renderStatic();render();setInterval(render,60000)})
+.catch(()=>{$("daytitle").textContent="Listings unavailable";$("list").innerHTML='<li class="empty">The listings file did not load. Reload the page.</li>'});
+fetch("feed.xml",{method:"HEAD"}).then(r=>{if(r.ok)$("rss").hidden=false}).catch(()=>{});
+fetch("post/post.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(p=>{if(!p)return;$("post").hidden=false;const x=dt(p.date);
+  $("postmeta").textContent=`${DAYL[x.getDay()]} ${x.getDate()} ${MON[x.getMonth()]} · ${p.slides.length} slides`;
+  $("slides").innerHTML=p.slides.map((f,i)=>`<img src="post/${f}?v=${p.date}" alt="Slide ${i+1} of ${p.slides.length}" loading="lazy">`).join("");
+  $("caption").value=p.caption}).catch(()=>{});
+</script>

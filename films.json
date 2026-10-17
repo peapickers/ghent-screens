@@ -1,0 +1,1435 @@
+{
+ "films": [
+  {
+   "id": "coward",
+   "title": "Coward",
+   "match": [
+    "Coward"
+   ],
+   "year": 2026,
+   "country": "BE/FR/NL",
+   "director": "Lukas Dhont",
+   "kind": "new release",
+   "backing": [
+    "Belgian production",
+    "European public funds",
+    "Arthouse producers"
+   ],
+   "studios": [
+    "The Reunion",
+    "Lumen",
+    "Topkapi Films",
+    "Versus"
+   ],
+   "public": [
+    "screen.brussels"
+   ],
+   "broadcasters": [],
+   "distributors": [
+    "Diaphana (FR)"
+   ],
+   "sales": [
+    "The Match Factory"
+   ],
+   "budget": "≈ €10.5M (derived from screen.brussels share)",
+   "funding": "Lukas Dhont's third feature is led by his Belgian company The Reunion, with Lumen (France), Topkapi Films (Netherlands) and Versus (Belgium) as co-producers. Brussels' regional fund put in €125,000, which it lists as about 1.2% of the budget, so the film cost roughly €10 million. The Match Factory sells it abroad and Diaphana releases it in France.",
+   "sources": [
+    "https://www.festival-cannes.com/en/f/coward/",
+    "https://screen.brussels/en/project/coward"
+   ]
+  },
+  {
+   "id": "digger",
+   "title": "Digger",
+   "match": [
+    "Digger"
+   ],
+   "year": 2026,
+   "country": "US",
+   "director": "Alejandro G. Iñárritu",
+   "kind": "new release",
+   "backing": [
+    "Hollywood studio"
+   ],
+   "studios": [
+    "Legendary Pictures",
+    "Warner Bros. Pictures"
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [
+    "Warner Bros. Pictures"
+   ],
+   "sales": [],
+   "budget": "$125M (studio figure)",
+   "funding": "A Hollywood studio picture: Legendary Pictures produced it in partnership with Warner Bros., which also distributes it. Tom Cruise is a producer alongside Iñárritu and Mary Parent. Warner Bros. says the budget stayed at $125 million; reports of $160–180 million were denied by the studio.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Digger_(2026_film)"
+   ]
+  },
+  {
+   "id": "social-reckoning",
+   "title": "The Social Reckoning",
+   "match": [
+    "The Social Reckoning"
+   ],
+   "year": 2026,
+   "country": "US",
+   "director": "Aaron Sorkin",
+   "kind": "new release",
+   "backing": [
+    "Hollywood studio"
+   ],
+   "studios": [
+    "Columbia Pictures (Sony)",
+    "Alcon Entertainment"
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [
+    "Sony Pictures"
+   ],
+   "sales": [],
+   "budget": "$30–42M",
+   "funding": "Made by Sony's Columbia Pictures with Alcon Entertainment and released worldwide by Sony Pictures. The reported budget is $30–42 million, modest for a studio film with this cast.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/The_Social_Reckoning"
+   ]
+  },
+  {
+   "id": "primetime",
+   "title": "Primetime",
+   "match": [
+    "Primetime"
+   ],
+   "year": 2026,
+   "country": "US",
+   "director": "Lance Oppenheim",
+   "kind": "new release",
+   "backing": [
+    "US indie studio"
+   ],
+   "studios": [
+    "A24",
+    "Icki Eneo Arlo",
+    "Range Media Partners",
+    "Square Peg"
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [
+    "A24"
+   ],
+   "sales": [],
+   "budget": null,
+   "funding": "A24 both finances and distributes this one. Robert Pattinson produces through his company Icki Eneo Arlo, with Range Media Partners and Square Peg also credited. No budget has been published.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Primetime_(2026_film)"
+   ]
+  },
+  {
+   "id": "the-invite",
+   "title": "The Invite",
+   "match": [
+    "The Invite"
+   ],
+   "year": 2026,
+   "country": "US",
+   "director": "Olivia Wilde",
+   "kind": "new release",
+   "backing": [
+    "US indie studio"
+   ],
+   "studios": [
+    "Annapurna"
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [
+    "A24"
+   ],
+   "sales": [],
+   "budget": "Rights sold for $12M+",
+   "funding": "Produced by Megan Ellison's Annapurna, then sold at Sundance 2026. A24 won a days-long bidding war against Focus Features and paid more than $12 million for the rights.",
+   "sources": [
+    "https://au.variety.com/2026/film/news/olivia-wilde-the-invite-sells-to-a24-sundance-32427"
+   ]
+  },
+  {
+   "id": "sense-sensibility",
+   "title": "Sense and Sensibility",
+   "match": [
+    "Sense and Sensibility"
+   ],
+   "year": 2026,
+   "country": "UK",
+   "director": "Georgia Oakley",
+   "kind": "new release",
+   "backing": [
+    "Hollywood studio"
+   ],
+   "studios": [
+    "Working Title Films",
+    "November Pictures",
+    "Kiddo Films"
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [
+    "Focus Features (US)",
+    "Universal Pictures (intl)"
+   ],
+   "sales": [],
+   "budget": null,
+   "funding": "Working Title Films produced it with November Pictures and Kiddo Films. Working Title belongs to Universal, which releases the film internationally while its arthouse label Focus Features handles the US.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sense_and_Sensibility_(2026_film)"
+   ]
+  },
+  {
+   "id": "garance",
+   "title": "Garance",
+   "match": [
+    "Garance"
+   ],
+   "year": 2026,
+   "country": "FR/BE",
+   "director": "Jeanne Herry",
+   "kind": "new release",
+   "backing": [
+    "French independent producers",
+    "European studio"
+   ],
+   "studios": [
+    "Chi-Fou-Mi Productions",
+    "Trésor Films",
+    "Artémis Productions"
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [
+    "StudioCanal"
+   ],
+   "sales": [
+    "StudioCanal"
+   ],
+   "budget": null,
+   "funding": "Produced in France by Chi-Fou-Mi Productions and Trésor Films, with Belgium's Artémis Productions as the foreign partner. StudioCanal distributes it in France and sells it internationally.",
+   "sources": [
+    "https://www.unifrance.org/film/63383"
+   ]
+  },
+  {
+   "id": "espece-explosive",
+   "title": "L'Espèce explosive",
+   "match": [
+    "L'Espèce explosive"
+   ],
+   "year": 2026,
+   "country": "FR",
+   "director": "Sarah Arnold",
+   "kind": "new release",
+   "backing": [
+    "European public funds",
+    "French independent producers"
+   ],
+   "studios": [
+    "5à7 Films"
+   ],
+   "public": [
+    "CNC",
+    "Région Grand Est"
+   ],
+   "broadcasters": [],
+   "distributors": [
+    "Pan Distribution"
+   ],
+   "sales": [
+    "Playtime"
+   ],
+   "budget": null,
+   "funding": "A debut feature produced by 5à7 Films and built on public money. The Grand Est region backed it first, and France's CNC gave writing aid, an advance on receipts, music aid and distribution aid. The director says the CNC advance, won on the third try, unlocked the rest of the financing.",
+   "sources": [
+    "https://www.cnc.fr/cinema/actualites/des-mots-aux-decors-tout-est-sujet-a-creativite---rencontre-avec-sarah-arnold-realisatrice-de--lespece-explosive_2672638"
+   ]
+  },
+  {
+   "id": "last-one-road",
+   "title": "The Last One for the Road",
+   "match": [
+    "The Last One for the Road"
+   ],
+   "year": 2025,
+   "country": "IT/DE",
+   "director": "Francesco Sossai",
+   "kind": "new release",
+   "backing": [
+    "European public funds",
+    "TV broadcaster"
+   ],
+   "studios": [
+    "Vivo Film",
+    "Maze Pictures"
+   ],
+   "public": [
+    "Italian Ministry of Culture (DGCA)",
+    "Eurimages"
+   ],
+   "broadcasters": [
+    "Rai Cinema"
+   ],
+   "distributors": [
+    "Lucky Red (IT)"
+   ],
+   "sales": [
+    "Lucky Number"
+   ],
+   "budget": null,
+   "funding": "Original title Le città di pianura. Vivo Film produced it with Germany's Maze Pictures and Rai Cinema, the film arm of Italy's public broadcaster. Italy's culture ministry and the Council of Europe fund Eurimages also contributed.",
+   "sources": [
+    "https://cineuropa.org/it/film/477285/"
+   ]
+  },
+  {
+   "id": "naza",
+   "title": "Naza",
+   "match": [
+    "Naza"
+   ],
+   "year": 2026,
+   "country": "UK/US",
+   "director": "Yuval Abraham, Rachel Szor",
+   "kind": "new release",
+   "backing": [
+    "Media company",
+    "Independent producers"
+   ],
+   "studios": [
+    "JW Films",
+    "The Guardian",
+    "Placeholder Films",
+    "Unseen Hand"
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [],
+   "sales": [
+    "mk2 Films"
+   ],
+   "budget": null,
+   "funding": "A documentary from the No Other Land team, produced by James Wilson's JW Films with The Guardian, in association with Placeholder Films and Unseen Hand. Jonathan Glazer is an executive producer and mk2 Films handles world sales.",
+   "sources": [
+    "https://www.screendaily.com/news/venice-competition-title-naza-about-gaza-war-boarded-for-sales/5219667.article"
+   ]
+  },
+  {
+   "id": "notre-salut",
+   "title": "Notre salut",
+   "match": [
+    "Notre salut"
+   ],
+   "year": 2026,
+   "country": "FR/BE",
+   "director": "Emmanuel Marre",
+   "kind": "new release",
+   "backing": [
+    "Belgian production",
+    "European public funds",
+    "TV broadcaster"
+   ],
+   "studios": [
+    "Kidam",
+    "Michigan Films"
+   ],
+   "public": [
+    "CNC"
+   ],
+   "broadcasters": [
+    "France 2 Cinéma",
+    "RTBF",
+    "Be tv / Proximus"
+   ],
+   "distributors": [],
+   "sales": [],
+   "budget": "< €5M",
+   "funding": "A Franco-Belgian co-production by Kidam and Brussels-based Michigan Films, made for under €5 million. Co-producers include France 2 Cinéma, Belgium's public broadcaster RTBF and Be tv/Proximus, and the CNC gave an advance on receipts plus development and distribution aid.",
+   "sources": [
+    "https://www.cnc.fr/cinema/actualites/dans-lequipe-personne-navait-fait-de-film-depoque----notre-salut--raconte-par-son-producteur_2668989"
+   ]
+  },
+  {
+   "id": "rose",
+   "title": "Rose",
+   "match": [
+    "Rose"
+   ],
+   "year": 2026,
+   "country": "AT/DE",
+   "director": "Markus Schleinzer",
+   "kind": "new release",
+   "backing": [
+    "Arthouse producers",
+    "Streamer"
+   ],
+   "studios": [
+    "Schubert",
+    "ROW Pictures",
+    "Walker & Worm Film"
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [
+    "Filmladen (AT)",
+    "Piffl Medien (DE)",
+    "Mubi"
+   ],
+   "sales": [
+    "The Match Factory"
+   ],
+   "budget": null,
+   "funding": "An Austrian-German co-production by Schubert, ROW Pictures and Walker & Worm Film. The Match Factory sells it, and the streamer Mubi bought it for North and Latin America, the UK, Italy and other territories.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Rose_(2026_film)"
+   ]
+  },
+  {
+   "id": "sorry",
+   "title": "Tegenwoordig heet iedereen sorry",
+   "match": [
+    "Tegenwoordig heet iedereen sorry"
+   ],
+   "year": 2026,
+   "country": "BE/DE",
+   "director": "Frederike Migom",
+   "kind": "new release",
+   "backing": [
+    "Belgian production",
+    "Arthouse producers"
+   ],
+   "studios": [
+    "deMENSEN",
+    "CALA Filmproduktion",
+    "Juliet at Pupkin"
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [
+    "Paradiso (NL)"
+   ],
+   "sales": [
+    "LevelK"
+   ],
+   "budget": null,
+   "funding": "A Flemish youth film produced by Ivy Vanhaecke at deMENSEN, with Germany's CALA Filmproduktion and Juliet at Pupkin. LevelK sells it abroad. The listing we found names no public funds.",
+   "sources": [
+    "https://cineuropa.org/film/487611"
+   ]
+  },
+  {
+   "id": "franz",
+   "title": "Franz",
+   "match": [
+    "Franz"
+   ],
+   "year": 2025,
+   "country": "CZ/DE/PL",
+   "director": "Agnieszka Holland",
+   "kind": "new release",
+   "backing": [
+    "European public funds",
+    "TV broadcaster"
+   ],
+   "studios": [
+    "Marlene Film Production",
+    "X Filme Creative Pool",
+    "Metro Films",
+    "Barrandov Studio"
+   ],
+   "public": [
+    "Eurimages",
+    "Czech Audiovisual Fund",
+    "Polish Film Institute",
+    "Medienboard Berlin-Brandenburg",
+    "DFFF"
+   ],
+   "broadcasters": [
+    "Czech Television",
+    "Telewizja Polska",
+    "Canal+",
+    "ZDF/ARTE"
+   ],
+   "distributors": [],
+   "sales": [
+    "Films Boutique"
+   ],
+   "budget": null,
+   "funding": "A Kafka biopic stitched together from many public sources. Marlene Film (Prague), X Filme (Berlin) and Metro Films (Warsaw) produced it, joined by Czech, Polish and German broadcasters and Canal+. Funding came from Eurimages, the Czech Audiovisual Fund, the Polish Film Institute, Medienboard Berlin-Brandenburg and Germany's DFFF.",
+   "sources": [
+    "https://www.filmcenter.gov.cz/en/news/a-literary-icon-comes-alive-in-agnieszka-holland-s-kafkaesque-bio-pic-franz"
+   ]
+  },
+  {
+   "id": "memoire-fille",
+   "title": "Mémoire de fille",
+   "match": [
+    "Mémoire de fille"
+   ],
+   "year": 2026,
+   "country": "FR",
+   "director": "Judith Godrèche",
+   "kind": "new release",
+   "backing": [
+    "French independent producers"
+   ],
+   "studios": [
+    "Windy Production"
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [
+    "Jour2Fête (FR)"
+   ],
+   "sales": [
+    "Paradise City Sales"
+   ],
+   "budget": null,
+   "funding": "Judith Godrèche's adaptation of Annie Ernaux is produced by Windy Production. Paradise City Sales handles international sales and Jour2Fête releases it in France.",
+   "sources": [
+    "https://www.festival-cannes.com/en/f/memoire-de-fille/"
+   ]
+  },
+  {
+   "id": "minotaur",
+   "title": "Minotaur",
+   "match": [
+    "Minotaur"
+   ],
+   "year": 2026,
+   "country": "FR/DE/LV",
+   "director": "Andrey Zvyagintsev",
+   "kind": "new release",
+   "backing": [
+    "Arthouse producers",
+    "TV broadcaster"
+   ],
+   "studios": [
+    "MK Productions",
+    "CG Cinema",
+    "Forma Pro Films",
+    "Razor Film"
+   ],
+   "public": [],
+   "broadcasters": [
+    "ARTE France Cinéma"
+   ],
+   "distributors": [
+    "Les Films du Losange"
+   ],
+   "sales": [
+    "mk2 Films"
+   ],
+   "budget": null,
+   "funding": "A French-German-Latvian co-production led by MK Productions and CG Cinema, with Forma Pro Films, Razor Film and ARTE France Cinéma. mk2 Films sells it and Les Films du Losange distributes it; France picked it as its Oscar entry.",
+   "sources": [
+    "https://cineuropa.org/film/490431/"
+   ]
+  },
+  {
+   "id": "odyssey",
+   "title": "The Odyssey",
+   "match": [
+    "The Odyssey"
+   ],
+   "year": 2026,
+   "country": "US/UK",
+   "director": "Christopher Nolan",
+   "kind": "new release",
+   "backing": [
+    "Hollywood studio"
+   ],
+   "studios": [
+    "Universal Pictures",
+    "Syncopy"
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [
+    "Universal Pictures"
+   ],
+   "sales": [],
+   "budget": "≈ $250M",
+   "funding": "Universal Pictures financed and distributes it, produced with Nolan and Emma Thomas's company Syncopy. At about $250 million it is one of Nolan's most expensive films. Studio Skoop shows it on 35mm.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)"
+   ]
+  },
+  {
+   "id": "dune3",
+   "title": "Dune: Part Three",
+   "match": [
+    "Dune: Part Three"
+   ],
+   "year": 2026,
+   "country": "US",
+   "director": "Denis Villeneuve",
+   "kind": "new release",
+   "backing": [
+    "Hollywood studio"
+   ],
+   "studios": [
+    "Legendary Entertainment",
+    "Warner Bros."
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [
+    "Warner Bros."
+   ],
+   "sales": [],
+   "budget": null,
+   "funding": "Legendary Entertainment and Warner Bros. produce it, as with the first two parts, and it was shot at Origo Studios in Hungary. No budget has been published.",
+   "sources": [
+    "https://www.screenglobalproduction.com/news/2025/07/09/dune-part-three-begins-production-hungary"
+   ]
+  },
+  {
+   "id": "wicker",
+   "title": "Wicker",
+   "match": [
+    "Wicker"
+   ],
+   "year": 2026,
+   "country": "US",
+   "director": "Eleanor Wilson, Alex Huston Fischer",
+   "kind": "new release",
+   "backing": [
+    "Independent financiers"
+   ],
+   "studios": [
+    "South of The River",
+    "Yoki, Inc.",
+    "Votiv"
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [
+    "Black Bear"
+   ],
+   "sales": [
+    "Black Bear"
+   ],
+   "budget": null,
+   "funding": "Financed by Tango and Topic Studios, with development money from Votiv; South of The River and Yoki also produce. Black Bear bought it at Sundance 2026 for North America and the UK and handles international sales.",
+   "sources": [
+    "https://www.thewrap.com/creative-content/movies/wicker-movie-release-olivia-colman-alexander-skarsgard-black-bear/"
+   ]
+  },
+  {
+   "id": "golden-spurtle",
+   "title": "The Golden Spurtle",
+   "match": [
+    "The Golden Spurtle (2025)"
+   ],
+   "year": 2025,
+   "country": "AU",
+   "director": "Constantine Costi",
+   "kind": "new release",
+   "backing": [
+    "Public funds (non-EU)"
+   ],
+   "studios": [
+    "Hytra Films"
+   ],
+   "public": [
+    "Screen Australia"
+   ],
+   "broadcasters": [],
+   "distributors": [],
+   "sales": [],
+   "budget": null,
+   "funding": "A small documentary produced by Hytra Films in Australia, with development and production support from the public agency Screen Australia.",
+   "sources": [
+    "https://www.screenaustralia.gov.au/the-screen-guide/t/the-golden-spurtle/41938"
+   ]
+  },
+  {
+   "id": "yugly",
+   "title": "Yugly",
+   "match": [
+    "Yugly",
+    "Mochy"
+   ],
+   "year": 2026,
+   "country": "BE/FR",
+   "director": "Yanis Belaid, Jérémie Degruson",
+   "kind": "family",
+   "backing": [
+    "Belgian production",
+    "Tax shelter"
+   ],
+   "studios": [
+    "nWave Studios",
+    "Octopolis",
+    "Umedia"
+   ],
+   "public": [
+    "Belgian tax shelter",
+    "screen.brussels"
+   ],
+   "broadcasters": [],
+   "distributors": [],
+   "sales": [],
+   "budget": null,
+   "funding": "Brussels animation studio nWave made it with Octopolis. The Belgian tax shelter, raised through Umedia, and screen.brussels helped pay for it. Shown as Mochy in French.",
+   "sources": [
+    "https://umedia.eu/news/four-umedia-animated-projects-were-selected-for-the-2026-annecy-festival/"
+   ]
+  },
+  {
+   "id": "jungle",
+   "title": "Born in the Jungle",
+   "match": [
+    "Born in the Jungle",
+    "Magische Jungle"
+   ],
+   "year": 2026,
+   "country": "LV/PL/CZ",
+   "director": "Edmunds Jansons",
+   "kind": "family",
+   "backing": [
+    "Independent animation studios"
+   ],
+   "studios": [
+    "Atom Art",
+    "Letko",
+    "Hausboot"
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [],
+   "sales": [],
+   "budget": null,
+   "funding": "A Latvian-Polish-Czech animation by Atom Art, Letko and Hausboot. Shown as Magische Jungle at Studio Skoop. Sources we found name no funders.",
+   "sources": [
+    "https://fantoche.ch/en/gramme/Born-in-the-Jungle~prg3562"
+   ]
+  },
+  {
+   "id": "reverie",
+   "title": "La Grande rêvasion",
+   "match": [
+    "La Grande rêvasion"
+   ],
+   "year": 2025,
+   "country": "FR/BE",
+   "director": "Rémi Durin",
+   "kind": "family",
+   "backing": [
+    "TV broadcaster",
+    "Independent animation studios"
+   ],
+   "studios": [
+    "Autour de Minuit",
+    "Kwassa Films"
+   ],
+   "public": [],
+   "broadcasters": [
+    "Canal+",
+    "RTS"
+   ],
+   "distributors": [
+    "Le Parc Distribution (BE)"
+   ],
+   "sales": [],
+   "budget": null,
+   "funding": "A 45-minute animation made for television by Autour de Minuit and Kwassa Films, co-produced by Canal+. It won the Annecy Cristal for TV production.",
+   "sources": [
+    "https://en.unifrance.org/news/17480/la-grande-revasion-une-ode-a-l-imagination-et-a-l-aventure-recompensee-a-annecy-par-le-cristal-de-la-meilleure-production-tv"
+   ]
+  },
+  {
+   "id": "pout-pout",
+   "title": "The Pout-Pout Fish",
+   "match": [
+    "The Pout-Pout Fish"
+   ],
+   "year": 2026,
+   "country": "AU/US",
+   "director": "Ricard Cussó",
+   "kind": "family",
+   "backing": [
+    "Independent animation studios"
+   ],
+   "studios": [
+    "MIMO Studios",
+    "Like a Photon Creative",
+    "Cosmic Dino Studio",
+    "Alceon Entertainment",
+    "Eclectik Vision"
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [],
+   "sales": [],
+   "budget": "< $10M",
+   "funding": "An independently financed animation made for under $10 million by MIMO Studios, Like a Photon Creative, Cosmic Dino Studio, Alceon Entertainment and Eclectik Vision.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/The_Pout-Pout_Fish_(film)"
+   ]
+  },
+  {
+   "id": "shaun",
+   "title": "Shaun het Schaap: Het Beest op de Boerderij",
+   "match": [
+    "Shaun het Schaap: Het Beest op de Boerderij"
+   ],
+   "year": 2026,
+   "country": "UK",
+   "director": "Aardman",
+   "kind": "family",
+   "backing": [
+    "European studio",
+    "TV broadcaster"
+   ],
+   "studios": [
+    "Aardman"
+   ],
+   "public": [],
+   "broadcasters": [
+    "Sky"
+   ],
+   "distributors": [
+    "Sky (UK)",
+    "StudioCanal"
+   ],
+   "sales": [],
+   "budget": null,
+   "funding": "Aardman made it as a Sky Original: Sky releases it in the UK and StudioCanal everywhere else. Original title The Beast of Mossy Bottom.",
+   "sources": [
+    "https://aardman.com/latest-news/2025/may/new-shaun-the-sheep-movie-announced-for-2026"
+   ]
+  },
+  {
+   "id": "devils",
+   "title": "The Devils (1971)",
+   "match": [
+    "The Devils (1971)"
+   ],
+   "year": 1971,
+   "country": "UK",
+   "director": "Ken Russell",
+   "kind": "repertory",
+   "backing": [
+    "Hollywood studio"
+   ],
+   "studios": [
+    "Russo Productions",
+    "Warner Bros."
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [
+    "Warner Bros."
+   ],
+   "sales": [],
+   "budget": null,
+   "funding": "Warner Bros. financed Ken Russell's film through Russo Productions and then cut it heavily for release. The new 4K restoration brings back material the studio removed.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/The_Devils_(film)"
+   ]
+  },
+  {
+   "id": "trainspotting",
+   "title": "Trainspotting (1996)",
+   "match": [
+    "Trainspotting (1996)"
+   ],
+   "year": 1996,
+   "country": "UK",
+   "director": "Danny Boyle",
+   "kind": "repertory",
+   "backing": [
+    "TV broadcaster"
+   ],
+   "studios": [
+    "Figment Films"
+   ],
+   "public": [],
+   "broadcasters": [
+    "Channel Four Films"
+   ],
+   "distributors": [
+    "PolyGram"
+   ],
+   "sales": [],
+   "budget": null,
+   "funding": "Paid for by Channel Four Films, the film arm of the UK public-service broadcaster, and produced by Figment Films. PolyGram released it.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Trainspotting_(film)"
+   ]
+  },
+  {
+   "id": "akira",
+   "title": "Akira (1988)",
+   "match": [
+    "Akira (1988)"
+   ],
+   "year": 1988,
+   "country": "JP",
+   "director": "Katsuhiro Otomo",
+   "kind": "repertory",
+   "backing": [
+    "Japanese production committee"
+   ],
+   "studios": [
+    "Akira Committee",
+    "Tokyo Movie Shinsha"
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [
+    "Toho"
+   ],
+   "sales": [],
+   "budget": null,
+   "funding": "Funded by the Akira Committee, a Japanese production committee of companies including publisher Kodansha, Mainichi Broadcasting, toy maker Bandai, ad agency Hakuhodo and Toho. Tokyo Movie Shinsha animated it.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Akira_(1988_film)"
+   ]
+  },
+  {
+   "id": "werewolf",
+   "title": "An American Werewolf in London",
+   "match": [
+    "An American Werewolf in London"
+   ],
+   "year": 1981,
+   "country": "UK/US",
+   "director": "John Landis",
+   "kind": "repertory",
+   "backing": [
+    "Hollywood studio"
+   ],
+   "studios": [
+    "PolyGram Pictures",
+    "Guber-Peters Company"
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [
+    "Universal Pictures"
+   ],
+   "sales": [],
+   "budget": null,
+   "funding": "PolyGram Pictures financed it with The Guber-Peters Company, and Universal released it.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/An_American_Werewolf_in_London"
+   ]
+  },
+  {
+   "id": "donnie",
+   "title": "Donnie Darko (2001)",
+   "match": [
+    "Donnie Darko (2001)"
+   ],
+   "year": 2001,
+   "country": "US",
+   "director": "Richard Kelly",
+   "kind": "repertory",
+   "backing": [
+    "Independent financiers"
+   ],
+   "studios": [
+    "Pandora Cinema",
+    "Flower Films",
+    "Adam Fields Productions"
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [
+    "Newmarket Films"
+   ],
+   "sales": [],
+   "budget": null,
+   "funding": "An independent film financed by Pandora Cinema with Drew Barrymore's Flower Films, released in the US by Newmarket Films.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Donnie_Darko"
+   ]
+  },
+  {
+   "id": "shall-we-dance",
+   "title": "Shall We Dance? (1996)",
+   "match": [
+    "Shall We Dance? (1996)"
+   ],
+   "year": 1996,
+   "country": "JP",
+   "director": "Masayuki Suo",
+   "kind": "repertory",
+   "backing": [
+    "Japanese production committee",
+    "TV broadcaster"
+   ],
+   "studios": [
+    "Daiei",
+    "Hakuhodo",
+    "Nippon Shuppan Hanbai"
+   ],
+   "public": [],
+   "broadcasters": [
+    "Nippon TV"
+   ],
+   "distributors": [
+    "Toho (JP)",
+    "Miramax (US)"
+   ],
+   "sales": [],
+   "budget": null,
+   "funding": "Backed by Nippon TV, ad agency Hakuhodo, distributor Nippon Shuppan Hanbai and the studio Daiei. Toho released it in Japan and Miramax bought it for the US.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Shall_We_Dance%3F_(1996_film)"
+   ]
+  },
+  {
+   "id": "return",
+   "title": "The Return (2003)",
+   "match": [
+    "The Return (2003)"
+   ],
+   "year": 2003,
+   "country": "RU",
+   "director": "Andrey Zvyagintsev",
+   "kind": "repertory",
+   "backing": [
+    "Independent producers"
+   ],
+   "studios": [
+    "REN Film"
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [],
+   "sales": [],
+   "budget": null,
+   "funding": "Zvyagintsev's debut was produced by REN Film, the Moscow company of Dmitry Lesnevsky. Shown alongside his new film Minotaur.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/The_Return_(2003_film)"
+   ]
+  },
+  {
+   "id": "hard-ticket",
+   "title": "Hard Ticket to Hawaii",
+   "match": [
+    "Hard Ticket to Hawaii"
+   ],
+   "year": 1987,
+   "country": "US",
+   "director": "Andy Sidaris",
+   "kind": "repertory",
+   "backing": [
+    "Self-financed"
+   ],
+   "studios": [
+    "Malibu Bay Films"
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [],
+   "sales": [],
+   "budget": null,
+   "funding": "A Sidaris family production: Andy and Arlene Sidaris made it through their own Malibu Bay Films for the video market.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Hard_Ticket_to_Hawaii"
+   ]
+  },
+  {
+   "id": "offside",
+   "title": "Offside (2006)",
+   "match": [
+    "Offside (2006)"
+   ],
+   "year": 2006,
+   "country": "IR",
+   "director": "Jafar Panahi",
+   "kind": "repertory",
+   "backing": [
+    "Self-financed"
+   ],
+   "studios": [
+    "Jafar Panahi Film Productions"
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [
+    "Sony Pictures Classics (US)"
+   ],
+   "sales": [],
+   "budget": null,
+   "funding": "Produced by Jafar Panahi's own company and shot partly during a real qualifying match, without official backing in Iran. Sony Pictures Classics released it in the US.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Offside_(2006_film)"
+   ]
+  },
+  {
+   "id": "mortu-nega",
+   "title": "Mortu Nega (1988)",
+   "match": [
+    "Mortu Nega (1988)"
+   ],
+   "year": 1988,
+   "country": "GW",
+   "director": "Flora Gomes",
+   "kind": "repertory",
+   "backing": [
+    "Public funds (non-EU)"
+   ],
+   "studios": [
+    "Instituto Nacional de Cinema da Guiné-Bissau"
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [],
+   "sales": [],
+   "budget": null,
+   "funding": "Made by Guinea-Bissau's National Film Institute, the state body that produced the country's first fiction feature after independence.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Mortu_Nega"
+   ]
+  },
+  {
+   "id": "gypsies",
+   "title": "Time of the Gypsies (1988)",
+   "match": [
+    "Time of the Gypsies (1988)"
+   ],
+   "year": 1988,
+   "country": "YU",
+   "director": "Emir Kusturica",
+   "kind": "repertory",
+   "backing": [
+    "Hollywood studio"
+   ],
+   "studios": [
+    "Forum Sarajevo"
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [
+    "Columbia Pictures"
+   ],
+   "sales": [],
+   "budget": null,
+   "funding": "Produced by Forum Sarajevo with Mirza Pašić and Bond producer Harry Saltzman, and distributed by Columbia Pictures.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Time_of_the_Gypsies"
+   ]
+  },
+  {
+   "id": "near-dark",
+   "title": "Near Dark (1987)",
+   "match": [
+    "Near Dark (1987)"
+   ],
+   "year": 1987,
+   "country": "US",
+   "director": "Kathryn Bigelow",
+   "kind": "repertory",
+   "backing": [
+    "Independent financiers"
+   ],
+   "studios": [
+    "F/M Entertainment"
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [
+    "De Laurentiis Entertainment Group"
+   ],
+   "sales": [],
+   "budget": "$5M",
+   "funding": "A $5 million independent production by F/M Entertainment, distributed by the De Laurentiis Entertainment Group.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Near_Dark"
+   ]
+  },
+  {
+   "id": "fat-city",
+   "title": "Fat City (1972) + For Mouna",
+   "match": [
+    "Fat City (1972) + For Mouna"
+   ],
+   "year": 1972,
+   "country": "US",
+   "director": "John Huston",
+   "kind": "repertory",
+   "backing": [
+    "Hollywood studio"
+   ],
+   "studios": [
+    "Rastar"
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [
+    "Columbia Pictures"
+   ],
+   "sales": [],
+   "budget": null,
+   "funding": "Ray Stark's Rastar produced Fat City for Columbia Pictures. The opening short For Mouna is a 2023 Belgian short by Spencer Bogaert.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Fat_City_(film)"
+   ]
+  },
+  {
+   "id": "iron-giant",
+   "title": "De Ijzeren Reus (1999)",
+   "match": [
+    "De Ijzeren Reus (1999)"
+   ],
+   "year": 1999,
+   "country": "US",
+   "director": "Brad Bird",
+   "kind": "repertory",
+   "backing": [
+    "Hollywood studio"
+   ],
+   "studios": [
+    "Warner Bros. Feature Animation"
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [
+    "Warner Bros."
+   ],
+   "sales": [],
+   "budget": null,
+   "funding": "The Iron Giant was made by Warner Bros. Feature Animation, the studio's in-house animation unit.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/The_Iron_Giant"
+   ]
+  },
+  {
+   "id": "coyote",
+   "title": "Coyote Ugly + Cocktail",
+   "match": [
+    "Coyote Ugly + Cocktail"
+   ],
+   "year": 2000,
+   "country": "US",
+   "director": "David McNally / Roger Donaldson",
+   "kind": "repertory",
+   "backing": [
+    "Hollywood studio"
+   ],
+   "studios": [
+    "Touchstone (Disney)",
+    "Jerry Bruckheimer Films",
+    "Silver Screen Partners"
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [],
+   "sales": [],
+   "budget": null,
+   "funding": "Both are Disney films released under its Touchstone label: Coyote Ugly with Jerry Bruckheimer Films, Cocktail with the investment fund Silver Screen Partners.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Coyote_Ugly_(film)",
+    "https://en.wikipedia.org/wiki/Cocktail_(1988_film)"
+   ]
+  },
+  {
+   "id": "damned",
+   "title": "Damned if You Don't + Dildotectónica",
+   "match": [
+    "Damned if You Don't + Dildotectónica"
+   ],
+   "year": 1987,
+   "country": "US/PT",
+   "director": "Su Friedrich, Paula Tomás Marques",
+   "kind": "repertory",
+   "backing": [
+    "Self-financed"
+   ],
+   "studios": [
+    "Su Friedrich (independent)"
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [],
+   "sales": [],
+   "budget": null,
+   "funding": "Su Friedrich makes her experimental films largely on her own. We found no funding details for the 2023 Portuguese short Dildotectónica.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Su_Friedrich"
+   ]
+  },
+  {
+   "id": "bruges",
+   "title": "Apolline + Bruges-La-Morte",
+   "match": [
+    "Apolline + Bruges-La-Morte"
+   ],
+   "year": 1978,
+   "country": "BE/US",
+   "director": "Lucien Deroisy, Ronald Chase",
+   "kind": "repertory",
+   "backing": [
+    "Unknown"
+   ],
+   "studios": [],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [],
+   "sales": [],
+   "budget": null,
+   "funding": "Two rarely shown adaptations, one shot in Ghent in 1959. We could not find reliable information on who financed either film.",
+   "sources": [
+    "https://kaskcinema.be/film/apolline-bruges-la-morte/"
+   ]
+  },
+  {
+   "id": "love-slug",
+   "title": "Love That Moves the Slug",
+   "match": [
+    "Love That Moves the Slug"
+   ],
+   "year": null,
+   "country": "",
+   "director": "various",
+   "kind": "programme",
+   "backing": [
+    "Programme of several films"
+   ],
+   "studios": [],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [],
+   "sales": [],
+   "budget": null,
+   "funding": "Short-film programme curated by artist Anouk De Clercq; many different makers. Funding is not tracked for mixed programmes.",
+   "sources": [
+    "https://kaskcinema.be/film/love-that-moves-the-slug/"
+   ]
+  },
+  {
+   "id": "kidscinema",
+   "title": "KIDScinema: The Best of Filem'On",
+   "match": [
+    "KIDScinema: The Best of Filem'On"
+   ],
+   "year": null,
+   "country": "",
+   "director": "various",
+   "kind": "programme",
+   "backing": [
+    "Programme of several films"
+   ],
+   "studios": [],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [],
+   "sales": [],
+   "budget": null,
+   "funding": "Short films for children from the Filem'On festival. Funding is not tracked for mixed programmes.",
+   "sources": [
+    "https://kaskcinema.be/film/kidscinema-the-best-of-filemon/"
+   ]
+  },
+  {
+   "id": "horror",
+   "title": "Night of the Horror: Bad Trip",
+   "match": [
+    "Night of the Horror: Bad Trip"
+   ],
+   "year": null,
+   "country": "",
+   "director": "various",
+   "kind": "programme",
+   "backing": [
+    "Programme of several films"
+   ],
+   "studios": [],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [],
+   "sales": [],
+   "budget": null,
+   "funding": "Triple bill with Kuru: A Lizard in a Woman's Skin (1971), MadS and Brain Damage (1988). Funding is not tracked for mixed programmes.",
+   "sources": [
+    "https://kaskcinema.be/film/night-of-the-horror-bad-trip/"
+   ]
+  },
+  {
+   "id": "freeride",
+   "title": "Freeride Filmfestival",
+   "match": [
+    "Freeride Filmfestival"
+   ],
+   "year": null,
+   "country": "",
+   "director": "various",
+   "kind": "programme",
+   "backing": [
+    "Programme of several films"
+   ],
+   "studios": [],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [],
+   "sales": [],
+   "budget": null,
+   "funding": "Touring programme of ski and snowboard films. Funding is not tracked for mixed programmes.",
+   "sources": [
+    "https://www.studioskoop.be/agenda-studio-skoop/"
+   ]
+  },
+  {
+   "id": "cineconcert",
+   "title": "Cinéconcert voor kinderen",
+   "match": [
+    "Cinéconcert voor kinderen"
+   ],
+   "year": null,
+   "country": "",
+   "director": "various",
+   "kind": "programme",
+   "backing": [
+    "Programme of several films"
+   ],
+   "studios": [],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [],
+   "sales": [],
+   "budget": null,
+   "funding": "Live music to short films for children, with FilemKING. Funding is not tracked for mixed programmes.",
+   "sources": [
+    "https://dekoer.be/programma/cineconcert-voor-kinderen-kinderfilm/"
+   ]
+  },
+  {
+   "id": "inmate",
+   "title": "Inmate Sessions Live!",
+   "match": [
+    "Inmate Sessions Live!"
+   ],
+   "year": null,
+   "country": "",
+   "director": "various",
+   "kind": "programme",
+   "backing": [
+    "Programme of several films"
+   ],
+   "studios": [],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [],
+   "sales": [],
+   "budget": null,
+   "funding": "Cine-concert and talk about cinema in Ghent prison. Funding is not tracked for mixed programmes.",
+   "sources": [
+    "https://dekoer.be/programma/inmate-sessions-live/"
+   ]
+  }
+ ]
+}

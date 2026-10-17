@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "instagram": {
+      "command": "/bin/bash",
+      "args": ["/Users/YOUR-MAC-USERNAME/ig-mcp/run.sh"]
+    }
+  }
+}

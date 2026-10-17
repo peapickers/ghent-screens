@@ -1,0 +1,9 @@
+# Only what ig-mcp's src/ actually imports (all free, open source)
+mcp>=1.0.0
+httpx>=0.25.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+python-dotenv>=1.0.0
+asyncio-throttle>=1.0.2
+structlog>=23.2.0
+pillow>=10.0.0
