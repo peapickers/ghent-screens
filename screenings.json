@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T14:30:00+02:00",
+ "updated": "2026-10-21T14:45:00+02:00",
  "city": "Gent",
  "excluded": [
   "Kinepolis"
@@ -100,13 +100,56 @@
    "addr": "Nieuwland 69",
    "url": "https://nieuwland.broei.be/agenda",
    "kind": "youth culture hub · ±20 organisations"
+  },
+  "poeziecentrum": {
+   "name": "Poëziecentrum",
+   "addr": "Vrijdagmarkt 36, Gent (organiser)",
+   "url": "https://www.poeziecentrum.be/agenda",
+   "kind": "poetry centre"
+  },
+  "begeerte": {
+   "name": "Behoud de Begeerte",
+   "addr": "Antwerpen (organiser)",
+   "url": "https://www.begeerte.be/kalender",
+   "kind": "literature organiser"
+  },
+  "ugent": {
+   "name": "UGent",
+   "addr": "Gent",
+   "url": "https://www.ugent.be/lw/nl/actueel/agenda",
+   "kind": "university · public lectures"
+  },
+  "liberas": {
+   "name": "Liberas",
+   "addr": "Kramersplein 23, Gent (organiser)",
+   "url": "https://www.liberas.eu/nl/actueel/agenda",
+   "kind": "liberal archive · lectures"
+  },
+  "gentleest": {
+   "name": "Gent Leest",
+   "addr": "Gent (city library network)",
+   "url": "https://www.gentleest.be/events",
+   "kind": "literature & talks"
+  },
+  "masereel": {
+   "name": "Masereelfonds",
+   "addr": "Flanders & Brussels (organiser)",
+   "url": "https://www.masereelfonds.be/activiteiten/",
+   "kind": "lectures & debates"
+  },
+  "ekonomika": {
+   "name": "Ekonomika",
+   "addr": "KU Leuven alumni (organiser)",
+   "url": "https://www.ekonomika-alumni.be/activiteiten",
+   "kind": "economics lectures"
   }
  },
  "notices": [
   "Theatre and dance listings are incomplete: Viernulvier, CAMPO, NTGent's full season, Arcatheater, Capitole, Opera Gent, De Centrale and amateur stages (OpenDoek) load only in a browser and follow later.",
   "Sphinx closes for renovation from March 2027 for about 18 months; a pop-up cinema is planned.",
-  "Ciné Rio and Kopergietery list dates without start times; check the event page.",
-  "Funding for theatre, music and talks: unknown until a source (credits, Kunstendecreet database) is found."
+  "Funding for theatre, music and talks: unknown until a source (credits, Kunstendecreet database) is found.",
+  "Ciné Rio, Kopergietery, Masereelfonds, Liberas and some poetry events list dates without start times; check the event page.",
+  "Talks outside Ghent are included (Antwerp, Brussels, Bruges, Sint-Niklaas and more): use the city filter."
  ],
  "screenings": [
   {
@@ -116,7 +159,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -125,7 +169,8 @@
    "title": "Sense and Sensibility",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -134,7 +179,8 @@
    "title": "Shaun Het Schaap: Het Beest op de Boerderij",
    "note": "familiefilm",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -143,7 +189,8 @@
    "title": "Tegenwoordig heet iedereen Sorry",
    "note": "familiefilm",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -152,7 +199,8 @@
    "title": "Wicker",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -161,7 +209,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -170,7 +219,8 @@
    "title": "Coyote vs. Acme",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -179,7 +229,8 @@
    "title": "Moppervis",
    "note": "Film voor kinderen en jongeren",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -188,7 +239,8 @@
    "title": "Shaun het Schaap: het beest van de boerderij",
    "note": "Film voor kinderen en jongeren",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -197,7 +249,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -206,7 +259,8 @@
    "title": "Digger",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -215,7 +269,8 @@
    "title": "Franz",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -224,7 +279,8 @@
    "title": "Primetime",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -233,7 +289,8 @@
    "title": "Shaun Het Schaap: Het Beest op de Boerderij",
    "note": "familiefilm",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -242,7 +299,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -251,7 +309,8 @@
    "title": "L'espèce explosive",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -260,7 +319,8 @@
    "title": "NAZA",
    "note": "Doc",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -269,7 +329,8 @@
    "title": "Tegenwoordig heet iedereen Sorry",
    "note": "Film voor kinderen en jongeren",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -278,7 +339,8 @@
    "title": "Wicker",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "kasklez",
@@ -287,7 +349,10 @@
    "title": "Lichen Hamraie, Staci Bu Shea, Carly Everaert",
    "note": "Studium Generale · KASKlezingen",
    "url": "https://schoolofartsgent.be/agenda/lichen-hamraie-staci-bu-shea-carly-everaert",
-   "k": "talk"
+   "k": "talk",
+   "city": "Gent",
+   "th": "art",
+   "place": "KASK, Zwarte Zaal"
   },
   {
    "v": "skoop",
@@ -296,7 +361,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -305,7 +371,8 @@
    "title": "The Invite",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -314,7 +381,8 @@
    "title": "The Return (2003)",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -323,7 +391,20 @@
    "title": "Wicker",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "ugent",
+   "d": "2026-10-21",
+   "t": "19:45",
+   "title": "Debat: Abortuswetgeving",
+   "note": "",
+   "url": "https://www.ugent.be/nl/agenda/abortuswetgeving",
+   "k": "talk",
+   "th": "politics",
+   "place": "UGent",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -332,7 +413,20 @@
    "title": "Hard Ticket To Hawaï",
    "note": "special; Cinema Obscura",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "ugent",
+   "d": "2026-10-21",
+   "t": "20:00",
+   "title": "De uitvinding van inheemsheid in postkoloniale settings",
+   "note": "",
+   "url": "https://www.ugent.be/nl/agenda/inheemsheid",
+   "k": "talk",
+   "th": "sociology",
+   "place": "UGent",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -341,7 +435,8 @@
    "title": "Sense and Sensibility",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -350,7 +445,8 @@
    "title": "Shall We Dance? (1996)",
    "note": "Classics",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "kask",
@@ -359,7 +455,8 @@
    "title": "The Golden Spurtle (2025)",
    "note": "",
    "url": "https://kaskcinema.be/film/the-golden-spurtle/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -368,7 +465,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -377,7 +475,8 @@
    "title": "The Invite",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -386,7 +485,8 @@
    "title": "Wicker",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -395,7 +495,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -404,7 +505,8 @@
    "title": "Digger",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -413,7 +515,8 @@
    "title": "The Social Reckoning",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -422,7 +525,8 @@
    "title": "Trainspotting (1996)",
    "note": "4k restauratie",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -431,7 +535,32 @@
    "title": "Primetime",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "poeziecentrum",
+   "d": "2026-10-21",
+   "t": "",
+   "title": "Boekpresentatie 'Carnaval'",
+   "note": "Maarten Goethals",
+   "url": "https://www.poeziecentrum.be/agenda/boekpresentatie-brussel-carnaval-maarten-goethals",
+   "k": "talk",
+   "th": "poetry",
+   "place": "Kunstcafé Art Base",
+   "city": "Brussel"
+  },
+  {
+   "v": "ugent",
+   "d": "2026-10-22",
+   "t": "13:00",
+   "title": "Symposium: Bart Moeyaert en zijn vertalers",
+   "note": "",
+   "url": "https://www.ugent.be/nl/agenda/bart-moeyaert",
+   "k": "talk",
+   "th": "literature",
+   "place": "Bibliotheek De Krook",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -440,7 +569,8 @@
    "title": "Digger",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -449,7 +579,8 @@
    "title": "Mémoire de fille",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -458,7 +589,8 @@
    "title": "The Invite",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -467,7 +599,8 @@
    "title": "Notre salut",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -476,7 +609,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -485,7 +619,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -494,7 +629,8 @@
    "title": "L'espèce explosive",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -503,7 +639,8 @@
    "title": "The Last One for the Road (Andiamo a bere l'ultima)",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -512,7 +649,8 @@
    "title": "Wicker",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -521,7 +659,8 @@
    "title": "Akira (1988)",
    "note": "4k restauratie",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -530,7 +669,8 @@
    "title": "Sense and Sensibility",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -539,7 +679,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -548,7 +689,8 @@
    "title": "Franz",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -557,7 +699,8 @@
    "title": "Wicker",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -566,7 +709,8 @@
    "title": "Sense and Sensibility",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -575,7 +719,8 @@
    "title": "Shall We Dance? (1996)",
    "note": "Classics",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -584,7 +729,8 @@
    "title": "Primetime",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -593,7 +739,8 @@
    "title": "The Invite",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -602,7 +749,8 @@
    "title": "The Social Reckoning",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "broei",
@@ -611,7 +759,8 @@
    "title": "Shortfilm Night @Blikkenwerpers",
    "note": "Hujo en Dwaalzin",
    "url": "https://nieuwland.broei.be/agenda/event/12713/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -620,7 +769,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -629,7 +779,8 @@
    "title": "Digger",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -638,7 +789,8 @@
    "title": "The Invite",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -647,7 +799,20 @@
    "title": "Wicker",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "gentleest",
+   "d": "2026-10-22",
+   "t": "20:00",
+   "title": "Het boek, de stad, de wereld: het Liber Floridus",
+   "note": "",
+   "url": "https://www.gentleest.be/events/het-boek-de-stad-de-wereld-het-liber-floridus",
+   "k": "talk",
+   "th": "history",
+   "place": "Herberg Macharius",
+   "city": "Gent"
   },
   {
    "v": "ntgent",
@@ -656,7 +821,8 @@
    "title": "Please, Open the Curtains",
    "note": "Ferenc Balcaen & ntgent · Minnemeers",
    "url": "https://www.ntgent.be/en/productions/please-open-the-curtains",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -665,7 +831,8 @@
    "title": "Primetime",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -674,7 +841,8 @@
    "title": "Digger",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "kask",
@@ -683,7 +851,8 @@
    "title": "Love That Moves the Slug",
    "note": "",
    "url": "https://kaskcinema.be/film/love-that-moves-the-slug/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -692,7 +861,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -701,7 +871,8 @@
    "title": "Coyote vs. Acme",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -710,7 +881,8 @@
    "title": "NAZA",
    "note": "Doc",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -719,7 +891,8 @@
    "title": "Wicker",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -728,7 +901,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -737,7 +911,8 @@
    "title": "Franz",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -746,7 +921,8 @@
    "title": "Resident Evil",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -755,7 +931,8 @@
    "title": "The Return (2003)",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -764,7 +941,44 @@
    "title": "The Social Reckoning",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "ekonomika",
+   "d": "2026-10-22",
+   "t": "",
+   "title": "Begrotingstekorten: het zijn de belastingen!",
+   "note": "Koen Algoed · Ekonomika (KU Leuven alumni), mogelijk enkel leden",
+   "url": "https://app.ekonomika-alumni.be/app/events/september-2026/senior-circle-series-met-koen-algoed",
+   "k": "talk",
+   "th": "economics",
+   "place": "",
+   "city": ""
+  },
+  {
+   "v": "liberas",
+   "d": "2026-10-22",
+   "t": "",
+   "title": "De geschiedenis van het schrift",
+   "note": "em. prof. Mark Janse · reeks Koloniale taalgeschiedenis",
+   "url": "https://www.liberas.eu/nl/actueel/agenda/de-geschiedenis-van-het-schrift-em-prof-mark-janse",
+   "k": "talk",
+   "th": "history",
+   "place": "",
+   "city": ""
+  },
+  {
+   "v": "masereel",
+   "d": "2026-10-22",
+   "t": "",
+   "title": "Vrouwencafé",
+   "note": "",
+   "url": "https://www.masereelfonds.be/activiteiten/vrouwencafe-2-copy-copy-copy-copy-copy/",
+   "k": "talk",
+   "th": "sociology",
+   "place": "",
+   "city": "Brussel"
   },
   {
    "v": "rio",
@@ -773,7 +987,8 @@
    "title": "Time of the Gypsies (Emir Kusturica, 1988)",
    "note": "",
    "url": "https://dekoer.be/cine-rio/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -782,7 +997,8 @@
    "title": "Sense and Sensibility",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -791,7 +1007,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -800,7 +1017,8 @@
    "title": "Franz",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -809,7 +1027,8 @@
    "title": "The Invite",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -818,7 +1037,8 @@
    "title": "The Social Reckoning",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -827,7 +1047,8 @@
    "title": "Wicker",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -836,7 +1057,8 @@
    "title": "NAZA",
    "note": "Doc",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -845,7 +1067,8 @@
    "title": "The Invite",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -854,7 +1077,8 @@
    "title": "The Social Reckoning",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -863,7 +1087,8 @@
    "title": "Wicker",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -872,7 +1097,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -881,7 +1107,8 @@
    "title": "Primetime",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -890,7 +1117,8 @@
    "title": "The Return (2003)",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -899,7 +1127,8 @@
    "title": "Trainspotting (1996)",
    "note": "4k restauratie",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -908,7 +1137,8 @@
    "title": "Digger",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -917,7 +1147,8 @@
    "title": "NAZA",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -926,7 +1157,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -935,7 +1167,8 @@
    "title": "Coyote vs. Acme",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -944,7 +1177,8 @@
    "title": "The Last One for the Road (Andiamo a bere l'ultima)",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -953,7 +1187,8 @@
    "title": "Wicker",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "broei",
@@ -962,7 +1197,8 @@
    "title": "Broei Invites #4 // ONDA",
    "note": "",
    "url": "https://nieuwland.broei.be/agenda/event/11884/",
-   "k": "music"
+   "k": "music",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -971,7 +1207,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -980,7 +1217,8 @@
    "title": "Franz",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -989,7 +1227,8 @@
    "title": "Sense and Sensibility",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -998,7 +1237,8 @@
    "title": "The Invite",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1007,7 +1247,8 @@
    "title": "Wicker",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1016,7 +1257,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1025,7 +1267,8 @@
    "title": "L'espèce explosive",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1034,7 +1277,8 @@
    "title": "Primetime",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1043,7 +1287,8 @@
    "title": "The Invite",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1052,7 +1297,8 @@
    "title": "The Social Reckoning",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1061,7 +1307,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1070,7 +1317,8 @@
    "title": "Resident Evil",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1079,7 +1327,8 @@
    "title": "Digger",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1088,7 +1337,8 @@
    "title": "Primetime",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1097,7 +1347,32 @@
    "title": "Wicker",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "masereel",
+   "d": "2026-10-23",
+   "t": "",
+   "title": "Ontmoeting met Jeremiah Wolf",
+   "note": "Jeremiah Wolf",
+   "url": "https://www.masereelfonds.be/activiteiten/ontmoeting-met-jeremiah-wolf/",
+   "k": "talk",
+   "th": "history",
+   "place": "",
+   "city": "Antwerpen"
+  },
+  {
+   "v": "masereel",
+   "d": "2026-10-23",
+   "t": "",
+   "title": "Waarom Hiroshima rijmt op Fukushima",
+   "note": "Marc Alexander",
+   "url": "https://www.masereelfonds.be/activiteiten/waarom-hiroshima-rijmt-op-fukushima-met-auteur-marc-alexander/",
+   "k": "talk",
+   "th": "politics",
+   "place": "",
+   "city": "Sint-Niklaas"
   },
   {
    "v": "viernulvier",
@@ -1106,7 +1381,8 @@
    "title": "AFK",
    "note": "Boegbeeld vzw (via Kopergietery)",
    "url": "https://kopergietery.be/programma/afk",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1115,7 +1391,8 @@
    "title": "Monster Mia",
    "note": "Film voor kinderen en jongeren",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1124,7 +1401,8 @@
    "title": "Shaun het Schaap: het beest van de boerderij",
    "note": "Film voor kinderen en jongeren",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1133,7 +1411,8 @@
    "title": "The Invite",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1142,7 +1421,8 @@
    "title": "The Last One for the Road (Andiamo a bere l'ultima)",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1151,7 +1431,8 @@
    "title": "Wicker",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "broei",
@@ -1160,7 +1441,8 @@
    "title": "What the Drag?!",
    "note": "Hujo en Dwaalzin",
    "url": "https://nieuwland.broei.be/agenda/event/11985/",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1169,7 +1451,8 @@
    "title": "Digger",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1178,7 +1461,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1187,7 +1471,8 @@
    "title": "Franz",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1196,7 +1481,8 @@
    "title": "Shaun Het Schaap: Het Beest op de Boerderij",
    "note": "familiefilm",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1205,7 +1491,8 @@
    "title": "Tegenwoordig heet iedereen Sorry",
    "note": "familiefilm",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1214,7 +1501,8 @@
    "title": "Yugly",
    "note": "familiefilm; Vlaamse versie",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1223,7 +1511,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1232,7 +1521,8 @@
    "title": "Coyote vs. Acme",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1241,7 +1531,8 @@
    "title": "Monster Mia",
    "note": "Film voor kinderen en jongeren",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1250,7 +1541,8 @@
    "title": "Yugly NV",
    "note": "Film voor kinderen en jongeren",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1259,7 +1551,8 @@
    "title": "The Odyssey",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1268,7 +1561,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1277,7 +1571,8 @@
    "title": "Sense and Sensibility",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1286,7 +1581,8 @@
    "title": "Shaun Het Schaap: Het Beest op de Boerderij",
    "note": "familiefilm",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1295,7 +1591,8 @@
    "title": "Mémoire de fille",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1304,7 +1601,8 @@
    "title": "L'espèce explosive",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1313,7 +1611,8 @@
    "title": "NAZA",
    "note": "Doc",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1322,7 +1621,8 @@
    "title": "Tegenwoordig heet iedereen Sorry",
    "note": "Film voor kinderen en jongeren",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1331,7 +1631,8 @@
    "title": "The Invite",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1340,7 +1641,8 @@
    "title": "Wicker",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1349,7 +1651,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1358,7 +1661,8 @@
    "title": "Digger",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1367,7 +1671,8 @@
    "title": "Primetime",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1376,7 +1681,8 @@
    "title": "Wicker",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "ntgent",
@@ -1385,7 +1691,8 @@
    "title": "Please, Open the Curtains",
    "note": "Ferenc Balcaen & ntgent · Minnemeers",
    "url": "https://www.ntgent.be/en/productions/please-open-the-curtains",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1394,7 +1701,8 @@
    "title": "The Invite",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1403,7 +1711,8 @@
    "title": "Digger",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1412,7 +1721,8 @@
    "title": "Sense and Sensibility",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "broei",
@@ -1421,7 +1731,8 @@
    "title": "Verstrikt performance",
    "note": "Jinte",
    "url": "https://nieuwland.broei.be/agenda/event/12660/2026/10/24",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1430,7 +1741,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1439,7 +1751,8 @@
    "title": "The Last One for the Road (Andiamo a bere l'ultima)",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1448,7 +1761,8 @@
    "title": "Wicker",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1457,7 +1771,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1466,7 +1781,8 @@
    "title": "Resident Evil",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1475,7 +1791,8 @@
    "title": "The Social Reckoning",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1484,7 +1801,8 @@
    "title": "Trainspotting (1996)",
    "note": "4k restauratie",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1493,7 +1811,20 @@
    "title": "Wicker",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "masereel",
+   "d": "2026-10-24",
+   "t": "",
+   "title": "Lessen uit Polen, over democratie en verzet",
+   "note": "",
+   "url": "https://www.masereelfonds.be/activiteiten/lessen-uit-polen-over-democratie-en-verzet/",
+   "k": "talk",
+   "th": "politics",
+   "place": "",
+   "city": "Brugge"
   },
   {
    "v": "kask",
@@ -1502,7 +1833,8 @@
    "title": "KIDScinema: The Best of Filem'On",
    "note": "KIDScinema",
    "url": "https://kaskcinema.be/film/kidscinema-the-best-of-filemon/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1511,7 +1843,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1520,7 +1853,8 @@
    "title": "La Gradiva",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1529,7 +1863,8 @@
    "title": "Shaun Het Schaap: Het Beest op de Boerderij",
    "note": "familiefilm",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1538,7 +1873,8 @@
    "title": "The Return (2003)",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1547,7 +1883,8 @@
    "title": "Yugly",
    "note": "familiefilm; Vlaamse versie",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1556,7 +1893,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1565,7 +1903,8 @@
    "title": "NAZA",
    "note": "Doc",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1574,7 +1913,8 @@
    "title": "Shaun het Schaap: het beest van de boerderij",
    "note": "Film voor kinderen en jongeren",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1583,7 +1923,8 @@
    "title": "Tegenwoordig heet iedereen Sorry",
    "note": "Film voor kinderen en jongeren",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1592,7 +1933,8 @@
    "title": "Yugly NV",
    "note": "Film voor kinderen en jongeren",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1601,7 +1943,8 @@
    "title": "Tegenwoordig heet iedereen Sorry",
    "note": "familiefilm",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1610,7 +1953,8 @@
    "title": "Wicker",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1619,7 +1963,8 @@
    "title": "Sense and Sensibility",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1628,7 +1973,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1637,7 +1983,8 @@
    "title": "Shaun Het Schaap: Het Beest op de Boerderij",
    "note": "familiefilm",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1646,7 +1993,8 @@
    "title": "Monster Mia",
    "note": "Film voor kinderen en jongeren",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1655,7 +2003,8 @@
    "title": "Shaun het Schaap: het beest van de boerderij",
    "note": "Film voor kinderen en jongeren",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1664,7 +2013,8 @@
    "title": "The Invite",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1673,7 +2023,8 @@
    "title": "The Last One for the Road (Andiamo a bere l'ultima)",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1682,7 +2033,8 @@
    "title": "Wicker",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "ntgent",
@@ -1691,7 +2043,8 @@
    "title": "Please, Open the Curtains",
    "note": "Ferenc Balcaen & ntgent · Minnemeers",
    "url": "https://www.ntgent.be/en/productions/please-open-the-curtains",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1700,7 +2053,8 @@
    "title": "The Odyssey",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1709,7 +2063,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1718,7 +2073,8 @@
    "title": "Franz",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1727,7 +2083,8 @@
    "title": "Minotaur",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1736,7 +2093,8 @@
    "title": "Shaun Het Schaap: Het Beest op de Boerderij",
    "note": "familiefilm",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1745,7 +2103,8 @@
    "title": "Notre salut",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1754,7 +2113,8 @@
    "title": "Digger",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1763,7 +2123,8 @@
    "title": "Sense and Sensibility",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1772,7 +2133,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1781,7 +2143,8 @@
    "title": "Primetime",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1790,7 +2153,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1799,7 +2163,8 @@
    "title": "Digger",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1808,7 +2173,8 @@
    "title": "Primetime",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1817,7 +2183,8 @@
    "title": "The Invite",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1826,7 +2193,8 @@
    "title": "Wicker",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1835,7 +2203,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1844,7 +2213,8 @@
    "title": "Coyote vs. Acme",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1853,7 +2223,8 @@
    "title": "NAZA",
    "note": "Doc",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1862,7 +2233,8 @@
    "title": "The Invite",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1871,7 +2243,20 @@
    "title": "Wicker",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "liberas",
+   "d": "2026-10-25",
+   "t": "",
+   "title": "Erfgoedlezing Pacificatie van Gent",
+   "note": "",
+   "url": "https://www.liberas.eu/nl/actueel/agenda/erfgoedlezing-pacificatie-van-gent",
+   "k": "talk",
+   "th": "history",
+   "place": "",
+   "city": ""
   },
   {
    "v": "sphinx",
@@ -1880,7 +2265,8 @@
    "title": "Notre salut",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1889,7 +2275,8 @@
    "title": "Digger",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1898,7 +2285,8 @@
    "title": "Sense and Sensibility",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1907,7 +2295,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1916,7 +2305,8 @@
    "title": "Digger",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1925,7 +2315,8 @@
    "title": "Mémoire de fille",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1934,7 +2325,8 @@
    "title": "The Invite",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1943,7 +2335,8 @@
    "title": "Wicker",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1952,7 +2345,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -1961,7 +2355,8 @@
    "title": "NAZA",
    "note": "Doc",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1970,7 +2365,8 @@
    "title": "Resident Evil",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1979,7 +2375,8 @@
    "title": "The Social Reckoning",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1988,7 +2385,8 @@
    "title": "Akira (1988)",
    "note": "4k restauratie",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -1997,7 +2395,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -2006,7 +2405,8 @@
    "title": "Primetime",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2015,7 +2415,8 @@
    "title": "Coyote vs. Acme",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2024,7 +2425,8 @@
    "title": "The Invite",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2033,7 +2435,8 @@
    "title": "The Last One for the Road (Andiamo a bere l'ultima)",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2042,7 +2445,8 @@
    "title": "The Social Reckoning",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2051,7 +2455,8 @@
    "title": "Wicker",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -2060,7 +2465,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "miry",
@@ -2069,7 +2475,8 @@
    "title": "Karski Quartet",
    "note": "",
    "url": "https://schoolofartsgent.be/agenda/karski-quartet",
-   "k": "music"
+   "k": "music",
+   "city": "Gent"
   },
   {
    "v": "offoff",
@@ -2078,7 +2485,8 @@
    "title": "Brutalités amoureuses (te gast: Louis Gahide)",
    "note": "",
    "url": "https://offoff.be/en/program/te-gast-louis-gahide-brutalités-amoureuses",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -2087,7 +2495,8 @@
    "title": "Franz",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -2096,7 +2505,8 @@
    "title": "NAZA",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -2105,7 +2515,8 @@
    "title": "Sense and Sensibility",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2114,7 +2525,8 @@
    "title": "Notre salut",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2123,7 +2535,8 @@
    "title": "Shall We Dance? (1996)",
    "note": "Classics",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2132,7 +2545,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2141,7 +2555,8 @@
    "title": "L'espèce explosive",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2150,7 +2565,8 @@
    "title": "Primetime",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -2159,7 +2575,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -2168,7 +2585,8 @@
    "title": "Franz",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -2177,7 +2595,8 @@
    "title": "Sense and Sensibility",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -2186,7 +2605,8 @@
    "title": "The Invite",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -2195,7 +2615,8 @@
    "title": "Wicker",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2204,7 +2625,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2213,7 +2635,8 @@
    "title": "The Invite",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2222,7 +2645,8 @@
    "title": "Wicker",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -2231,7 +2655,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -2240,7 +2665,8 @@
    "title": "Trainspotting (1996)",
    "note": "4k restauratie",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -2249,7 +2675,8 @@
    "title": "Digger",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -2258,7 +2685,8 @@
    "title": "The Return (2003)",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2267,7 +2695,8 @@
    "title": "Shall We Dance? (1996)",
    "note": "Classics",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -2276,7 +2705,8 @@
    "title": "NAZA",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2285,7 +2715,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2294,7 +2725,8 @@
    "title": "L'espèce explosive",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2303,7 +2735,8 @@
    "title": "Primetime",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2312,7 +2745,32 @@
    "title": "Tegenwoordig heet iedereen Sorry",
    "note": "Film voor kinderen en jongeren",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "gentleest",
+   "d": "2026-10-27",
+   "t": "19:30",
+   "title": "Terugkeercollege: Olla (Germaanse) vogala in (hun) nesten",
+   "note": "Luc De Grauwe",
+   "url": "https://www.gentleest.be/events/olla-germaanse-vogala-in-hun-nesten-terugkeercollege-em-prof-luc-de-grauwe",
+   "k": "talk",
+   "th": "literature",
+   "place": "Blandijn, Auditorium 1",
+   "city": "Gent"
+  },
+  {
+   "v": "gentleest",
+   "d": "2026-10-27",
+   "t": "19:30",
+   "title": "UITGELEZEN",
+   "note": "Ruth Joos & guests",
+   "url": "https://www.gentleest.be/events/uitgelezen-met-ruth-joos-guests-2",
+   "k": "talk",
+   "th": "literature",
+   "place": "Viernulvier",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -2321,7 +2779,20 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "gentleest",
+   "d": "2026-10-27",
+   "t": "20:00",
+   "title": "Een kleine filosofie van grote emoties: vriendschap en melancholie",
+   "note": "Saskia Decoster, Erwin Mortier, Ignaas Devisch, Rika Ponnet",
+   "url": "https://www.gentleest.be/events/saskia-decoster-erwin-mortier-en-ignaas-devisch-gaan-in-gesprek-met-rika-ponnet-een-kleine-filosofie-van-grote-emoties",
+   "k": "talk",
+   "th": "philosophy",
+   "place": "Minardschouwburg",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -2330,7 +2801,8 @@
    "title": "Primetime",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -2339,7 +2811,8 @@
    "title": "The Invite",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -2348,7 +2821,8 @@
    "title": "Wicker",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2357,7 +2831,20 @@
    "title": "The Bibi Files",
    "note": "Filmlabo",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "ugent",
+   "d": "2026-10-27",
+   "t": "20:00",
+   "title": "Het verval van de natuur in het 17e-eeuws christendom",
+   "note": "Jana De Kockere · reeks Religie, natuur en mens (Liberas/UGent)",
+   "url": "https://www.ugent.be/nl/agenda/natuur-christendom",
+   "k": "talk",
+   "th": "religion",
+   "place": "UGent",
+   "city": "Gent"
   },
   {
    "v": "kask",
@@ -2366,7 +2853,8 @@
    "title": "Apolline + Bruges-La-Morte (1959, 1978)",
    "note": "",
    "url": "https://kaskcinema.be/film/apolline-bruges-la-morte/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2375,7 +2863,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2384,7 +2873,8 @@
    "title": "The Last One for the Road (Andiamo a bere l'ultima)",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2393,7 +2883,8 @@
    "title": "The Social Reckoning",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2402,7 +2893,20 @@
    "title": "Wicker",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "masereel",
+   "d": "2026-10-27",
+   "t": "",
+   "title": "Europa militariseert: hoe ver gaan we voor veiligheid?",
+   "note": "",
+   "url": "https://www.masereelfonds.be/activiteiten/europa-militariseert-hoe-ver-gaan-we-voor-veiligheid/",
+   "k": "talk",
+   "th": "politics",
+   "place": "",
+   "city": "Lokeren"
   },
   {
    "v": "kasklez",
@@ -2411,7 +2915,9 @@
    "title": "Jacob Kirkegaard",
    "note": "onderzoekspresentatie geluid",
    "url": "https://schoolofartsgent.be/agenda/jacob-kirkegaard",
-   "k": "talk"
+   "k": "talk",
+   "city": "Gent",
+   "th": "art"
   },
   {
    "v": "sphinx",
@@ -2420,7 +2926,8 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "broei",
@@ -2429,7 +2936,8 @@
    "title": "Hip Hop Jam // Freestyle Factor",
    "note": "",
    "url": "https://nieuwland.broei.be/agenda/event/12740/",
-   "k": "music"
+   "k": "music",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -2438,7 +2946,20 @@
    "title": "La Gradiva",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "ugent",
+   "d": "2026-10-28",
+   "t": "19:30",
+   "title": "Blijf terugkeren. Kavafis' poëzie en proza",
+   "note": "Hero Hokwerda",
+   "url": "https://www.ugent.be/nl/agenda/kavafis",
+   "k": "talk",
+   "th": "poetry",
+   "place": "UGent",
+   "city": "Gent"
   },
   {
    "v": "miry",
@@ -2447,7 +2968,8 @@
    "title": "An-Sofie Perneel & Greet Steeman, Rodrigo Evangelista",
    "note": "",
    "url": "https://schoolofartsgent.be/agenda/an-sofie-perneel-jef-kolacny-rodrigo-evangelista",
-   "k": "music"
+   "k": "music",
+   "city": "Gent"
   },
   {
    "v": "ntgent",
@@ -2456,7 +2978,20 @@
    "title": "Please, Open the Curtains",
    "note": "Ferenc Balcaen & ntgent · Minnemeers",
    "url": "https://www.ntgent.be/en/productions/please-open-the-curtains",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
+  },
+  {
+   "v": "poeziecentrum",
+   "d": "2026-10-28",
+   "t": "20:00",
+   "title": "Boekpresentatie 'Van mug tot Marx'",
+   "note": "Elvis Peeters",
+   "url": "https://www.poeziecentrum.be/agenda/boekpresentatie-van-mug-tot-marx-elvis-peeters",
+   "k": "talk",
+   "th": "poetry",
+   "place": "De Krook, zaal Vos en Haas",
+   "city": "Gent"
   },
   {
    "v": "kask",
@@ -2465,7 +3000,8 @@
    "title": "Mortu Nega (1988)",
    "note": "",
    "url": "https://kaskcinema.be/film/mortu-nega/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2474,7 +3010,20 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "masereel",
+   "d": "2026-10-28",
+   "t": "",
+   "title": "Solidariteit met Cuba tegen de blokkade",
+   "note": "",
+   "url": "https://www.masereelfonds.be/activiteiten/solidariteit-met-cuba-tegen-de-blokkade/",
+   "k": "talk",
+   "th": "politics",
+   "place": "",
+   "city": "Antwerpen"
   },
   {
    "v": "rio",
@@ -2483,7 +3032,8 @@
    "title": "Cinéconcert voor kinderen (4+)",
    "note": "ism FilemKING",
    "url": "https://dekoer.be/cine-rio/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "broei",
@@ -2492,7 +3042,9 @@
    "title": "WIDE OPEN: sociale innovatie aan tafel",
    "note": "Sociale Innovatiefabriek",
    "url": "https://nieuwland.broei.be/agenda/event/12533/",
-   "k": "talk"
+   "k": "talk",
+   "city": "Gent",
+   "th": "sociology"
   },
   {
    "v": "sphinx",
@@ -2501,7 +3053,20 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "gentleest",
+   "d": "2026-10-29",
+   "t": "19:30",
+   "title": "Boekvoorstelling 'Democraticide'",
+   "note": "",
+   "url": "https://www.gentleest.be/events/boekvoorstelling-democraticide",
+   "k": "talk",
+   "th": "politics",
+   "place": "Bibliotheek De Krook",
+   "city": "Gent"
   },
   {
    "v": "minard",
@@ -2510,7 +3075,8 @@
    "title": "Fatherload",
    "note": "David Labi / Martha!tentatief",
    "url": "https://www.ntgent.be/en/productions/fatherload-2",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
   },
   {
    "v": "miry",
@@ -2519,7 +3085,8 @@
    "title": "Hannes Minnaar",
    "note": "",
    "url": "https://schoolofartsgent.be/agenda/hannes-minnaar",
-   "k": "music"
+   "k": "music",
+   "city": "Gent"
   },
   {
    "v": "ntgent",
@@ -2528,7 +3095,8 @@
    "title": "Please, Open the Curtains",
    "note": "Ferenc Balcaen & ntgent · Minnemeers",
    "url": "https://www.ntgent.be/en/productions/please-open-the-curtains",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2537,7 +3105,8 @@
    "title": "An Inconvenient Truth (2006)",
    "note": "Groene Loper",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "kask",
@@ -2546,7 +3115,8 @@
    "title": "Damned if You Don't ✞ Dildotectónica (1987, 2023)",
    "note": "",
    "url": "https://kaskcinema.be/film/damned-if-you-dont-dildotectonica/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2555,7 +3125,56 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "masereel",
+   "d": "2026-10-29",
+   "t": "",
+   "title": "Aesopus. Op de slavenmarkt in de oudheid",
+   "note": "",
+   "url": "https://www.masereelfonds.be/activiteiten/41567/",
+   "k": "talk",
+   "th": "history",
+   "place": "",
+   "city": "Antwerpen"
+  },
+  {
+   "v": "masereel",
+   "d": "2026-10-29",
+   "t": "",
+   "title": "In Spaanse loopgraven: België en de Spaanse burgeroorlog",
+   "note": "Vincent Scheltiens",
+   "url": "https://www.masereelfonds.be/activiteiten/in-spaanse-loopgraven-belgie-en-de-spaanse-burgeroorlog-1936-1939/",
+   "k": "talk",
+   "th": "history",
+   "place": "",
+   "city": "Edegem"
+  },
+  {
+   "v": "masereel",
+   "d": "2026-10-29",
+   "t": "",
+   "title": "Kunst en democratie",
+   "note": "",
+   "url": "https://www.masereelfonds.be/activiteiten/kunst-en-democratie-2/",
+   "k": "talk",
+   "th": "politics",
+   "place": "",
+   "city": "Sint-Niklaas"
+  },
+  {
+   "v": "masereel",
+   "d": "2026-10-29",
+   "t": "",
+   "title": "Niemand wordt als moordenaar geboren",
+   "note": "Gust Verwerft",
+   "url": "https://www.masereelfonds.be/activiteiten/niemand-wordt-als-moordenaar-geboren-gust-verwerft/",
+   "k": "talk",
+   "th": "sociology",
+   "place": "",
+   "city": "Oostende"
   },
   {
    "v": "rio",
@@ -2564,7 +3183,8 @@
    "title": "Near Dark (Kathryn Bigelow, 1987)",
    "note": "ism Kuru",
    "url": "https://dekoer.be/cine-rio/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "broei",
@@ -2573,7 +3193,8 @@
    "title": "BYE BYE PARTY",
    "note": "slotweekend Broei Nieuwland",
    "url": "https://nieuwland.broei.be/agenda/event/12741/",
-   "k": "music"
+   "k": "music",
+   "city": "Gent"
   },
   {
    "v": "box",
@@ -2582,7 +3203,8 @@
    "title": "Tramlijn Begeerte",
    "note": "BRT",
    "url": "https://theaterbox.be/kalender.html",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
   },
   {
    "v": "miry",
@@ -2591,7 +3213,8 @@
    "title": "Koperensemble conservatoria Gent, Brussel, Antwerpen",
    "note": "",
    "url": "https://schoolofartsgent.be/agenda/koperensemble-conservatoria-gent-brussel-antwerpen",
-   "k": "music"
+   "k": "music",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2600,7 +3223,8 @@
    "title": "Un anno di scuola",
    "note": "Italiaans Cineforum",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "kask",
@@ -2609,7 +3233,8 @@
    "title": "Night of the Horror: Bad Trip",
    "note": "Night of the Horror",
    "url": "https://kaskcinema.be/film/night-of-the-horror-bad-trip/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "kopergietery",
@@ -2618,7 +3243,20 @@
    "title": "DONKEYSHOT GANGSTERSHIT",
    "note": "KOPERGIETERY & KGbe · Arsenaalsite · loopt tot 13/11",
    "url": "https://kopergietery.be/programma/donkey-shot-gangstershit",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
+  },
+  {
+   "v": "masereel",
+   "d": "2026-10-30",
+   "t": "",
+   "title": "Après nous les mouches!",
+   "note": "",
+   "url": "https://www.masereelfonds.be/activiteiten/apres-nous-les-mouches/",
+   "k": "talk",
+   "th": "history",
+   "place": "",
+   "city": "Sint-Niklaas"
   },
   {
    "v": "sphinx",
@@ -2627,7 +3265,8 @@
    "title": "Mumbo",
    "note": "De kijkdoos / FilemKING",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -2636,7 +3275,8 @@
    "title": "Shaun Het Schaap: Het Beest op de Boerderij",
    "note": "familiefilm",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "box",
@@ -2645,7 +3285,20 @@
    "title": "Tramlijn Begeerte",
    "note": "BRT",
    "url": "https://theaterbox.be/kalender.html",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
+  },
+  {
+   "v": "poeziecentrum",
+   "d": "2026-10-31",
+   "t": "",
+   "title": "Boekpresentatie 'Carnaval'",
+   "note": "Maarten Goethals",
+   "url": "https://www.poeziecentrum.be/agenda/boekpresentatie-carnaval-maarten-goethals",
+   "k": "talk",
+   "th": "poetry",
+   "place": "Concertgebouw Brugge",
+   "city": "Brugge"
   },
   {
    "v": "broei",
@@ -2654,7 +3307,8 @@
    "title": "Jam sessies tijdens diMANGE",
    "note": "Nachtstroom",
    "url": "https://nieuwland.broei.be/agenda/event/12514/2026/11/01",
-   "k": "music"
+   "k": "music",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -2663,7 +3317,8 @@
    "title": "Minotaur",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -2672,7 +3327,8 @@
    "title": "The Six",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -2681,7 +3337,8 @@
    "title": "Wild Horse Nine",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2690,7 +3347,8 @@
    "title": "Vleugels en voelsprieten",
    "note": "FilemKING",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2699,7 +3357,8 @@
    "title": "The Newcomers",
    "note": "FilemKING",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2708,7 +3367,8 @@
    "title": "Manon",
    "note": "Opera & Ballet: on Screen",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2717,7 +3377,8 @@
    "title": "De komst van Joachim Stiller (1976)",
    "note": "De filmkeuze van Bendt Eyckermans",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2726,7 +3387,8 @@
    "title": "Children of Liberty",
    "note": "FilemKING",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2735,7 +3397,8 @@
    "title": "Kinderen van de Zilverstraat: komen in actie!",
    "note": "FilemKING",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2744,7 +3407,8 @@
    "title": "Vleugels en voelsprieten",
    "note": "FilemKING",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2753,7 +3417,8 @@
    "title": "Maira: Whisper From Papua",
    "note": "FilemKING",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "kask",
@@ -2762,7 +3427,8 @@
    "title": "Ich glaub' nie mehr an eine Frau (1929)",
    "note": "",
    "url": "https://schoolofartsgent.be/agenda/ich-glaub-nie-mehr-an-eine-frau",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2771,7 +3437,8 @@
    "title": "Just Call Me Frida",
    "note": "FilemKING",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2780,7 +3447,8 @@
    "title": "Papaya",
    "note": "FilemKING",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2789,7 +3457,8 @@
    "title": "Horse on a Stick",
    "note": "FilemKING",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "miry",
@@ -2798,7 +3467,8 @@
    "title": "Yasuaki Shimizu, Catharina Evens, GAME",
    "note": "",
    "url": "https://schoolofartsgent.be/agenda/yasuaki-shimizu-catharina-evens-game",
-   "k": "music"
+   "k": "music",
+   "city": "Gent"
   },
   {
    "v": "kask",
@@ -2807,7 +3477,20 @@
    "title": "Kinoclub #53: Erik of het klein insectenboek (2004)",
    "note": "Kinoclub",
    "url": "https://kaskcinema.be/film/kinoclub-53-erik-of-het-klein-insectenboek/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "ekonomika",
+   "d": "2026-11-04",
+   "t": "",
+   "title": "Geopolitics and technology: Europe's open strategic autonomy as an answer?",
+   "note": "Ekonomika, mogelijk enkel leden",
+   "url": "https://app.ekonomika-alumni.be/app/events/november-2026/the-challenge-of-geopolitics-and-technology-europe-s-open-strategic-autonomy-as-an-answer-",
+   "k": "talk",
+   "th": "economics",
+   "place": "KU Leuven Campus Brussels",
+   "city": "Brussel"
   },
   {
    "v": "kopergietery",
@@ -2816,7 +3499,20 @@
    "title": "CinéRABOT: Verhalen uit de magische tuin",
    "note": "KG Rabot · 6+",
    "url": "https://kopergietery.be/programma/cinérabot-verhalen-uit-de-magische-tuin",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "poeziecentrum",
+   "d": "2026-11-04",
+   "t": "",
+   "title": "De Seizoenen (première)",
+   "note": "Poëziecentrum",
+   "url": "https://www.poeziecentrum.be/agenda/de-seizoenen-premiere-0",
+   "k": "talk",
+   "th": "poetry",
+   "place": "Arenberg, zaal De Grote",
+   "city": "Antwerpen"
   },
   {
    "v": "sphinx",
@@ -2825,7 +3521,8 @@
    "title": "Heroes of the Galaxy",
    "note": "FilemKING",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2834,7 +3531,8 @@
    "title": "Flitsende fantasie",
    "note": "FilemKING",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2843,7 +3541,32 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "gentleest",
+   "d": "2026-11-05",
+   "t": "19:00",
+   "title": "Boekvoorstelling 'Ewaja'",
+   "note": "Hannah Zaouad",
+   "url": "https://www.gentleest.be/events/boekvoorstelling-ewaja-van-hannah-zaouad",
+   "k": "talk",
+   "th": "literature",
+   "place": "Boekhandel rokko",
+   "city": "Gent"
+  },
+  {
+   "v": "gentleest",
+   "d": "2026-11-05",
+   "t": "19:00",
+   "title": "Ontmoetingen met Franse schrijvers",
+   "note": "",
+   "url": "https://www.gentleest.be/events/ontmoetingen-met-franse-schrijvers-rencontres-avec-des-auteurs-français-2",
+   "k": "talk",
+   "th": "literature",
+   "place": "Auditorium 61",
+   "city": "Gent"
   },
   {
    "v": "box",
@@ -2852,7 +3575,8 @@
    "title": "Improcessie Halloweenshow",
    "note": "Improcessie",
    "url": "https://theaterbox.be/kalender.html",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2861,7 +3585,8 @@
    "title": "Earth's Greatest Enemy",
    "note": "Senioren Filmdagen / Groene Loper",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "kask",
@@ -2870,7 +3595,8 @@
    "title": "The Moment (2026)",
    "note": "",
    "url": "https://kaskcinema.be/film/the-moment/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "kopergietery",
@@ -2879,7 +3605,8 @@
    "title": "CinéRABOT: DJ Ahmet",
    "note": "KG Rabot · 12+",
    "url": "https://kopergietery.be/programma/cinérabot-dj-ahmet",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "rio",
@@ -2888,7 +3615,8 @@
    "title": "Fat City (John Huston, 1972)",
    "note": "",
    "url": "https://dekoer.be/cine-rio/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "rio",
@@ -2897,7 +3625,8 @@
    "title": "For Mouna (Spencer Bogaert, 2023)",
    "note": "kortfilm",
    "url": "https://dekoer.be/cine-rio/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2906,7 +3635,8 @@
    "title": "Mon ami, Barry",
    "note": "FilemKING",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2915,7 +3645,20 @@
    "title": "Petite Casbah",
    "note": "FilemKING",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "begeerte",
+   "d": "2026-11-06",
+   "t": "20:00",
+   "title": "ReinAard – de solo",
+   "note": "Tom Lanoye",
+   "url": "https://www.snik.sint-niklaas.be/agenda/reinaard-de-solo-n6yf",
+   "k": "talk",
+   "th": "poetry",
+   "place": "Stadsschouwburg",
+   "city": "Sint-Niklaas"
   },
   {
    "v": "box",
@@ -2924,7 +3667,8 @@
    "title": "Tramlijn Begeerte",
    "note": "BRT",
    "url": "https://theaterbox.be/kalender.html",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
   },
   {
    "v": "miry",
@@ -2933,7 +3677,8 @@
    "title": "Symfonieorkest KASK & Conservatorium",
    "note": "",
    "url": "https://schoolofartsgent.be/agenda/symfonieorkest-kask-conservatorium-3",
-   "k": "music"
+   "k": "music",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2942,7 +3687,44 @@
    "title": "Erupcja",
    "note": "Speciale vertoningen",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "poeziecentrum",
+   "d": "2026-11-06",
+   "t": "",
+   "title": "Boekpresentatie 'Vertrekken'",
+   "note": "Anne Marijn Voorhorst",
+   "url": "https://www.poeziecentrum.be/agenda/boekpresentatie-vertrekken-anne-marijn-voorhorst",
+   "k": "talk",
+   "th": "poetry",
+   "place": "Kunsthal Gent",
+   "city": "Gent"
+  },
+  {
+   "v": "poeziecentrum",
+   "d": "2026-11-06",
+   "t": "",
+   "title": "De Seizoenen",
+   "note": "Poëziecentrum",
+   "url": "https://www.poeziecentrum.be/agenda/de-seizoenen-1",
+   "k": "talk",
+   "th": "poetry",
+   "place": "CC CasinoKoksijde",
+   "city": "Koksijde"
+  },
+  {
+   "v": "begeerte",
+   "d": "2026-11-07",
+   "t": "20:00",
+   "title": "ReinAard – de solo",
+   "note": "Tom Lanoye",
+   "url": "http://www.ccsint-niklaas.be/podium/8704/tom-lanoye-solo-ten-oorlog",
+   "k": "talk",
+   "th": "poetry",
+   "place": "Stadsschouwburg",
+   "city": "Sint-Niklaas"
   },
   {
    "v": "box",
@@ -2951,7 +3733,8 @@
    "title": "Tramlijn Begeerte",
    "note": "BRT",
    "url": "https://theaterbox.be/kalender.html",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2960,7 +3743,8 @@
    "title": "Iron Boy NV",
    "note": "Film voor kinderen en jongeren",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2969,7 +3753,8 @@
    "title": "Wild Horse Nine",
    "note": "Ontbijtfilm",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -2978,7 +3763,8 @@
    "title": "Club Kid",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "box",
@@ -2987,7 +3773,8 @@
    "title": "Tramlijn Begeerte",
    "note": "BRT",
    "url": "https://theaterbox.be/kalender.html",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -2996,7 +3783,8 @@
    "title": "Minotaur",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "rio",
@@ -3005,7 +3793,8 @@
    "title": "De Ijzeren Reus (6+, Brad Bird, 1999)",
    "note": "",
    "url": "https://dekoer.be/cine-rio/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "rio",
@@ -3014,7 +3803,8 @@
    "title": "INMATE SESSIONS LIVE! + Gesprek over cinema in de Gentse gevangenis",
    "note": "ism Lucinda Ra, kleinVerhaal en De Rode Antraciet",
    "url": "https://dekoer.be/cine-rio/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "offoff",
@@ -3023,7 +3813,8 @@
    "title": "Andy Warhol's Bad [VHS]",
    "note": "",
    "url": "https://offoff.be/en/program/andy-warhol-bad",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "kask",
@@ -3032,7 +3823,20 @@
    "title": "dodeNberg (2025)",
    "note": "",
    "url": "https://kaskcinema.be/film/dodenberg/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "gentleest",
+   "d": "2026-11-10",
+   "t": "19:00",
+   "title": "Filosofieleesgroep Gramsci: Notities uit de gevangenis",
+   "note": "",
+   "url": "https://www.gentleest.be/events/filosofieleesgroep-gramsci-notities-uit-de-gevangenis",
+   "k": "talk",
+   "th": "philosophy",
+   "place": "Bibliotheek De Krook",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -3041,7 +3845,20 @@
    "title": "An American Werewolf in London",
    "note": "special; Kuru Cult Night",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "ugent",
+   "d": "2026-11-10",
+   "t": "20:00",
+   "title": "Klimaatactivisme als ritueel?",
+   "note": "Seppe Ponnet · reeks Religie, natuur en mens",
+   "url": "https://www.ugent.be/nl/agenda/klimaatactivisme",
+   "k": "talk",
+   "th": "sociology",
+   "place": "UGent",
+   "city": "Gent"
   },
   {
    "v": "kask",
@@ -3050,7 +3867,8 @@
    "title": "A Sunday in Hell (1976)",
    "note": "",
    "url": "https://kaskcinema.be/film/a-sunday-in-hell/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -3059,7 +3877,44 @@
    "title": "Club Kid",
    "note": "Avant-première",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "gentleest",
+   "d": "2026-11-10",
+   "t": "",
+   "title": "Namennacht",
+   "note": "",
+   "url": "https://www.gentleest.be/events/namennacht",
+   "k": "talk",
+   "th": "poetry",
+   "place": "De Centrale",
+   "city": "Gent"
+  },
+  {
+   "v": "masereel",
+   "d": "2026-11-10",
+   "t": "",
+   "title": "Marx 4 Millennials #2: Marx' 18e Brumaire",
+   "note": "Anton Jäger",
+   "url": "https://www.masereelfonds.be/activiteiten/41818-copy/",
+   "k": "talk",
+   "th": "philosophy",
+   "place": "",
+   "city": "Brugge"
+  },
+  {
+   "v": "masereel",
+   "d": "2026-11-10",
+   "t": "",
+   "title": "Tussen de Soep en de Feiten: wie rouwt om zij die sterven op straat?",
+   "note": "",
+   "url": "https://www.masereelfonds.be/activiteiten/tussen-de-soep-en-de-feiten-wie-rouwt-om-zij-die-sterven-op-straat/",
+   "k": "talk",
+   "th": "sociology",
+   "place": "",
+   "city": "Brussel"
   },
   {
    "v": "miry",
@@ -3068,7 +3923,8 @@
    "title": "Belgian Music Days",
    "note": "",
    "url": "https://schoolofartsgent.be/agenda/belgian-music-days",
-   "k": "music"
+   "k": "music",
+   "city": "Gent"
   },
   {
    "v": "miry",
@@ -3077,7 +3933,8 @@
    "title": "GAME, studenten klassieke muziek",
    "note": "",
    "url": "https://schoolofartsgent.be/agenda/game-studenten-klassieke-muziek",
-   "k": "music"
+   "k": "music",
+   "city": "Gent"
   },
   {
    "v": "kask",
@@ -3086,7 +3943,20 @@
    "title": "Die Bergkatze (1921)",
    "note": "",
    "url": "https://kaskcinema.be/film/die-bergkatze/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "gentleest",
+   "d": "2026-11-12",
+   "t": "12:15",
+   "title": "Paarse Zetel",
+   "note": "Mira Feticu",
+   "url": "https://www.gentleest.be/events/paarse-zetel-in-de-krook-mira-feticu",
+   "k": "talk",
+   "th": "literature",
+   "place": "Bibliotheek De Krook",
+   "city": "Gent"
   },
   {
    "v": "kasklez",
@@ -3095,7 +3965,9 @@
    "title": "Laure Prouvost",
    "note": "KASKlezingen",
    "url": "https://schoolofartsgent.be/agenda/laure-prouvost",
-   "k": "talk"
+   "k": "talk",
+   "city": "Gent",
+   "th": "art"
   },
   {
    "v": "box",
@@ -3104,7 +3976,8 @@
    "title": "Tramlijn Begeerte",
    "note": "BRT",
    "url": "https://theaterbox.be/kalender.html",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
   },
   {
    "v": "miry",
@@ -3113,7 +3986,8 @@
    "title": "Clarinet choir KASK & Conservatorium",
    "note": "",
    "url": "https://schoolofartsgent.be/agenda/clarinet-choir-kask-conservatorium",
-   "k": "music"
+   "k": "music",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -3122,7 +3996,8 @@
    "title": "Beat the Heat",
    "note": "Groene Loper",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "kask",
@@ -3131,7 +4006,68 @@
    "title": "Willow and Wind (1999)",
    "note": "",
    "url": "https://kaskcinema.be/film/willow-and-wind/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "ekonomika",
+   "d": "2026-11-12",
+   "t": "",
+   "title": "De competitiviteit van de Belgische en Europese economie",
+   "note": "Ekonomika, mogelijk enkel leden",
+   "url": "https://app.ekonomika-alumni.be/app/events/november-2026/competitiviteit-van-de-belgische-en-europese-economie",
+   "k": "talk",
+   "th": "economics",
+   "place": "",
+   "city": ""
+  },
+  {
+   "v": "liberas",
+   "d": "2026-11-12",
+   "t": "",
+   "title": "De koloniale geschiedenis van het Portugees",
+   "note": "em. prof. Eugeen Roegiest",
+   "url": "https://www.liberas.eu/nl/actueel/agenda/de-koloniale-geschiedenis-van-het-portugees-em-prof-dr-eugeen-roegiest",
+   "k": "talk",
+   "th": "history",
+   "place": "",
+   "city": ""
+  },
+  {
+   "v": "masereel",
+   "d": "2026-11-12",
+   "t": "",
+   "title": "De schitterende toekomst van Hemelings en zoon",
+   "note": "Erik Martens",
+   "url": "https://www.masereelfonds.be/activiteiten/de-schitterende-toekomst-van-hemelings-en-zoon-met-auteur-erik-martens/",
+   "k": "talk",
+   "th": "history",
+   "place": "",
+   "city": "Sint-Niklaas"
+  },
+  {
+   "v": "masereel",
+   "d": "2026-11-12",
+   "t": "",
+   "title": "Donders Denkende Dames: Marlene Dietrich",
+   "note": "",
+   "url": "https://www.masereelfonds.be/activiteiten/donders-denkende-dames-marlene-dietrich/",
+   "k": "talk",
+   "th": "history",
+   "place": "",
+   "city": "Brussel"
+  },
+  {
+   "v": "masereel",
+   "d": "2026-11-12",
+   "t": "",
+   "title": "Fidel Castro. Voorbij de legende",
+   "note": "",
+   "url": "https://www.masereelfonds.be/activiteiten/fidel-castro-voorbij-de-legende/",
+   "k": "talk",
+   "th": "politics",
+   "place": "",
+   "city": "Mortsel"
   },
   {
    "v": "sphinx",
@@ -3140,7 +4076,8 @@
    "title": "Urchin",
    "note": "Speciale vertoningen",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "box",
@@ -3149,7 +4086,20 @@
    "title": "Tramlijn Begeerte",
    "note": "BRT",
    "url": "https://theaterbox.be/kalender.html",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
+  },
+  {
+   "v": "ugent",
+   "d": "2026-11-13",
+   "t": "20:00",
+   "title": "Surviving Putin and Trump: on the future of democracy",
+   "note": "Masha Gessen",
+   "url": "https://www.ugent.be/nl/agenda/masha-gessen",
+   "k": "talk",
+   "th": "politics",
+   "place": "UGent",
+   "city": "Gent"
   },
   {
    "v": "rio",
@@ -3158,7 +4108,8 @@
    "title": "Cocktail (Roger Donaldson, 1988)",
    "note": "films & cocktails",
    "url": "https://dekoer.be/cine-rio/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "rio",
@@ -3167,7 +4118,8 @@
    "title": "Coyote Ugly (David McNally, 2000)",
    "note": "films & cocktails",
    "url": "https://dekoer.be/cine-rio/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "box",
@@ -3176,7 +4128,8 @@
    "title": "Tramlijn Begeerte",
    "note": "BRT",
    "url": "https://theaterbox.be/kalender.html",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
   },
   {
    "v": "box",
@@ -3185,7 +4138,8 @@
    "title": "Tramlijn Begeerte",
    "note": "BRT",
    "url": "https://theaterbox.be/kalender.html",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
   },
   {
    "v": "kopergietery",
@@ -3194,7 +4148,8 @@
    "title": "Tout|Rien",
    "note": "Compagnie Modo Grosso · KG Rabot · 7+",
    "url": "https://kopergietery.be/programma/tout-rien",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
   },
   {
    "v": "miry",
@@ -3203,7 +4158,20 @@
    "title": "Juliet Fraser, Hannah Weirich",
    "note": "",
    "url": "https://schoolofartsgent.be/agenda/juliet-fraser-hannah-weirich",
-   "k": "music"
+   "k": "music",
+   "city": "Gent"
+  },
+  {
+   "v": "liberas",
+   "d": "2026-11-16",
+   "t": "",
+   "title": "Achtste Karel Poma-lezing",
+   "note": "",
+   "url": "https://www.liberas.eu/nl/actueel/agenda/achtste-karel-poma-lezing",
+   "k": "talk",
+   "th": "politics",
+   "place": "",
+   "city": ""
   },
   {
    "v": "sphinx",
@@ -3212,7 +4180,20 @@
    "title": "A Family",
    "note": "Generations",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "ugent",
+   "d": "2026-11-17",
+   "t": "16:00",
+   "title": "How and Why Israel Camouflaged Genocide in Gaza",
+   "note": "",
+   "url": "https://www.ugent.be/nl/agenda/camouflaged-genocide",
+   "k": "talk",
+   "th": "politics",
+   "place": "UGent",
+   "city": "Gent"
   },
   {
    "v": "kasklez",
@@ -3221,7 +4202,21 @@
    "title": "Yasmine Ostendorf-Rodríguez",
    "note": "KASK",
    "url": "https://schoolofartsgent.be/agenda/yasmine-ostendorf-rodríguez",
-   "k": "talk"
+   "k": "talk",
+   "city": "Gent",
+   "th": "art"
+  },
+  {
+   "v": "gentleest",
+   "d": "2026-11-17",
+   "t": "19:30",
+   "title": "UITGELEZEN",
+   "note": "Ruth Joos & guests",
+   "url": "https://www.gentleest.be/events/uitgelezen-met-ruth-joos-guests-3",
+   "k": "talk",
+   "th": "literature",
+   "place": "Viernulvier",
+   "city": "Gent"
   },
   {
    "v": "kasklez",
@@ -3230,7 +4225,22 @@
    "title": "Paola Verhaert",
    "note": "Studium Generale",
    "url": "https://schoolofartsgent.be/agenda/paola-verhaert",
-   "k": "talk"
+   "k": "talk",
+   "city": "Gent",
+   "th": "politics",
+   "place": "MIRY Concertzaal"
+  },
+  {
+   "v": "ugent",
+   "d": "2026-11-17",
+   "t": "20:00",
+   "title": "Klimaatrituelen: herdenken in tijden van ecologische crisis",
+   "note": "Stef Craps · reeks Religie, natuur en mens",
+   "url": "https://www.ugent.be/nl/agenda/klimaatrituelen",
+   "k": "talk",
+   "th": "sociology",
+   "place": "UGent",
+   "city": "Gent"
   },
   {
    "v": "kask",
@@ -3239,7 +4249,8 @@
    "title": "Point Break (1991)",
    "note": "",
    "url": "https://kaskcinema.be/film/point-break/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "kopergietery",
@@ -3248,7 +4259,9 @@
    "title": "Update 2026: Trends in tech en AI",
    "note": "Appstublieft/Kristof D'Hanens · KG Rabot",
    "url": "https://kopergietery.be/programma/update-2026-trends-in-tech-en-ai",
-   "k": "talk"
+   "k": "talk",
+   "city": "Gent",
+   "th": "science"
   },
   {
    "v": "sphinx",
@@ -3257,7 +4270,8 @@
    "title": "Donnie Darko (2001)",
    "note": "Classics",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -3266,7 +4280,8 @@
    "title": "Donnie Darko (2001)",
    "note": "4k restauratie",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "kask",
@@ -3275,7 +4290,32 @@
    "title": "Les Recommencements (2025)",
    "note": "",
    "url": "https://kaskcinema.be/film/les-recommencements/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "ekonomika",
+   "d": "2026-11-18",
+   "t": "",
+   "title": "Bankiers van God en Keizer",
+   "note": "Peter Anthonissen, Rik Van Cauwelaert · Ekonomika, mogelijk enkel leden",
+   "url": "https://app.ekonomika-alumni.be/app/events/november-2026/een-blik-in-de-geschiedenis-bankiers-van-god-en-keizer",
+   "k": "talk",
+   "th": "economics",
+   "place": "",
+   "city": ""
+  },
+  {
+   "v": "ugent",
+   "d": "2026-11-19",
+   "t": "16:00",
+   "title": "What is South Kerala Islam? Archives, Actors and Histories",
+   "note": "",
+   "url": "https://www.ugent.be/nl/agenda/south-kerala-islam",
+   "k": "talk",
+   "th": "religion",
+   "place": "UGent",
+   "city": "Gent"
   },
   {
    "v": "kasklez",
@@ -3284,7 +4324,21 @@
    "title": "Minne Kersten",
    "note": "KASKlezingen",
    "url": "https://schoolofartsgent.be/agenda/minne-kersten",
-   "k": "talk"
+   "k": "talk",
+   "city": "Gent",
+   "th": "art"
+  },
+  {
+   "v": "gentleest",
+   "d": "2026-11-19",
+   "t": "19:30",
+   "title": "Quotes: Komt er oorlog?",
+   "note": "Michelle Haas",
+   "url": "https://www.gentleest.be/events/quotes-michelle-haas-komt-er-oorlog",
+   "k": "talk",
+   "th": "politics",
+   "place": "Bibliotheek De Krook",
+   "city": "Gent"
   },
   {
    "v": "box",
@@ -3293,7 +4347,8 @@
    "title": "Tramlijn Begeerte",
    "note": "BRT",
    "url": "https://theaterbox.be/kalender.html",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -3302,7 +4357,8 @@
    "title": "Freeride Filmfestival",
    "note": "special; cinema edition",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -3311,7 +4367,8 @@
    "title": "Res Nullius",
    "note": "Groene Loper",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "kask",
@@ -3320,7 +4377,8 @@
    "title": "Desire Lines",
    "note": "",
    "url": "https://kaskcinema.be/film/desire-lines/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -3329,7 +4387,8 @@
    "title": "Donnie Darko (2001)",
    "note": "Classics",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -3338,7 +4397,8 @@
    "title": "Donnie Darko (2001)",
    "note": "4k restauratie",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "kopergietery",
@@ -3347,7 +4407,80 @@
    "title": "Schemerland",
    "note": "KOPERGIETERY & Pleegzorg Oost-Vlaanderen · KG Rabot · 10+",
    "url": "https://kopergietery.be/programma/schemerland",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
+  },
+  {
+   "v": "liberas",
+   "d": "2026-11-19",
+   "t": "",
+   "title": "De koloniale geschiedenis van het Frans",
+   "note": "prof. Jan Goes",
+   "url": "https://www.liberas.eu/nl/actueel/agenda/de-koloniale-geschiedenis-van-het-frans-prof-dr-jan-goes",
+   "k": "talk",
+   "th": "history",
+   "place": "",
+   "city": ""
+  },
+  {
+   "v": "masereel",
+   "d": "2026-11-19",
+   "t": "",
+   "title": "In Spaanse loopgraven",
+   "note": "Vincent Scheltiens Ortigosa",
+   "url": "https://www.masereelfonds.be/activiteiten/in-spaanse-loopgraven-door-vincent-scheltiens-ortigosa/",
+   "k": "talk",
+   "th": "history",
+   "place": "",
+   "city": "Oostende"
+  },
+  {
+   "v": "masereel",
+   "d": "2026-11-19",
+   "t": "",
+   "title": "Kennisrijk curriculum. Noodzakelijk? Voldoende?",
+   "note": "",
+   "url": "https://www.masereelfonds.be/activiteiten/kennisrijk-curriculum-noodzakelijk-voldoende/",
+   "k": "talk",
+   "th": "sociology",
+   "place": "",
+   "city": "Antwerpen"
+  },
+  {
+   "v": "masereel",
+   "d": "2026-11-19",
+   "t": "",
+   "title": "Lek. Hoe plastiek ons ziek maakt",
+   "note": "",
+   "url": "https://www.masereelfonds.be/activiteiten/lek-hoe-plastiek-ons-ziek-maakt/",
+   "k": "talk",
+   "th": "sociology",
+   "place": "",
+   "city": "Brugge"
+  },
+  {
+   "v": "masereel",
+   "d": "2026-11-19",
+   "t": "",
+   "title": "Marx 4 Millennials: naar een linkse meerderheid? Wat Gramsci ons kan leren",
+   "note": "Eric Corijn",
+   "url": "https://www.masereelfonds.be/activiteiten/m4m-naar-een-linkse-meerderheid-wat-gramsci-ons-kan-leren-lezing-eric-corijn/",
+   "k": "talk",
+   "th": "politics",
+   "place": "",
+   "city": "Gent"
+  },
+  {
+   "v": "masereel",
+   "d": "2026-11-19",
+   "t": "",
+   "title": "Oorlog en verzet in Edegem en omgeving",
+   "note": "",
+   "url": "https://www.masereelfonds.be/activiteiten/oorlog-en-verzet-tijdens-woii-in-edegem-en-omgeving/",
+   "k": "talk",
+   "th": "history",
+   "place": "",
+   "city": "Edegem"
   },
   {
    "v": "sphinx",
@@ -3356,7 +4489,8 @@
    "title": "A Family",
    "note": "Generations",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "box",
@@ -3365,7 +4499,20 @@
    "title": "Tramlijn Begeerte",
    "note": "BRT",
    "url": "https://theaterbox.be/kalender.html",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
+  },
+  {
+   "v": "poeziecentrum",
+   "d": "2026-11-20",
+   "t": "20:00",
+   "title": "Boekpresentatie 'kom,'",
+   "note": "zaki",
+   "url": "https://www.poeziecentrum.be/agenda/boekpresentatie-kom-zaki",
+   "k": "talk",
+   "th": "poetry",
+   "place": "CAMPO nieuwpoort",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -3374,7 +4521,8 @@
    "title": "Wanda (1970)",
    "note": "One-day Wonder",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -3383,7 +4531,32 @@
    "title": "Donnie Darko (2001)",
    "note": "4k restauratie",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "masereel",
+   "d": "2026-11-20",
+   "t": "",
+   "title": "Van Fort Napoleon tot de Himalaya",
+   "note": "",
+   "url": "https://www.masereelfonds.be/activiteiten/van-fort-napoleon-tot-de-himalayas/",
+   "k": "talk",
+   "th": "history",
+   "place": "",
+   "city": "Oostende"
+  },
+  {
+   "v": "gentleest",
+   "d": "2026-11-21",
+   "t": "10:15",
+   "title": "Poëzieleesgroep",
+   "note": "",
+   "url": "https://www.gentleest.be/events/poëzieleesgroep-4",
+   "k": "talk",
+   "th": "poetry",
+   "place": "Bibliotheek De Krook",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -3392,7 +4565,8 @@
    "title": "Touki Bouki (1973)",
    "note": "One-day Wonder",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -3401,7 +4575,8 @@
    "title": "Donnie Darko (2001)",
    "note": "Classics",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "box",
@@ -3410,7 +4585,8 @@
    "title": "Tramlijn Begeerte",
    "note": "BRT",
    "url": "https://theaterbox.be/kalender.html",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
   },
   {
    "v": "miry",
@@ -3419,7 +4595,8 @@
    "title": "Stef Van Vynckt",
    "note": "",
    "url": "https://schoolofartsgent.be/agenda/stef-van-vynckt",
-   "k": "music"
+   "k": "music",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -3428,7 +4605,8 @@
    "title": "The Night of the Hunter (1955)",
    "note": "One-day Wonder",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -3437,7 +4615,8 @@
    "title": "Donnie Darko (2001)",
    "note": "4k restauratie",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "kask",
@@ -3446,7 +4625,8 @@
    "title": "Kinokwartet: Vampire Empire",
    "note": "Kinokwartet",
    "url": "https://kaskcinema.be/film/kinokwartet-vampire-empire/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -3455,7 +4635,8 @@
    "title": "Phase IV (1974)",
    "note": "One-day Wonder",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -3464,7 +4645,8 @@
    "title": "One-Eyed Jacks (1961)",
    "note": "One-day Wonder",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -3473,7 +4655,8 @@
    "title": "Donnie Darko (2001)",
    "note": "4k restauratie",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -3482,7 +4665,8 @@
    "title": "Donnie Darko (2001)",
    "note": "Classics",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -3491,7 +4675,8 @@
    "title": "Donnie Darko (2001)",
    "note": "4k restauratie",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -3500,7 +4685,8 @@
    "title": "Malpertuis (1973)",
    "note": "De filmkeuze van Bendt Eyckermans",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "skoop",
@@ -3509,7 +4695,20 @@
    "title": "Donnie Darko (2001)",
    "note": "4k restauratie",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "ugent",
+   "d": "2026-11-24",
+   "t": "20:00",
+   "title": "Onderweg naar China: dieren in boeddhistische kloosters",
+   "note": "Ann Heirman · reeks Religie, natuur en mens",
+   "url": "https://www.ugent.be/nl/agenda/kloosters",
+   "k": "talk",
+   "th": "religion",
+   "place": "UGent",
+   "city": "Gent"
   },
   {
    "v": "kask",
@@ -3518,7 +4717,20 @@
    "title": "Driepunter aan basketbalfilms",
    "note": "",
    "url": "https://kaskcinema.be/film/driepunter-aan-basketbalfilms/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "masereel",
+   "d": "2026-11-24",
+   "t": "",
+   "title": "Trump en de verloren Amerikaanse droom",
+   "note": "",
+   "url": "https://www.masereelfonds.be/activiteiten/trump-en-de-verloren-amerikaanse-droom/",
+   "k": "talk",
+   "th": "politics",
+   "place": "",
+   "city": "Lokeren"
   },
   {
    "v": "miry",
@@ -3527,7 +4739,8 @@
    "title": "Natalie Lewis, Brian Zeger",
    "note": "",
    "url": "https://schoolofartsgent.be/agenda/natalie-lewis-brian-zeger",
-   "k": "music"
+   "k": "music",
+   "city": "Gent"
   },
   {
    "v": "kask",
@@ -3536,7 +4749,20 @@
    "title": "Jay and Silent Rob Strike Back (2001)",
    "note": "",
    "url": "https://kaskcinema.be/film/jay-and-silent-rob-strike-back/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "ugent",
+   "d": "2026-11-26",
+   "t": "16:00",
+   "title": "Waqf Economy and Power Networks in Fifteenth-Century Cairo",
+   "note": "",
+   "url": "https://www.ugent.be/nl/agenda/waqf-economy",
+   "k": "talk",
+   "th": "economics",
+   "place": "UGent",
+   "city": "Gent"
   },
   {
    "v": "kask",
@@ -3545,7 +4771,56 @@
    "title": "National Anthem (2023)",
    "note": "",
    "url": "https://kaskcinema.be/film/national-anthem/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "masereel",
+   "d": "2026-11-26",
+   "t": "",
+   "title": "Calvinistisch Gent: sporen van een vergeten republiek",
+   "note": "",
+   "url": "https://www.masereelfonds.be/activiteiten/calvinistisch-gent-sporen-van-een-vergeten-republiek-stroppen-strijders/",
+   "k": "talk",
+   "th": "history",
+   "place": "",
+   "city": "Gent"
+  },
+  {
+   "v": "masereel",
+   "d": "2026-11-26",
+   "t": "",
+   "title": "Jongeren en sociale media: verbonden of verstrikt?",
+   "note": "",
+   "url": "https://www.masereelfonds.be/activiteiten/jongeren-en-sociale-media-verbonden-of-verstrikt/",
+   "k": "talk",
+   "th": "psychology",
+   "place": "",
+   "city": "Antwerpen"
+  },
+  {
+   "v": "masereel",
+   "d": "2026-11-26",
+   "t": "",
+   "title": "Louise Michel en de Commune van Parijs",
+   "note": "",
+   "url": "https://www.masereelfonds.be/activiteiten/louise-michel-en-de-commune-van-parijs/",
+   "k": "talk",
+   "th": "history",
+   "place": "",
+   "city": "Sint-Niklaas"
+  },
+  {
+   "v": "masereel",
+   "d": "2026-11-26",
+   "t": "",
+   "title": "Voorbij Winnetou en Pocahontas",
+   "note": "",
+   "url": "https://www.masereelfonds.be/activiteiten/voorbij-winnetou-en-pocahontas-copy-2/",
+   "k": "talk",
+   "th": "history",
+   "place": "",
+   "city": "Hasselt"
   },
   {
    "v": "rio",
@@ -3554,7 +4829,8 @@
    "title": "Rio, Zona Norte (Nelson Pereira Dos Santos, 1957)",
    "note": "ism FilmLabo",
    "url": "https://dekoer.be/cine-rio/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "box",
@@ -3563,7 +4839,8 @@
    "title": "Vuile Maniere",
    "note": "Kurt Burgelman",
    "url": "https://theaterbox.be/kalender.html",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -3572,7 +4849,8 @@
    "title": "Le Faux Soir",
    "note": "Avant-première",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -3581,7 +4859,8 @@
    "title": "The Last One for the Road (Andiamo a bere l'ultima)",
    "note": "Italiaans Cineforum",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "box",
@@ -3590,7 +4869,8 @@
    "title": "Vuile Maniere",
    "note": "Kurt Burgelman",
    "url": "https://theaterbox.be/kalender.html",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
   },
   {
    "v": "box",
@@ -3599,7 +4879,8 @@
    "title": "Vuile Maniere",
    "note": "Kurt Burgelman",
    "url": "https://theaterbox.be/kalender.html",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
   },
   {
    "v": "kask",
@@ -3608,7 +4889,8 @@
    "title": "KIDScinema: Pinguins en IJsberen",
    "note": "KIDScinema",
    "url": "https://kaskcinema.be/film/kidscinema-pinguins-en-ijsberen/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "box",
@@ -3617,7 +4899,8 @@
    "title": "Vuile Maniere",
    "note": "Kurt Burgelman",
    "url": "https://theaterbox.be/kalender.html",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -3626,7 +4909,8 @@
    "title": "Carmen",
    "note": "Opera & Ballet: on Screen",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "box",
@@ -3635,7 +4919,20 @@
    "title": "Vuile Maniere",
    "note": "Kurt Burgelman",
    "url": "https://theaterbox.be/kalender.html",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
+  },
+  {
+   "v": "masereel",
+   "d": "2026-11-29",
+   "t": "",
+   "title": "Palestina. Verzet tegen verlies",
+   "note": "",
+   "url": "https://www.masereelfonds.be/activiteiten/palestina-verzet-tegen-verlies/",
+   "k": "talk",
+   "th": "politics",
+   "place": "",
+   "city": "Halle"
   },
   {
    "v": "rio",
@@ -3644,7 +4941,8 @@
    "title": "How to Make Kimchi (or How to Be Korean) (Jonathan Seangjoon Lee, 2020)",
    "note": "kortfilm, ism Local Growth & Asian Movie Night",
    "url": "https://dekoer.be/cine-rio/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "rio",
@@ -3653,7 +4951,8 @@
    "title": "My Neighbor Totoro (6+, Hayao Miyazaki, 1988)",
    "note": "ism Local Growth",
    "url": "https://dekoer.be/cine-rio/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "rio",
@@ -3662,7 +4961,20 @@
    "title": "The Day After (Hong Sang-soo, 2017)",
    "note": "ism Local Growth & Asian Movie Night",
    "url": "https://dekoer.be/cine-rio/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "masereel",
+   "d": "2026-11-30",
+   "t": "",
+   "title": "Kopstukken filosofie: over Jürgen Habermas",
+   "note": "",
+   "url": "https://www.masereelfonds.be/activiteiten/kopstukken-filosofie-over-jurgen-habermas/",
+   "k": "talk",
+   "th": "philosophy",
+   "place": "",
+   "city": "Brugge"
   },
   {
    "v": "kasklez",
@@ -3671,7 +4983,22 @@
    "title": "Nele Buyst",
    "note": "Studium Generale",
    "url": "https://schoolofartsgent.be/agenda/nele-buyst",
-   "k": "talk"
+   "k": "talk",
+   "city": "Gent",
+   "th": "politics",
+   "place": "Vooruit, Balzaal"
+  },
+  {
+   "v": "ugent",
+   "d": "2026-12-01",
+   "t": "20:00",
+   "title": "Groene profeten. Christendom en het moderne milieudenken",
+   "note": "Christophe Verbruggen · reeks Religie, natuur en mens",
+   "url": "https://www.ugent.be/nl/agenda/groene-profeten",
+   "k": "talk",
+   "th": "history",
+   "place": "UGent",
+   "city": "Gent"
   },
   {
    "v": "kasklez",
@@ -3680,7 +5007,9 @@
    "title": "Peter Cusack",
    "note": "onderzoekspresentatie geluid",
    "url": "https://schoolofartsgent.be/agenda/peter-cusack",
-   "k": "talk"
+   "k": "talk",
+   "city": "Gent",
+   "th": "art"
   },
   {
    "v": "kasklez",
@@ -3689,7 +5018,45 @@
    "title": "Apparatus 22",
    "note": "KASKlezingen",
    "url": "https://schoolofartsgent.be/agenda/apparatus-22",
-   "k": "talk"
+   "k": "talk",
+   "city": "Gent",
+   "th": "art"
+  },
+  {
+   "v": "liberas",
+   "d": "2026-12-03",
+   "t": "",
+   "title": "Indo-Europese en niet-Indo-Europese resttalen",
+   "note": "em. prof. Mark Janse",
+   "url": "https://www.liberas.eu/nl/actueel/agenda/indo-europese-en-niet-indo-europese-resttalen-em-prof-dr-mark-janse",
+   "k": "talk",
+   "th": "history",
+   "place": "",
+   "city": ""
+  },
+  {
+   "v": "masereel",
+   "d": "2026-12-03",
+   "t": "",
+   "title": "Marx 4 Millennials: de staat, tussen klasse en publiek goed",
+   "note": "Lorenzo Buti",
+   "url": "https://www.masereelfonds.be/activiteiten/marx-4-millennials-de-staat-tussen-klasse-en-publiek-lezing-lorenzo-buti/",
+   "k": "talk",
+   "th": "economics",
+   "place": "",
+   "city": "Gent"
+  },
+  {
+   "v": "masereel",
+   "d": "2026-12-03",
+   "t": "",
+   "title": "Waarom Hiroshima rijmt op Fukushima",
+   "note": "Marc Alexander",
+   "url": "https://www.masereelfonds.be/activiteiten/waarom-hiroshima-rijmt-op-fukushima-met-auteur-marc-alexander-copy/",
+   "k": "talk",
+   "th": "politics",
+   "place": "",
+   "city": "Antwerpen"
   },
   {
    "v": "rio",
@@ -3698,7 +5065,8 @@
    "title": "Lost in Translation (Sofia Coppola, 2003)",
    "note": "",
    "url": "https://dekoer.be/cine-rio/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "box",
@@ -3707,7 +5075,8 @@
    "title": "Dossier Bert",
    "note": "Studio I2",
    "url": "https://theaterbox.be/kalender.html",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
   },
   {
    "v": "miry",
@@ -3716,7 +5085,8 @@
    "title": "Dmitry Smirnov",
    "note": "",
    "url": "https://schoolofartsgent.be/agenda/dmitry-smirnov",
-   "k": "music"
+   "k": "music",
+   "city": "Gent"
   },
   {
    "v": "box",
@@ -3725,7 +5095,8 @@
    "title": "Dossier Bert",
    "note": "Studio I2",
    "url": "https://theaterbox.be/kalender.html",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -3734,7 +5105,8 @@
    "title": "Boekvoorstelling: Bioscoop in Bezet België van Roel Vande Winkel",
    "note": "Speciale vertoningen",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "box",
@@ -3743,7 +5115,8 @@
    "title": "Dossier Bert",
    "note": "Studio I2",
    "url": "https://theaterbox.be/kalender.html",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
   },
   {
    "v": "bijloke",
@@ -3752,7 +5125,8 @@
    "title": "Fabels",
    "note": "KOPERGIETERY, KGbe & I SOLISTI · 8+",
    "url": "https://kopergietery.be/programma/fabels",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
   },
   {
    "v": "kopergietery",
@@ -3761,7 +5135,44 @@
    "title": "Wonderzoekers - de leugen",
    "note": "Sofie Palmers & Katrien Pierlet · Het Pand · 8+",
    "url": "https://kopergietery.be/programma/wonderzoekers-de-leugen",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
+  },
+  {
+   "v": "ugent",
+   "d": "2026-12-08",
+   "t": "19:30",
+   "title": "Nelson Mandela Lecture: from Soweto 1976 to constitutional democracy",
+   "note": "",
+   "url": "https://www.ugent.be/nl/agenda/mandela-lecture",
+   "k": "talk",
+   "th": "politics",
+   "place": "UGent",
+   "city": "Gent"
+  },
+  {
+   "v": "ugent",
+   "d": "2026-12-08",
+   "t": "20:00",
+   "title": "Healing with other-than-humans: nature and well-being in contemporary paganisms",
+   "note": "Giovanna Parmigiani · reeks Religie, natuur en mens",
+   "url": "https://www.ugent.be/nl/agenda/healing",
+   "k": "talk",
+   "th": "religion",
+   "place": "UGent",
+   "city": "Gent"
+  },
+  {
+   "v": "masereel",
+   "d": "2026-12-08",
+   "t": "",
+   "title": "Marx 4 Millennials #3: Marx' historisch materialisme",
+   "note": "Jan Dumolyn",
+   "url": "https://www.masereelfonds.be/activiteiten/41818-copy-copy/",
+   "k": "talk",
+   "th": "philosophy",
+   "place": "",
+   "city": "Brugge"
   },
   {
    "v": "kasklez",
@@ -3770,7 +5181,9 @@
    "title": "Hannah Kemp-Welch",
    "note": "onderzoekspresentatie geluid",
    "url": "https://schoolofartsgent.be/agenda/hannah-kemp-welch",
-   "k": "talk"
+   "k": "talk",
+   "city": "Gent",
+   "th": "art"
   },
   {
    "v": "kasklez",
@@ -3779,7 +5192,10 @@
    "title": "Veronique Aicha",
    "note": "Studium Generale · KASKcinema",
    "url": "https://schoolofartsgent.be/agenda/veronique-aicha",
-   "k": "talk"
+   "k": "talk",
+   "city": "Gent",
+   "th": "sociology",
+   "place": "KASKcinema"
   },
   {
    "v": "miry",
@@ -3788,7 +5204,8 @@
    "title": "ssaliva, 0comeups, VISIO, GAME",
    "note": "",
    "url": "https://schoolofartsgent.be/agenda/ssaliva-0comeups-visio-game",
-   "k": "music"
+   "k": "music",
+   "city": "Gent"
   },
   {
    "v": "kasklez",
@@ -3797,7 +5214,9 @@
    "title": "Larry Achiampong",
    "note": "KASKlezingen",
    "url": "https://schoolofartsgent.be/agenda/larry-achiampong",
-   "k": "talk"
+   "k": "talk",
+   "city": "Gent",
+   "th": "art"
   },
   {
    "v": "box",
@@ -3806,7 +5225,32 @@
    "title": "Improcessie - Moord in de Sneeuw",
    "note": "Improcessie",
    "url": "https://theaterbox.be/kalender.html",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
+  },
+  {
+   "v": "masereel",
+   "d": "2026-12-10",
+   "t": "",
+   "title": "'t Is (ook) vrouwenwerk. Vrouwelijk auteurschap in de historische literatuur",
+   "note": "",
+   "url": "https://www.masereelfonds.be/activiteiten/t-is-ook-vrouwenwerk-vrouwelijk-auteurschap-in-de-historische-literatuur/",
+   "k": "talk",
+   "th": "literature",
+   "place": "",
+   "city": "Antwerpen"
+  },
+  {
+   "v": "masereel",
+   "d": "2026-12-10",
+   "t": "",
+   "title": "Donders Denkende Dames: Bloemardine, de serafijnse mystica",
+   "note": "",
+   "url": "https://www.masereelfonds.be/activiteiten/donders-denkende-dames-bloemardine/",
+   "k": "talk",
+   "th": "history",
+   "place": "",
+   "city": "Brussel"
   },
   {
    "v": "rio",
@@ -3815,7 +5259,8 @@
    "title": "Generations: intergenerationeel filmcafé",
    "note": "",
    "url": "https://dekoer.be/cine-rio/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "rio",
@@ -3824,7 +5269,8 @@
    "title": "Neo Nahda (May Zaidé, 2023)",
    "note": "kortfilm, ism PinX",
    "url": "https://dekoer.be/cine-rio/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "rio",
@@ -3833,7 +5279,8 @@
    "title": "Shinjuku Boys (Kim Longinotto en Jano Williams, 1995)",
    "note": "ism PinX",
    "url": "https://dekoer.be/cine-rio/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "box",
@@ -3842,7 +5289,8 @@
    "title": "Dossier Bert",
    "note": "Studio I2",
    "url": "https://theaterbox.be/kalender.html",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
   },
   {
    "v": "kunsthal",
@@ -3851,7 +5299,9 @@
    "title": "Gaza Cultural Infrastructure, 1970s-1990s",
    "note": "film & talk",
    "url": "https://kunsthal.gent/en/agenda/gaza-cultural-infrastructure-1970s-1990s",
-   "k": "talk"
+   "k": "talk",
+   "city": "Gent",
+   "th": "history"
   },
   {
    "v": "miry",
@@ -3860,7 +5310,32 @@
    "title": "Duo Obscura, SPECTRA",
    "note": "",
    "url": "https://schoolofartsgent.be/agenda/duo-obscura-spectra",
-   "k": "music"
+   "k": "music",
+   "city": "Gent"
+  },
+  {
+   "v": "masereel",
+   "d": "2026-12-11",
+   "t": "",
+   "title": "Over de Windrush Generation",
+   "note": "Dries Talloen",
+   "url": "https://www.masereelfonds.be/activiteiten/dries-talloen-over-de-windrush-generation/",
+   "k": "talk",
+   "th": "history",
+   "place": "",
+   "city": "Brugge"
+  },
+  {
+   "v": "masereel",
+   "d": "2026-12-12",
+   "t": "",
+   "title": "Kan de stad de wereld redden?",
+   "note": "",
+   "url": "https://www.masereelfonds.be/activiteiten/kan-de-stad-de-wereld-redden/",
+   "k": "talk",
+   "th": "sociology",
+   "place": "",
+   "city": "Brugge"
   },
   {
    "v": "box",
@@ -3869,7 +5344,8 @@
    "title": "Dossier Bert",
    "note": "Studio I2",
    "url": "https://theaterbox.be/kalender.html",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -3878,7 +5354,8 @@
    "title": "The Commitments (1991)",
    "note": "Classics",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "rio",
@@ -3887,7 +5364,8 @@
    "title": "Drifting Clouds (Aki Kaurismäki, 1996)",
    "note": "ism Wintermarkt",
    "url": "https://dekoer.be/cine-rio/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "rio",
@@ -3896,7 +5374,8 @@
    "title": "Meneer papier ziet het groots (3+, Ben Tesseur, Steven De Beul, 2026)",
    "note": "ism Wintermarkt",
    "url": "https://dekoer.be/cine-rio/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "rio",
@@ -3905,7 +5384,8 @@
    "title": "My Fern and I are Fine (Lidewij Deroo, 2025)",
    "note": "kortfilm",
    "url": "https://dekoer.be/cine-rio/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "miry",
@@ -3914,7 +5394,32 @@
    "title": "Pierre Fontenelle, Ali Choupani Nejad",
    "note": "",
    "url": "https://schoolofartsgent.be/agenda/pierre-fontenelle-ali-choupani-nejad",
-   "k": "music"
+   "k": "music",
+   "city": "Gent"
+  },
+  {
+   "v": "masereel",
+   "d": "2026-12-14",
+   "t": "",
+   "title": "Les Grandes Horizontales",
+   "note": "",
+   "url": "https://www.masereelfonds.be/activiteiten/les-grandes-horizontales/",
+   "k": "talk",
+   "th": "history",
+   "place": "",
+   "city": "Sint-Niklaas"
+  },
+  {
+   "v": "masereel",
+   "d": "2026-12-14",
+   "t": "",
+   "title": "Over Walter Benjamin",
+   "note": "",
+   "url": "https://www.masereelfonds.be/activiteiten/over-walter-benjamin/",
+   "k": "talk",
+   "th": "philosophy",
+   "place": "",
+   "city": "Brugge"
   },
   {
    "v": "skoop",
@@ -3923,7 +5428,8 @@
    "title": "Dune: Part Three",
    "note": "avant-première; 7.1",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -3932,7 +5438,32 @@
    "title": "Dune: Part Three",
    "note": "Avant-première",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "ugent",
+   "d": "2026-12-16",
+   "t": "10:00",
+   "title": "Meet the Expert: the pleasures and frictions of sexual social media",
+   "note": "",
+   "url": "https://www.ugent.be/nl/agenda/sexual-social-media",
+   "k": "talk",
+   "th": "sociology",
+   "place": "UGent",
+   "city": "Gent"
+  },
+  {
+   "v": "gentleest",
+   "d": "2026-12-17",
+   "t": "12:15",
+   "title": "Paarse Zetel",
+   "note": "Stefan Hertmans",
+   "url": "https://www.gentleest.be/events/paarse-zetel-in-de-krook-stefan-hertmans",
+   "k": "talk",
+   "th": "literature",
+   "place": "Bibliotheek De Krook",
+   "city": "Gent"
   },
   {
    "v": "kasklez",
@@ -3941,7 +5472,33 @@
    "title": "Mike Sperlinger, Ian White",
    "note": "KASKlezingen",
    "url": "https://schoolofartsgent.be/agenda/mike-sperlinger-ian-white",
-   "k": "talk"
+   "k": "talk",
+   "city": "Gent",
+   "th": "art"
+  },
+  {
+   "v": "gentleest",
+   "d": "2026-12-17",
+   "t": "19:30",
+   "title": "Quotes: Vrouwen in duistere tijden",
+   "note": "Alicja Gescinska",
+   "url": "https://www.gentleest.be/events/quotes-alicja-gescinska-vrouwen-in-duistere-tijden",
+   "k": "talk",
+   "th": "philosophy",
+   "place": "Bibliotheek De Krook",
+   "city": "Gent"
+  },
+  {
+   "v": "liberas",
+   "d": "2026-12-17",
+   "t": "",
+   "title": "De koloniale geschiedenis van het Duits",
+   "note": "em. prof. Luc De Grauwe",
+   "url": "https://www.liberas.eu/nl/actueel/agenda/de-koloniale-geschiedenis-van-het-duits-em-prof-luc-de-grauwe",
+   "k": "talk",
+   "th": "history",
+   "place": "",
+   "city": ""
   },
   {
    "v": "rio",
@@ -3950,7 +5507,8 @@
    "title": "C'est arrivé près de chez vous (Rémy Belvaux, André Bonzel en Benoît Poelvoorde, 1992)",
    "note": "ism flaneur uitgevers",
    "url": "https://dekoer.be/cine-rio/",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -3959,7 +5517,8 @@
    "title": "De Notenkraker",
    "note": "Opera & Ballet: on Screen",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "box",
@@ -3968,7 +5527,8 @@
    "title": "A Cozy Christmas",
    "note": "Brenda Bee",
    "url": "https://theaterbox.be/kalender.html",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
   },
   {
    "v": "expeditie",
@@ -3977,7 +5537,32 @@
    "title": "SKRAM",
    "note": "KOPERGIETERY, KGbe & Grensgeval · 6+",
    "url": "https://kopergietery.be/programma/skram",
-   "k": "theatre"
+   "k": "theatre",
+   "city": "Gent"
+  },
+  {
+   "v": "gentleest",
+   "d": "2027-01-28",
+   "t": "12:15",
+   "title": "Paarse Zetel",
+   "note": "Ester Naomi Perquin",
+   "url": "https://www.gentleest.be/events/paarse-zetel-in-de-krook-ester-naomi-perquin",
+   "k": "talk",
+   "th": "poetry",
+   "place": "Bibliotheek De Krook",
+   "city": "Gent"
+  },
+  {
+   "v": "gentleest",
+   "d": "2027-02-03",
+   "t": "20:00",
+   "title": "Schrijverspraat",
+   "note": "Peter Terrin",
+   "url": "https://www.gentleest.be/events/schrijverspraat-met-peter-terrin",
+   "k": "talk",
+   "th": "literature",
+   "place": "Bibliotheek De Krook",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -3986,7 +5571,8 @@
    "title": "Götterdämmerung",
    "note": "Opera & Ballet: on Screen",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -3995,7 +5581,44 @@
    "title": "May The Music Be With You",
    "note": "Speciale vertoningen",
    "url": "https://www.sphinx-cinema.be/programma",
-   "k": "film"
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "gentleest",
+   "d": "2027-02-25",
+   "t": "12:15",
+   "title": "Paarse Zetel",
+   "note": "Tijl Nuyts",
+   "url": "https://www.gentleest.be/events/paarse-zetel-in-de-krook-tijl-nuyts",
+   "k": "talk",
+   "th": "literature",
+   "place": "Bibliotheek De Krook",
+   "city": "Gent"
+  },
+  {
+   "v": "gentleest",
+   "d": "2027-03-18",
+   "t": "12:15",
+   "title": "Paarse Zetel",
+   "note": "Aline Sax",
+   "url": "https://www.gentleest.be/events/paarse-zetel-in-de-krook-aline-sax",
+   "k": "talk",
+   "th": "literature",
+   "place": "Bibliotheek De Krook",
+   "city": "Gent"
+  },
+  {
+   "v": "gentleest",
+   "d": "2027-04-28",
+   "t": "20:00",
+   "title": "Schrijverspraat",
+   "note": "Gaea Schoeters",
+   "url": "https://www.gentleest.be/events/schrijverspraat-met-gaea-schoeters",
+   "k": "talk",
+   "th": "literature",
+   "place": "Bibliotheek De Krook",
+   "city": "Gent"
   }
  ]
 }

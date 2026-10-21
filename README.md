@@ -10,7 +10,6 @@ This repository is the public site. GitHub Pages serves it for free at `https://
 | `screenings.json` | All listed screenings |
 | `films.json` | Film metadata and Funding articles, with sources |
 | `feed.xml` | RSS feed, one item per day |
-| `post/slide-NN.png`, `post/caption.txt` | Today's Instagram carousel. Instagram fetches these public URLs when posting |
 | `scripts/` | The free Python scripts that build the post, the feed and the film data |
 | `igmcp/` | Files for the Instagram posting server on your Mac |
 
