@@ -105,22 +105,37 @@ textarea{width:100%;font:inherit;font-size:.85rem;background:var(--surface);colo
 .venues a{color:var(--c);font-weight:700}
 footer{font-size:.78rem;color:var(--muted)}
 /* film/theatre switch + links */
-.mode{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--line);border-radius:999px;padding:3px;background:var(--surface)}
-.mode button{border:0;background:none;border-radius:999px;padding:8px 10px;font-weight:700;cursor:pointer;font-family:var(--display);font-size:1.15rem;text-transform:uppercase;letter-spacing:.04em}
+.mode{display:flex;gap:4px;overflow-x:auto;border:1px solid var(--line);border-radius:999px;padding:3px;background:var(--surface);scrollbar-width:none}
+.mode::-webkit-scrollbar{display:none}
+.mode button{flex:1 0 auto;border:0;background:none;border-radius:999px;padding:8px 10px;font-weight:700;cursor:pointer;font-family:var(--display);font-size:1.15rem;text-transform:uppercase;letter-spacing:.04em}
 .mode button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
 .links{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:.85rem;margin-top:6px}
 .links a{color:var(--accent);font-weight:700}
 .links button{display:none}
+.finder{display:flex;flex-direction:column;gap:8px}
+.finder input{flex:none;width:100%;font:inherit;font-size:1.05rem;padding:12px 14px;border-radius:999px;border:2px solid var(--accent);background:var(--surface);color:var(--fg)}
+.hits{list-style:none;margin:0;padding:0;background:var(--surface);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.hits li{border-top:1px solid var(--line);padding:10px 12px;display:grid;grid-template-columns:5.2rem 1fr;gap:10px;align-items:baseline}
+.hits li:first-child{border-top:0}
+.hits .when{font-variant-numeric:tabular-nums;font-weight:700;font-size:.9rem;line-height:1.2}
+.hits .when small{display:block;font-weight:400;color:var(--muted)}
+.hits a{color:inherit;text-decoration:none}
+.cat{font-size:.68rem;letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--line);border-radius:4px;padding:0 5px;color:var(--muted)}
 </style>
 
 <div class="wrap">
   <header>
     <h1>Ghent <span>Screens</span></h1>
-    <p class="sub">Arthouse cinemas, film clubs and theatres in Ghent, and the money behind each production. Kinepolis left out.</p>
+    <p class="sub">Film, theatre, dance, music and talks in Ghent, and the money behind each production. Kinepolis left out.</p>
     <p class="links"><a href="https://peapickers.io" target="_blank" rel="noopener">A Peapickers project</a><button class="link" type="button" id="install">Install on your phone</button></p>
   </header>
 
-  <div class="mode" role="group" aria-label="Film or theatre"><button type="button" data-mode="film" aria-pressed="true">Film</button><button type="button" data-mode="theatre" aria-pressed="false">Theatre</button></div>
+  <section class="finder" aria-label="Find the next date">
+    <input type="search" id="find" placeholder="Search a name: next dates…" aria-label="Find a title, maker or venue" autocomplete="off" enterkeyhint="search">
+    <div id="hitsbox" hidden><h2 class="daytitle" id="hitstitle"></h2><ul class="hits" id="hits"></ul></div>
+  </section>
+
+  <div class="mode" role="group" aria-label="Category"><button type="button" data-mode="film" aria-pressed="true">Film</button><button type="button" data-mode="theatre" aria-pressed="false">Theatre</button><button type="button" data-mode="dance" aria-pressed="false">Dance</button><button type="button" data-mode="music" aria-pressed="false">Music</button><button type="button" data-mode="talk" aria-pressed="false">Talks</button></div>
 
   <nav class="days" id="days" aria-label="Choose a day"></nav>
 
@@ -172,9 +187,10 @@ const PARTS=[["morning","Morning",0,12],["afternoon","Afternoon",12,17],["evenin
 const EXTRAS=[["ov","Original version",s=>/OV|st\b/i.test(s.note)||s.v==="kask"],["nl","Dutch / Flemish version",s=>/NL versie|Vlaamse/i.test(s.note)],["restored","Restored / 35mm",s=>/4K|restaur|35/i.test(s.note)||s.film?.id==="odyssey"],["premiere","Avant-première & Q&A",s=>/Avant|Q&A/i.test(s.note)],["club","Film club screening",s=>/i\.s\.m\.|Kuru|Cinema Obscura|cineclub/i.test(s.note)||s.v==="rio"||s.v==="kask"]];
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 let D,FILMS=[],BY={},sel=null,open=new Set();
+const MODES=["film","theatre","dance","music","talk"];
 const st={mode:"film",venue:new Set(),kind:new Set(),backing:new Set(),country:new Set(),extra:new Set(),part:new Set(),company:"",q:"",from:"",to:""};
 function save(){try{localStorage.setItem("gs-f2",JSON.stringify({...st,venue:[...st.venue],kind:[...st.kind],backing:[...st.backing],country:[...st.country],extra:[...st.extra],part:[...st.part]}))}catch(e){}}
-function load(){try{const j=JSON.parse(localStorage.getItem("gs-f2")||"null");if(!j)return;for(const k of ["venue","kind","backing","country","extra","part"])st[k]=new Set(j[k]||[]);st.mode=j.mode==="theatre"?"theatre":"film";st.company=j.company||"";st.q=j.q||"";st.from=j.from||"";st.to=j.to||""}catch(e){}}
+function load(){try{const j=JSON.parse(localStorage.getItem("gs-f2")||"null");if(!j)return;for(const k of ["venue","kind","backing","country","extra","part"])st[k]=new Set(j[k]||[]);st.mode=MODES.includes(j.mode)?j.mode:"film";st.company=j.company||"";st.q=j.q||"";st.from=j.from||"";st.to=j.to||""}catch(e){}}
 function nowBxl(){const p=new Intl.DateTimeFormat("en-CA",{timeZone:"Europe/Brussels",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hour12:false}).formatToParts(new Date());const g=t=>p.find(x=>x.type===t).value;return{d:`${g("year")}-${g("month")}-${g("day")}`,t:`${g("hour")}:${g("minute")}`}}
 const dt=s=>new Date(s+"T12:00:00");
 const companies=f=>f?[...f.studios,...f.public,...f.broadcasters,...f.distributors,...f.sales]:[];
@@ -199,7 +215,7 @@ function chipGroup(id,items,set,cls=""){ // items: [key,label,color?]
   $(id).innerHTML=items.map(([k,l,c])=>`<button type="button" class="chip ${cls}" ${c?`style="--c:${c}"`:""} aria-pressed="${set.has(k)}" data-g="${id}" data-k="${esc(k)}">${c?"<i></i>":""}${esc(l)}</button>`).join("");
 }
 function buildFilters(){
-  chipGroup("g-venue",Object.entries(D.venues).map(([k,v])=>[k,v.name,vc(k)]),st.venue);
+  chipGroup("g-venue",Object.entries(D.venues).filter(([k])=>D.screenings.some(s=>s.v===k&&(s.k||"film")===st.mode)).map(([k,v])=>[k,v.name,vc(k)]),st.venue);
   chipGroup("g-part",PARTS.map(([k,l])=>[k,l]),st.part);
   chipGroup("g-kind",Object.entries(KINDS),st.kind);
   const bk=[...new Set(FILMS.flatMap(f=>f.backing))].sort();
@@ -224,7 +240,7 @@ function activeChips(){
 }
 function fundingHTML(s){
   const f=s.film;
-  if(!f)return `<div class="funding"><h4>Funding</h4><p class="sub">Not researched yet. The daily update fills this in for new titles.</p></div>`;
+  if(!f)return `<div class="funding"><h4>Funding</h4><p class="sub">Unknown: no source found yet.</p>${s.url?`<p class="ext"><a href="${esc(s.url)}" target="_blank" rel="noopener">Event page ↗</a></p>`:""}</div>`;
   const row=(label,arr,click=true)=>arr&&arr.length?`<dt>${label}</dt><dd>${arr.map(x=>click?`<button type="button" class="chip" data-company="${esc(x)}">${esc(x)}</button>`:`<span>${esc(x)}</span>`).join("")}</dd>`:"";
   const tags=`<dt>Money type</dt><dd>${f.backing.map(b=>`<button type="button" class="chip money" data-backing="${esc(b)}">${esc(b)}</button>`).join("")}</dd>`;
   return `<div class="funding"><h4>Funding</h4><p>${esc(f.funding)}</p><dl>${tags}${row("Studios & producers",f.studios)}${row("Public money",f.public)}${row("Broadcasters",f.broadcasters)}${row("Distribution",f.distributors)}${row("World sales",f.sales)}${f.budget?`<dt>Budget</dt><dd><span>${esc(f.budget)}</span></dd>`:""}${f.director?`<dt>Director</dt><dd><span>${esc(f.director)}</span></dd>`:""}${f.country?`<dt>Country</dt><dd><span>${esc(f.country)}${f.year?" · "+f.year:""}</span></dd>`:""}</dl>
@@ -233,14 +249,14 @@ function fundingHTML(s){
 }
 function render(){
   const now=nowBxl();
-  const all=D.screenings.filter(s=>s.d>=now.d);
+  const all=D.screenings.filter(s=>s.d>=now.d&&(s.k||"film")===st.mode);
   const dates=[...new Set(all.map(s=>s.d))].sort();
   const vis=all.filter(matches);
   if(sel!=="all"&&(!sel||!dates.includes(sel)))sel=dates[0];
   $("days").innerHTML=`<button class="day" aria-pressed="${sel==="all"}" data-d="all"><small>all</small><b>∞</b><span class="n">${vis.length}</span></button>`+dates.map(d=>{const x=dt(d),n=vis.filter(s=>s.d===d).length;return `<button class="day" aria-pressed="${d===sel}" data-d="${d}"><small>${d===now.d?"today":DAYS[x.getDay()]}</small><b>${x.getDate()}</b><span class="n">${MON[x.getMonth()]} · ${n}</span></button>`}).join("");
   const rows=sel==="all"?vis:vis.filter(s=>s.d===sel);
   const x=sel==="all"?null:dt(sel);
-  $("daytitle").innerHTML=`${sel==="all"?"All upcoming":(sel===now.d?"Today":DAYL[x.getDay()])+` ${x.getDate()} ${MON[x.getMonth()]}`}<small>${rows.length} screening${rows.length===1?"":"s"}</small>`;
+  $("daytitle").innerHTML=`${sel==="all"?"All upcoming":(sel===now.d?"Today":DAYL[x.getDay()])+` ${x.getDate()} ${MON[x.getMonth()]}`}<small>${rows.length} ${st.mode==="film"?"screening":"event"}${rows.length===1?"":"s"}</small>`;
   let last="",html="";
   rows.forEach((s,i)=>{
     if(sel==="all"&&s.d!==last){const y=dt(s.d);html+=`<li class="daybreak">${DAYL[y.getDay()]} ${y.getDate()} ${MON[y.getMonth()]}</li>`;last=s.d}
@@ -248,7 +264,7 @@ function render(){
     const money=f&&f.studios.length?f.studios.slice(0,2).join(" · "):"";
     html+=`<li class="s ${past?"past":""}"><button type="button" class="head" aria-expanded="${ex}" data-open="${esc(id)}"><span class="time ${s.t?"":"tba"}">${s.t||"time on site"}</span><span class="info"><span class="title">${esc(s.title)}</span><span class="meta"><span class="ven" style="--c:${vc(s.v)}">${esc(v.name)}</span>${s.note?`<span>${esc(s.note)}</span>`:""}</span>${money?`<span class="moneyline">Money: ${esc(money)}</span>`:""}</span><span class="caret">▾</span></button>${ex?fundingHTML(s):""}</li>`;
   });
-  $("list").innerHTML=html||(st.mode==="theatre"&&!D.screenings.some(s=>s.k==="theatre")?`<li class="empty">Theatre listings are on their way: NTGent, Viernulvier, CAMPO and Ghent's smaller stages.</li>`:"")||`<li class="empty">No screenings match these filters. <button class="link" type="button" data-reset>Clear filters</button></li>`;
+  $("list").innerHTML=html||(!D.screenings.some(s=>(s.k||"film")===st.mode)?`<li class="empty">${{dance:"Dance listings are on their way: Viernulvier, CAMPO and De Expeditie.",theatre:"Theatre listings are on their way.",music:"Music listings are on their way.",talk:"Talks are on their way."}[st.mode]||"Listings are on their way."}</li>`:"")||`<li class="empty">No screenings match these filters. <button class="link" type="button" data-reset>Clear filters</button></li>`;
   activeChips();
 }
 function renderStatic(){
@@ -260,7 +276,7 @@ const SETS=["venue","kind","backing","country","extra","part"];
 document.addEventListener("click",e=>{
   const t=e.target.closest("button");if(!t)return;
   if(t.dataset.d){sel=t.dataset.d;render();return}
-  if(t.dataset.mode){st.mode=t.dataset.mode;syncMode();save();render();return}
+  if(t.dataset.mode){st.mode=t.dataset.mode;st.venue.clear();syncMode();save();buildFilters();render();return}
   if(t.id==="install"&&deferredInstall){deferredInstall.prompt();deferredInstall=null;t.style.display="none";return}
   if(t.dataset.g){const g=t.dataset.g.slice(2),k=t.dataset.k;st[g].has(k)?st[g].delete(k):st[g].add(k);t.setAttribute("aria-pressed",st[g].has(k));save();render();return}
   if(t.dataset.rm){const g=t.dataset.rm;SETS.includes(g)?st[g].delete(t.dataset.k):st[g]="";save();buildFilters();render();return}
@@ -278,11 +294,25 @@ function syncMode(){document.querySelectorAll("[data-mode]").forEach(b=>b.setAtt
 let deferredInstall=null;
 window.addEventListener("beforeinstallprompt",e=>{e.preventDefault();deferredInstall=e;$("install").style.display="inline"});
 if("serviceWorker" in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));
+const CATL={film:"Film",theatre:"Theatre",dance:"Dance",music:"Music",talk:"Talk"};
+const norm=x=>String(x??"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
+function find(){
+  const q=norm($("find").value.trim()),box=$("hitsbox");
+  if(!q||!D){box.hidden=true;return}
+  const now=nowBxl(),words=q.split(/\s+/);
+  const hits=D.screenings.filter(s=>(s.d>now.d||(s.d===now.d&&(!s.t||s.t>=now.t)))&&words.every(w=>norm([s.title,s.note,D.venues[s.v]?.name,s.film?.director,...companies(s.film)].join(" ")).includes(w)))
+    .sort((a,b)=>(a.d+(a.t||"99")).localeCompare(b.d+(b.t||"99")));
+  box.hidden=false;
+  $("hitstitle").innerHTML=hits.length?`Next dates<small>${hits.length} found</small>`:`No upcoming dates<small>for “${esc($("find").value.trim())}”</small>`;
+  $("hits").innerHTML=hits.slice(0,25).map(s=>{const x=dt(s.d),v=D.venues[s.v];return `<li><span class="when">${s.d===now.d?"Today":DAYS[x.getDay()]+" "+x.getDate()+" "+MON[x.getMonth()]}<small>${s.t||"time on site"}</small></span><a href="${esc(s.url)}" target="_blank" rel="noopener"><span class="title">${esc(s.title)}</span><span class="meta"><span class="cat">${CATL[s.k||"film"]}</span><span class="ven" style="--c:${vc(s.v)}">${esc(v.name)}</span>${s.note?`<span>${esc(s.note)}</span>`:""}</span></a></li>`}).join("")||`<li><span></span><span class="sub">Check the spelling, or try part of the name.</span></li>`;
+}
+$("find").addEventListener("input",()=>{find();try{const u=new URL(location);const v=$("find").value.trim();v?u.searchParams.set("q",v):u.searchParams.delete("q");history.replaceState(null,"",u)}catch(e){}});
+try{const q0=new URLSearchParams(location.search).get("q");if(q0)$("find").value=q0}catch(e){}
 load();syncMode();
 if(/^#\d{4}-\d{2}-\d{2}$/.test(location.hash))sel=location.hash.slice(1);
 Promise.all([fetch("screenings.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}),fetch("films.json",{cache:"no-store"}).then(r=>r.ok?r.json():{films:[]}).catch(()=>({films:[]}))])
 .then(([s,f])=>{D=s;FILMS=f.films||[];FILMS.forEach(x=>x.match.forEach(m=>BY[m.toLowerCase()]=x));D.screenings.forEach(x=>x.film=BY[x.title.toLowerCase()]||null);
-  buildFilters();renderStatic();render();setInterval(render,60000)})
+  buildFilters();renderStatic();render();find();setInterval(render,60000)})
 .catch(()=>{$("daytitle").textContent="Listings unavailable";$("list").innerHTML='<li class="empty">The listings file did not load. Reload the page.</li>'});
 fetch("feed.xml",{method:"HEAD"}).then(r=>{if(r.ok)$("rss").hidden=false}).catch(()=>{});
 fetch("post/post.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(p=>{if(!p)return;$("post").hidden=false;const x=dt(p.date);
