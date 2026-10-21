@@ -1,4 +1,11 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Ghent Screens</title>
+<meta name="description" content="Film and theatre in Ghent today, with filters and the money behind each production.">
+<meta name="theme-color" content="#9b1f35">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800&family=Atkinson+Hyperlegible:wght@400;700&display=swap">
@@ -97,13 +104,23 @@ textarea{width:100%;font:inherit;font-size:.85rem;background:var(--surface);colo
 .venues div{min-width:0}
 .venues a{color:var(--c);font-weight:700}
 footer{font-size:.78rem;color:var(--muted)}
+/* film/theatre switch + links */
+.mode{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--line);border-radius:999px;padding:3px;background:var(--surface)}
+.mode button{border:0;background:none;border-radius:999px;padding:8px 10px;font-weight:700;cursor:pointer;font-family:var(--display);font-size:1.15rem;text-transform:uppercase;letter-spacing:.04em}
+.mode button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
+.links{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:.85rem;margin-top:6px}
+.links a{color:var(--accent);font-weight:700}
+.links button{display:none}
 </style>
 
 <div class="wrap">
   <header>
     <h1>Ghent <span>Screens</span></h1>
-    <p class="sub">Arthouse cinemas and film clubs, and the money behind each film. Kinepolis left out.</p>
+    <p class="sub">Arthouse cinemas, film clubs and theatres in Ghent, and the money behind each production. Kinepolis left out.</p>
+    <p class="links"><a href="https://peapickers.io" target="_blank" rel="noopener">A Peapickers project</a><button class="link" type="button" id="install">Install on your phone</button></p>
   </header>
+
+  <div class="mode" role="group" aria-label="Film or theatre"><button type="button" data-mode="film" aria-pressed="true">Film</button><button type="button" data-mode="theatre" aria-pressed="false">Theatre</button></div>
 
   <nav class="days" id="days" aria-label="Choose a day"></nav>
 
@@ -155,9 +172,9 @@ const PARTS=[["morning","Morning",0,12],["afternoon","Afternoon",12,17],["evenin
 const EXTRAS=[["ov","Original version",s=>/OV|st\b/i.test(s.note)||s.v==="kask"],["nl","Dutch / Flemish version",s=>/NL versie|Vlaamse/i.test(s.note)],["restored","Restored / 35mm",s=>/4K|restaur|35/i.test(s.note)||s.film?.id==="odyssey"],["premiere","Avant-première & Q&A",s=>/Avant|Q&A/i.test(s.note)],["club","Film club screening",s=>/i\.s\.m\.|Kuru|Cinema Obscura|cineclub/i.test(s.note)||s.v==="rio"||s.v==="kask"]];
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 let D,FILMS=[],BY={},sel=null,open=new Set();
-const st={venue:new Set(),kind:new Set(),backing:new Set(),country:new Set(),extra:new Set(),part:new Set(),company:"",q:"",from:"",to:""};
+const st={mode:"film",venue:new Set(),kind:new Set(),backing:new Set(),country:new Set(),extra:new Set(),part:new Set(),company:"",q:"",from:"",to:""};
 function save(){try{localStorage.setItem("gs-f2",JSON.stringify({...st,venue:[...st.venue],kind:[...st.kind],backing:[...st.backing],country:[...st.country],extra:[...st.extra],part:[...st.part]}))}catch(e){}}
-function load(){try{const j=JSON.parse(localStorage.getItem("gs-f2")||"null");if(!j)return;for(const k of ["venue","kind","backing","country","extra","part"])st[k]=new Set(j[k]||[]);st.company=j.company||"";st.q=j.q||"";st.from=j.from||"";st.to=j.to||""}catch(e){}}
+function load(){try{const j=JSON.parse(localStorage.getItem("gs-f2")||"null");if(!j)return;for(const k of ["venue","kind","backing","country","extra","part"])st[k]=new Set(j[k]||[]);st.mode=j.mode==="theatre"?"theatre":"film";st.company=j.company||"";st.q=j.q||"";st.from=j.from||"";st.to=j.to||""}catch(e){}}
 function nowBxl(){const p=new Intl.DateTimeFormat("en-CA",{timeZone:"Europe/Brussels",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hour12:false}).formatToParts(new Date());const g=t=>p.find(x=>x.type===t).value;return{d:`${g("year")}-${g("month")}-${g("day")}`,t:`${g("hour")}:${g("minute")}`}}
 const dt=s=>new Date(s+"T12:00:00");
 const companies=f=>f?[...f.studios,...f.public,...f.broadcasters,...f.distributors,...f.sales]:[];
@@ -165,6 +182,7 @@ const countries=f=>f&&f.country?f.country.split("/"):[];
 
 function matches(s){
   const f=s.film;
+  if((s.k||"film")!==st.mode)return false;
   if(st.venue.size&&!st.venue.has(s.v))return false;
   if(st.kind.size&&!(f&&st.kind.has(f.kind)))return false;
   if(st.backing.size&&!(f&&f.backing.some(b=>st.backing.has(b))))return false;
@@ -230,7 +248,7 @@ function render(){
     const money=f&&f.studios.length?f.studios.slice(0,2).join(" · "):"";
     html+=`<li class="s ${past?"past":""}"><button type="button" class="head" aria-expanded="${ex}" data-open="${esc(id)}"><span class="time ${s.t?"":"tba"}">${s.t||"time on site"}</span><span class="info"><span class="title">${esc(s.title)}</span><span class="meta"><span class="ven" style="--c:${vc(s.v)}">${esc(v.name)}</span>${s.note?`<span>${esc(s.note)}</span>`:""}</span>${money?`<span class="moneyline">Money: ${esc(money)}</span>`:""}</span><span class="caret">▾</span></button>${ex?fundingHTML(s):""}</li>`;
   });
-  $("list").innerHTML=html||`<li class="empty">No screenings match these filters. <button class="link" type="button" data-reset>Clear filters</button></li>`;
+  $("list").innerHTML=html||(st.mode==="theatre"&&!D.screenings.some(s=>s.k==="theatre")?`<li class="empty">Theatre listings are on their way: NTGent, Viernulvier, CAMPO and Ghent's smaller stages.</li>`:"")||`<li class="empty">No screenings match these filters. <button class="link" type="button" data-reset>Clear filters</button></li>`;
   activeChips();
 }
 function renderStatic(){
@@ -242,6 +260,8 @@ const SETS=["venue","kind","backing","country","extra","part"];
 document.addEventListener("click",e=>{
   const t=e.target.closest("button");if(!t)return;
   if(t.dataset.d){sel=t.dataset.d;render();return}
+  if(t.dataset.mode){st.mode=t.dataset.mode;syncMode();save();render();return}
+  if(t.id==="install"&&deferredInstall){deferredInstall.prompt();deferredInstall=null;t.style.display="none";return}
   if(t.dataset.g){const g=t.dataset.g.slice(2),k=t.dataset.k;st[g].has(k)?st[g].delete(k):st[g].add(k);t.setAttribute("aria-pressed",st[g].has(k));save();render();return}
   if(t.dataset.rm){const g=t.dataset.rm;SETS.includes(g)?st[g].delete(t.dataset.k):st[g]="";save();buildFilters();render();return}
   if(t.dataset.open!==undefined){const id=t.dataset.open;open.has(id)?open.delete(id):open.add(id);render();return}
@@ -254,7 +274,11 @@ $("q").addEventListener("input",e=>{st.q=e.target.value.trim();save();render()})
 $("company").addEventListener("change",e=>{st.company=e.target.value;save();render()});
 $("tfrom").addEventListener("change",e=>{st.from=e.target.value;save();render()});
 $("tto").addEventListener("change",e=>{st.to=e.target.value;save();render()});
-load();
+function syncMode(){document.querySelectorAll("[data-mode]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.mode===st.mode))}
+let deferredInstall=null;
+window.addEventListener("beforeinstallprompt",e=>{e.preventDefault();deferredInstall=e;$("install").style.display="inline"});
+if("serviceWorker" in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));
+load();syncMode();
 if(/^#\d{4}-\d{2}-\d{2}$/.test(location.hash))sel=location.hash.slice(1);
 Promise.all([fetch("screenings.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}),fetch("films.json",{cache:"no-store"}).then(r=>r.ok?r.json():{films:[]}).catch(()=>({films:[]}))])
 .then(([s,f])=>{D=s;FILMS=f.films||[];FILMS.forEach(x=>x.match.forEach(m=>BY[m.toLowerCase()]=x));D.screenings.forEach(x=>x.film=BY[x.title.toLowerCase()]||null);
