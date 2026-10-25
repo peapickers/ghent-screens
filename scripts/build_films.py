@@ -226,5 +226,88 @@ for id, t, desc, url in [
     film(id, t, [t], None, "", "various", "programme", ["Programme of several films"],
          desc + " Funding is not tracked for mixed programmes.", [url])
 
+# ---- weekly additions 2026-10-25 (short fiches, amounts where sourced) ----
+CNC_FRIT = "https://www.cnc.fr/professionnels/aides-et-financements/resultats-commissions/aide-au-codeveloppement-et-a-la-coproduction-doeuvres-cinematographiques-et-audiovisuelles-francoitaliennes--resultats-de-la-commission-du-2-decembre-2024_2313733"
+SKOOP = "https://www.studioskoop.be/agenda-studio-skoop/"
+SPHINX = "https://www.sphinx-cinema.be/programma"
+film("la-gradiva", "La Gradiva", ["La Gradiva"], 2026, "FR/IT", "Marine Atlan", "new release",
+     ["European public funds", "French independent producers"],
+     "Les Films du Poisson (FR) with Bibi Film TV (IT). CNC €70,000 and Italy's MIC €70,000 in French-Italian co-production aid; budget unknown.",
+     [W + "La_Gradiva", CNC_FRIT], studios=["Les Films du Poisson", "Bibi Film TV"], public=["CNC (€70,000)", "MIC Italy (€70,000)"], distributors=["Tandem (FR)"])
+film("un-anno-di-scuola", "Un anno di scuola", ["Un anno di scuola"], 2025, "IT/FR", "Laura Samani", "new release",
+     ["European public funds", "Arthouse producers"],
+     "Nefertiti Film (IT) with Tomsa Films (FR). CNC €40,000 and Italy's MIC €60,000 in co-production aid; budget unknown.",
+     [CNC_FRIT, "https://www.labiennale.org/it/cinema/2025/orizzonti/un-anno-di-scuola"], studios=["Nefertiti Film", "Tomsa Films"], public=["CNC (€40,000)", "MIC Italy (€60,000)"])
+film("iron-boy", "Iron Boy (Le Corset)", ["Iron Boy (Le Corset)", "Iron Boy", "Le Corset"], 2026, "FR/BE", "Louis Clichy", "family",
+     ["Belgian production", "French independent producers", "TV broadcaster"],
+     "Beside Production and RTBF (BE) with Eddy Cinéma, Regular Production, France 3 and Auvergne-Rhône-Alpes Cinéma (FR). Amounts and budget unknown.",
+     [W + "Iron_Boy_(film)"], studios=["Beside Production", "Eddy Cinéma", "Regular Production"], public=["Auvergne-Rhône-Alpes Cinéma"], broadcasters=["RTBF", "France 3"], distributors=["KMBO (FR)", "Sony Pictures Classics (Americas)"])
+film("joachim-stiller", "De komst van Joachim Stiller", ["De komst van Joachim Stiller (1976)"], 1976, "BE", "Harry Kümel", "repertory",
+     ["Belgian production", "Unknown"], "Majority Flemish production. Producers, funds and budget unknown.",
+     ["https://www.flandersimage.com/titles/the-arrival-of-joachim-stiller/the-arrival-of-joachim-stiller.pdf"])
+film("wild-horse-nine", "Wild Horse Nine", ["Wild Horse Nine"], 2026, "UK/US/CL", "Martin McDonagh", "new release",
+     ["Arthouse producers", "TV broadcaster", "Hollywood studio"],
+     "Blueprint Pictures and Film4; Searchlight Pictures distributes. Budget unknown.",
+     [W + "Wild_Horse_Nine"], studios=["Blueprint Pictures"], broadcasters=["Film4"], distributors=["Searchlight Pictures"])
+film("pickpocket-ny", "The Only Living Pickpocket in New York", ["The Only Living Pickpocket in New York"], 2026, "US", "Noah Segan", "new release",
+     ["Independent producers", "Independent financiers"], "Produced by T-Street, financed by MRC. Budget unknown.",
+     ["https://deadline.com/2025/04/john-turturro-to-star-the-only-living-pickpocket-in-new-york-1236364420"], studios=["T-Street", "MRC"])
+film("hope-2026", "Hope", ["Hope"], 2026, "KR", "Na Hong-jin", "new release",
+     ["Media company"], "Plus M Entertainment invests and distributes. Budget about ₩70 billion (≈ $46M), reported as Korea's most expensive film.",
+     ["https://www.koreatimes.co.kr/amp/entertainment/films/20260706/record-budget-sci-fi-hope-gears-up-for-local-theaters-after-cannes", "https://tenasia.com/amp/2023092613584"],
+     studios=["Plus M Entertainment"], distributors=["Plus M Entertainment (KR)"], budget="≈ ₩70 billion (≈ $46M)")
+film("the-devils", "The Devils", ["Ken Russell's The Devils (1971)"], 1971, "UK/US", "Ken Russell", "repertory",
+     ["Hollywood studio"], "Russo Productions; Warner Bros. distributed. Budget unknown.", [W + "The_Devils_(film)"],
+     studios=["Russo Productions"], distributors=["Warner Bros."])
+film("inconvenient-truth", "An Inconvenient Truth", ["An Inconvenient Truth (2006)"], 2006, "US", "Davis Guggenheim", "repertory",
+     ["Independent financiers", "Hollywood studio"], "Participant Productions and Lawrence Bender Productions; Paramount Classics distributed. Budget $1.5M.",
+     [W + "An_Inconvenient_Truth"], studios=["Participant Productions", "Lawrence Bender Productions"], distributors=["Paramount Classics"], budget="$1.5M")
+film("texas-chain-saw", "The Texas Chain Saw Massacre", ["The Texas Chain Saw Massacre (1974)"], 1974, "US", "Tobe Hooper", "repertory",
+     ["Independent financiers"], "Vortex Inc.; Bill Parsley's MAB Inc. put in $60,000 for 50% of the film. Budget $80,000–140,000 (sources give up to $300,000).",
+     [W + "The_Texas_Chain_Saw_Massacre"], studios=["Vortex Inc.", "MAB Inc."], distributors=["Bryanston"], budget="$80,000–140,000")
+film("near-dark", "Near Dark", ["Near Dark (Kathryn Bigelow, 1987)"], 1987, "US", "Kathryn Bigelow", "repertory",
+     ["Independent producers"], "F/M Entertainment; De Laurentiis Entertainment Group distributed. Budget $5M.",
+     [W + "Near_Dark"], studios=["F/M Entertainment"], distributors=["De Laurentiis Entertainment Group"], budget="$5M")
+film("bibi-files", "The Bibi Files", ["The Bibi Files"], 2024, "US", "Alexis Bloom", "new release",
+     ["Independent producers"], "Jigsaw Productions (Alex Gibney) with Drucker & Goren Media. Budget unknown.",
+     [W + "The_Bibi_Files"], studios=["Jigsaw Productions", "Drucker & Goren Media"])
+film("mumbo-jumbo", "Mumbo Jumbo", ["Mumbo"], 2026, "DK", "Karsten Kiilerich", "family",
+     ["Independent animation studios", "Unknown"], "A.Film A/S (DK); sales by LevelK. Funds and budget unknown.",
+     ["https://cineuropa.org/film/488123", "https://www.filmfestival.be/en/film/mumbo-da-mumbo-jumbo-blev-kaempestor"], studios=["A.Film"], sales=["LevelK"])
+film("children-of-liberty", "Children of Liberty", ["Children of Liberty"], 2026, "FR/BE/LU", "Rémy Schaepman, Léahn Vivier-Chapas", "family",
+     ["Independent animation studios", "Belgian production"], "Folivari (FR), Tchack (BE) and Mélusine Productions (LU). Funds and budget unknown.",
+     ["https://www.urbandistrib.com/films/children-of-liberty/"], studios=["Folivari", "Tchack", "Mélusine Productions"])
+film("coyote-vs-acme", "Coyote vs. Acme", ["Coyote vs. Acme"], 2026, "US", "Dave Green", "new release",
+     ["Hollywood studio", "Independent financiers"], "Warner Bros. paid the $70M production, then shelved it; Ketchup Entertainment paid $50M to release it.",
+     ["https://www.cartoonbrew.com/distribution/coyote-vs-acme-budget-distribution-265524.html"], studios=["Warner Bros."], distributors=["Ketchup Entertainment"], budget="$70M")
+film("monster-mia", "Monster Mia", ["Monster Mia"], 2026, "AT/ES/DE", "Verena Fels", "family",
+     ["Independent animation studios", "Unknown"], "arx anima (AT) with Arxlight Pictures, Ikiru Films (ES) and Peng! Boom! Tschak! (DE); sales Sola Media. Funds and budget unknown.",
+     ["https://www.austrianfilms.com/films/Monster_Mia"], studios=["arx anima", "Arxlight Pictures", "Ikiru Films", "Peng! Boom! Tschak!-Films"], sales=["Sola Media"])
+film("resident-evil-2026", "Resident Evil", ["Resident Evil"], 2026, "US/DE", "Zach Cregger", "new release",
+     ["Hollywood studio", "European studio"], "Columbia Pictures, Constantin Film, Davis Films, PlayStation Productions and others; Sony distributes. Budget $75M.",
+     [W + "Resident_Evil_(2026_film)"], studios=["Columbia Pictures", "Constantin Film", "Davis Films", "PlayStation Productions", "Vertigo Entertainment", "Subconscious"], distributors=["Sony Pictures Releasing"], budget="$75M")
+film("yugly", "Yugly", ["Yugly NV", "Yugly"], 2026, "BE", "Jérémie Degruson, Yanis Belaid", "family",
+     ["Belgian production", "Unknown"], "nWave Studios (Brussels). Funds and budget unknown.",
+     ["https://www.brusselstimes.com/2364534/the-beauty-of-being-yugly-how-a-brussels-animation-studio-made-the-worlds-ugliest-dog-a-star"], studios=["nWave Studios"])
+for fid, t, k in [("maira-papua", "Maira: Whisper From Papua", "family"), ("newcomers-filemking", "The Newcomers", "family"),
+                  ("vleugels-voelsprieten", "Vleugels en voelsprieten", "family"), ("kinderen-zilverstraat", "Kinderen van de Zilverstraat: komen in actie!", "family"),
+                  ("sinterklaas-pietendorp", "De Club van Sinterklaas: Paniek in het Pietendorp", "family"),
+                  ("ich-glaub-nie", "Ich glaub' nie mehr an eine Frau (1929)", "repertory")]:
+    src = "https://kaskcinema.be/film/ich-glaub-nie-mehr-an-eine-frau/" if fid == "ich-glaub-nie" else (SKOOP if fid == "sinterklaas-pietendorp" else SPHINX)
+    film(fid, t, [t], None, "", "", k, ["Unknown"], "Unknown: no source found.", [src])
+for fid, t, url in [("cineconcert-kids", "Cinéconcert voor kinderen (4+)", "https://dekoer.be/programma/cineconcert-voor-kinderen-kinderfilm/"),
+                    ("manon-screen", "Manon", SPHINX),
+                    ("brutalites-amoureuses", "Brutalités amoureuses (te gast: Louis Gahide)", "https://offoff.be/en/program/te-gast-louis-gahide-brutalités-amoureuses"),
+                    ("apolline-bruges", "Apolline + Bruges-La-Morte (1959, 1978)", "https://kaskcinema.be/film/apolline-bruges-la-morte/"),
+                    ("damned-dildotectonica", "Damned if You Don't ✞ Dildotectónica (1987, 2023)", "https://kaskcinema.be/film/damned-if-you-dont-dildotectonica/")]:
+    film(fid, t, [t], None, "", "various", "programme", ["Programme of several films"], "Unknown: not a single film.", [url])
+for f in F:  # other spellings used by venues
+    if f["id"] == "odyssey":
+        f["match"].append("The Odyssey -")
+    if f["id"] == "last-one-road":
+        f["match"].append("The Last One for the Road (Andiamo a bere l'ultima)")
+    if f["title"].lower().startswith("shaun het schaap"):
+        f["match"] += ["Shaun Het Schaap: Het Beest van de Boerderij", "Shaun het Schaap: het beest van de boerderij"]
+
 json.dump({"films": F}, open("films.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 print(len(F), "films")

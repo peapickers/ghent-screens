@@ -257,7 +257,8 @@
    "id": "last-one-road",
    "title": "The Last One for the Road",
    "match": [
-    "The Last One for the Road"
+    "The Last One for the Road",
+    "The Last One for the Road (Andiamo a bere l'ultima)"
    ],
    "year": 2025,
    "country": "IT/DE",
@@ -538,7 +539,8 @@
    "id": "odyssey",
    "title": "The Odyssey",
    "match": [
-    "The Odyssey"
+    "The Odyssey",
+    "The Odyssey -"
    ],
    "year": 2026,
    "country": "US/UK",
@@ -781,7 +783,9 @@
    "id": "shaun",
    "title": "Shaun het Schaap: Het Beest op de Boerderij",
    "match": [
-    "Shaun het Schaap: Het Beest op de Boerderij"
+    "Shaun het Schaap: Het Beest op de Boerderij",
+    "Shaun Het Schaap: Het Beest van de Boerderij",
+    "Shaun het Schaap: het beest van de boerderij"
    ],
    "year": 2026,
    "country": "UK",
@@ -1429,6 +1433,814 @@
    "funding": "Cine-concert and talk about cinema in Ghent prison. Funding is not tracked for mixed programmes.",
    "sources": [
     "https://dekoer.be/programma/inmate-sessions-live/"
+   ]
+  },
+  {
+   "id": "la-gradiva",
+   "title": "La Gradiva",
+   "match": [
+    "La Gradiva"
+   ],
+   "year": 2026,
+   "country": "FR/IT",
+   "director": "Marine Atlan",
+   "kind": "new release",
+   "backing": [
+    "European public funds",
+    "French independent producers"
+   ],
+   "studios": [
+    "Les Films du Poisson",
+    "Bibi Film TV"
+   ],
+   "public": [
+    "CNC (€70,000)",
+    "MIC Italy (€70,000)"
+   ],
+   "broadcasters": [],
+   "distributors": [
+    "Tandem (FR)"
+   ],
+   "sales": [],
+   "budget": null,
+   "funding": "Les Films du Poisson (FR) with Bibi Film TV (IT). CNC €70,000 and Italy's MIC €70,000 in French-Italian co-production aid; budget unknown.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/La_Gradiva",
+    "https://www.cnc.fr/professionnels/aides-et-financements/resultats-commissions/aide-au-codeveloppement-et-a-la-coproduction-doeuvres-cinematographiques-et-audiovisuelles-francoitaliennes--resultats-de-la-commission-du-2-decembre-2024_2313733"
+   ]
+  },
+  {
+   "id": "un-anno-di-scuola",
+   "title": "Un anno di scuola",
+   "match": [
+    "Un anno di scuola"
+   ],
+   "year": 2025,
+   "country": "IT/FR",
+   "director": "Laura Samani",
+   "kind": "new release",
+   "backing": [
+    "European public funds",
+    "Arthouse producers"
+   ],
+   "studios": [
+    "Nefertiti Film",
+    "Tomsa Films"
+   ],
+   "public": [
+    "CNC (€40,000)",
+    "MIC Italy (€60,000)"
+   ],
+   "broadcasters": [],
+   "distributors": [],
+   "sales": [],
+   "budget": null,
+   "funding": "Nefertiti Film (IT) with Tomsa Films (FR). CNC €40,000 and Italy's MIC €60,000 in co-production aid; budget unknown.",
+   "sources": [
+    "https://www.cnc.fr/professionnels/aides-et-financements/resultats-commissions/aide-au-codeveloppement-et-a-la-coproduction-doeuvres-cinematographiques-et-audiovisuelles-francoitaliennes--resultats-de-la-commission-du-2-decembre-2024_2313733",
+    "https://www.labiennale.org/it/cinema/2025/orizzonti/un-anno-di-scuola"
+   ]
+  },
+  {
+   "id": "iron-boy",
+   "title": "Iron Boy (Le Corset)",
+   "match": [
+    "Iron Boy (Le Corset)",
+    "Iron Boy",
+    "Le Corset"
+   ],
+   "year": 2026,
+   "country": "FR/BE",
+   "director": "Louis Clichy",
+   "kind": "family",
+   "backing": [
+    "Belgian production",
+    "French independent producers",
+    "TV broadcaster"
+   ],
+   "studios": [
+    "Beside Production",
+    "Eddy Cinéma",
+    "Regular Production"
+   ],
+   "public": [
+    "Auvergne-Rhône-Alpes Cinéma"
+   ],
+   "broadcasters": [
+    "RTBF",
+    "France 3"
+   ],
+   "distributors": [
+    "KMBO (FR)",
+    "Sony Pictures Classics (Americas)"
+   ],
+   "sales": [],
+   "budget": null,
+   "funding": "Beside Production and RTBF (BE) with Eddy Cinéma, Regular Production, France 3 and Auvergne-Rhône-Alpes Cinéma (FR). Amounts and budget unknown.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Iron_Boy_(film)"
+   ]
+  },
+  {
+   "id": "joachim-stiller",
+   "title": "De komst van Joachim Stiller",
+   "match": [
+    "De komst van Joachim Stiller (1976)"
+   ],
+   "year": 1976,
+   "country": "BE",
+   "director": "Harry Kümel",
+   "kind": "repertory",
+   "backing": [
+    "Belgian production",
+    "Unknown"
+   ],
+   "studios": [],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [],
+   "sales": [],
+   "budget": null,
+   "funding": "Majority Flemish production. Producers, funds and budget unknown.",
+   "sources": [
+    "https://www.flandersimage.com/titles/the-arrival-of-joachim-stiller/the-arrival-of-joachim-stiller.pdf"
+   ]
+  },
+  {
+   "id": "wild-horse-nine",
+   "title": "Wild Horse Nine",
+   "match": [
+    "Wild Horse Nine"
+   ],
+   "year": 2026,
+   "country": "UK/US/CL",
+   "director": "Martin McDonagh",
+   "kind": "new release",
+   "backing": [
+    "Arthouse producers",
+    "TV broadcaster",
+    "Hollywood studio"
+   ],
+   "studios": [
+    "Blueprint Pictures"
+   ],
+   "public": [],
+   "broadcasters": [
+    "Film4"
+   ],
+   "distributors": [
+    "Searchlight Pictures"
+   ],
+   "sales": [],
+   "budget": null,
+   "funding": "Blueprint Pictures and Film4; Searchlight Pictures distributes. Budget unknown.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Wild_Horse_Nine"
+   ]
+  },
+  {
+   "id": "pickpocket-ny",
+   "title": "The Only Living Pickpocket in New York",
+   "match": [
+    "The Only Living Pickpocket in New York"
+   ],
+   "year": 2026,
+   "country": "US",
+   "director": "Noah Segan",
+   "kind": "new release",
+   "backing": [
+    "Independent producers",
+    "Independent financiers"
+   ],
+   "studios": [
+    "T-Street",
+    "MRC"
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [],
+   "sales": [],
+   "budget": null,
+   "funding": "Produced by T-Street, financed by MRC. Budget unknown.",
+   "sources": [
+    "https://deadline.com/2025/04/john-turturro-to-star-the-only-living-pickpocket-in-new-york-1236364420"
+   ]
+  },
+  {
+   "id": "hope-2026",
+   "title": "Hope",
+   "match": [
+    "Hope"
+   ],
+   "year": 2026,
+   "country": "KR",
+   "director": "Na Hong-jin",
+   "kind": "new release",
+   "backing": [
+    "Media company"
+   ],
+   "studios": [
+    "Plus M Entertainment"
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [
+    "Plus M Entertainment (KR)"
+   ],
+   "sales": [],
+   "budget": "≈ ₩70 billion (≈ $46M)",
+   "funding": "Plus M Entertainment invests and distributes. Budget about ₩70 billion (≈ $46M), reported as Korea's most expensive film.",
+   "sources": [
+    "https://www.koreatimes.co.kr/amp/entertainment/films/20260706/record-budget-sci-fi-hope-gears-up-for-local-theaters-after-cannes",
+    "https://tenasia.com/amp/2023092613584"
+   ]
+  },
+  {
+   "id": "the-devils",
+   "title": "The Devils",
+   "match": [
+    "Ken Russell's The Devils (1971)"
+   ],
+   "year": 1971,
+   "country": "UK/US",
+   "director": "Ken Russell",
+   "kind": "repertory",
+   "backing": [
+    "Hollywood studio"
+   ],
+   "studios": [
+    "Russo Productions"
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [
+    "Warner Bros."
+   ],
+   "sales": [],
+   "budget": null,
+   "funding": "Russo Productions; Warner Bros. distributed. Budget unknown.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/The_Devils_(film)"
+   ]
+  },
+  {
+   "id": "inconvenient-truth",
+   "title": "An Inconvenient Truth",
+   "match": [
+    "An Inconvenient Truth (2006)"
+   ],
+   "year": 2006,
+   "country": "US",
+   "director": "Davis Guggenheim",
+   "kind": "repertory",
+   "backing": [
+    "Independent financiers",
+    "Hollywood studio"
+   ],
+   "studios": [
+    "Participant Productions",
+    "Lawrence Bender Productions"
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [
+    "Paramount Classics"
+   ],
+   "sales": [],
+   "budget": "$1.5M",
+   "funding": "Participant Productions and Lawrence Bender Productions; Paramount Classics distributed. Budget $1.5M.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/An_Inconvenient_Truth"
+   ]
+  },
+  {
+   "id": "texas-chain-saw",
+   "title": "The Texas Chain Saw Massacre",
+   "match": [
+    "The Texas Chain Saw Massacre (1974)"
+   ],
+   "year": 1974,
+   "country": "US",
+   "director": "Tobe Hooper",
+   "kind": "repertory",
+   "backing": [
+    "Independent financiers"
+   ],
+   "studios": [
+    "Vortex Inc.",
+    "MAB Inc."
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [
+    "Bryanston"
+   ],
+   "sales": [],
+   "budget": "$80,000–140,000",
+   "funding": "Vortex Inc.; Bill Parsley's MAB Inc. put in $60,000 for 50% of the film. Budget $80,000–140,000 (sources give up to $300,000).",
+   "sources": [
+    "https://en.wikipedia.org/wiki/The_Texas_Chain_Saw_Massacre"
+   ]
+  },
+  {
+   "id": "near-dark",
+   "title": "Near Dark",
+   "match": [
+    "Near Dark (Kathryn Bigelow, 1987)"
+   ],
+   "year": 1987,
+   "country": "US",
+   "director": "Kathryn Bigelow",
+   "kind": "repertory",
+   "backing": [
+    "Independent producers"
+   ],
+   "studios": [
+    "F/M Entertainment"
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [
+    "De Laurentiis Entertainment Group"
+   ],
+   "sales": [],
+   "budget": "$5M",
+   "funding": "F/M Entertainment; De Laurentiis Entertainment Group distributed. Budget $5M.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Near_Dark"
+   ]
+  },
+  {
+   "id": "bibi-files",
+   "title": "The Bibi Files",
+   "match": [
+    "The Bibi Files"
+   ],
+   "year": 2024,
+   "country": "US",
+   "director": "Alexis Bloom",
+   "kind": "new release",
+   "backing": [
+    "Independent producers"
+   ],
+   "studios": [
+    "Jigsaw Productions",
+    "Drucker & Goren Media"
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [],
+   "sales": [],
+   "budget": null,
+   "funding": "Jigsaw Productions (Alex Gibney) with Drucker & Goren Media. Budget unknown.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/The_Bibi_Files"
+   ]
+  },
+  {
+   "id": "mumbo-jumbo",
+   "title": "Mumbo Jumbo",
+   "match": [
+    "Mumbo"
+   ],
+   "year": 2026,
+   "country": "DK",
+   "director": "Karsten Kiilerich",
+   "kind": "family",
+   "backing": [
+    "Independent animation studios",
+    "Unknown"
+   ],
+   "studios": [
+    "A.Film"
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [],
+   "sales": [
+    "LevelK"
+   ],
+   "budget": null,
+   "funding": "A.Film A/S (DK); sales by LevelK. Funds and budget unknown.",
+   "sources": [
+    "https://cineuropa.org/film/488123",
+    "https://www.filmfestival.be/en/film/mumbo-da-mumbo-jumbo-blev-kaempestor"
+   ]
+  },
+  {
+   "id": "children-of-liberty",
+   "title": "Children of Liberty",
+   "match": [
+    "Children of Liberty"
+   ],
+   "year": 2026,
+   "country": "FR/BE/LU",
+   "director": "Rémy Schaepman, Léahn Vivier-Chapas",
+   "kind": "family",
+   "backing": [
+    "Independent animation studios",
+    "Belgian production"
+   ],
+   "studios": [
+    "Folivari",
+    "Tchack",
+    "Mélusine Productions"
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [],
+   "sales": [],
+   "budget": null,
+   "funding": "Folivari (FR), Tchack (BE) and Mélusine Productions (LU). Funds and budget unknown.",
+   "sources": [
+    "https://www.urbandistrib.com/films/children-of-liberty/"
+   ]
+  },
+  {
+   "id": "coyote-vs-acme",
+   "title": "Coyote vs. Acme",
+   "match": [
+    "Coyote vs. Acme"
+   ],
+   "year": 2026,
+   "country": "US",
+   "director": "Dave Green",
+   "kind": "new release",
+   "backing": [
+    "Hollywood studio",
+    "Independent financiers"
+   ],
+   "studios": [
+    "Warner Bros."
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [
+    "Ketchup Entertainment"
+   ],
+   "sales": [],
+   "budget": "$70M",
+   "funding": "Warner Bros. paid the $70M production, then shelved it; Ketchup Entertainment paid $50M to release it.",
+   "sources": [
+    "https://www.cartoonbrew.com/distribution/coyote-vs-acme-budget-distribution-265524.html"
+   ]
+  },
+  {
+   "id": "monster-mia",
+   "title": "Monster Mia",
+   "match": [
+    "Monster Mia"
+   ],
+   "year": 2026,
+   "country": "AT/ES/DE",
+   "director": "Verena Fels",
+   "kind": "family",
+   "backing": [
+    "Independent animation studios",
+    "Unknown"
+   ],
+   "studios": [
+    "arx anima",
+    "Arxlight Pictures",
+    "Ikiru Films",
+    "Peng! Boom! Tschak!-Films"
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [],
+   "sales": [
+    "Sola Media"
+   ],
+   "budget": null,
+   "funding": "arx anima (AT) with Arxlight Pictures, Ikiru Films (ES) and Peng! Boom! Tschak! (DE); sales Sola Media. Funds and budget unknown.",
+   "sources": [
+    "https://www.austrianfilms.com/films/Monster_Mia"
+   ]
+  },
+  {
+   "id": "resident-evil-2026",
+   "title": "Resident Evil",
+   "match": [
+    "Resident Evil"
+   ],
+   "year": 2026,
+   "country": "US/DE",
+   "director": "Zach Cregger",
+   "kind": "new release",
+   "backing": [
+    "Hollywood studio",
+    "European studio"
+   ],
+   "studios": [
+    "Columbia Pictures",
+    "Constantin Film",
+    "Davis Films",
+    "PlayStation Productions",
+    "Vertigo Entertainment",
+    "Subconscious"
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [
+    "Sony Pictures Releasing"
+   ],
+   "sales": [],
+   "budget": "$75M",
+   "funding": "Columbia Pictures, Constantin Film, Davis Films, PlayStation Productions and others; Sony distributes. Budget $75M.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Resident_Evil_(2026_film)"
+   ]
+  },
+  {
+   "id": "yugly",
+   "title": "Yugly",
+   "match": [
+    "Yugly NV",
+    "Yugly"
+   ],
+   "year": 2026,
+   "country": "BE",
+   "director": "Jérémie Degruson, Yanis Belaid",
+   "kind": "family",
+   "backing": [
+    "Belgian production",
+    "Unknown"
+   ],
+   "studios": [
+    "nWave Studios"
+   ],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [],
+   "sales": [],
+   "budget": null,
+   "funding": "nWave Studios (Brussels). Funds and budget unknown.",
+   "sources": [
+    "https://www.brusselstimes.com/2364534/the-beauty-of-being-yugly-how-a-brussels-animation-studio-made-the-worlds-ugliest-dog-a-star"
+   ]
+  },
+  {
+   "id": "maira-papua",
+   "title": "Maira: Whisper From Papua",
+   "match": [
+    "Maira: Whisper From Papua"
+   ],
+   "year": null,
+   "country": "",
+   "director": "",
+   "kind": "family",
+   "backing": [
+    "Unknown"
+   ],
+   "studios": [],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [],
+   "sales": [],
+   "budget": null,
+   "funding": "Unknown: no source found.",
+   "sources": [
+    "https://www.sphinx-cinema.be/programma"
+   ]
+  },
+  {
+   "id": "newcomers-filemking",
+   "title": "The Newcomers",
+   "match": [
+    "The Newcomers"
+   ],
+   "year": null,
+   "country": "",
+   "director": "",
+   "kind": "family",
+   "backing": [
+    "Unknown"
+   ],
+   "studios": [],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [],
+   "sales": [],
+   "budget": null,
+   "funding": "Unknown: no source found.",
+   "sources": [
+    "https://www.sphinx-cinema.be/programma"
+   ]
+  },
+  {
+   "id": "vleugels-voelsprieten",
+   "title": "Vleugels en voelsprieten",
+   "match": [
+    "Vleugels en voelsprieten"
+   ],
+   "year": null,
+   "country": "",
+   "director": "",
+   "kind": "family",
+   "backing": [
+    "Unknown"
+   ],
+   "studios": [],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [],
+   "sales": [],
+   "budget": null,
+   "funding": "Unknown: no source found.",
+   "sources": [
+    "https://www.sphinx-cinema.be/programma"
+   ]
+  },
+  {
+   "id": "kinderen-zilverstraat",
+   "title": "Kinderen van de Zilverstraat: komen in actie!",
+   "match": [
+    "Kinderen van de Zilverstraat: komen in actie!"
+   ],
+   "year": null,
+   "country": "",
+   "director": "",
+   "kind": "family",
+   "backing": [
+    "Unknown"
+   ],
+   "studios": [],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [],
+   "sales": [],
+   "budget": null,
+   "funding": "Unknown: no source found.",
+   "sources": [
+    "https://www.sphinx-cinema.be/programma"
+   ]
+  },
+  {
+   "id": "sinterklaas-pietendorp",
+   "title": "De Club van Sinterklaas: Paniek in het Pietendorp",
+   "match": [
+    "De Club van Sinterklaas: Paniek in het Pietendorp"
+   ],
+   "year": null,
+   "country": "",
+   "director": "",
+   "kind": "family",
+   "backing": [
+    "Unknown"
+   ],
+   "studios": [],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [],
+   "sales": [],
+   "budget": null,
+   "funding": "Unknown: no source found.",
+   "sources": [
+    "https://www.studioskoop.be/agenda-studio-skoop/"
+   ]
+  },
+  {
+   "id": "ich-glaub-nie",
+   "title": "Ich glaub' nie mehr an eine Frau (1929)",
+   "match": [
+    "Ich glaub' nie mehr an eine Frau (1929)"
+   ],
+   "year": null,
+   "country": "",
+   "director": "",
+   "kind": "repertory",
+   "backing": [
+    "Unknown"
+   ],
+   "studios": [],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [],
+   "sales": [],
+   "budget": null,
+   "funding": "Unknown: no source found.",
+   "sources": [
+    "https://kaskcinema.be/film/ich-glaub-nie-mehr-an-eine-frau/"
+   ]
+  },
+  {
+   "id": "cineconcert-kids",
+   "title": "Cinéconcert voor kinderen (4+)",
+   "match": [
+    "Cinéconcert voor kinderen (4+)"
+   ],
+   "year": null,
+   "country": "",
+   "director": "various",
+   "kind": "programme",
+   "backing": [
+    "Programme of several films"
+   ],
+   "studios": [],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [],
+   "sales": [],
+   "budget": null,
+   "funding": "Unknown: not a single film.",
+   "sources": [
+    "https://dekoer.be/programma/cineconcert-voor-kinderen-kinderfilm/"
+   ]
+  },
+  {
+   "id": "manon-screen",
+   "title": "Manon",
+   "match": [
+    "Manon"
+   ],
+   "year": null,
+   "country": "",
+   "director": "various",
+   "kind": "programme",
+   "backing": [
+    "Programme of several films"
+   ],
+   "studios": [],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [],
+   "sales": [],
+   "budget": null,
+   "funding": "Unknown: not a single film.",
+   "sources": [
+    "https://www.sphinx-cinema.be/programma"
+   ]
+  },
+  {
+   "id": "brutalites-amoureuses",
+   "title": "Brutalités amoureuses (te gast: Louis Gahide)",
+   "match": [
+    "Brutalités amoureuses (te gast: Louis Gahide)"
+   ],
+   "year": null,
+   "country": "",
+   "director": "various",
+   "kind": "programme",
+   "backing": [
+    "Programme of several films"
+   ],
+   "studios": [],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [],
+   "sales": [],
+   "budget": null,
+   "funding": "Unknown: not a single film.",
+   "sources": [
+    "https://offoff.be/en/program/te-gast-louis-gahide-brutalités-amoureuses"
+   ]
+  },
+  {
+   "id": "apolline-bruges",
+   "title": "Apolline + Bruges-La-Morte (1959, 1978)",
+   "match": [
+    "Apolline + Bruges-La-Morte (1959, 1978)"
+   ],
+   "year": null,
+   "country": "",
+   "director": "various",
+   "kind": "programme",
+   "backing": [
+    "Programme of several films"
+   ],
+   "studios": [],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [],
+   "sales": [],
+   "budget": null,
+   "funding": "Unknown: not a single film.",
+   "sources": [
+    "https://kaskcinema.be/film/apolline-bruges-la-morte/"
+   ]
+  },
+  {
+   "id": "damned-dildotectonica",
+   "title": "Damned if You Don't ✞ Dildotectónica (1987, 2023)",
+   "match": [
+    "Damned if You Don't ✞ Dildotectónica (1987, 2023)"
+   ],
+   "year": null,
+   "country": "",
+   "director": "various",
+   "kind": "programme",
+   "backing": [
+    "Programme of several films"
+   ],
+   "studios": [],
+   "public": [],
+   "broadcasters": [],
+   "distributors": [],
+   "sales": [],
+   "budget": null,
+   "funding": "Unknown: not a single film.",
+   "sources": [
+    "https://kaskcinema.be/film/damned-if-you-dont-dildotectonica/"
    ]
   }
  ]
