@@ -28,7 +28,7 @@ jobs:
       - name: Read the stage programmes (theatre, dance, music)
         run: python3 scripts/update_stage.py
       - name: Rebuild the RSS feed
-        run: SITE_URL=https://peapickers.github.io/ghent-screens python3 scripts/build_feed.py
+        run: SITE_URL=https://peapickers.github.io/two-step python3 scripts/build_feed.py
       - name: Save and publish
         env:
           GH_TOKEN: ${{ github.token }}

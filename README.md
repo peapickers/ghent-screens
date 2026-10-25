@@ -2,7 +2,7 @@
 
 Film, theatre, dance, music, talks and exhibitions in and around Ghent (arthouse cinemas and film clubs such as Sphinx, Studio Skoop, KASKcinema and Ciné Rio), with a **Funding** article on who paid for each film. Kinepolis is not included.
 
-This repository is the public site. GitHub Pages serves it for free at `https://peapickers.github.io/ghent-screens/`:
+This repository is the public site. GitHub Pages serves it for free at `https://peapickers.github.io/two-step/`:
 
 | File | What it is |
 |---|---|
@@ -33,8 +33,8 @@ Everything below is free. Steps 1–2 take about 5 minutes. Steps 3–5 take abo
 ## 1. Create the repository (GitHub)
 
 1. Sign up or sign in at github.com (free).
-2. Create a **public** repository named `ghent-screens`. Leave it empty: no README, no licence.
-3. In Claude, connect GitHub (Settings → Connectors) and give it access to `ghent-screens`, then tell Claude "push the two-step site". Claude uploads these files.
+2. Create a **public** repository named `two-step`. Leave it empty: no README, no licence.
+3. In Claude, connect GitHub (Settings → Connectors) and give it access to `two-step`, then tell Claude "push the two-step site". Claude uploads these files.
 4. In the repository, open **Settings → Pages**. Under *Build and deployment* pick **Deploy from a branch**, branch `main`, folder `/ (root)`, then **Save**. The site is live within a few minutes.
 5. Tell Claude your GitHub username so the RSS feed gets the right address.
 
@@ -79,9 +79,9 @@ cd ~
 git clone https://github.com/jlbadano/ig-mcp.git
 cd ig-mcp
 git checkout 549fbee                      # the version that was reviewed
-curl -fsSLO https://peapickers.github.io/ghent-screens/igmcp/add_carousel.py
-curl -fsSLO https://peapickers.github.io/ghent-screens/igmcp/run.sh
-curl -fsSLO https://peapickers.github.io/ghent-screens/igmcp/requirements-slim.txt
+curl -fsSLO https://peapickers.github.io/two-step/igmcp/add_carousel.py
+curl -fsSLO https://peapickers.github.io/two-step/igmcp/run.sh
+curl -fsSLO https://peapickers.github.io/two-step/igmcp/requirements-slim.txt
 python3 add_carousel.py                   # adds publish_carousel, removes send_dm
 python3.12 -m venv .venv
 .venv/bin/pip install -r requirements-slim.txt

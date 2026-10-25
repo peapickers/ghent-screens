@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """Write feed.xml (RSS 2.0) for the public GitHub Pages site.
 One item per day for the next 7 days: every film, rarest first, with venue, times and who paid.
-Usage: SITE_URL=https://<user>.github.io/ghent-screens python3 build_feed.py
+Usage: SITE_URL=https://<user>.github.io/two-step python3 build_feed.py
 Free software only: Python standard library."""
 import json, os, datetime, zoneinfo, html
 from email.utils import format_datetime
 
-SITE = os.environ.get("SITE_URL", "https://example.github.io/ghent-screens").rstrip("/")
+SITE = os.environ.get("SITE_URL", "https://example.github.io/two-step").rstrip("/")
 TZ = zoneinfo.ZoneInfo("Europe/Brussels")
 D = json.load(open("screenings.json", encoding="utf-8"))
 FILMS = {}
@@ -44,7 +44,7 @@ for i in range(7):
     body.append("</ol>")
     pub = datetime.datetime.combine(day, datetime.time(7, 0), TZ)
     items.append(f"""<item><title>two-step · {day.strftime('%A %-d %B')} · {len(films)} films</title>
-<link>{SITE}/#{day.isoformat()}</link><guid isPermaLink="false">ghent-screens-{day.isoformat()}-{D['updated']}</guid>
+<link>{SITE}/#{day.isoformat()}</link><guid isPermaLink="false">two-step-{day.isoformat()}-{D['updated']}</guid>
 <pubDate>{format_datetime(pub)}</pubDate><description><![CDATA[{''.join(body)}]]></description></item>""")
 
 now = format_datetime(datetime.datetime.now(TZ))
