@@ -1,4 +1,4 @@
-# Ghent Screens
+# two-step
 
 Film, theatre, dance, music, talks and exhibitions in and around Ghent (arthouse cinemas and film clubs such as Sphinx, Studio Skoop, KASKcinema and Ciné Rio), with a **Funding** article on who paid for each film. Kinepolis is not included.
 
@@ -34,7 +34,7 @@ Everything below is free. Steps 1–2 take about 5 minutes. Steps 3–5 take abo
 
 1. Sign up or sign in at github.com (free).
 2. Create a **public** repository named `ghent-screens`. Leave it empty: no README, no licence.
-3. In Claude, connect GitHub (Settings → Connectors) and give it access to `ghent-screens`, then tell Claude "push the Ghent Screens site". Claude uploads these files.
+3. In Claude, connect GitHub (Settings → Connectors) and give it access to `ghent-screens`, then tell Claude "push the two-step site". Claude uploads these files.
 4. In the repository, open **Settings → Pages**. Under *Build and deployment* pick **Deploy from a branch**, branch `main`, folder `/ (root)`, then **Save**. The site is live within a few minutes.
 5. Tell Claude your GitHub username so the RSS feed gets the right address.
 

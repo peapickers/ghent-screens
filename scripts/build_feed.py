@@ -43,14 +43,14 @@ for i in range(7):
         body.append(f"<li><b>{html.escape(title)}</b> ({count[k]}× this week): {html.escape(where)}{money}</li>")
     body.append("</ol>")
     pub = datetime.datetime.combine(day, datetime.time(7, 0), TZ)
-    items.append(f"""<item><title>Ghent screens · {day.strftime('%A %-d %B')} · {len(films)} films</title>
+    items.append(f"""<item><title>two-step · {day.strftime('%A %-d %B')} · {len(films)} films</title>
 <link>{SITE}/#{day.isoformat()}</link><guid isPermaLink="false">ghent-screens-{day.isoformat()}-{D['updated']}</guid>
 <pubDate>{format_datetime(pub)}</pubDate><description><![CDATA[{''.join(body)}]]></description></item>""")
 
 now = format_datetime(datetime.datetime.now(TZ))
 xml = f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
-<title>Ghent Screens</title><link>{SITE}/</link>
+<title>two-step</title><link>{SITE}/</link>
 <atom:link href="{SITE}/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Daily screenings at Ghent's arthouse cinemas and film clubs, rarest films first, with who paid for each film. Kinepolis not included.</description>
 <language>en</language><lastBuildDate>{now}</lastBuildDate>

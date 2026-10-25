@@ -1,6 +1,6 @@
 {
-  "name": "Ghent Screens",
-  "short_name": "Ghent Screens",
+  "name": "two-step",
+  "short_name": "two-step",
   "description": "Film and theatre in Ghent, with filters and the money behind each production.",
   "start_url": "./",
   "scope": "./",

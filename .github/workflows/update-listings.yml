@@ -1,4 +1,4 @@
-# Weekly automatic update of Ghent Screens (wave 1: film; wave 2: theatre, dance and stage music).
+# Weekly automatic update of two-step (wave 1: film; wave 2: theatre, dance and stage music).
 # Runs on GitHub's free runners, without Claude: reads the official programme pages,
 # updates screenings.json and feed.xml, and pushes the result. GitHub Pages then republishes the site.
 name: Weekly listings update

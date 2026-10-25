@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Film metadata + Funding articles for Ghent Screens. Writes films.json.
+"""Film metadata + Funding articles for two-step. Writes films.json.
 Each film: id, title, match (title variants used by venues), year, country, director,
 kind, backing (money-type tags), studios, public, broadcasters, distributors, sales,
 budget, funding (short article), sources."""
