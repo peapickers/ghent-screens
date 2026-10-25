@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T14:45:00+02:00",
+ "updated": "2026-10-25T16:09:01+00:00",
  "city": "Gent",
  "excluded": [
   "Kinepolis"
@@ -142,6 +142,54 @@
    "addr": "KU Leuven alumni (organiser)",
    "url": "https://www.ekonomika-alumni.be/activiteiten",
    "kind": "economics lectures"
+  },
+  "amsab": {
+   "name": "Amsab-ISG",
+   "addr": "Bagattenstraat 174, 9000 Gent",
+   "url": "https://www.amsab.be/en/publieksaanbod/publieksevenementen",
+   "kind": "archive & institute of social history"
+  },
+  "alijn": {
+   "name": "Huis van Alijn",
+   "addr": "Kraanlei 65, 9000 Gent",
+   "url": "https://huisvanalijn.be/nl/agenda",
+   "kind": "museum of everyday life"
+  },
+  "stam": {
+   "name": "STAM Stadsmuseum Gent",
+   "addr": "Gent (address on the venue site)",
+   "url": "https://stamgent.be/",
+   "kind": "city museum"
+  },
+  "guislain": {
+   "name": "Museum Dr. Guislain",
+   "addr": "Gent (address on the venue site)",
+   "url": "https://www.museumdrguislain.be/nl/home",
+   "kind": "museum of psychiatry"
+  },
+  "industrie": {
+   "name": "Industriemuseum",
+   "addr": "Gent (address on the venue site)",
+   "url": "https://www.industriemuseum.be/nl/agenda",
+   "kind": "museum of industry"
+  },
+  "design": {
+   "name": "Design Museum Gent",
+   "addr": "Gent (address on the venue site)",
+   "url": "https://designmuseumgent.be/",
+   "kind": "design museum"
+  },
+  "letterenhuis": {
+   "name": "Letterenhuis",
+   "addr": "Antwerpen (address on the venue site)",
+   "url": "https://letterenhuis.be/nl/kalender",
+   "kind": "literary archive"
+  },
+  "fomu": {
+   "name": "FOMU Fotomuseum",
+   "addr": "Antwerpen (address on the venue site)",
+   "url": "https://fomu.be/en/exhibitions",
+   "kind": "photography museum"
   }
  },
  "notices": [
@@ -149,7 +197,8 @@
   "Sphinx closes for renovation from March 2027 for about 18 months; a pop-up cinema is planned.",
   "Funding for theatre, music and talks: unknown until a source (credits, Kunstendecreet database) is found.",
   "Ciné Rio, Kopergietery, Masereelfonds, Liberas and some poetry events list dates without start times; check the event page.",
-  "Talks outside Ghent are included (Antwerp, Brussels, Bruges, Sint-Niklaas and more): use the city filter."
+  "Talks outside Ghent are included (Antwerp, Brussels, Bruges, Sint-Niklaas and more): use the city filter.",
+  "Archives: exhibitions from archives, heritage institutes and museums in and around Ghent (Antwerp included), shown while they run. Opening hours differ per house; check the page."
  ],
  "screenings": [
   {
@@ -5619,6 +5668,182 @@
    "th": "literature",
    "place": "Bibliotheek De Krook",
    "city": "Gent"
+  },
+  {
+   "v": "amsab",
+   "d": "2026-10-23",
+   "e": "2027-04-18",
+   "t": "",
+   "title": "Sporen van vergeten natuur",
+   "note": "Herbaria, old photos and nature diaries from the archive · free, weekdays 9–17",
+   "url": "https://www.amsab.be/en/publieksaanbod/publieksevenementen/expo-sporen-van-vergeten-natuur",
+   "k": "archive",
+   "city": "Gent"
+  },
+  {
+   "v": "liberas",
+   "d": "2026-10-30",
+   "e": "2027-01-29",
+   "t": "",
+   "title": "De Kunst en De Generaal. Het dubbelleven van Piet De Groof",
+   "note": "Air force general and, as Walter Korun, Cobra-linked artist · opening 29 Oct 19:00 (register)",
+   "url": "https://www.liberas.eu/nl/actueel/agenda/tentoonstelling-de-kunst-en-de-generaal-het-dubbelleven-van-piet-de-groof",
+   "k": "archive",
+   "city": "Gent"
+  },
+  {
+   "v": "alijn",
+   "d": "2026-07-04",
+   "e": "2027-09-30",
+   "t": "",
+   "title": "C'est Party!",
+   "note": "100 years of nightlife in Flanders and Brussels, with archive images",
+   "url": "https://huisvanalijn.be/nl/agenda/c-est-party",
+   "k": "archive",
+   "city": "Gent"
+  },
+  {
+   "v": "stam",
+   "d": "2026-10-16",
+   "e": "2027-05-18",
+   "t": "",
+   "title": "De Parade",
+   "note": "Temporary show built from the museum's own collection",
+   "url": "https://stamgent.be/nl_be/evenementen/de-parade",
+   "k": "archive",
+   "city": "Gent"
+  },
+  {
+   "v": "stam",
+   "d": "2026-11-20",
+   "e": "2027-04-18",
+   "t": "",
+   "title": "Pier es ier",
+   "note": "Puppet-theatre heritage around Ghent's Pierke",
+   "url": "https://stamgent.be/nl_be/evenementen/pier-es-ier",
+   "k": "archive",
+   "city": "Gent"
+  },
+  {
+   "v": "stam",
+   "d": "2027-10-28",
+   "e": "2028-01-30",
+   "t": "",
+   "title": "Ketterse Steden. Opstand in de Lage Landen 1566-1585",
+   "note": "Revolt, repression and tolerance in the Low Countries",
+   "url": "https://stamgent.be/nl_be/evenementen/ketterse-steden",
+   "k": "archive",
+   "city": "Gent"
+  },
+  {
+   "v": "guislain",
+   "d": "2024-11-23",
+   "e": "2027-06-27",
+   "t": "",
+   "title": "Eigen huis: Het geheugen van een museum",
+   "note": "The museum's own memory and collection",
+   "url": "https://www.museumdrguislain.be/nl/home",
+   "k": "archive",
+   "city": "Gent"
+  },
+  {
+   "v": "guislain",
+   "d": "2026-07-04",
+   "e": "2026-12-31",
+   "t": "",
+   "title": "Verkleurmannetje: de kunstcollectie volgens Roger Ballen",
+   "note": "The art collection, selected by Roger Ballen",
+   "url": "https://www.museumdrguislain.be/nl/home",
+   "k": "archive",
+   "city": "Gent"
+  },
+  {
+   "v": "guislain",
+   "d": "2026-10-24",
+   "e": "2027-02-14",
+   "t": "",
+   "title": "In de schaduw van de grote bomen",
+   "note": "",
+   "url": "https://www.museumdrguislain.be/nl/home",
+   "k": "archive",
+   "city": "Gent"
+  },
+  {
+   "v": "industrie",
+   "d": "2026-11-14",
+   "e": "2027-09-26",
+   "t": "",
+   "title": "Computer says hello",
+   "note": "",
+   "url": "https://www.industriemuseum.be/nl/agenda/expo-computer-says-hello",
+   "k": "archive",
+   "city": "Gent"
+  },
+  {
+   "v": "design",
+   "d": "2026-10-17",
+   "e": "2027-04-11",
+   "t": "",
+   "title": "Public Matter(s): Design and Democracy",
+   "note": "Temporary exhibition in the reopened museum",
+   "url": "https://designmuseumgent.be/en/programme/public-matters-design-and-democracy-guided-tour",
+   "k": "archive",
+   "city": "Gent"
+  },
+  {
+   "v": "letterenhuis",
+   "d": "2026-09-01",
+   "e": "2026-10-30",
+   "t": "",
+   "title": "Barakstad: JMH Berckmans verzameld",
+   "note": "De Vitrine #11 · pieces from Berckmans' archive, with Ellen Van Pelt",
+   "url": "https://letterenhuis.be/nl/activiteit/barakstad-jmh-berckmans-verzameld",
+   "k": "archive",
+   "city": "Antwerpen"
+  },
+  {
+   "v": "fomu",
+   "d": "2026-03-20",
+   "e": "2027-05-23",
+   "t": "",
+   "title": "Families",
+   "note": "",
+   "url": "https://fomu.be/en/exhibitions/families",
+   "k": "archive",
+   "city": "Antwerpen"
+  },
+  {
+   "v": "fomu",
+   "d": "2026-09-18",
+   "e": "2026-11-08",
+   "t": "",
+   "title": "Beurre sculpté par ma mère 2021 2026 (Lola Pertsowsky)",
+   "note": "",
+   "url": "https://fomu.be/en/exhibitions/lola-pertsowsky",
+   "k": "archive",
+   "city": "Antwerpen"
+  },
+  {
+   "v": "fomu",
+   "d": "2026-09-18",
+   "e": "2027-01-17",
+   "t": "",
+   "title": "Léonard Pongo",
+   "note": "",
+   "url": "https://fomu.be/en/exhibitions/leonard-pongo",
+   "k": "archive",
+   "city": "Antwerpen"
+  },
+  {
+   "v": "fomu",
+   "d": "2026-09-18",
+   "e": "2027-01-17",
+   "t": "",
+   "title": "Graciela Iturbide",
+   "note": "",
+   "url": "https://fomu.be/en/exhibitions/graciela-iturbide",
+   "k": "archive",
+   "city": "Antwerpen"
   }
  ]
 }
