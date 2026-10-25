@@ -17,7 +17,7 @@ TZ = zoneinfo.ZoneInfo("Europe/Brussels")
 TODAY = datetime.datetime.now(TZ).date()
 UA = "GhentScreensBot/1.0 (+https://peapickers.github.io/ghent-screens/; weekly, programme facts only)"
 MONTHS = {m: i + 1 for i, m in enumerate("januari februari maart april mei juni juli augustus september oktober november december".split())}
-AUTO = "Automatic update:"
+AUTO = "Automatic update (film):"
 
 SOURCES = {
     "sphinx": "https://www.sphinx-cinema.be/programma",

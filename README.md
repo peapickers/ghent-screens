@@ -18,14 +18,15 @@ This repository is the public site. GitHub Pages serves it for free at `https://
 A GitHub Actions workflow (`.github/workflows/update-listings.yml`) runs every Wednesday morning, for free and without Claude:
 
 1. `scripts/update_films.py` reads the official programme pages of Sphinx, Studio Skoop, KASKcinema and Ciné Rio. It keeps only facts (date, time, title, a short label, the link) and copies no images or descriptions.
-2. `scripts/build_feed.py` rebuilds `feed.xml`.
-3. The workflow commits the changes and GitHub Pages republishes the site.
+2. `scripts/update_stage.py` does the same for theatre, dance and stage music: NTGent, VIERNULVIER, CAMPO, Kopergietery, Arca, Opera Ballet Vlaanderen (Ghent dates only), De Centrale, Theater Box and amateur theatre within 25 km of Gent (OPENDOEK). Arca and Opera Ballet load their calendars with JavaScript, so a free headless browser (Playwright) reads those two. VIERNULVIER and CAMPO ask for 5 seconds between requests; the script waits.
+3. `scripts/build_feed.py` rebuilds `feed.xml`.
+4. The workflow commits the changes and GitHub Pages republishes the site.
 
 If a venue's page can't be read (for example after a site redesign), its last known listings stay and a notice on the site says so. To run it by hand: **Actions → Weekly listings update → Run workflow**.
 
-Not automatic: Funding articles (new films show "Funding: unknown" until a sourced article is added), theatre, talks and exhibitions. Those are updated in a Claude session.
+Not automatic: Funding articles (new titles show "Funding: unknown" until a sourced article is added), talks and exhibitions. Those are updated in a Claude session.
 
-Robots.txt of the four film venues allows these pages (checked 25-10-2026); none of their sites has terms that forbid automated reading.
+Robots.txt of every venue allows these pages (checked 25-10-2026); none of their sites has terms that forbid automated reading.
 
 Everything below is free. Steps 1–2 take about 5 minutes. Steps 3–5 take about 30 minutes, once.
 

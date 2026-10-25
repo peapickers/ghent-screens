@@ -1,4 +1,4 @@
-# Weekly automatic update of Ghent Screens (wave 1: film).
+# Weekly automatic update of Ghent Screens (wave 1: film; wave 2: theatre, dance and stage music).
 # Runs on GitHub's free runners, without Claude: reads the official programme pages,
 # updates screenings.json and feed.xml, and pushes the result. GitHub Pages then republishes the site.
 name: Weekly listings update
@@ -15,7 +15,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -23,6 +23,10 @@ jobs:
           python-version: "3.12"
       - name: Read the venue programmes (film)
         run: python3 scripts/update_films.py
+      - name: Install the headless browser (only Arca and Opera Ballet need it)
+        run: pip install playwright==1.48.0 && python -m playwright install --with-deps chromium
+      - name: Read the stage programmes (theatre, dance, music)
+        run: python3 scripts/update_stage.py
       - name: Rebuild the RSS feed
         run: SITE_URL=https://peapickers.github.io/ghent-screens python3 scripts/build_feed.py
       - name: Save and publish
