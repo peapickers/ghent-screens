@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T16:52:23+00:00",
+ "updated": "2026-10-25T17:44:17+00:00",
  "city": "Gent",
  "excluded": [
   "Kinepolis"
@@ -190,6 +190,36 @@
    "addr": "Antwerpen (address on the venue site)",
    "url": "https://fomu.be/en/exhibitions",
    "kind": "photography museum"
+  },
+  "campo": {
+   "name": "CAMPO",
+   "addr": "Nieuwpoort 31-35 & Fratersplein 7, 9000 Gent",
+   "url": "https://www.campo.nu/nl/agenda",
+   "kind": "arts centre (theatre, dance, performance)"
+  },
+  "arca": {
+   "name": "Arca Theater",
+   "addr": "Sint-Widostraat 4, 9000 Gent",
+   "url": "https://www.arcatheater.be/agenda/",
+   "kind": "theatre"
+  },
+  "opera": {
+   "name": "Opera Ballet Vlaanderen",
+   "addr": "Ghent dates only (various halls)",
+   "url": "https://www.operaballet.be/nl/kalender",
+   "kind": "opera, ballet & concerts"
+  },
+  "decentrale": {
+   "name": "De Centrale",
+   "addr": "Kraankindersstraat 2, 9000 Gent",
+   "url": "https://www.decentrale.be/nl/agenda",
+   "kind": "intercultural music centre"
+  },
+  "opendoek": {
+   "name": "Amateur theatre (OPENDOEK)",
+   "addr": "various, within 25 km of Gent",
+   "url": "https://www.opendoek.be/beleven/kalender",
+   "kind": "amateur theatre companies"
   }
  },
  "notices": [
@@ -2218,14 +2248,15 @@
    "city": "Gent"
   },
   {
-   "v": "ntgent",
+   "v": "opendoek",
    "d": "2026-10-25",
    "t": "15:00",
-   "title": "Please, Open the Curtains",
-   "note": "Ferenc Balcaen & ntgent · Minnemeers",
-   "url": "https://www.ntgent.be/en/productions/please-open-the-curtains",
+   "title": "De Repetitie",
+   "note": "Rederijkerskamer De Loofblomme",
+   "url": "https://www.opendoek.be/beleven/kalender/de-repetitie",
    "k": "theatre",
-   "city": "Gent"
+   "city": "Gent",
+   "place": "Zaal Gildenhuis"
   },
   {
    "v": "skoop",
@@ -2425,6 +2456,16 @@
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
    "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "decentrale",
+   "d": "2026-10-25",
+   "t": "",
+   "title": "ZEYNEP BAKŞİ KARATAĞ",
+   "note": "",
+   "url": "https://www.decentrale.be/nl/agenda/muziek/zeynep-bakSI-karataG",
+   "k": "music",
    "city": "Gent"
   },
   {
@@ -2954,6 +2995,17 @@
    "city": "Gent"
   },
   {
+   "v": "viernulvier",
+   "d": "2026-10-27",
+   "t": "19:30",
+   "title": "Uitgelezen",
+   "note": "met Ruth Joos, Jan Dertaelen, Ibe Rossel & Bent Van Looy",
+   "url": "https://www.viernulvier.gent/nl/agenda/uitgelezen-92cv",
+   "k": "talk",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
    "v": "skoop",
    "d": "2026-10-27",
    "t": "19:45",
@@ -3075,6 +3127,16 @@
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
    "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "decentrale",
+   "d": "2026-10-27",
+   "t": "",
+   "title": "NICE | Owen Perry Weston + Giovanni Barcella + Bauke Meersman",
+   "note": "",
+   "url": "https://www.decentrale.be/nl/agenda/muziek/nice-owen-perry-weston-giovanni-barcella-bauke-meersman",
+   "k": "music",
    "city": "Gent"
   },
   {
@@ -3273,16 +3335,6 @@
    "city": "Gent"
   },
   {
-   "v": "ntgent",
-   "d": "2026-10-28",
-   "t": "20:00",
-   "title": "Please, Open the Curtains",
-   "note": "Ferenc Balcaen & ntgent · Minnemeers",
-   "url": "https://www.ntgent.be/en/productions/please-open-the-curtains",
-   "k": "theatre",
-   "city": "Gent"
-  },
-  {
    "v": "poeziecentrum",
    "d": "2026-10-28",
    "t": "20:00",
@@ -3313,6 +3365,28 @@
    "url": "https://www.sphinx-cinema.be/programma",
    "k": "film",
    "city": "Gent"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-10-28",
+   "t": "20:00",
+   "title": "LOUD / Farida Amadou, Louis Vanhaverbeke",
+   "note": "CANCELLED: Soil Biographies",
+   "url": "https://www.viernulvier.gent/nl/agenda/loud-farida-amadou-louis-vanhaverbeke-ths8",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Domzaal"
+  },
+  {
+   "v": "campo",
+   "d": "2026-10-28",
+   "t": "20:30",
+   "title": "A huff and a puff (and I blow your house in)",
+   "note": "Three is a crowd, sold out",
+   "url": "https://www.campo.nu/nl/agenda/a-huff-and-a-puff-and-i-blow-your-house-in-q7ct",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "CAMPO nieuwpoort"
   },
   {
    "v": "kask",
@@ -3382,6 +3456,16 @@
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
    "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "decentrale",
+   "d": "2026-10-28",
+   "t": "",
+   "title": "Bamako Express",
+   "note": "",
+   "url": "https://www.decentrale.be/nl/agenda/muziek/bamako-express",
+   "k": "music",
    "city": "Gent"
   },
   {
@@ -3550,6 +3634,17 @@
    "city": "Gent"
   },
   {
+   "v": "campo",
+   "d": "2026-10-29",
+   "t": "20:00",
+   "title": "Fatherload",
+   "note": "David Labi / Martha!tentatief",
+   "url": "https://www.campo.nu/nl/agenda/fatherload-6nqb",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Minard"
+  },
+  {
    "v": "minard",
    "d": "2026-10-29",
    "t": "20:00",
@@ -3570,14 +3665,26 @@
    "city": "Gent"
   },
   {
-   "v": "ntgent",
+   "v": "opendoek",
    "d": "2026-10-29",
    "t": "20:00",
-   "title": "Please, Open the Curtains",
-   "note": "Ferenc Balcaen & ntgent · Minnemeers",
-   "url": "https://www.ntgent.be/en/productions/please-open-the-curtains",
+   "title": "De Repetitie",
+   "note": "Rederijkerskamer De Loofblomme",
+   "url": "https://www.opendoek.be/beleven/kalender/de-repetitie",
    "k": "theatre",
-   "city": "Gent"
+   "city": "Gent",
+   "place": "Zaal Gildenhuis"
+  },
+  {
+   "v": "opera",
+   "d": "2026-10-29",
+   "t": "20:00",
+   "title": "De opstand van de gevels - De opera",
+   "note": "Opera Ballet Vlaanderen",
+   "url": "https://www.operaballet.be/nl/programma/seizoen-2026-2027/opstand-van-de-gevels-de-opera",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "NTGent Schouwburg"
   },
   {
    "v": "skoop",
@@ -3608,6 +3715,50 @@
    "url": "https://www.sphinx-cinema.be/programma",
    "k": "film",
    "city": "Gent"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-10-29",
+   "t": "20:00",
+   "title": "Circuit Des Yeux feat. Alan Sparhawk x ‘Nosferatu'",
+   "note": "Videodroom 2026, sold out",
+   "url": "https://www.viernulvier.gent/nl/agenda/circuit-des-yeux-feat-alan-sparhawk-x-nosferatu-14hf",
+   "k": "music",
+   "city": "Gent",
+   "place": "Club Wintercircus"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-10-29",
+   "t": "20:00",
+   "title": "LOUD / Farida Amadou, Louis Vanhaverbeke",
+   "note": "CANCELLED: Soil Biographies",
+   "url": "https://www.viernulvier.gent/nl/agenda/loud-farida-amadou-louis-vanhaverbeke-ths8",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Domzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-10-29",
+   "t": "20:00",
+   "title": "Thomas Verstraeten",
+   "note": "DE OPSTAND VAN DE GEVELS — De opera",
+   "url": "https://www.viernulvier.gent/nl/agenda/thomas-verstraeten-thly",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "NTGent schouwburg · Sint-Baafsplein 17"
+  },
+  {
+   "v": "campo",
+   "d": "2026-10-29",
+   "t": "20:30",
+   "title": "A huff and a puff (and I blow your house in)",
+   "note": "Three is a crowd, sold out",
+   "url": "https://www.campo.nu/nl/agenda/a-huff-and-a-puff-and-i-blow-your-house-in-q7ct",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "CAMPO nieuwpoort"
   },
   {
    "v": "kask",
@@ -3883,9 +4034,20 @@
    "t": "20:00",
    "title": "Tramlijn Begeerte",
    "note": "BRT",
-   "url": "https://theaterbox.be/kalender.html",
+   "url": "https://www.brtgent.be/",
    "k": "theatre",
    "city": "Gent"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2026-10-30",
+   "t": "20:00",
+   "title": "DONKEYSHOT GANGSTERSHIT",
+   "note": "sold out",
+   "url": "https://kopergietery.be/programma/donkey-shot-gangstershit",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Arsenaalsite"
   },
   {
    "v": "miry",
@@ -3898,6 +4060,39 @@
    "city": "Gent"
   },
   {
+   "v": "opendoek",
+   "d": "2026-10-30",
+   "t": "20:00",
+   "title": "De Repetitie",
+   "note": "Rederijkerskamer De Loofblomme",
+   "url": "https://www.opendoek.be/beleven/kalender/de-repetitie",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Zaal Gildenhuis"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-10-30",
+   "t": "20:00",
+   "title": "Toneelvoorstelling \"Een vlo in 't oor\"",
+   "note": "Adegems Volkstheater",
+   "url": "https://www.opendoek.be/beleven/kalender/toneelvoorstelling-een-vlo-in-t-oor",
+   "k": "theatre",
+   "city": "Adegem (Maldegem)",
+   "place": "CC Den Hoogen Pad"
+  },
+  {
+   "v": "opera",
+   "d": "2026-10-30",
+   "t": "20:00",
+   "title": "De opstand van de gevels - De opera",
+   "note": "Opera Ballet Vlaanderen",
+   "url": "https://www.operaballet.be/nl/programma/seizoen-2026-2027/opstand-van-de-gevels-de-opera",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "NTGent Schouwburg"
+  },
+  {
    "v": "sphinx",
    "d": "2026-10-30",
    "t": "20:00",
@@ -3906,6 +4101,39 @@
    "url": "https://www.sphinx-cinema.be/programma",
    "k": "film",
    "city": "Gent"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-10-30",
+   "t": "20:00",
+   "title": "LOUD / Farida Amadou, Louis Vanhaverbeke",
+   "note": "CANCELLED: Soil Biographies",
+   "url": "https://www.viernulvier.gent/nl/agenda/loud-farida-amadou-louis-vanhaverbeke-ths8",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Domzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-10-30",
+   "t": "20:00",
+   "title": "Thomas Verstraeten",
+   "note": "DE OPSTAND VAN DE GEVELS — De opera",
+   "url": "https://www.viernulvier.gent/nl/agenda/thomas-verstraeten-thly",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "NTGent schouwburg · Sint-Baafsplein 17"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-10-30",
+   "t": "20:00",
+   "title": "Yentl en de Boer",
+   "note": "Rekhalzen",
+   "url": "https://www.viernulvier.gent/nl/agenda/yentl-en-de-boer-7pzp",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
   },
   {
    "v": "kask",
@@ -3968,13 +4196,24 @@
    "city": "Gent"
   },
   {
-   "v": "kopergietery",
+   "v": "viernulvier",
+   "d": "2026-10-30",
+   "t": "23:00",
+   "title": "4AM.",
+   "note": "Halloween Special",
+   "url": "https://www.viernulvier.gent/nl/agenda/4am-skl3",
+   "k": "music",
+   "city": "Gent",
+   "place": "De Vooruit · Concertzaal"
+  },
+  {
+   "v": "decentrale",
    "d": "2026-10-30",
    "t": "",
-   "title": "DONKEYSHOT GANGSTERSHIT",
-   "note": "KOPERGIETERY & KGbe · Arsenaalsite · loopt tot 13/11",
-   "url": "https://kopergietery.be/programma/donkey-shot-gangstershit",
-   "k": "theatre",
+   "title": "Hardere Aanpak",
+   "note": "",
+   "url": "https://www.decentrale.be/nl/agenda/muziek/hardere-aanpak",
+   "k": "music",
    "city": "Gent"
   },
   {
@@ -4146,9 +4385,53 @@
    "t": "20:00",
    "title": "Tramlijn Begeerte",
    "note": "BRT",
-   "url": "https://theaterbox.be/kalender.html",
+   "url": "https://www.brtgent.be/",
    "k": "theatre",
    "city": "Gent"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2026-10-31",
+   "t": "20:00",
+   "title": "DONKEYSHOT GANGSTERSHIT",
+   "note": "",
+   "url": "https://kopergietery.be/programma/donkey-shot-gangstershit",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Arsenaalsite"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-10-31",
+   "t": "20:00",
+   "title": "De Repetitie",
+   "note": "Rederijkerskamer De Loofblomme",
+   "url": "https://www.opendoek.be/beleven/kalender/de-repetitie",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Zaal Gildenhuis"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-10-31",
+   "t": "20:00",
+   "title": "Toneelvoorstelling \"Een vlo in 't oor\"",
+   "note": "Adegems Volkstheater",
+   "url": "https://www.opendoek.be/beleven/kalender/toneelvoorstelling-een-vlo-in-t-oor",
+   "k": "theatre",
+   "city": "Adegem (Maldegem)",
+   "place": "CC Den Hoogen Pad"
+  },
+  {
+   "v": "opera",
+   "d": "2026-10-31",
+   "t": "20:00",
+   "title": "De opstand van de gevels - De opera",
+   "note": "Opera Ballet Vlaanderen",
+   "url": "https://www.operaballet.be/nl/programma/seizoen-2026-2027/opstand-van-de-gevels-de-opera",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "NTGent Schouwburg"
   },
   {
    "v": "skoop",
@@ -4169,6 +4452,28 @@
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
    "k": "film",
    "city": "Gent"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-10-31",
+   "t": "20:00",
+   "title": "De Groote Sluitingsprijs Bahamontes",
+   "note": "Een avond over alles wat de koers zo schoon maakt",
+   "url": "https://www.viernulvier.gent/nl/agenda/de-groote-sluitingsprijs-bahamontes-14gw",
+   "k": "talk",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-10-31",
+   "t": "20:00",
+   "title": "Thomas Verstraeten",
+   "note": "DE OPSTAND VAN DE GEVELS — De opera",
+   "url": "https://www.viernulvier.gent/nl/agenda/thomas-verstraeten-thly",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "NTGent schouwburg · Sint-Baafsplein 17"
   },
   {
    "v": "skoop",
@@ -4218,6 +4523,27 @@
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
    "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-10-31",
+   "t": "22:30",
+   "title": "Bloody Kiss",
+   "note": "thriller hits & bloody dance moves",
+   "url": "https://www.viernulvier.gent/nl/agenda/bloody-kiss-67qx",
+   "k": "music",
+   "city": "Gent",
+   "place": "De Vooruit · Concertzaal"
+  },
+  {
+   "v": "decentrale",
+   "d": "2026-10-31",
+   "t": "",
+   "title": "Dia De Los Muertos '26",
+   "note": "",
+   "url": "https://www.decentrale.be/nl/agenda/muziek/dia-de-los-muertos-26",
+   "k": "music",
    "city": "Gent"
   },
   {
@@ -4363,6 +4689,17 @@
    "city": "Gent"
   },
   {
+   "v": "opendoek",
+   "d": "2026-11-01",
+   "t": "15:00",
+   "title": "Toneelvoorstelling \"Een vlo in 't oor\"",
+   "note": "Adegems Volkstheater",
+   "url": "https://www.opendoek.be/beleven/kalender/toneelvoorstelling-een-vlo-in-t-oor",
+   "k": "theatre",
+   "city": "Adegem (Maldegem)",
+   "place": "CC Den Hoogen Pad"
+  },
+  {
    "v": "sphinx",
    "d": "2026-11-01",
    "t": "15:00",
@@ -4471,6 +4808,17 @@
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
    "k": "film",
    "city": "Gent"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2026-11-01",
+   "t": "20:00",
+   "title": "DONKEYSHOT GANGSTERSHIT",
+   "note": "",
+   "url": "https://kopergietery.be/programma/donkey-shot-gangstershit",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Arsenaalsite"
   },
   {
    "v": "sphinx",
@@ -4693,6 +5041,16 @@
    "city": "Gent"
   },
   {
+   "v": "decentrale",
+   "d": "2026-11-02",
+   "t": "",
+   "title": "Hossein Behroozinia & Pouriya Jaberi | Labyrinth 26",
+   "note": "",
+   "url": "https://www.decentrale.be/nl/agenda/muziek/hossein-behroozinia-en-pouriya-jaberi-labyrinth-26",
+   "k": "music",
+   "city": "Gent"
+  },
+  {
    "v": "sphinx",
    "d": "2026-11-03",
    "t": "10:30",
@@ -4873,6 +5231,17 @@
    "city": "Gent"
   },
   {
+   "v": "viernulvier",
+   "d": "2026-11-03",
+   "t": "19:30",
+   "title": "De Arena",
+   "note": "met Fien Sabbe, Anna Roos, Jeroen Bergers, Cecil Meeusen & Rik Torfs",
+   "url": "https://www.viernulvier.gent/nl/agenda/de-arena-hdk2",
+   "k": "talk",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
    "v": "skoop",
    "d": "2026-11-03",
    "t": "19:45",
@@ -4891,6 +5260,17 @@
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
    "k": "film",
    "city": "Gent"
+  },
+  {
+   "v": "opera",
+   "d": "2026-11-03",
+   "t": "20:00",
+   "title": "De opstand van de gevels - De opera",
+   "note": "Opera Ballet Vlaanderen",
+   "url": "https://www.operaballet.be/nl/programma/seizoen-2026-2027/opstand-van-de-gevels-de-opera",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "NTGent Schouwburg"
   },
   {
    "v": "skoop",
@@ -4923,6 +5303,28 @@
    "city": "Gent"
   },
   {
+   "v": "viernulvier",
+   "d": "2026-11-03",
+   "t": "20:00",
+   "title": "Jack Halberstam x Lisa Vereertbrugghen",
+   "note": "",
+   "url": "https://www.viernulvier.gent/nl/agenda/jack-halberstam-x-lisa-vereertbrugghen-z95j",
+   "k": "talk",
+   "city": "Gent",
+   "place": "De Vooruit · Balzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-11-03",
+   "t": "20:00",
+   "title": "Thomas Verstraeten",
+   "note": "DE OPSTAND VAN DE GEVELS — De opera",
+   "url": "https://www.viernulvier.gent/nl/agenda/thomas-verstraeten-thly",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "NTGent schouwburg · Sint-Baafsplein 17"
+  },
+  {
    "v": "kask",
    "d": "2026-11-03",
    "t": "20:30",
@@ -4930,6 +5332,16 @@
    "note": "",
    "url": "https://kaskcinema.be/film/ich-glaub-nie-mehr-an-eine-frau/",
    "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "decentrale",
+   "d": "2026-11-03",
+   "t": "",
+   "title": "YOL ft. Sevdâ Söğütlü | Labyrinth 26",
+   "note": "",
+   "url": "https://www.decentrale.be/nl/agenda/muziek/yol-ft.-sevda-sogutlu-labyrinth-26",
+   "k": "music",
    "city": "Gent"
   },
   {
@@ -4963,6 +5375,39 @@
    "city": "Gent"
   },
   {
+   "v": "viernulvier",
+   "d": "2026-11-04",
+   "t": "19:30",
+   "title": "Benjamin Verdonck / Theater Artemis & Wiener Festwochen",
+   "note": "All before death is life, sold out",
+   "url": "https://www.viernulvier.gent/nl/agenda/benjamin-verdonck-theater-artemis-wiener-festwochen-th81",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Domzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-11-04",
+   "t": "19:30",
+   "title": "Gover Meit",
+   "note": "Larie, sold out",
+   "url": "https://www.viernulvier.gent/nl/agenda/gover-meit-sky4",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-11-04",
+   "t": "19:30",
+   "title": "RUISKAMER: Yasuaki Shimizu / Catharina Evens",
+   "note": "Support: GAME (Joseph Chan)",
+   "url": "https://www.viernulvier.gent/nl/agenda/ruiskamer-yasuaki-shimizu-catharina-evens-45bz",
+   "k": "music",
+   "city": "Gent",
+   "place": "Miry Concertzaal"
+  },
+  {
    "v": "miry",
    "d": "2026-11-04",
    "t": "20:00",
@@ -4973,6 +5418,17 @@
    "city": "Gent"
   },
   {
+   "v": "opera",
+   "d": "2026-11-04",
+   "t": "20:00",
+   "title": "Orphée et Eurydice",
+   "note": "Opera Ballet Vlaanderen",
+   "url": "https://www.operaballet.be/nl/programma/seizoen-2026-2027/orph%C3%A9e-et-eurydice",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Bijloke Muziekcentrum"
+  },
+  {
    "v": "kask",
    "d": "2026-11-04",
    "t": "20:30",
@@ -4980,6 +5436,26 @@
    "note": "",
    "url": "https://kaskcinema.be/film/kinoclub-53-erik-of-het-klein-insectenboek/",
    "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "decentrale",
+   "d": "2026-11-04",
+   "t": "",
+   "title": "LABYRINTH TALK . Muziekeducatie in niet-westerse muziektradities",
+   "note": "",
+   "url": "https://www.decentrale.be/nl/agenda/muziek/labyrinth-talk-.-muziekeducatie-in-niet-westerse-muziektradities",
+   "k": "music",
+   "city": "Gent"
+  },
+  {
+   "v": "decentrale",
+   "d": "2026-11-04",
+   "t": "",
+   "title": "Masters of Labyrinth 26",
+   "note": "",
+   "url": "https://www.decentrale.be/nl/agenda/muziek/masters-of-labyrinth-26",
+   "k": "music",
    "city": "Gent"
   },
   {
@@ -4993,16 +5469,6 @@
    "th": "economics",
    "place": "KU Leuven Campus Brussels",
    "city": "Brussel"
-  },
-  {
-   "v": "kopergietery",
-   "d": "2026-11-04",
-   "t": "",
-   "title": "CinéRABOT: Verhalen uit de magische tuin",
-   "note": "KG Rabot · 6+",
-   "url": "https://kopergietery.be/programma/cinérabot-verhalen-uit-de-magische-tuin",
-   "k": "film",
-   "city": "Gent"
   },
   {
    "v": "poeziecentrum",
@@ -5081,14 +5547,36 @@
    "city": "Gent"
   },
   {
+   "v": "viernulvier",
+   "d": "2026-11-05",
+   "t": "19:30",
+   "title": "Benjamin Verdonck / Theater Artemis & Wiener Festwochen",
+   "note": "All before death is life, sold out",
+   "url": "https://www.viernulvier.gent/nl/agenda/benjamin-verdonck-theater-artemis-wiener-festwochen-th81",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Domzaal"
+  },
+  {
    "v": "box",
    "d": "2026-11-05",
    "t": "20:00",
    "title": "Improcessie Halloweenshow",
-   "note": "Improcessie",
-   "url": "https://theaterbox.be/kalender.html",
+   "note": "",
+   "url": "https://improcessie.be/",
    "k": "theatre",
    "city": "Gent"
+  },
+  {
+   "v": "opera",
+   "d": "2026-11-05",
+   "t": "20:00",
+   "title": "De opstand van de gevels - De opera",
+   "note": "Opera Ballet Vlaanderen",
+   "url": "https://www.operaballet.be/nl/programma/seizoen-2026-2027/opstand-van-de-gevels-de-opera",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "NTGent Schouwburg"
   },
   {
    "v": "sphinx",
@@ -5101,22 +5589,34 @@
    "city": "Gent"
   },
   {
+   "v": "viernulvier",
+   "d": "2026-11-05",
+   "t": "20:00",
+   "title": "Boekpresentatie: Annie Ernaux - 'Het werkelijke leven'",
+   "note": "met Annelies Verbeke, Kristien De Proost, Rokus Hofstede, Rudi Laermans en Steffie Vanneste",
+   "url": "https://www.viernulvier.gent/nl/agenda/boekpresentatie-annie-ernaux-het-werkelijke-leven-jm6b",
+   "k": "talk",
+   "city": "Gent",
+   "place": "De Vooruit · Balzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-11-05",
+   "t": "20:00",
+   "title": "Thomas Verstraeten",
+   "note": "DE OPSTAND VAN DE GEVELS — De opera",
+   "url": "https://www.viernulvier.gent/nl/agenda/thomas-verstraeten-thly",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "NTGent schouwburg · Sint-Baafsplein 17"
+  },
+  {
    "v": "kask",
    "d": "2026-11-05",
    "t": "20:30",
    "title": "The Moment (2026)",
    "note": "",
    "url": "https://kaskcinema.be/film/the-moment/",
-   "k": "film",
-   "city": "Gent"
-  },
-  {
-   "v": "kopergietery",
-   "d": "2026-11-05",
-   "t": "",
-   "title": "CinéRABOT: DJ Ahmet",
-   "note": "KG Rabot · 12+",
-   "url": "https://kopergietery.be/programma/cinérabot-dj-ahmet",
    "k": "film",
    "city": "Gent"
   },
@@ -5161,6 +5661,28 @@
    "city": "Gent"
   },
   {
+   "v": "viernulvier",
+   "d": "2026-11-06",
+   "t": "19:00",
+   "title": "Olga Ravn",
+   "note": "'Kind van was'",
+   "url": "https://www.viernulvier.gent/nl/agenda/olga-ravn-7pwm",
+   "k": "talk",
+   "city": "Gent",
+   "place": "De Vooruit · Foyer Theaterzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-11-06",
+   "t": "19:30",
+   "title": "An Miller, Koen Vanmechelen & Dimitri Leue",
+   "note": "Ode aan de Verwondering, sold out",
+   "url": "https://www.viernulvier.gent/nl/agenda/an-miller-koen-vanmechelen-dimitri-leue-flc6",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
    "v": "begeerte",
    "d": "2026-11-06",
    "t": "20:00",
@@ -5178,7 +5700,7 @@
    "t": "20:00",
    "title": "Tramlijn Begeerte",
    "note": "BRT",
-   "url": "https://theaterbox.be/kalender.html",
+   "url": "https://www.brtgent.be/",
    "k": "theatre",
    "city": "Gent"
   },
@@ -5191,6 +5713,61 @@
    "url": "https://schoolofartsgent.be/agenda/symfonieorkest-kask-conservatorium-3",
    "k": "music",
    "city": "Gent"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-06",
+   "t": "20:00",
+   "title": "De Tijd Van Nu /2",
+   "note": "Theater De Balsemblomme",
+   "url": "https://www.opendoek.be/beleven/kalender/de-tijd-van-nu-2",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Zaal NOVA"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-06",
+   "t": "20:00",
+   "title": "Toneelvoorstelling \"Een vlo in 't oor\"",
+   "note": "Adegems Volkstheater",
+   "url": "https://www.opendoek.be/beleven/kalender/toneelvoorstelling-een-vlo-in-t-oor",
+   "k": "theatre",
+   "city": "Adegem (Maldegem)",
+   "place": "CC Den Hoogen Pad"
+  },
+  {
+   "v": "opera",
+   "d": "2026-11-06",
+   "t": "20:00",
+   "title": "De opstand van de gevels - De opera",
+   "note": "Opera Ballet Vlaanderen",
+   "url": "https://www.operaballet.be/nl/programma/seizoen-2026-2027/opstand-van-de-gevels-de-opera",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "NTGent Schouwburg"
+  },
+  {
+   "v": "opera",
+   "d": "2026-11-06",
+   "t": "20:00",
+   "title": "Orphée et Eurydice",
+   "note": "Opera Ballet Vlaanderen",
+   "url": "https://www.operaballet.be/nl/programma/seizoen-2026-2027/orph%C3%A9e-et-eurydice",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Bijloke Muziekcentrum"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-11-06",
+   "t": "20:00",
+   "title": "Thomas Verstraeten",
+   "note": "DE OPSTAND VAN DE GEVELS — De opera",
+   "url": "https://www.viernulvier.gent/nl/agenda/thomas-verstraeten-thly",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "NTGent schouwburg · Sint-Baafsplein 17"
   },
   {
    "v": "sphinx",
@@ -5227,6 +5804,17 @@
    "city": "Koksijde"
   },
   {
+   "v": "viernulvier",
+   "d": "2026-11-07",
+   "t": "18:00",
+   "title": "Rise And Fall",
+   "note": "20 Years of Into Oblivion + 4 bands, sold out",
+   "url": "https://www.viernulvier.gent/nl/agenda/rise-and-fall-5jtj",
+   "k": "music",
+   "city": "Gent",
+   "place": "De Vooruit · Concertzaal"
+  },
+  {
    "v": "begeerte",
    "d": "2026-11-07",
    "t": "20:00",
@@ -5242,11 +5830,77 @@
    "v": "box",
    "d": "2026-11-07",
    "t": "20:00",
-   "title": "Tramlijn Begeerte",
-   "note": "BRT",
-   "url": "https://theaterbox.be/kalender.html",
+   "title": "Tramlijn Begeerte - BRT",
+   "note": "i.s.m. Applaus!",
+   "url": "https://www.brtgent.be/",
    "k": "theatre",
    "city": "Gent"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-07",
+   "t": "20:00",
+   "title": "De Tijd Van Nu /2",
+   "note": "Theater De Balsemblomme",
+   "url": "https://www.opendoek.be/beleven/kalender/de-tijd-van-nu-2",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Zaal NOVA"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-07",
+   "t": "20:00",
+   "title": "Toneelvoorstelling \"Een vlo in 't oor\"",
+   "note": "Adegems Volkstheater",
+   "url": "https://www.opendoek.be/beleven/kalender/toneelvoorstelling-een-vlo-in-t-oor",
+   "k": "theatre",
+   "city": "Adegem (Maldegem)",
+   "place": "CC Den Hoogen Pad"
+  },
+  {
+   "v": "opera",
+   "d": "2026-11-07",
+   "t": "20:00",
+   "title": "De opstand van de gevels - De opera",
+   "note": "Opera Ballet Vlaanderen",
+   "url": "https://www.operaballet.be/nl/programma/seizoen-2026-2027/opstand-van-de-gevels-de-opera",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "NTGent Schouwburg"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-11-07",
+   "t": "20:00",
+   "title": "Thomas Verstraeten",
+   "note": "DE OPSTAND VAN DE GEVELS — De opera",
+   "url": "https://www.viernulvier.gent/nl/agenda/thomas-verstraeten-thly",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "NTGent schouwburg · Sint-Baafsplein 17"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-11-07",
+   "t": "23:00",
+   "title": "African Ball",
+   "note": "The Golden Era - Where Africa Meets Elegance",
+   "url": "https://www.viernulvier.gent/nl/agenda/african-ball-xr7j",
+   "k": "music",
+   "city": "Gent",
+   "place": "De Vooruit · Balzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-11-07",
+   "t": "23:00",
+   "title": "Mo' Juice X Curfew",
+   "note": "Kamma b2b Masalo (NL), Forbidden Fruit (live), Mo Disko b2b Nico Juice, sold out",
+   "url": "https://www.viernulvier.gent/nl/agenda/mo-juice-x-curfew-yxpk",
+   "k": "music",
+   "city": "Gent",
+   "place": "Club Wintercircus"
   },
   {
    "v": "sphinx",
@@ -5284,9 +5938,64 @@
    "t": "15:00",
    "title": "Tramlijn Begeerte",
    "note": "BRT",
-   "url": "https://theaterbox.be/kalender.html",
+   "url": "https://www.brtgent.be/",
    "k": "theatre",
    "city": "Gent"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-08",
+   "t": "15:00",
+   "title": "De Tijd Van Nu /2",
+   "note": "Theater De Balsemblomme",
+   "url": "https://www.opendoek.be/beleven/kalender/de-tijd-van-nu-2",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Zaal NOVA"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-08",
+   "t": "15:00",
+   "title": "Toneelvoorstelling \"Een vlo in 't oor\"",
+   "note": "Adegems Volkstheater",
+   "url": "https://www.opendoek.be/beleven/kalender/toneelvoorstelling-een-vlo-in-t-oor",
+   "k": "theatre",
+   "city": "Adegem (Maldegem)",
+   "place": "CC Den Hoogen Pad"
+  },
+  {
+   "v": "opera",
+   "d": "2026-11-08",
+   "t": "15:00",
+   "title": "De opstand van de gevels - De opera",
+   "note": "Opera Ballet Vlaanderen",
+   "url": "https://www.operaballet.be/nl/programma/seizoen-2026-2027/opstand-van-de-gevels-de-opera",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "NTGent Schouwburg"
+  },
+  {
+   "v": "opera",
+   "d": "2026-11-08",
+   "t": "15:00",
+   "title": "Orphée et Eurydice",
+   "note": "Opera Ballet Vlaanderen",
+   "url": "https://www.operaballet.be/nl/programma/seizoen-2026-2027/orph%C3%A9e-et-eurydice",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Bijloke Muziekcentrum"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-11-08",
+   "t": "15:00",
+   "title": "Thomas Verstraeten",
+   "note": "DE OPSTAND VAN DE GEVELS — De opera",
+   "url": "https://www.viernulvier.gent/nl/agenda/thomas-verstraeten-thly",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "NTGent schouwburg · Sint-Baafsplein 17"
   },
   {
    "v": "skoop",
@@ -5296,6 +6005,27 @@
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
    "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-11-08",
+   "t": "19:00",
+   "title": "BETHLEHEM",
+   "note": "support: Fadi Tabbal",
+   "url": "https://www.viernulvier.gent/nl/agenda/bethlehem-skm9",
+   "k": "music",
+   "city": "Gent",
+   "place": "Kerk Groot Begijnhof Sint-Elisabeth"
+  },
+  {
+   "v": "decentrale",
+   "d": "2026-11-08",
+   "t": "",
+   "title": "Echo's van Oekraïne",
+   "note": "",
+   "url": "https://www.decentrale.be/nl/agenda/muziek/echo-s-van-oekraine",
+   "k": "music",
    "city": "Gent"
   },
   {
@@ -5319,6 +6049,28 @@
    "city": "Gent"
   },
   {
+   "v": "kopergietery",
+   "d": "2026-11-09",
+   "t": "10:00",
+   "title": "DONKEYSHOT GANGSTERSHIT",
+   "note": "",
+   "url": "https://kopergietery.be/programma/donkey-shot-gangstershit",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Arsenaalsite"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2026-11-09",
+   "t": "14:00",
+   "title": "DONKEYSHOT GANGSTERSHIT",
+   "note": "",
+   "url": "https://kopergietery.be/programma/donkey-shot-gangstershit",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Arsenaalsite"
+  },
+  {
    "v": "offoff",
    "d": "2026-11-09",
    "t": "20:00",
@@ -5339,6 +6091,28 @@
    "city": "Gent"
   },
   {
+   "v": "kopergietery",
+   "d": "2026-11-10",
+   "t": "10:00",
+   "title": "DONKEYSHOT GANGSTERSHIT",
+   "note": "",
+   "url": "https://kopergietery.be/programma/donkey-shot-gangstershit",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Arsenaalsite"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2026-11-10",
+   "t": "14:00",
+   "title": "DONKEYSHOT GANGSTERSHIT",
+   "note": "",
+   "url": "https://kopergietery.be/programma/donkey-shot-gangstershit",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Arsenaalsite"
+  },
+  {
    "v": "gentleest",
    "d": "2026-11-10",
    "t": "19:00",
@@ -5349,6 +6123,39 @@
    "th": "philosophy",
    "place": "Bibliotheek De Krook",
    "city": "Gent"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-11-10",
+   "t": "19:30",
+   "title": "BIMDEK",
+   "note": "Matthysen, Mosuse en Van Ballaert",
+   "url": "https://www.viernulvier.gent/nl/agenda/bimdek-fljk",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-10",
+   "t": "20:00",
+   "title": "Toneelvoorstelling \"Een vlo in 't oor\"",
+   "note": "Adegems Volkstheater",
+   "url": "https://www.opendoek.be/beleven/kalender/toneelvoorstelling-een-vlo-in-t-oor",
+   "k": "theatre",
+   "city": "Adegem (Maldegem)",
+   "place": "CC Den Hoogen Pad"
+  },
+  {
+   "v": "opera",
+   "d": "2026-11-10",
+   "t": "20:00",
+   "title": "Orphée et Eurydice",
+   "note": "Opera Ballet Vlaanderen",
+   "url": "https://www.operaballet.be/nl/programma/seizoen-2026-2027/orph%C3%A9e-et-eurydice",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Bijloke Muziekcentrum"
   },
   {
    "v": "skoop",
@@ -5391,6 +6198,17 @@
    "url": "https://www.sphinx-cinema.be/programma",
    "k": "film",
    "city": "Gent"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-11-10",
+   "t": "20:30",
+   "title": "Health",
+   "note": "support: Vowws",
+   "url": "https://www.viernulvier.gent/nl/agenda/health-czy2",
+   "k": "music",
+   "city": "Gent",
+   "place": "De Vooruit · Concertzaal"
   },
   {
    "v": "gentleest",
@@ -5439,6 +6257,16 @@
    "city": "Gent"
   },
   {
+   "v": "arca",
+   "d": "2026-11-11",
+   "t": "20:00",
+   "title": "IZAH HANKAMMER / INTER:ACTION | TIMEAFTERTIME (première)",
+   "note": "",
+   "url": "https://www.arcatheater.be/evenement/izah-hankammer-interaction-timeaftertime-premiere/",
+   "k": "theatre",
+   "city": "Gent"
+  },
+  {
    "v": "miry",
    "d": "2026-11-11",
    "t": "20:00",
@@ -5459,6 +6287,27 @@
    "city": "Gent"
   },
   {
+   "v": "decentrale",
+   "d": "2026-11-11",
+   "t": "",
+   "title": "ARIFA ft. Avin Ahmadi",
+   "note": "",
+   "url": "https://www.decentrale.be/nl/agenda/muziek/arifa-ft.-avin-ahmadi",
+   "k": "music",
+   "city": "Gent"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2026-11-12",
+   "t": "10:00",
+   "title": "DONKEYSHOT GANGSTERSHIT",
+   "note": "",
+   "url": "https://kopergietery.be/programma/donkey-shot-gangstershit",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Arsenaalsite"
+  },
+  {
    "v": "gentleest",
    "d": "2026-11-12",
    "t": "12:15",
@@ -5469,6 +6318,17 @@
    "th": "literature",
    "place": "Bibliotheek De Krook",
    "city": "Gent"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2026-11-12",
+   "t": "14:00",
+   "title": "DONKEYSHOT GANGSTERSHIT",
+   "note": "",
+   "url": "https://kopergietery.be/programma/donkey-shot-gangstershit",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Arsenaalsite"
   },
   {
    "v": "kasklez",
@@ -5482,12 +6342,33 @@
    "th": "art"
   },
   {
+   "v": "viernulvier",
+   "d": "2026-11-12",
+   "t": "19:30",
+   "title": "Bjorn Gens",
+   "note": "Boekvoorstelling: 'Duitsland'",
+   "url": "https://www.viernulvier.gent/nl/agenda/bjorn-gens-nygm",
+   "k": "talk",
+   "city": "Gent",
+   "place": "De Vooruit · Foyer Theaterzaal"
+  },
+  {
+   "v": "arca",
+   "d": "2026-11-12",
+   "t": "20:00",
+   "title": "IZAH HANKAMMER / INTER:ACTION | TIMEAFTERTIME",
+   "note": "",
+   "url": "https://www.arcatheater.be/evenement/izah-hankammer-interaction-timeaftertime/",
+   "k": "theatre",
+   "city": "Gent"
+  },
+  {
    "v": "box",
    "d": "2026-11-12",
    "t": "20:00",
    "title": "Tramlijn Begeerte",
    "note": "BRT",
-   "url": "https://theaterbox.be/kalender.html",
+   "url": "https://www.brtgent.be/",
    "k": "theatre",
    "city": "Gent"
   },
@@ -5502,6 +6383,17 @@
    "city": "Gent"
   },
   {
+   "v": "opendoek",
+   "d": "2026-11-12",
+   "t": "20:00",
+   "title": "De Tijd Van Nu /2",
+   "note": "Theater De Balsemblomme",
+   "url": "https://www.opendoek.be/beleven/kalender/de-tijd-van-nu-2",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Zaal NOVA"
+  },
+  {
    "v": "sphinx",
    "d": "2026-11-12",
    "t": "20:00",
@@ -5512,6 +6404,28 @@
    "city": "Gent"
   },
   {
+   "v": "viernulvier",
+   "d": "2026-11-12",
+   "t": "20:00",
+   "title": "Carolina Mendonça",
+   "note": "Something is Approaching",
+   "url": "https://www.viernulvier.gent/nl/agenda/carolina-mendonca-m155",
+   "k": "dance",
+   "city": "Gent",
+   "place": "Minardschouwburg"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-11-12",
+   "t": "20:00",
+   "title": "Stef Bos",
+   "note": "Solo Tour, sold out",
+   "url": "https://www.viernulvier.gent/nl/agenda/stef-bos-dsf6",
+   "k": "music",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
    "v": "kask",
    "d": "2026-11-12",
    "t": "20:30",
@@ -5519,6 +6433,16 @@
    "note": "",
    "url": "https://kaskcinema.be/film/willow-and-wind/",
    "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "decentrale",
+   "d": "2026-11-12",
+   "t": "",
+   "title": "re#encounter",
+   "note": "",
+   "url": "https://www.decentrale.be/nl/agenda/muziek/reencounter",
+   "k": "music",
    "city": "Gent"
   },
   {
@@ -5582,6 +6506,39 @@
    "city": "Mortsel"
   },
   {
+   "v": "kopergietery",
+   "d": "2026-11-13",
+   "t": "10:00",
+   "title": "DONKEYSHOT GANGSTERSHIT",
+   "note": "",
+   "url": "https://kopergietery.be/programma/donkey-shot-gangstershit",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Arsenaalsite"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-11-13",
+   "t": "17:00",
+   "title": "Kunst onder druk",
+   "note": "met het Jong Panel van VIERNULVIER",
+   "url": "https://www.viernulvier.gent/nl/agenda/kunst-onder-druk-flh6",
+   "k": "talk",
+   "city": "Gent",
+   "place": "De Vooruit · Foyer Theaterzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-11-13",
+   "t": "19:30",
+   "title": "Momoko Gill",
+   "note": "support tbc",
+   "url": "https://www.viernulvier.gent/nl/agenda/momoko-gill-fllm",
+   "k": "music",
+   "city": "Gent",
+   "place": "De Vooruit · Balzaal"
+  },
+  {
    "v": "sphinx",
    "d": "2026-11-13",
    "t": "19:45",
@@ -5592,14 +6549,68 @@
    "city": "Gent"
   },
   {
+   "v": "arca",
+   "d": "2026-11-13",
+   "t": "20:00",
+   "title": "IZAH HANKAMMER / INTER:ACTION | TIMEAFTERTIME",
+   "note": "",
+   "url": "https://www.arcatheater.be/evenement/izah-hankammer-interaction-timeaftertime-2/",
+   "k": "theatre",
+   "city": "Gent"
+  },
+  {
    "v": "box",
    "d": "2026-11-13",
    "t": "20:00",
    "title": "Tramlijn Begeerte",
    "note": "BRT",
-   "url": "https://theaterbox.be/kalender.html",
+   "url": "https://www.brtgent.be/",
    "k": "theatre",
    "city": "Gent"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2026-11-13",
+   "t": "20:00",
+   "title": "DONKEYSHOT GANGSTERSHIT",
+   "note": "",
+   "url": "https://kopergietery.be/programma/donkey-shot-gangstershit",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Arsenaalsite"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-13",
+   "t": "20:00",
+   "title": "De Tijd Van Nu /2",
+   "note": "Theater De Balsemblomme",
+   "url": "https://www.opendoek.be/beleven/kalender/de-tijd-van-nu-2",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Zaal NOVA"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-13",
+   "t": "20:00",
+   "title": "Een adder onder het gras",
+   "note": "'t Schat vzw",
+   "url": "https://www.opendoek.be/beleven/kalender/een-adder-onder-het-gras",
+   "k": "theatre",
+   "city": "Heusden (Destelbergen)",
+   "place": "Theater 't Schat"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-13",
+   "t": "20:00",
+   "title": "Een straatje zonder einde",
+   "note": "K.T.V. Elck 't Syne vzw",
+   "url": "https://www.opendoek.be/beleven/kalender/een-straatje-zonder-einde",
+   "k": "theatre",
+   "city": "Destelbergen",
+   "place": "JGC Bergenmeers"
   },
   {
    "v": "ugent",
@@ -5611,6 +6622,60 @@
    "k": "talk",
    "th": "politics",
    "place": "UGent",
+   "city": "Gent"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-11-13",
+   "t": "20:00",
+   "title": "Carolina Mendonça",
+   "note": "Something is Approaching",
+   "url": "https://www.viernulvier.gent/nl/agenda/carolina-mendonca-m155",
+   "k": "dance",
+   "city": "Gent",
+   "place": "Minardschouwburg"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-11-13",
+   "t": "20:00",
+   "title": "Sofie Lemaire",
+   "note": "Sofie verzint het niet",
+   "url": "https://www.viernulvier.gent/nl/agenda/sofie-lemaire-92fp",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "campo",
+   "d": "2026-11-13",
+   "t": "20:30",
+   "title": "I ❤️ Performance",
+   "note": "Taous Bertrand / Pablo Alamá / ism WOEKER",
+   "url": "https://www.campo.nu/nl/agenda/i-performance-md7x",
+   "k": "dance",
+   "city": "Gent",
+   "place": "CAMPO nieuwpoort"
+  },
+  {
+   "v": "campo",
+   "d": "2026-11-13",
+   "t": "20:30",
+   "title": "Nymph",
+   "note": "Taous Bertrand",
+   "url": "https://www.campo.nu/nl/agenda/nymph-y45l",
+   "k": "dance",
+   "city": "Gent",
+   "place": "CAMPO nieuwpoort"
+  },
+  {
+   "v": "decentrale",
+   "d": "2026-11-13",
+   "t": "",
+   "title": "Lokman Ethno-Jazz Combo & Serkan",
+   "note": "",
+   "url": "https://www.decentrale.be/nl/agenda/muziek/lokman-ethno-jazz-combo-en-serkan",
+   "k": "music",
    "city": "Gent"
   },
   {
@@ -5639,8 +6704,116 @@
    "t": "20:00",
    "title": "Tramlijn Begeerte",
    "note": "BRT",
-   "url": "https://theaterbox.be/kalender.html",
+   "url": "https://www.brtgent.be/",
    "k": "theatre",
+   "city": "Gent"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-14",
+   "t": "20:00",
+   "title": "Een adder onder het gras",
+   "note": "'t Schat vzw",
+   "url": "https://www.opendoek.be/beleven/kalender/een-adder-onder-het-gras",
+   "k": "theatre",
+   "city": "Heusden (Destelbergen)",
+   "place": "Theater 't Schat"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-14",
+   "t": "20:00",
+   "title": "Een straatje zonder einde",
+   "note": "K.T.V. Elck 't Syne vzw",
+   "url": "https://www.opendoek.be/beleven/kalender/een-straatje-zonder-einde",
+   "k": "theatre",
+   "city": "Destelbergen",
+   "place": "JGC Bergenmeers"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-11-14",
+   "t": "20:00",
+   "title": "Sofie Lemaire",
+   "note": "Sofie verzint het niet, sold out",
+   "url": "https://www.viernulvier.gent/nl/agenda/sofie-lemaire-92fp",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "arca",
+   "d": "2026-11-14",
+   "t": "20:30",
+   "title": "MEURMAN & DE RUDY | Prijsbeest",
+   "note": "",
+   "url": "https://www.arcatheater.be/evenement/meurman-de-rudy-prijsbeest/",
+   "k": "theatre",
+   "city": "Gent"
+  },
+  {
+   "v": "campo",
+   "d": "2026-11-14",
+   "t": "20:30",
+   "title": "How to Fuck a Macho with a Vagina",
+   "note": "Pablo Alamá",
+   "url": "https://www.campo.nu/nl/agenda/how-to-fuck-a-macho-with-a-vagina-7y68",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "CAMPO nieuwpoort"
+  },
+  {
+   "v": "campo",
+   "d": "2026-11-14",
+   "t": "20:30",
+   "title": "I ❤️ Performance",
+   "note": "Taous Bertrand / Pablo Alamá / ism WOEKER",
+   "url": "https://www.campo.nu/nl/agenda/i-performance-md7x",
+   "k": "dance",
+   "city": "Gent",
+   "place": "CAMPO nieuwpoort"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-14",
+   "t": "20:30",
+   "title": "Toneelatelier : De ezelin of waar is Magda?",
+   "note": "Platform Toneelatelier Aalst vzw",
+   "url": "https://www.opendoek.be/beleven/kalender/toneelatelier-de-ezelin-of-waar-is-magda",
+   "k": "theatre",
+   "city": "Aalst",
+   "place": "Zaal platform"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-11-14",
+   "t": "22:00",
+   "title": "Age Of Love XXL",
+   "note": "Respect the old school",
+   "url": "https://www.viernulvier.gent/nl/agenda/age-of-love-xxl-r3lr",
+   "k": "music",
+   "city": "Gent",
+   "place": "De Vooruit · Concertzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-11-14",
+   "t": "22:30",
+   "title": "MNDR TNDR",
+   "note": "flirt, dans en match in real life!",
+   "url": "https://www.viernulvier.gent/nl/agenda/mndr-tndr-ds15",
+   "k": "music",
+   "city": "Gent",
+   "place": "De Vooruit · Balzaal"
+  },
+  {
+   "v": "decentrale",
+   "d": "2026-11-14",
+   "t": "",
+   "title": "Konono N°1 x Montparnasse Musique",
+   "note": "",
+   "url": "https://www.decentrale.be/nl/agenda/muziek/konono-n-1-x-montparnasse-musique",
+   "k": "music",
    "city": "Gent"
   },
   {
@@ -5653,6 +6826,17 @@
    "url": "https://www.industriemuseum.be/nl/agenda/expo-computer-says-hello",
    "k": "archive",
    "city": "Gent"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2026-11-15",
+   "t": "11:00",
+   "title": "Tout|Rien",
+   "note": "",
+   "url": "https://kopergietery.be/programma/tout-rien",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Kopergietery Rabot"
   },
   {
    "v": "skoop",
@@ -5670,19 +6854,42 @@
    "t": "15:00",
    "title": "Tramlijn Begeerte",
    "note": "BRT",
-   "url": "https://theaterbox.be/kalender.html",
+   "url": "https://www.brtgent.be/",
    "k": "theatre",
    "city": "Gent"
   },
   {
    "v": "kopergietery",
    "d": "2026-11-15",
-   "t": "",
+   "t": "15:00",
    "title": "Tout|Rien",
-   "note": "Compagnie Modo Grosso · KG Rabot · 7+",
+   "note": "sold out",
    "url": "https://kopergietery.be/programma/tout-rien",
    "k": "theatre",
-   "city": "Gent"
+   "city": "Gent",
+   "place": "Kopergietery Rabot"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-15",
+   "t": "18:00",
+   "title": "Een adder onder het gras",
+   "note": "'t Schat vzw",
+   "url": "https://www.opendoek.be/beleven/kalender/een-adder-onder-het-gras",
+   "k": "theatre",
+   "city": "Heusden (Destelbergen)",
+   "place": "Theater 't Schat"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-15",
+   "t": "18:00",
+   "title": "Een straatje zonder einde",
+   "note": "K.T.V. Elck 't Syne vzw",
+   "url": "https://www.opendoek.be/beleven/kalender/een-straatje-zonder-einde",
+   "k": "theatre",
+   "city": "Destelbergen",
+   "place": "JGC Bergenmeers"
   },
   {
    "v": "miry",
@@ -5764,6 +6971,17 @@
    "place": "MIRY Concertzaal"
   },
   {
+   "v": "viernulvier",
+   "d": "2026-11-17",
+   "t": "19:30",
+   "title": "Uitgelezen",
+   "note": "met Ruth Joos, Melissa Giardina, Lindah Leah Nyirenda & Arno Van Vlierberghe",
+   "url": "https://www.viernulvier.gent/nl/agenda/uitgelezen-45ml",
+   "k": "talk",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
    "v": "ugent",
    "d": "2026-11-17",
    "t": "20:00",
@@ -5786,15 +7004,14 @@
    "city": "Gent"
   },
   {
-   "v": "kopergietery",
+   "v": "decentrale",
    "d": "2026-11-17",
    "t": "",
-   "title": "Update 2026: Trends in tech en AI",
-   "note": "Appstublieft/Kristof D'Hanens · KG Rabot",
-   "url": "https://kopergietery.be/programma/update-2026-trends-in-tech-en-ai",
-   "k": "talk",
-   "city": "Gent",
-   "th": "science"
+   "title": "Duble ft Zeynep & Mehmethan Gök",
+   "note": "",
+   "url": "https://www.decentrale.be/nl/agenda/muziek/duble-ft-zeynep-en-mehmethan-gok",
+   "k": "music",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -5807,6 +7024,17 @@
    "city": "Gent"
   },
   {
+   "v": "viernulvier",
+   "d": "2026-11-18",
+   "t": "19:30",
+   "title": "Gili",
+   "note": "Machtig!",
+   "url": "https://www.viernulvier.gent/nl/agenda/gili-z9b8",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
    "v": "skoop",
    "d": "2026-11-18",
    "t": "20:00",
@@ -5817,6 +7045,28 @@
    "city": "Gent"
   },
   {
+   "v": "viernulvier",
+   "d": "2026-11-18",
+   "t": "20:00",
+   "title": "Sophia Rodríguez & Teresa Vittucci",
+   "note": "anger angels (ETERNAL LETDOWN)",
+   "url": "https://www.viernulvier.gent/nl/agenda/sophia-rodriguez-teresa-vittucci-jm43",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Domzaal"
+  },
+  {
+   "v": "campo",
+   "d": "2026-11-18",
+   "t": "20:30",
+   "title": "De Vader",
+   "note": "Marieke&Sophia",
+   "url": "https://www.campo.nu/nl/agenda/de-vader-1s1r",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "CAMPO nieuwpoort"
+  },
+  {
    "v": "kask",
    "d": "2026-11-18",
    "t": "20:30",
@@ -5824,6 +7074,16 @@
    "note": "",
    "url": "https://kaskcinema.be/film/les-recommencements/",
    "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "decentrale",
+   "d": "2026-11-18",
+   "t": "",
+   "title": "AYNUR",
+   "note": "",
+   "url": "https://www.decentrale.be/nl/agenda/muziek/aynur",
+   "k": "music",
    "city": "Gent"
   },
   {
@@ -5837,6 +7097,28 @@
    "th": "economics",
    "place": "",
    "city": ""
+  },
+  {
+   "v": "kopergietery",
+   "d": "2026-11-19",
+   "t": "10:00",
+   "title": "Schemerland",
+   "note": "",
+   "url": "https://kopergietery.be/programma/schemerland",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Kopergietery Rabot"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2026-11-19",
+   "t": "14:00",
+   "title": "Schemerland",
+   "note": "",
+   "url": "https://kopergietery.be/programma/schemerland",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Kopergietery Rabot"
   },
   {
    "v": "ugent",
@@ -5874,14 +7156,47 @@
    "city": "Gent"
   },
   {
+   "v": "viernulvier",
+   "d": "2026-11-19",
+   "t": "19:30",
+   "title": "Psychonaut",
+   "note": "support: The Guru Guru",
+   "url": "https://www.viernulvier.gent/nl/agenda/psychonaut-hdws",
+   "k": "music",
+   "city": "Gent",
+   "place": "De Vooruit · Concertzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-11-19",
+   "t": "19:30",
+   "title": "Tsar B",
+   "note": "",
+   "url": "https://www.viernulvier.gent/nl/agenda/tsar-b-r32k",
+   "k": "music",
+   "city": "Gent",
+   "place": "Club Wintercircus"
+  },
+  {
    "v": "box",
    "d": "2026-11-19",
    "t": "20:00",
    "title": "Tramlijn Begeerte",
    "note": "BRT",
-   "url": "https://theaterbox.be/kalender.html",
+   "url": "https://www.brtgent.be/",
    "k": "theatre",
    "city": "Gent"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-19",
+   "t": "20:00",
+   "title": "Een adder onder het gras",
+   "note": "'t Schat vzw",
+   "url": "https://www.opendoek.be/beleven/kalender/een-adder-onder-het-gras",
+   "k": "theatre",
+   "city": "Heusden (Destelbergen)",
+   "place": "Theater 't Schat"
   },
   {
    "v": "skoop",
@@ -5902,6 +7217,28 @@
    "url": "https://www.sphinx-cinema.be/programma",
    "k": "film",
    "city": "Gent"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-11-19",
+   "t": "20:00",
+   "title": "Sophia Rodríguez & Teresa Vittucci",
+   "note": "anger angels (ETERNAL LETDOWN)",
+   "url": "https://www.viernulvier.gent/nl/agenda/sophia-rodriguez-teresa-vittucci-jm43",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Domzaal"
+  },
+  {
+   "v": "campo",
+   "d": "2026-11-19",
+   "t": "20:30",
+   "title": "De Vader",
+   "note": "Marieke&Sophia",
+   "url": "https://www.campo.nu/nl/agenda/de-vader-1s1r",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "CAMPO nieuwpoort"
   },
   {
    "v": "kask",
@@ -5934,13 +7271,13 @@
    "city": "Gent"
   },
   {
-   "v": "kopergietery",
+   "v": "decentrale",
    "d": "2026-11-19",
    "t": "",
-   "title": "Schemerland",
-   "note": "KOPERGIETERY & Pleegzorg Oost-Vlaanderen · KG Rabot · 10+",
-   "url": "https://kopergietery.be/programma/schemerland",
-   "k": "theatre",
+   "title": "ŞEVVAL SAM",
+   "note": "",
+   "url": "https://www.decentrale.be/nl/agenda/muziek/Sevval-sam",
+   "k": "music",
    "city": "Gent"
   },
   {
@@ -6031,9 +7368,64 @@
    "t": "20:00",
    "title": "Tramlijn Begeerte",
    "note": "BRT",
-   "url": "https://theaterbox.be/kalender.html",
+   "url": "https://www.brtgent.be/",
    "k": "theatre",
    "city": "Gent"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2026-11-20",
+   "t": "20:00",
+   "title": "Schemerland",
+   "note": "sold out",
+   "url": "https://kopergietery.be/programma/schemerland",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Kopergietery Rabot"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-20",
+   "t": "20:00",
+   "title": "Een adder onder het gras",
+   "note": "'t Schat vzw",
+   "url": "https://www.opendoek.be/beleven/kalender/een-adder-onder-het-gras",
+   "k": "theatre",
+   "city": "Heusden (Destelbergen)",
+   "place": "Theater 't Schat"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-20",
+   "t": "20:00",
+   "title": "Een straatje zonder einde",
+   "note": "K.T.V. Elck 't Syne vzw",
+   "url": "https://www.opendoek.be/beleven/kalender/een-straatje-zonder-einde",
+   "k": "theatre",
+   "city": "Destelbergen",
+   "place": "JGC Bergenmeers"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-20",
+   "t": "20:00",
+   "title": "Momo",
+   "note": "Kunst-Adelt Nazareth-Eke",
+   "url": "https://www.opendoek.be/beleven/kalender/momo",
+   "k": "theatre",
+   "city": "Eke (Nazareth-De Pinte)",
+   "place": "cc Nova"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-20",
+   "t": "20:00",
+   "title": "Zondag Vaderdag",
+   "note": "Toneelvereniging Tidol",
+   "url": "https://www.opendoek.be/beleven/kalender/zondag-vaderdag",
+   "k": "theatre",
+   "city": "Wichelen",
+   "place": "Gildenhuis"
   },
   {
    "v": "poeziecentrum",
@@ -6058,6 +7450,17 @@
    "city": "Gent"
   },
   {
+   "v": "opendoek",
+   "d": "2026-11-20",
+   "t": "20:30",
+   "title": "Toneelatelier : De ezelin of waar is Magda?",
+   "note": "Platform Toneelatelier Aalst vzw",
+   "url": "https://www.opendoek.be/beleven/kalender/toneelatelier-de-ezelin-of-waar-is-magda",
+   "k": "theatre",
+   "city": "Aalst",
+   "place": "Zaal platform"
+  },
+  {
    "v": "skoop",
    "d": "2026-11-20",
    "t": "22:15",
@@ -6065,6 +7468,16 @@
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
    "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "decentrale",
+   "d": "2026-11-20",
+   "t": "",
+   "title": "İstanbul Fasıl Ensemble | İstanbul Geceleri",
+   "note": "",
+   "url": "https://www.decentrale.be/nl/agenda/muziek/Istanbul-fasil-ensemble-Istanbul-geceleri",
+   "k": "music",
    "city": "Gent"
   },
   {
@@ -6103,6 +7516,17 @@
    "city": "Gent"
   },
   {
+   "v": "viernulvier",
+   "d": "2026-11-21",
+   "t": "16:00",
+   "title": "Nacht Van De Vrijdenker 2026",
+   "note": "",
+   "url": "https://www.viernulvier.gent/nl/agenda/nacht-van-de-vrijdenker-2026-143x",
+   "k": "talk",
+   "city": "Gent",
+   "place": "Diverse locaties"
+  },
+  {
    "v": "sphinx",
    "d": "2026-11-21",
    "t": "17:00",
@@ -6123,14 +7547,36 @@
    "city": "Gent"
   },
   {
+   "v": "opendoek",
+   "d": "2026-11-21",
+   "t": "19:30",
+   "title": "\"Grijsjes van plezier\"",
+   "note": "Koninklijke Toneelvereniging Sint-Martinus",
+   "url": "https://www.opendoek.be/beleven/kalender/grijsjes-van-plezier",
+   "k": "theatre",
+   "city": "Balegem (Oosterzele)",
+   "place": "Zaal De Kring"
+  },
+  {
    "v": "box",
    "d": "2026-11-21",
    "t": "20:00",
    "title": "Tramlijn Begeerte",
    "note": "BRT",
-   "url": "https://theaterbox.be/kalender.html",
+   "url": "https://www.brtgent.be/",
    "k": "theatre",
    "city": "Gent"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2026-11-21",
+   "t": "20:00",
+   "title": "Schemerland",
+   "note": "sold out",
+   "url": "https://kopergietery.be/programma/schemerland",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Kopergietery Rabot"
   },
   {
    "v": "miry",
@@ -6143,6 +7589,61 @@
    "city": "Gent"
   },
   {
+   "v": "opendoek",
+   "d": "2026-11-21",
+   "t": "20:00",
+   "title": "Een adder onder het gras",
+   "note": "'t Schat vzw",
+   "url": "https://www.opendoek.be/beleven/kalender/een-adder-onder-het-gras",
+   "k": "theatre",
+   "city": "Heusden (Destelbergen)",
+   "place": "Theater 't Schat"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-21",
+   "t": "20:00",
+   "title": "Een straatje zonder einde",
+   "note": "K.T.V. Elck 't Syne vzw",
+   "url": "https://www.opendoek.be/beleven/kalender/een-straatje-zonder-einde",
+   "k": "theatre",
+   "city": "Destelbergen",
+   "place": "JGC Bergenmeers"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-21",
+   "t": "20:00",
+   "title": "Melina",
+   "note": "La Barraca",
+   "url": "https://www.opendoek.be/beleven/kalender/melina",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Theater La Barraca"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-21",
+   "t": "20:00",
+   "title": "Momo",
+   "note": "Kunst-Adelt Nazareth-Eke",
+   "url": "https://www.opendoek.be/beleven/kalender/momo",
+   "k": "theatre",
+   "city": "Eke (Nazareth-De Pinte)",
+   "place": "cc Nova"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-21",
+   "t": "20:00",
+   "title": "Zondag Vaderdag",
+   "note": "Toneelvereniging Tidol",
+   "url": "https://www.opendoek.be/beleven/kalender/zondag-vaderdag",
+   "k": "theatre",
+   "city": "Wichelen",
+   "place": "Gildenhuis"
+  },
+  {
    "v": "sphinx",
    "d": "2026-11-21",
    "t": "20:00",
@@ -6153,6 +7654,28 @@
    "city": "Gent"
   },
   {
+   "v": "opendoek",
+   "d": "2026-11-21",
+   "t": "20:30",
+   "title": "Toneelatelier : De ezelin of waar is Magda?",
+   "note": "Platform Toneelatelier Aalst vzw",
+   "url": "https://www.opendoek.be/beleven/kalender/toneelatelier-de-ezelin-of-waar-is-magda",
+   "k": "theatre",
+   "city": "Aalst",
+   "place": "Zaal platform"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-11-21",
+   "t": "22:00",
+   "title": "DUB CIRCUS",
+   "note": "w/ ABA SHANTI - I, sold out",
+   "url": "https://www.viernulvier.gent/nl/agenda/dub-circus-45nw",
+   "k": "music",
+   "city": "Gent",
+   "place": "Club Wintercircus"
+  },
+  {
    "v": "skoop",
    "d": "2026-11-21",
    "t": "22:10",
@@ -6160,6 +7683,27 @@
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
    "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-11-21",
+   "t": "23:00",
+   "title": "Sabrina's Feestje",
+   "note": "",
+   "url": "https://www.viernulvier.gent/nl/agenda/sabrina-s-feestje-8wzj",
+   "k": "music",
+   "city": "Gent",
+   "place": "De Vooruit · Concertzaal"
+  },
+  {
+   "v": "decentrale",
+   "d": "2026-11-21",
+   "t": "",
+   "title": "NİLİPEK. + TURKISH KEBAP + CEM YILDIZ",
+   "note": "",
+   "url": "https://www.decentrale.be/nl/agenda/muziek/nIlIpek.-turkish-kebap-cem-yildiz",
+   "k": "music",
    "city": "Gent"
   },
   {
@@ -6193,6 +7737,39 @@
    "city": "Gent"
   },
   {
+   "v": "opendoek",
+   "d": "2026-11-22",
+   "t": "18:00",
+   "title": "Een adder onder het gras",
+   "note": "'t Schat vzw",
+   "url": "https://www.opendoek.be/beleven/kalender/een-adder-onder-het-gras",
+   "k": "theatre",
+   "city": "Heusden (Destelbergen)",
+   "place": "Theater 't Schat"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-22",
+   "t": "18:00",
+   "title": "Een straatje zonder einde",
+   "note": "K.T.V. Elck 't Syne vzw",
+   "url": "https://www.opendoek.be/beleven/kalender/een-straatje-zonder-einde",
+   "k": "theatre",
+   "city": "Destelbergen",
+   "place": "JGC Bergenmeers"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-22",
+   "t": "18:30",
+   "title": "\"Grijsjes van plezier\"",
+   "note": "Koninklijke Toneelvereniging Sint-Martinus",
+   "url": "https://www.opendoek.be/beleven/kalender/grijsjes-van-plezier",
+   "k": "theatre",
+   "city": "Balegem (Oosterzele)",
+   "place": "Zaal De Kring"
+  },
+  {
    "v": "skoop",
    "d": "2026-11-22",
    "t": "19:45",
@@ -6213,6 +7790,26 @@
    "city": "Gent"
   },
   {
+   "v": "decentrale",
+   "d": "2026-11-22",
+   "t": "",
+   "title": "Artvark Saxophone Quartet ft. Dilek & Derya Türkan",
+   "note": "",
+   "url": "https://www.decentrale.be/nl/agenda/muziek/artvark-saxophone-quartet-ft.-dilek-en-derya-turkan",
+   "k": "music",
+   "city": "Gent"
+  },
+  {
+   "v": "decentrale",
+   "d": "2026-11-22",
+   "t": "",
+   "title": "Foyer Matinee . Istanbul Fasıl Ensemble",
+   "note": "",
+   "url": "https://www.decentrale.be/nl/agenda/muziek/foyer-matinee-.-istanbul-fasil-ensemble",
+   "k": "music",
+   "city": "Gent"
+  },
+  {
    "v": "skoop",
    "d": "2026-11-23",
    "t": "17:30",
@@ -6223,6 +7820,28 @@
    "city": "Gent"
   },
   {
+   "v": "opendoek",
+   "d": "2026-11-23",
+   "t": "20:00",
+   "title": "Momo",
+   "note": "Kunst-Adelt Nazareth-Eke",
+   "url": "https://www.opendoek.be/beleven/kalender/momo",
+   "k": "theatre",
+   "city": "Eke (Nazareth-De Pinte)",
+   "place": "cc Nova"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-23",
+   "t": "20:00",
+   "title": "Zondag Vaderdag",
+   "note": "Toneelvereniging Tidol",
+   "url": "https://www.opendoek.be/beleven/kalender/zondag-vaderdag",
+   "k": "theatre",
+   "city": "Wichelen",
+   "place": "Gildenhuis"
+  },
+  {
    "v": "sphinx",
    "d": "2026-11-23",
    "t": "20:00",
@@ -6230,6 +7849,38 @@
    "note": "De filmkeuze van Bendt Eyckermans",
    "url": "https://www.sphinx-cinema.be/programma",
    "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-11-24",
+   "t": "19:00",
+   "title": "Lost in Kyiv",
+   "note": "Support: Arabrot / Aufhebung",
+   "url": "https://www.viernulvier.gent/nl/agenda/lost-in-kyiv-qgj9",
+   "k": "music",
+   "city": "Gent",
+   "place": "Club Wintercircus"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-11-24",
+   "t": "19:30",
+   "title": "Joe Jackson",
+   "note": "HOPE AND FURY TOUR 2026, sold out",
+   "url": "https://www.viernulvier.gent/nl/agenda/joe-jackson-ql5g",
+   "k": "music",
+   "city": "Gent",
+   "place": "De Vooruit · Concertzaal"
+  },
+  {
+   "v": "arca",
+   "d": "2026-11-24",
+   "t": "20:00",
+   "title": "BRODER muziek+theater | ,Rosa.",
+   "note": "",
+   "url": "https://www.arcatheater.be/evenement/broder-muziektheater-rosa/",
+   "k": "theatre",
    "city": "Gent"
   },
   {
@@ -6255,6 +7906,17 @@
    "city": "Gent"
   },
   {
+   "v": "viernulvier",
+   "d": "2026-11-24",
+   "t": "20:00",
+   "title": "Davi Pontes & Wallace Ferreira",
+   "note": "Repertório N.1, sold out",
+   "url": "https://www.viernulvier.gent/nl/agenda/davi-pontes-wallace-ferreira-yx3w",
+   "k": "dance",
+   "city": "Gent",
+   "place": "De Vooruit · Balzaal"
+  },
+  {
    "v": "kask",
    "d": "2026-11-24",
    "t": "20:30",
@@ -6277,6 +7939,17 @@
    "city": "Lokeren"
   },
   {
+   "v": "viernulvier",
+   "d": "2026-11-25",
+   "t": "19:30",
+   "title": "DE HOE",
+   "note": "De Sitcom",
+   "url": "https://www.viernulvier.gent/nl/agenda/de-hoe-7plz",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
    "v": "miry",
    "d": "2026-11-25",
    "t": "20:00",
@@ -6285,6 +7958,39 @@
    "url": "https://schoolofartsgent.be/agenda/natalie-lewis-brian-zeger",
    "k": "music",
    "city": "Gent"
+  },
+  {
+   "v": "ntgent",
+   "d": "2026-11-25",
+   "t": "20:00",
+   "title": "Medea's kinderen",
+   "note": "Milo Rau & ntgent",
+   "url": "https://www.ntgent.be/nl/producties/medeas-kinderen",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "NTGent Schouwburg"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-11-25",
+   "t": "20:00",
+   "title": "Davi Pontes & Wallace Ferreira",
+   "note": "Repertório N.1, sold out",
+   "url": "https://www.viernulvier.gent/nl/agenda/davi-pontes-wallace-ferreira-yx3w",
+   "k": "dance",
+   "city": "Gent",
+   "place": "De Vooruit · Balzaal"
+  },
+  {
+   "v": "campo",
+   "d": "2026-11-25",
+   "t": "20:30",
+   "title": "Spirit Plastic",
+   "note": ",Bruch‘-",
+   "url": "https://www.campo.nu/nl/agenda/spirit-plastic-t7zc",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "CAMPO nieuwpoort"
   },
   {
    "v": "kask",
@@ -6309,6 +8015,72 @@
    "city": "Gent"
   },
   {
+   "v": "viernulvier",
+   "d": "2026-11-26",
+   "t": "19:30",
+   "title": "DE HOE",
+   "note": "De Sitcom",
+   "url": "https://www.viernulvier.gent/nl/agenda/de-hoe-7plz",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "ntgent",
+   "d": "2026-11-26",
+   "t": "20:00",
+   "title": "Medea's kinderen",
+   "note": "Milo Rau & ntgent",
+   "url": "https://www.ntgent.be/nl/producties/medeas-kinderen",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "NTGent Schouwburg"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-26",
+   "t": "20:00",
+   "title": "Een adder onder het gras",
+   "note": "'t Schat vzw",
+   "url": "https://www.opendoek.be/beleven/kalender/een-adder-onder-het-gras",
+   "k": "theatre",
+   "city": "Heusden (Destelbergen)",
+   "place": "Theater 't Schat"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-26",
+   "t": "20:00",
+   "title": "Momo",
+   "note": "Kunst-Adelt Nazareth-Eke",
+   "url": "https://www.opendoek.be/beleven/kalender/momo",
+   "k": "theatre",
+   "city": "Eke (Nazareth-De Pinte)",
+   "place": "cc Nova"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-11-26",
+   "t": "20:00",
+   "title": "Dushime presents INZOZI ZANJYE ft. Cortex Ensemble",
+   "note": "Inzozi Zanjye",
+   "url": "https://www.viernulvier.gent/nl/agenda/dushime-presents-inzozi-zanjye-ft-cortex-ensemble-67nv",
+   "k": "dance",
+   "city": "Gent",
+   "place": "De Vooruit · Balzaal"
+  },
+  {
+   "v": "campo",
+   "d": "2026-11-26",
+   "t": "20:30",
+   "title": "Showing",
+   "note": "Nile Harris & Social Security",
+   "url": "https://www.campo.nu/nl/agenda/showing-c8z1",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "CAMPO nieuwpoort"
+  },
+  {
    "v": "kask",
    "d": "2026-11-26",
    "t": "20:30",
@@ -6316,6 +8088,27 @@
    "note": "",
    "url": "https://kaskcinema.be/film/national-anthem/",
    "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-26",
+   "t": "20:30",
+   "title": "Toneelatelier : De ezelin of waar is Magda?",
+   "note": "Platform Toneelatelier Aalst vzw",
+   "url": "https://www.opendoek.be/beleven/kalender/toneelatelier-de-ezelin-of-waar-is-magda",
+   "k": "theatre",
+   "city": "Aalst",
+   "place": "Zaal platform"
+  },
+  {
+   "v": "decentrale",
+   "d": "2026-11-26",
+   "t": "",
+   "title": "Matthew Barley and 51 Strings",
+   "note": "",
+   "url": "https://www.decentrale.be/nl/agenda/muziek/matthew-barley-and-51-strings",
+   "k": "music",
    "city": "Gent"
   },
   {
@@ -6377,14 +8170,102 @@
    "city": "Gent"
   },
   {
+   "v": "viernulvier",
+   "d": "2026-11-27",
+   "t": "19:00",
+   "title": "Another Dancer / YLÏAM / Solina Lapsus",
+   "note": "",
+   "url": "https://www.viernulvier.gent/nl/agenda/another-dancer-yliam-solina-lapsus-nygk",
+   "k": "music",
+   "city": "Gent",
+   "place": "de Koer · de Koer (Meibloemstraat 86)"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-11-27",
+   "t": "19:00",
+   "title": "CLUSTER 2026",
+   "note": "multi-venue nachtfestival voor en door jongeren",
+   "url": "https://www.viernulvier.gent/nl/agenda/cluster-2026-r3pn",
+   "k": "music",
+   "city": "Gent",
+   "place": "Meerdere locaties"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-11-27",
+   "t": "19:30",
+   "title": "DE HOE",
+   "note": "De Sitcom, sold out",
+   "url": "https://www.viernulvier.gent/nl/agenda/de-hoe-7plz",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
    "v": "box",
    "d": "2026-11-27",
    "t": "20:00",
-   "title": "Vuile Maniere",
+   "title": "Vuile Maniere - Kurt Burgelman zaterdag 28 november, 15u: Vuile Maniere",
    "note": "Kurt Burgelman",
-   "url": "https://theaterbox.be/kalender.html",
+   "url": "https://www.biezebaaze.be/Kurt-Burgelman-theatershow",
    "k": "theatre",
    "city": "Gent"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-27",
+   "t": "20:00",
+   "title": "Een adder onder het gras",
+   "note": "'t Schat vzw",
+   "url": "https://www.opendoek.be/beleven/kalender/een-adder-onder-het-gras",
+   "k": "theatre",
+   "city": "Heusden (Destelbergen)",
+   "place": "Theater 't Schat"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-27",
+   "t": "20:00",
+   "title": "Happy End - Een tragikomedie gebracht door Iverige Jonckheyt",
+   "note": "Iverige Jonckheyt",
+   "url": "https://www.opendoek.be/beleven/kalender/happy-end-een-tragikomedie-gebracht-door-iverige-jonckheyt",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Nova Centrum"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-27",
+   "t": "20:00",
+   "title": "Melina",
+   "note": "La Barraca",
+   "url": "https://www.opendoek.be/beleven/kalender/melina",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Theater La Barraca"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-27",
+   "t": "20:00",
+   "title": "Momo",
+   "note": "Kunst-Adelt Nazareth-Eke",
+   "url": "https://www.opendoek.be/beleven/kalender/momo",
+   "k": "theatre",
+   "city": "Eke (Nazareth-De Pinte)",
+   "place": "cc Nova"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-27",
+   "t": "20:00",
+   "title": "Zondag Vaderdag",
+   "note": "Toneelvereniging Tidol",
+   "url": "https://www.opendoek.be/beleven/kalender/zondag-vaderdag",
+   "k": "theatre",
+   "city": "Wichelen",
+   "place": "Gildenhuis"
   },
   {
    "v": "skoop",
@@ -6417,12 +8298,78 @@
    "city": "Gent"
   },
   {
-   "v": "box",
+   "v": "campo",
+   "d": "2026-11-27",
+   "t": "20:30",
+   "title": "Showing",
+   "note": "Nile Harris & Social Security",
+   "url": "https://www.campo.nu/nl/agenda/showing-c8z1",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "CAMPO nieuwpoort"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-27",
+   "t": "20:30",
+   "title": "Toneelatelier : De ezelin of waar is Magda?",
+   "note": "Platform Toneelatelier Aalst vzw",
+   "url": "https://www.opendoek.be/beleven/kalender/toneelatelier-de-ezelin-of-waar-is-magda",
+   "k": "theatre",
+   "city": "Aalst",
+   "place": "Zaal platform"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-11-27",
+   "t": "22:00",
+   "title": "Liquicity",
+   "note": "Fred V, Muzz, Technimatic, Artino, Natty Lou, Matt View & Hannelotta - Speedwagon",
+   "url": "https://www.viernulvier.gent/nl/agenda/liquicity-qghq",
+   "k": "music",
+   "city": "Gent",
+   "place": "De Vooruit · Concertzaal"
+  },
+  {
+   "v": "opendoek",
    "d": "2026-11-28",
-   "t": "15:00",
-   "title": "Vuile Maniere",
-   "note": "Kurt Burgelman",
-   "url": "https://theaterbox.be/kalender.html",
+   "t": "14:00",
+   "title": "Momo",
+   "note": "Kunst-Adelt Nazareth-Eke",
+   "url": "https://www.opendoek.be/beleven/kalender/momo",
+   "k": "theatre",
+   "city": "Eke (Nazareth-De Pinte)",
+   "place": "cc Nova"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-11-28",
+   "t": "18:00",
+   "title": "CBK Poetry Slam",
+   "note": "Wie geeft de beste verbale uppercuts van het land?",
+   "url": "https://www.viernulvier.gent/nl/agenda/cbk-poetry-slam-b8s1",
+   "k": "talk",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-28",
+   "t": "19:30",
+   "title": "\"Grijsjes van plezier\"",
+   "note": "Koninklijke Toneelvereniging Sint-Martinus",
+   "url": "https://www.opendoek.be/beleven/kalender/grijsjes-van-plezier",
+   "k": "theatre",
+   "city": "Balegem (Oosterzele)",
+   "place": "Zaal De Kring"
+  },
+  {
+   "v": "arca",
+   "d": "2026-11-28",
+   "t": "20:00",
+   "title": "CÔTÉ COEUR | Silvester",
+   "note": "",
+   "url": "https://www.arcatheater.be/evenement/cote-coeur-silvester/",
    "k": "theatre",
    "city": "Gent"
   },
@@ -6430,11 +8377,99 @@
    "v": "box",
    "d": "2026-11-28",
    "t": "20:00",
-   "title": "Vuile Maniere",
+   "title": "Vuile Maniere - Kurt Burgelman zondag 29 november, 20u: Vuile Maniere",
    "note": "Kurt Burgelman",
-   "url": "https://theaterbox.be/kalender.html",
+   "url": "https://www.biezebaaze.be/Kurt-Burgelman-theatershow",
    "k": "theatre",
    "city": "Gent"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-28",
+   "t": "20:00",
+   "title": "Een adder onder het gras",
+   "note": "'t Schat vzw",
+   "url": "https://www.opendoek.be/beleven/kalender/een-adder-onder-het-gras",
+   "k": "theatre",
+   "city": "Heusden (Destelbergen)",
+   "place": "Theater 't Schat"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-28",
+   "t": "20:00",
+   "title": "Happy End - Een tragikomedie gebracht door Iverige Jonckheyt",
+   "note": "Iverige Jonckheyt",
+   "url": "https://www.opendoek.be/beleven/kalender/happy-end-een-tragikomedie-gebracht-door-iverige-jonckheyt",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Nova Centrum"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-28",
+   "t": "20:00",
+   "title": "Melina",
+   "note": "La Barraca",
+   "url": "https://www.opendoek.be/beleven/kalender/melina",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Theater La Barraca"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-28",
+   "t": "20:00",
+   "title": "Momo",
+   "note": "Kunst-Adelt Nazareth-Eke",
+   "url": "https://www.opendoek.be/beleven/kalender/momo",
+   "k": "theatre",
+   "city": "Eke (Nazareth-De Pinte)",
+   "place": "cc Nova"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-28",
+   "t": "20:00",
+   "title": "Zondag Vaderdag",
+   "note": "Toneelvereniging Tidol",
+   "url": "https://www.opendoek.be/beleven/kalender/zondag-vaderdag",
+   "k": "theatre",
+   "city": "Wichelen",
+   "place": "Gildenhuis"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-28",
+   "t": "20:30",
+   "title": "Toneelatelier : De ezelin of waar is Magda?",
+   "note": "Platform Toneelatelier Aalst vzw",
+   "url": "https://www.opendoek.be/beleven/kalender/toneelatelier-de-ezelin-of-waar-is-magda",
+   "k": "theatre",
+   "city": "Aalst",
+   "place": "Zaal platform"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-11-28",
+   "t": "21:30",
+   "title": "New Wave Classix",
+   "note": "new/dark WAVE party",
+   "url": "https://www.viernulvier.gent/nl/agenda/new-wave-classix-b8cn",
+   "k": "music",
+   "city": "Gent",
+   "place": "De Vooruit · Balzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-11-28",
+   "t": "22:30",
+   "title": "ICOON 'Beauty and a Beat'",
+   "note": "JOUW N°1 POP FEEST IN GENT VIERT JUSTIN BIEBER!",
+   "url": "https://www.viernulvier.gent/nl/agenda/icoon-beauty-and-a-beat-thj8",
+   "k": "music",
+   "city": "Gent",
+   "place": "De Vooruit · Concertzaal"
   },
   {
    "v": "kask",
@@ -6452,9 +8487,20 @@
    "t": "15:00",
    "title": "Vuile Maniere",
    "note": "Kurt Burgelman",
-   "url": "https://theaterbox.be/kalender.html",
+   "url": "https://www.biezebaaze.be/Kurt-Burgelman-theatershow",
    "k": "theatre",
    "city": "Gent"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-29",
+   "t": "15:00",
+   "title": "Happy End - Een tragikomedie gebracht door Iverige Jonckheyt",
+   "note": "Iverige Jonckheyt",
+   "url": "https://www.opendoek.be/beleven/kalender/happy-end-een-tragikomedie-gebracht-door-iverige-jonckheyt",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Nova Centrum"
   },
   {
    "v": "sphinx",
@@ -6464,16 +8510,6 @@
    "note": "Opera & Ballet: on Screen",
    "url": "https://www.sphinx-cinema.be/programma",
    "k": "film",
-   "city": "Gent"
-  },
-  {
-   "v": "box",
-   "d": "2026-11-29",
-   "t": "20:00",
-   "title": "Vuile Maniere",
-   "note": "Kurt Burgelman",
-   "url": "https://theaterbox.be/kalender.html",
-   "k": "theatre",
    "city": "Gent"
   },
   {
@@ -6519,6 +8555,28 @@
    "city": "Gent"
   },
   {
+   "v": "opendoek",
+   "d": "2026-11-30",
+   "t": "20:00",
+   "title": "Zondag Vaderdag",
+   "note": "Toneelvereniging Tidol",
+   "url": "https://www.opendoek.be/beleven/kalender/zondag-vaderdag",
+   "k": "theatre",
+   "city": "Wichelen",
+   "place": "Gildenhuis"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-11-30",
+   "t": "20:30",
+   "title": "Toneelatelier : De ezelin of waar is Magda?",
+   "note": "Platform Toneelatelier Aalst vzw",
+   "url": "https://www.opendoek.be/beleven/kalender/toneelatelier-de-ezelin-of-waar-is-magda",
+   "k": "theatre",
+   "city": "Aalst",
+   "place": "Zaal platform"
+  },
+  {
    "v": "masereel",
    "d": "2026-11-30",
    "t": "",
@@ -6541,6 +8599,28 @@
    "city": "Gent",
    "th": "politics",
    "place": "Vooruit, Balzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-12-01",
+   "t": "19:30",
+   "title": "De Arena",
+   "note": "met Lisbeth Imbo & guests",
+   "url": "https://www.viernulvier.gent/nl/agenda/de-arena-fl79",
+   "k": "talk",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-12-01",
+   "t": "19:30",
+   "title": "Nele Buyst",
+   "note": "Karakter boeklaunch: Plaats maken",
+   "url": "https://www.viernulvier.gent/nl/agenda/nele-buyst-yx6d",
+   "k": "talk",
+   "city": "Gent",
+   "place": "De Vooruit · Balzaal"
   },
   {
    "v": "ugent",
@@ -6566,6 +8646,72 @@
    "th": "art"
   },
   {
+   "v": "campo",
+   "d": "2026-12-02",
+   "t": "18:00",
+   "title": "Campfire",
+   "note": "Ezra Veldhuis & Bosse Provoost",
+   "url": "https://www.campo.nu/nl/agenda/campfire-l4yg",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "CAMPO victoria"
+  },
+  {
+   "v": "campo",
+   "d": "2026-12-02",
+   "t": "19:30",
+   "title": "Campfire",
+   "note": "Ezra Veldhuis & Bosse Provoost",
+   "url": "https://www.campo.nu/nl/agenda/campfire-l4yg",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "CAMPO victoria"
+  },
+  {
+   "v": "campo",
+   "d": "2026-12-02",
+   "t": "20:00",
+   "title": "Being Britney",
+   "note": "Colette Goossens",
+   "url": "https://www.campo.nu/nl/agenda/being-britney-rjg7",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Minnemeers - Gent"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-12-02",
+   "t": "20:00",
+   "title": "Simon Baetens/De Studio",
+   "note": "Première injuries & remedies",
+   "url": "https://www.viernulvier.gent/nl/agenda/simon-baetens-de-studio-xrnc",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Domzaal"
+  },
+  {
+   "v": "campo",
+   "d": "2026-12-02",
+   "t": "21:00",
+   "title": "Campfire",
+   "note": "Ezra Veldhuis & Bosse Provoost",
+   "url": "https://www.campo.nu/nl/agenda/campfire-l4yg",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "CAMPO victoria"
+  },
+  {
+   "v": "campo",
+   "d": "2026-12-03",
+   "t": "18:00",
+   "title": "Campfire",
+   "note": "Ezra Veldhuis & Bosse Provoost",
+   "url": "https://www.campo.nu/nl/agenda/campfire-l4yg",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "CAMPO victoria"
+  },
+  {
    "v": "kasklez",
    "d": "2026-12-03",
    "t": "19:00",
@@ -6575,6 +8721,72 @@
    "k": "talk",
    "city": "Gent",
    "th": "art"
+  },
+  {
+   "v": "campo",
+   "d": "2026-12-03",
+   "t": "19:30",
+   "title": "Campfire",
+   "note": "Ezra Veldhuis & Bosse Provoost",
+   "url": "https://www.campo.nu/nl/agenda/campfire-l4yg",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "CAMPO victoria"
+  },
+  {
+   "v": "campo",
+   "d": "2026-12-03",
+   "t": "20:00",
+   "title": "Being Britney",
+   "note": "Colette Goossens",
+   "url": "https://www.campo.nu/nl/agenda/being-britney-rjg7",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Minnemeers - Gent"
+  },
+  {
+   "v": "campo",
+   "d": "2026-12-03",
+   "t": "20:00",
+   "title": "PETRUSHKA GAME OVER",
+   "note": "Michiel Vandevelde / CAMPO",
+   "url": "https://www.campo.nu/nl/agenda/petrushka-game-over-q15t",
+   "k": "dance",
+   "city": "Gent",
+   "place": "December Dance - Brugge"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-12-03",
+   "t": "20:00",
+   "title": "Anne Teresa De Keersmaeker / Rosas",
+   "note": "Rosas danst Rosas",
+   "url": "https://www.viernulvier.gent/nl/agenda/anne-teresa-de-keersmaeker-rosas-skhw",
+   "k": "dance",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-12-03",
+   "t": "20:00",
+   "title": "Simon Baetens/De Studio",
+   "note": "Première injuries & remedies",
+   "url": "https://www.viernulvier.gent/nl/agenda/simon-baetens-de-studio-xrnc",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Domzaal"
+  },
+  {
+   "v": "campo",
+   "d": "2026-12-03",
+   "t": "21:00",
+   "title": "Campfire",
+   "note": "Ezra Veldhuis & Bosse Provoost",
+   "url": "https://www.campo.nu/nl/agenda/campfire-l4yg",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "CAMPO victoria"
   },
   {
    "v": "liberas",
@@ -6623,12 +8835,45 @@
    "city": "Gent"
   },
   {
+   "v": "opendoek",
+   "d": "2026-12-04",
+   "t": "00:00",
+   "title": "DOSSIER BERT",
+   "note": "",
+   "url": "https://www.opendoek.be/beleven/kalender/dossier-bert",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Theater Box"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-12-04",
+   "t": "19:30",
+   "title": "Anne Teresa De Keersmaeker / Rosas",
+   "note": "Rosas danst Rosas, sold out",
+   "url": "https://www.viernulvier.gent/nl/agenda/anne-teresa-de-keersmaeker-rosas-skhw",
+   "k": "dance",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-12-04",
+   "t": "19:30",
+   "title": "Dis Fig / Karel Naessens",
+   "note": "Immersive show",
+   "url": "https://www.viernulvier.gent/nl/agenda/dis-fig-karel-naessens-5jlk",
+   "k": "music",
+   "city": "Gent",
+   "place": "Club Wintercircus"
+  },
+  {
    "v": "box",
    "d": "2026-12-04",
    "t": "20:00",
    "title": "Dossier Bert",
-   "note": "Studio I2",
-   "url": "https://theaterbox.be/kalender.html",
+   "note": "Studio I 2",
+   "url": "/programma/dossier-bert.html",
    "k": "theatre",
    "city": "Gent"
   },
@@ -6643,14 +8888,100 @@
    "city": "Gent"
   },
   {
+   "v": "opendoek",
+   "d": "2026-12-04",
+   "t": "20:00",
+   "title": "Happy End - Een tragikomedie gebracht door Iverige Jonckheyt",
+   "note": "Iverige Jonckheyt",
+   "url": "https://www.opendoek.be/beleven/kalender/happy-end-een-tragikomedie-gebracht-door-iverige-jonckheyt",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Nova Centrum"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-12-04",
+   "t": "20:00",
+   "title": "Melina",
+   "note": "La Barraca",
+   "url": "https://www.opendoek.be/beleven/kalender/melina",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Theater La Barraca"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-12-05",
+   "t": "19:30",
+   "title": "Anne Teresa De Keersmaeker / Rosas",
+   "note": "Rosas danst Rosas, sold out",
+   "url": "https://www.viernulvier.gent/nl/agenda/anne-teresa-de-keersmaeker-rosas-skhw",
+   "k": "dance",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "arca",
+   "d": "2026-12-05",
+   "t": "20:00",
+   "title": "CHIMAERA | Symbiotic Matter",
+   "note": "",
+   "url": "https://www.arcatheater.be/evenement/chimaera-symbiotic-matter/",
+   "k": "theatre",
+   "city": "Gent"
+  },
+  {
    "v": "box",
    "d": "2026-12-05",
    "t": "20:00",
    "title": "Dossier Bert",
-   "note": "Studio I2",
-   "url": "https://theaterbox.be/kalender.html",
+   "note": "Studio I 2",
+   "url": "/programma/dossier-bert.html",
    "k": "theatre",
    "city": "Gent"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-12-05",
+   "t": "20:00",
+   "title": "Happy End - Een tragikomedie gebracht door Iverige Jonckheyt",
+   "note": "Iverige Jonckheyt",
+   "url": "https://www.opendoek.be/beleven/kalender/happy-end-een-tragikomedie-gebracht-door-iverige-jonckheyt",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Nova Centrum"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-12-05",
+   "t": "20:00",
+   "title": "Melina",
+   "note": "La Barraca",
+   "url": "https://www.opendoek.be/beleven/kalender/melina",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Theater La Barraca"
+  },
+  {
+   "v": "decentrale",
+   "d": "2026-12-05",
+   "t": "",
+   "title": "Flamenco INSPIRACIÓN by Patricio Grande",
+   "note": "",
+   "url": "https://www.decentrale.be/nl/agenda/te-gast/flamenco-inspiraciOn-by-patricio-grande",
+   "k": "music",
+   "city": "Gent"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2026-12-06",
+   "t": "11:00",
+   "title": "Fabels",
+   "note": "",
+   "url": "https://kopergietery.be/programma/fabels",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "de Bijloke"
   },
   {
    "v": "sphinx",
@@ -6667,10 +8998,43 @@
    "d": "2026-12-06",
    "t": "15:00",
    "title": "Dossier Bert",
-   "note": "Studio I2",
-   "url": "https://theaterbox.be/kalender.html",
+   "note": "Studio I 2",
+   "url": "/programma/dossier-bert.html",
    "k": "theatre",
    "city": "Gent"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2026-12-06",
+   "t": "15:00",
+   "title": "Fabels",
+   "note": "",
+   "url": "https://kopergietery.be/programma/fabels",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "de Bijloke"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2026-12-06",
+   "t": "15:00",
+   "title": "Wonderzoekers - de leugen",
+   "note": "",
+   "url": "https://kopergietery.be/programma/wonderzoekers-de-leugen",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Kopergietery Het Pand"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-12-06",
+   "t": "17:00",
+   "title": "Melina",
+   "note": "La Barraca",
+   "url": "https://www.opendoek.be/beleven/kalender/melina",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Theater La Barraca"
   },
   {
    "v": "bijloke",
@@ -6679,16 +9043,6 @@
    "title": "Fabels",
    "note": "KOPERGIETERY, KGbe & I SOLISTI · 8+",
    "url": "https://kopergietery.be/programma/fabels",
-   "k": "theatre",
-   "city": "Gent"
-  },
-  {
-   "v": "kopergietery",
-   "d": "2026-12-06",
-   "t": "",
-   "title": "Wonderzoekers - de leugen",
-   "note": "Sofie Palmers & Katrien Pierlet · Het Pand · 8+",
-   "url": "https://kopergietery.be/programma/wonderzoekers-de-leugen",
    "k": "theatre",
    "city": "Gent"
   },
@@ -6703,6 +9057,17 @@
    "th": "politics",
    "place": "UGent",
    "city": "Gent"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-12-08",
+   "t": "19:30",
+   "title": "De Spreekbeurt 13",
+   "note": "Onnozele onderwerpen gebracht door serieuze sprekers, sold out",
+   "url": "https://www.viernulvier.gent/nl/agenda/de-spreekbeurt-13-flgx",
+   "k": "talk",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
   },
   {
    "v": "ugent",
@@ -6752,6 +9117,28 @@
    "place": "KASKcinema"
   },
   {
+   "v": "viernulvier",
+   "d": "2026-12-09",
+   "t": "19:30",
+   "title": "Ruiskamer: ssaliva invites",
+   "note": "0comeups / ssaliva & Visio / GAME",
+   "url": "https://www.viernulvier.gent/nl/agenda/ruiskamer-ssaliva-invites-92sd",
+   "k": "music",
+   "city": "Gent",
+   "place": "Miry Concertzaal"
+  },
+  {
+   "v": "campo",
+   "d": "2026-12-09",
+   "t": "20:00",
+   "title": "The Death at the Club",
+   "note": "Candela Capitán",
+   "url": "https://www.campo.nu/nl/agenda/the-death-at-the-club-sg52",
+   "k": "dance",
+   "city": "Gent",
+   "place": "Club Wintercircus - Gent"
+  },
+  {
    "v": "miry",
    "d": "2026-12-09",
    "t": "20:00",
@@ -6760,6 +9147,39 @@
    "url": "https://schoolofartsgent.be/agenda/ssaliva-0comeups-visio-game",
    "k": "music",
    "city": "Gent"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-12-09",
+   "t": "20:00",
+   "title": "Candela Capitán",
+   "note": "The Death at The Club",
+   "url": "https://www.viernulvier.gent/nl/agenda/candela-capitan-flz7",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Club Wintercircus"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-12-09",
+   "t": "20:00",
+   "title": "Raymond van het Groenewoud",
+   "note": "Archivaris",
+   "url": "https://www.viernulvier.gent/nl/agenda/raymond-van-het-groenewoud-l6bj",
+   "k": "music",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "campo",
+   "d": "2026-12-09",
+   "t": "20:30",
+   "title": "Galactic Crush 2: Into the Cold",
+   "note": "Stephanie Kayal & Abed Kobeissy",
+   "url": "https://www.campo.nu/nl/agenda/galactic-crush-2-into-the-cold-t7gc",
+   "k": "dance",
+   "city": "Gent",
+   "place": "CAMPO nieuwpoort"
   },
   {
    "v": "kasklez",
@@ -6776,11 +9196,22 @@
    "v": "box",
    "d": "2026-12-10",
    "t": "20:00",
-   "title": "Improcessie - Moord in de Sneeuw",
-   "note": "Improcessie",
-   "url": "https://theaterbox.be/kalender.html",
+   "title": "Improcessie",
+   "note": "Moord in de Sneeuw",
+   "url": "https://improcessie.be/",
    "k": "theatre",
    "city": "Gent"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-12-10",
+   "t": "20:00",
+   "title": "Melina",
+   "note": "La Barraca",
+   "url": "https://www.opendoek.be/beleven/kalender/melina",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Theater La Barraca"
   },
   {
    "v": "masereel",
@@ -6837,12 +9268,34 @@
    "city": "Gent"
   },
   {
+   "v": "opendoek",
+   "d": "2026-12-11",
+   "t": "00:00",
+   "title": "DOSSIER BERT",
+   "note": "",
+   "url": "https://www.opendoek.be/beleven/kalender/dossier-bert",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Theater Box"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-12-11",
+   "t": "19:30",
+   "title": "Oathbreaker",
+   "note": "support: Portrayal of Guilt, sold out",
+   "url": "https://www.viernulvier.gent/nl/agenda/oathbreaker-7pyh",
+   "k": "music",
+   "city": "Gent",
+   "place": "De Vooruit · Concertzaal"
+  },
+  {
    "v": "box",
    "d": "2026-12-11",
    "t": "20:00",
    "title": "Dossier Bert",
-   "note": "Studio I2",
-   "url": "https://theaterbox.be/kalender.html",
+   "note": "Studio I 2",
+   "url": "/programma/dossier-bert.html",
    "k": "theatre",
    "city": "Gent"
   },
@@ -6868,6 +9321,17 @@
    "city": "Gent"
   },
   {
+   "v": "opendoek",
+   "d": "2026-12-11",
+   "t": "20:00",
+   "title": "Melina",
+   "note": "La Barraca",
+   "url": "https://www.opendoek.be/beleven/kalender/melina",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Theater La Barraca"
+  },
+  {
    "v": "masereel",
    "d": "2026-12-11",
    "t": "",
@@ -6878,6 +9342,17 @@
    "th": "history",
    "place": "",
    "city": "Brugge"
+  },
+  {
+   "v": "opendoek",
+   "d": "2026-12-12",
+   "t": "20:00",
+   "title": "Melina",
+   "note": "La Barraca",
+   "url": "https://www.opendoek.be/beleven/kalender/melina",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Theater La Barraca"
   },
   {
    "v": "masereel",
@@ -6892,12 +9367,44 @@
    "city": "Brugge"
   },
   {
+   "v": "opendoek",
+   "d": "2026-12-13",
+   "t": "00:00",
+   "title": "DOSSIER BERT",
+   "note": "",
+   "url": "https://www.opendoek.be/beleven/kalender/dossier-bert",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Theater Box"
+  },
+  {
    "v": "box",
    "d": "2026-12-13",
    "t": "15:00",
    "title": "Dossier Bert",
-   "note": "Studio I2",
-   "url": "https://theaterbox.be/kalender.html",
+   "note": "Studio I 2",
+   "url": "/programma/dossier-bert.html",
+   "k": "theatre",
+   "city": "Gent"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2026-12-13",
+   "t": "15:00",
+   "title": "Excuses voor het ongemak",
+   "note": "",
+   "url": "https://kopergietery.be/programma/excuses-voor-het-ongemak",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "CAMPO Nieuwpoort"
+  },
+  {
+   "v": "arca",
+   "d": "2026-12-13",
+   "t": "19:30",
+   "title": "ONE SAS | ÁRSTÍÐIR (IJsland)",
+   "note": "",
+   "url": "https://www.arcatheater.be/evenement/one-sas-arstidir-ijsland/",
    "k": "theatre",
    "city": "Gent"
   },
@@ -6909,6 +9416,16 @@
    "note": "Classics",
    "url": "https://www.sphinx-cinema.be/programma",
    "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "decentrale",
+   "d": "2026-12-13",
+   "t": "",
+   "title": "CEM ERDOST İLERİ",
+   "note": "",
+   "url": "https://www.decentrale.be/nl/agenda/muziek/cem-erdost-IlerI",
+   "k": "music",
    "city": "Gent"
   },
   {
@@ -6996,6 +9513,28 @@
    "city": "Gent"
   },
   {
+   "v": "campo",
+   "d": "2026-12-15",
+   "t": "20:30",
+   "title": "CAMPO CABARET #3: Evita Calderone",
+   "note": "ism UTSOPI",
+   "url": "https://www.campo.nu/nl/agenda/campo-cabaret-3-evita-calderone-x5l6",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Nieuwpoort Foyer"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-12-15",
+   "t": "20:30",
+   "title": "Oproer",
+   "note": "",
+   "url": "https://www.viernulvier.gent/nl/agenda/oproer-jmvm",
+   "k": "music",
+   "city": "Gent",
+   "place": "De Vooruit · Concertzaal"
+  },
+  {
    "v": "ugent",
    "d": "2026-12-16",
    "t": "10:00",
@@ -7008,6 +9547,17 @@
    "city": "Gent"
   },
   {
+   "v": "viernulvier",
+   "d": "2026-12-16",
+   "t": "20:00",
+   "title": "Nacht van de schrijvers en denkers",
+   "note": "De fundamenten van de Europese filosofie en literatuur met Johan Braeckman en Bart Keunen",
+   "url": "https://www.viernulvier.gent/nl/agenda/nacht-van-de-schrijvers-en-denkers-143c",
+   "k": "talk",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
    "v": "gentleest",
    "d": "2026-12-17",
    "t": "12:15",
@@ -7017,6 +9567,16 @@
    "k": "talk",
    "th": "literature",
    "place": "Bibliotheek De Krook",
+   "city": "Gent"
+  },
+  {
+   "v": "arca",
+   "d": "2026-12-17",
+   "t": "19:00",
+   "title": "VISUAL DISRUPTION DAY",
+   "note": "",
+   "url": "https://www.arcatheater.be/evenement/visual-disruption-day/",
+   "k": "talk",
    "city": "Gent"
   },
   {
@@ -7043,6 +9603,16 @@
    "city": "Gent"
   },
   {
+   "v": "decentrale",
+   "d": "2026-12-17",
+   "t": "",
+   "title": "Ramzi Aburedwan & Ensemble Dal'Ouna",
+   "note": "",
+   "url": "https://www.decentrale.be/nl/agenda/muziek/ramzi-aburedwan-en-ensemble-dal-ouna",
+   "k": "music",
+   "city": "Gent"
+  },
+  {
    "v": "liberas",
    "d": "2026-12-17",
    "t": "",
@@ -7065,6 +9635,38 @@
    "city": "Gent"
   },
   {
+   "v": "viernulvier",
+   "d": "2026-12-18",
+   "t": "22:00",
+   "title": "Skream",
+   "note": "support: UNOS, sold out",
+   "url": "https://www.viernulvier.gent/nl/agenda/skream-qg4c",
+   "k": "music",
+   "city": "Gent",
+   "place": "Club Wintercircus"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2026-12-19",
+   "t": "23:00",
+   "title": "CLUB LAAT",
+   "note": "Season Closing Party",
+   "url": "https://www.viernulvier.gent/nl/agenda/club-laat-r342",
+   "k": "music",
+   "city": "Gent",
+   "place": "Club Wintercircus"
+  },
+  {
+   "v": "decentrale",
+   "d": "2026-12-19",
+   "t": "",
+   "title": "Freestyle Factor x De Centrale * Dance battles!",
+   "note": "",
+   "url": "https://www.decentrale.be/nl/agenda/muziek/freestyle-factor-x-de-centrale-dance-battles",
+   "k": "dance",
+   "city": "Gent"
+  },
+  {
    "v": "sphinx",
    "d": "2026-12-20",
    "t": "15:00",
@@ -7079,10 +9681,21 @@
    "d": "2026-12-20",
    "t": "20:00",
    "title": "A Cozy Christmas",
-   "note": "Brenda Bee",
-   "url": "https://theaterbox.be/kalender.html",
+   "note": "",
+   "url": "https://brendabee.stager.co/shop/acozychristmaschop/",
    "k": "theatre",
    "city": "Gent"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2026-12-27",
+   "t": "15:00",
+   "title": "SKRAM",
+   "note": "",
+   "url": "https://kopergietery.be/programma/skram",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Expeditie"
   },
   {
    "v": "expeditie",
@@ -7095,6 +9708,386 @@
    "city": "Gent"
   },
   {
+   "v": "kopergietery",
+   "d": "2026-12-28",
+   "t": "15:00",
+   "title": "SKRAM",
+   "note": "",
+   "url": "https://kopergietery.be/programma/skram",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Expeditie"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2026-12-29",
+   "t": "15:00",
+   "title": "SKRAM",
+   "note": "",
+   "url": "https://kopergietery.be/programma/skram",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Expeditie"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-01-05",
+   "t": "10:00",
+   "title": "SKRAM",
+   "note": "",
+   "url": "https://kopergietery.be/programma/skram",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Expeditie"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-01-05",
+   "t": "14:00",
+   "title": "SKRAM",
+   "note": "",
+   "url": "https://kopergietery.be/programma/skram",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Expeditie"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-01-06",
+   "t": "10:00",
+   "title": "SKRAM",
+   "note": "",
+   "url": "https://kopergietery.be/programma/skram",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Expeditie"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-01-07",
+   "t": "10:00",
+   "title": "SKRAM",
+   "note": "",
+   "url": "https://kopergietery.be/programma/skram",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Expeditie"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-01-07",
+   "t": "14:00",
+   "title": "SKRAM",
+   "note": "",
+   "url": "https://kopergietery.be/programma/skram",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Expeditie"
+  },
+  {
+   "v": "arca",
+   "d": "2027-01-08",
+   "t": "19:00",
+   "title": "REECE KIDD | 1 Irishman in Ghent",
+   "note": "",
+   "url": "https://www.arcatheater.be/evenement/reece-kidd-1-irishman-in-ghent/",
+   "k": "theatre",
+   "city": "Gent"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-01-09",
+   "t": "15:00",
+   "title": "SKRAM",
+   "note": "",
+   "url": "https://kopergietery.be/programma/skram",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Expeditie"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-01-10",
+   "t": "11:00",
+   "title": "SKRAM",
+   "note": "",
+   "url": "https://kopergietery.be/programma/skram",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Expeditie"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-01-10",
+   "t": "15:00",
+   "title": "SKRAM",
+   "note": "",
+   "url": "https://kopergietery.be/programma/skram",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Expeditie"
+  },
+  {
+   "v": "decentrale",
+   "d": "2027-01-11",
+   "t": "",
+   "title": "CARPA TRIO",
+   "note": "",
+   "url": "https://www.decentrale.be/nl/agenda/muziek/carpa-trio",
+   "k": "music",
+   "city": "Gent"
+  },
+  {
+   "v": "decentrale",
+   "d": "2027-01-14",
+   "t": "",
+   "title": "Call to prayer",
+   "note": "",
+   "url": "https://www.decentrale.be/nl/agenda/muziek/call-to-prayer",
+   "k": "music",
+   "city": "Gent"
+  },
+  {
+   "v": "box",
+   "d": "2027-01-15",
+   "t": "20:00",
+   "title": "Improcessie Knalt",
+   "note": "i.s.m. Applaus!",
+   "url": "https://improcessie.be/",
+   "k": "theatre",
+   "city": "Gent"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-01-15",
+   "t": "20:00",
+   "title": "De Mens",
+   "note": "Late Night",
+   "url": "https://www.viernulvier.gent/nl/agenda/de-mens-flrz",
+   "k": "music",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-01-17",
+   "t": "15:00",
+   "title": "Oh oh oh dennenboom",
+   "note": "",
+   "url": "https://kopergietery.be/programma/oh-oh-oh-denneboom",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "NTGent Schouwburg"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-01-19",
+   "t": "14:00",
+   "title": "VRAAG/STUK",
+   "note": "",
+   "url": "https://kopergietery.be/programma/vraag-stuk",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Kopergietery Het Pand"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-01-20",
+   "t": "20:00",
+   "title": "Hoe zeg je “kom terug”?",
+   "note": "",
+   "url": "https://kopergietery.be/programma/hoe-zeg-je-kom-terug",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "de Vooruit"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-01-20",
+   "t": "20:00",
+   "title": "Hannah Zaouad",
+   "note": "Hoe zeg je “kom terug”?",
+   "url": "https://www.viernulvier.gent/nl/agenda/hannah-zaouad-yxwv",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Domzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-01-20",
+   "t": "20:00",
+   "title": "Not Standing/Alexander Vantournhout",
+   "note": "Nimble",
+   "url": "https://www.viernulvier.gent/nl/agenda/not-standing-alexander-vantournhout-14j4",
+   "k": "dance",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "campo",
+   "d": "2027-01-20",
+   "t": "20:30",
+   "title": "young girls",
+   "note": "Catho De Cordt, Marieke Schraepen & Maria Zandvliet / KWP",
+   "url": "https://www.campo.nu/nl/agenda/young-girls-qrnt",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "CAMPO nieuwpoort"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-01-21",
+   "t": "14:00",
+   "title": "Hoe zeg je “kom terug”?",
+   "note": "",
+   "url": "https://kopergietery.be/programma/hoe-zeg-je-kom-terug",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "de Vooruit"
+  },
+  {
+   "v": "campo",
+   "d": "2027-01-21",
+   "t": "20:00",
+   "title": "PETRUSHKA GAME OVER",
+   "note": "Michiel Vandevelde / CAMPO",
+   "url": "https://www.campo.nu/nl/agenda/petrushka-game-over-q15t",
+   "k": "dance",
+   "city": "Gent",
+   "place": "De Werf - Aalst"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-01-21",
+   "t": "20:00",
+   "title": "Hoe zeg je “kom terug”?",
+   "note": "",
+   "url": "https://kopergietery.be/programma/hoe-zeg-je-kom-terug",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "de Vooruit"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-01-21",
+   "t": "20:00",
+   "title": "Hannah Zaouad",
+   "note": "Hoe zeg je “kom terug”?",
+   "url": "https://www.viernulvier.gent/nl/agenda/hannah-zaouad-yxwv",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Domzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-01-21",
+   "t": "20:00",
+   "title": "Not Standing/Alexander Vantournhout",
+   "note": "Nimble",
+   "url": "https://www.viernulvier.gent/nl/agenda/not-standing-alexander-vantournhout-14j4",
+   "k": "dance",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "campo",
+   "d": "2027-01-21",
+   "t": "20:30",
+   "title": "young girls",
+   "note": "Catho De Cordt, Marieke Schraepen & Maria Zandvliet / KWP",
+   "url": "https://www.campo.nu/nl/agenda/young-girls-qrnt",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "CAMPO nieuwpoort"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-01-22",
+   "t": "10:00",
+   "title": "Bries",
+   "note": "",
+   "url": "https://kopergietery.be/programma/bries",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Kopergietery Rabot"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-01-22",
+   "t": "14:00",
+   "title": "Bries",
+   "note": "",
+   "url": "https://kopergietery.be/programma/bries",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Kopergietery Rabot"
+  },
+  {
+   "v": "arca",
+   "d": "2027-01-22",
+   "t": "20:00",
+   "title": "Brainstorm | THOMAS GREEN",
+   "note": "",
+   "url": "https://www.arcatheater.be/evenement/brainstorm-thomas-green/",
+   "k": "music",
+   "city": "Gent"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-01-22",
+   "t": "20:00",
+   "title": "Not Standing/Alexander Vantournhout",
+   "note": "Nimble",
+   "url": "https://www.viernulvier.gent/nl/agenda/not-standing-alexander-vantournhout-14j4",
+   "k": "dance",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-01-23",
+   "t": "15:00",
+   "title": "Bries",
+   "note": "",
+   "url": "https://kopergietery.be/programma/bries",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Kopergietery Rabot"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-01-26",
+   "t": "19:30",
+   "title": "Uitgelezen",
+   "note": "met Ruth Joos & guests",
+   "url": "https://www.viernulvier.gent/nl/agenda/uitgelezen-m1tt",
+   "k": "talk",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "campo",
+   "d": "2027-01-27",
+   "t": "20:00",
+   "title": "The Powerless",
+   "note": "Barbara T’Jonck, Martha Balthazar & May Abnet / KVS",
+   "url": "https://www.campo.nu/nl/agenda/the-powerless-dqr9",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Minard"
+  },
+  {
+   "v": "campo",
+   "d": "2027-01-27",
+   "t": "20:30",
+   "title": "Version(s)",
+   "note": "Dorothée Munyaneza",
+   "url": "https://www.campo.nu/nl/agenda/version-s-bnrd",
+   "k": "dance",
+   "city": "Gent",
+   "place": "CAMPO nieuwpoort"
+  },
+  {
    "v": "gentleest",
    "d": "2027-01-28",
    "t": "12:15",
@@ -7104,6 +10097,134 @@
    "k": "talk",
    "th": "poetry",
    "place": "Bibliotheek De Krook",
+   "city": "Gent"
+  },
+  {
+   "v": "campo",
+   "d": "2027-01-28",
+   "t": "20:00",
+   "title": "The Powerless",
+   "note": "Barbara T’Jonck, Martha Balthazar & May Abnet / KVS",
+   "url": "https://www.campo.nu/nl/agenda/the-powerless-dqr9",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Minard"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-01-28",
+   "t": "20:00",
+   "title": "Wannes, Femke & Lander Gyselinck",
+   "note": "4x4",
+   "url": "https://www.viernulvier.gent/nl/agenda/wannes-femke-lander-gyselinck-b8j7",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Balzaal"
+  },
+  {
+   "v": "campo",
+   "d": "2027-01-28",
+   "t": "20:30",
+   "title": "All Day I Dream About Soccer (ADIDAS)",
+   "note": "Ahilan Ratnamohan",
+   "url": "https://www.campo.nu/nl/agenda/all-day-i-dream-about-soccer-adidas-8y4s",
+   "k": "dance",
+   "city": "Gent",
+   "place": "CAMPO nieuwpoort"
+  },
+  {
+   "v": "decentrale",
+   "d": "2027-01-29",
+   "t": "",
+   "title": "Mèraque",
+   "note": "",
+   "url": "https://www.decentrale.be/nl/agenda/muziek/meraque",
+   "k": "music",
+   "city": "Gent"
+  },
+  {
+   "v": "campo",
+   "d": "2027-01-30",
+   "t": "20:00",
+   "title": "Kana Kassy / Niet huilen",
+   "note": "SKaGeN",
+   "url": "https://www.campo.nu/nl/agenda/kana-kassy-niet-huilen-8l3s",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Minard"
+  },
+  {
+   "v": "arca",
+   "d": "2027-01-31",
+   "t": "14:00",
+   "title": "KLEIN DRAMA | Huis Man",
+   "note": "",
+   "url": "https://www.arcatheater.be/evenement/klein-drama-huis-man/",
+   "k": "theatre",
+   "city": "Gent"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-01-31",
+   "t": "15:00",
+   "title": "Bonjour Mademoiselleke",
+   "note": "",
+   "url": "https://kopergietery.be/programma/bonjour-mademoiselleke",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "CAMPO Nieuwpoort"
+  },
+  {
+   "v": "arca",
+   "d": "2027-01-31",
+   "t": "16:00",
+   "title": "KLEIN DRAMA | Huis Man",
+   "note": "",
+   "url": "https://www.arcatheater.be/evenement/klein-drama-huis-man-2/",
+   "k": "theatre",
+   "city": "Gent"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-02-01",
+   "t": "10:00",
+   "title": "Bonjour Mademoiselleke",
+   "note": "",
+   "url": "https://kopergietery.be/programma/bonjour-mademoiselleke",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "CAMPO Nieuwpoort"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-02-01",
+   "t": "14:00",
+   "title": "Bonjour Mademoiselleke",
+   "note": "",
+   "url": "https://kopergietery.be/programma/bonjour-mademoiselleke",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "CAMPO Nieuwpoort"
+  },
+  {
+   "v": "ntgent",
+   "d": "2027-02-02",
+   "t": "20:00",
+   "title": "strike",
+   "note": "Moved by the Motion & ntgent",
+   "url": "https://www.ntgent.be/nl/producties/strike",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "NTGent Schouwburg"
+  },
+  {
+   "v": "decentrale",
+   "d": "2027-02-02",
+   "t": "",
+   "title": "Driss El Maloumi Trio ft. Vardan Hovanissian",
+   "note": "",
+   "url": "https://www.decentrale.be/nl/agenda/muziek/driss-el-maloumi-trio-ft.-vardan-hovanissian",
+   "k": "music",
    "city": "Gent"
   },
   {
@@ -7119,6 +10240,39 @@
    "city": "Gent"
   },
   {
+   "v": "ntgent",
+   "d": "2027-02-03",
+   "t": "20:00",
+   "title": "strike",
+   "note": "Moved by the Motion & ntgent",
+   "url": "https://www.ntgent.be/nl/producties/strike",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "NTGent Schouwburg"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-02-03",
+   "t": "20:00",
+   "title": "Sam Bettens",
+   "note": "Coming Home Tour",
+   "url": "https://www.viernulvier.gent/nl/agenda/sam-bettens-14y9",
+   "k": "music",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-02-06",
+   "t": "20:00",
+   "title": "Bart Schols & Karel Van Mileghem",
+   "note": "Afspraak Met De Toekomst",
+   "url": "https://www.viernulvier.gent/nl/agenda/bart-schols-karel-van-mileghem-5jsv",
+   "k": "talk",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
    "v": "sphinx",
    "d": "2027-02-07",
    "t": "14:00",
@@ -7129,6 +10283,17 @@
    "city": "Gent"
   },
   {
+   "v": "viernulvier",
+   "d": "2027-02-09",
+   "t": "19:30",
+   "title": "Alex Agnew & Andries Beckers",
+   "note": "Welcome To The AA: Off The Record",
+   "url": "https://www.viernulvier.gent/nl/agenda/alex-agnew-andries-beckers-nysz",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
    "v": "sphinx",
    "d": "2027-02-09",
    "t": "20:00",
@@ -7137,6 +10302,248 @@
    "url": "https://www.sphinx-cinema.be/programma",
    "k": "film",
    "city": "Gent"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-02-10",
+   "t": "19:30",
+   "title": "The Tallest Man on Earth",
+   "note": "",
+   "url": "https://www.viernulvier.gent/nl/agenda/the-tallest-man-on-earth-7ph3",
+   "k": "music",
+   "city": "Gent",
+   "place": "De Vooruit · Concertzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-02-11",
+   "t": "19:30",
+   "title": "Black Box Revelation",
+   "note": "",
+   "url": "https://www.viernulvier.gent/nl/agenda/black-box-revelation-nylv",
+   "k": "music",
+   "city": "Gent",
+   "place": "De Vooruit · Concertzaal"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-02-13",
+   "t": "15:00",
+   "title": "Boeman Loekepee",
+   "note": "",
+   "url": "https://kopergietery.be/programma/boeman-loekepee",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Kopergietery Rabot"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-02-14",
+   "t": "11:00",
+   "title": "SKRAM",
+   "note": "",
+   "url": "https://kopergietery.be/programma/skram",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Expeditie"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-02-14",
+   "t": "15:00",
+   "title": "Boeman Loekepee",
+   "note": "",
+   "url": "https://kopergietery.be/programma/boeman-loekepee",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Kopergietery Rabot"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-02-15",
+   "t": "10:00",
+   "title": "Boeman Loekepee",
+   "note": "",
+   "url": "https://kopergietery.be/programma/boeman-loekepee",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Kopergietery Rabot"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-02-15",
+   "t": "14:00",
+   "title": "Boeman Loekepee",
+   "note": "",
+   "url": "https://kopergietery.be/programma/boeman-loekepee",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Kopergietery Rabot"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-02-16",
+   "t": "19:30",
+   "title": "Sofie Hagen",
+   "note": "I Think Some of This is My Fault",
+   "url": "https://www.viernulvier.gent/nl/agenda/sofie-hagen-672q",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Balzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-02-16",
+   "t": "20:00",
+   "title": "de volksjury live",
+   "note": "De millennium case",
+   "url": "https://www.viernulvier.gent/nl/agenda/de-volksjury-live-5j8z",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-02-17",
+   "t": "20:00",
+   "title": "de volksjury live",
+   "note": "De millennium case",
+   "url": "https://www.viernulvier.gent/nl/agenda/de-volksjury-live-5j8z",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-02-18",
+   "t": "10:00",
+   "title": "Boeman Loekepee",
+   "note": "",
+   "url": "https://kopergietery.be/programma/boeman-loekepee",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Kopergietery Rabot"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-02-18",
+   "t": "14:00",
+   "title": "Boeman Loekepee",
+   "note": "",
+   "url": "https://kopergietery.be/programma/boeman-loekepee",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Kopergietery Rabot"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-02-19",
+   "t": "10:00",
+   "title": "AMAI SPECIAAL CHAPEAU",
+   "note": "",
+   "url": "https://kopergietery.be/programma/amai-speciaal-chapeau",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "de Kazematten"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-02-19",
+   "t": "13:30",
+   "title": "AMAI SPECIAAL CHAPEAU",
+   "note": "",
+   "url": "https://kopergietery.be/programma/amai-speciaal-chapeau",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "de Kazematten"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-02-20",
+   "t": "14:30",
+   "title": "Boeman Loekepee",
+   "note": "",
+   "url": "https://kopergietery.be/programma/boeman-loekepee",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Kopergietery Rabot"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-02-20",
+   "t": "15:00",
+   "title": "AMAI SPECIAAL CHAPEAU",
+   "note": "sold out",
+   "url": "https://kopergietery.be/programma/amai-speciaal-chapeau",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "de Kazematten"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-02-20",
+   "t": "17:00",
+   "title": "Boeman Loekepee",
+   "note": "",
+   "url": "https://kopergietery.be/programma/boeman-loekepee",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Kopergietery Rabot"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-02-23",
+   "t": "14:00",
+   "title": "Wavelength",
+   "note": "",
+   "url": "https://kopergietery.be/programma/wavelength",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Minardschouwburg"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-02-23",
+   "t": "19:30",
+   "title": "Uitgelezen",
+   "note": "met Ruth Joos & guests",
+   "url": "https://www.viernulvier.gent/nl/agenda/uitgelezen-yxvx",
+   "k": "talk",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-02-23",
+   "t": "20:00",
+   "title": "Wavelength",
+   "note": "",
+   "url": "https://kopergietery.be/programma/wavelength",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Minardschouwburg"
+  },
+  {
+   "v": "campo",
+   "d": "2027-02-24",
+   "t": "20:00",
+   "title": "PETRUSHKA GAME OVER",
+   "note": "Michiel Vandevelde / CAMPO",
+   "url": "https://www.campo.nu/nl/agenda/petrushka-game-over-q15t",
+   "k": "dance",
+   "city": "Gent",
+   "place": "30CC - Leuven"
+  },
+  {
+   "v": "campo",
+   "d": "2027-02-24",
+   "t": "20:30",
+   "title": "PARTY TIME",
+   "note": "Toon Acke, Kes Bakker & Anna De Graeve",
+   "url": "https://www.campo.nu/nl/agenda/party-time-f1rq",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "CAMPO nieuwpoort"
   },
   {
    "v": "gentleest",
@@ -7151,6 +10558,475 @@
    "city": "Gent"
   },
   {
+   "v": "campo",
+   "d": "2027-02-25",
+   "t": "20:00",
+   "title": "PETRUSHKA GAME OVER",
+   "note": "Michiel Vandevelde / CAMPO",
+   "url": "https://www.campo.nu/nl/agenda/petrushka-game-over-q15t",
+   "k": "dance",
+   "city": "Gent",
+   "place": "30CC - Leuven"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-02-25",
+   "t": "20:00",
+   "title": "Christos Papadopoulos",
+   "note": "My Fierce Ignorant Step",
+   "url": "https://www.viernulvier.gent/nl/agenda/christos-papadopoulos-nyrl",
+   "k": "dance",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "campo",
+   "d": "2027-02-25",
+   "t": "20:30",
+   "title": "PARTY TIME",
+   "note": "Toon Acke, Kes Bakker & Anna De Graeve",
+   "url": "https://www.campo.nu/nl/agenda/party-time-f1rq",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "CAMPO nieuwpoort"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-02-26",
+   "t": "20:00",
+   "title": "p P p",
+   "note": "",
+   "url": "https://kopergietery.be/programma/p-p-p",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Kopergietery Het Pand"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-02-26",
+   "t": "20:00",
+   "title": "Djangofolies",
+   "note": "",
+   "url": "https://www.viernulvier.gent/nl/agenda/djangofolies-thl2",
+   "k": "music",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-02-27",
+   "t": "20:00",
+   "title": "p P p",
+   "note": "",
+   "url": "https://kopergietery.be/programma/p-p-p",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Kopergietery Het Pand"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-02-27",
+   "t": "20:00",
+   "title": "Sofie Lemaire",
+   "note": "Sofie verzint het niet",
+   "url": "https://www.viernulvier.gent/nl/agenda/sofie-lemaire-92fp",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-02-28",
+   "t": "15:00",
+   "title": "p P p",
+   "note": "",
+   "url": "https://kopergietery.be/programma/p-p-p",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Kopergietery Het Pand"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-03-01",
+   "t": "10:00",
+   "title": "p P p",
+   "note": "",
+   "url": "https://kopergietery.be/programma/p-p-p",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Kopergietery Het Pand"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-03-01",
+   "t": "14:00",
+   "title": "p P p",
+   "note": "",
+   "url": "https://kopergietery.be/programma/p-p-p",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Kopergietery Het Pand"
+  },
+  {
+   "v": "arca",
+   "d": "2027-03-01",
+   "t": "20:00",
+   "title": "VICTOR PÃTRÃŞCAN | Stand-up Comedy in Broken English",
+   "note": "",
+   "url": "https://www.arcatheater.be/evenement/victor-patrascan-stand-up-comedy-in-broken-english/",
+   "k": "theatre",
+   "city": "Gent"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-03-02",
+   "t": "10:00",
+   "title": "p P p",
+   "note": "",
+   "url": "https://kopergietery.be/programma/p-p-p",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Kopergietery Het Pand"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-03-02",
+   "t": "14:00",
+   "title": "p P p",
+   "note": "",
+   "url": "https://kopergietery.be/programma/p-p-p",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Kopergietery Het Pand"
+  },
+  {
+   "v": "arca",
+   "d": "2027-03-03",
+   "t": "15:00",
+   "title": "KLEIN DRAMA | Huis Man",
+   "note": "",
+   "url": "https://www.arcatheater.be/evenement/klein-drama-huis-man-3/",
+   "k": "theatre",
+   "city": "Gent"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-03-03",
+   "t": "20:00",
+   "title": "Erhan Demirci",
+   "note": "Made in Cité",
+   "url": "https://www.viernulvier.gent/nl/agenda/erhan-demirci-r3kg",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-03-03",
+   "t": "20:00",
+   "title": "Jesse Vandamme & Lucie Plasschaert",
+   "note": "Silver Plate",
+   "url": "https://www.viernulvier.gent/nl/agenda/jesse-vandamme-lucie-plasschaert-5j1l",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Domzaal"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-03-04",
+   "t": "10:00",
+   "title": "p P p",
+   "note": "",
+   "url": "https://kopergietery.be/programma/p-p-p",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Kopergietery Het Pand"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-03-04",
+   "t": "14:00",
+   "title": "p P p",
+   "note": "",
+   "url": "https://kopergietery.be/programma/p-p-p",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Kopergietery Het Pand"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-03-04",
+   "t": "20:00",
+   "title": "Jesse Vandamme & Lucie Plasschaert",
+   "note": "Silver Plate",
+   "url": "https://www.viernulvier.gent/nl/agenda/jesse-vandamme-lucie-plasschaert-5j1l",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Domzaal"
+  },
+  {
+   "v": "decentrale",
+   "d": "2027-03-04",
+   "t": "",
+   "title": "Burning Down the House",
+   "note": "",
+   "url": "https://www.decentrale.be/nl/agenda/muziek/burning-down-the-house",
+   "k": "music",
+   "city": "Gent"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-03-05",
+   "t": "10:00",
+   "title": "p P p",
+   "note": "",
+   "url": "https://kopergietery.be/programma/p-p-p",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Kopergietery Het Pand"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-03-05",
+   "t": "20:00",
+   "title": "p P p",
+   "note": "",
+   "url": "https://kopergietery.be/programma/p-p-p",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Kopergietery Het Pand"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-03-05",
+   "t": "20:00",
+   "title": "Jesse Vandamme & Lucie Plasschaert",
+   "note": "Silver Plate",
+   "url": "https://www.viernulvier.gent/nl/agenda/jesse-vandamme-lucie-plasschaert-5j1l",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Domzaal"
+  },
+  {
+   "v": "ntgent",
+   "d": "2027-03-06",
+   "t": "14:00",
+   "title": "How to be Many Mothers?",
+   "note": "",
+   "url": "https://www.ntgent.be/nl/producties/how-to-be-many-mothers-in-the-city",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "NTGent Schouwburg"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-03-06",
+   "t": "14:00",
+   "title": "KAPITEIN WINOKIO",
+   "note": "KUKELEKU! DE GROTE BOERDERIJ SHOW",
+   "url": "https://www.viernulvier.gent/nl/agenda/kapitein-winokio-flrd",
+   "k": "music",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-03-06",
+   "t": "20:00",
+   "title": "Jesse Vandamme & Lucie Plasschaert",
+   "note": "Silver Plate",
+   "url": "https://www.viernulvier.gent/nl/agenda/jesse-vandamme-lucie-plasschaert-5j1l",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Domzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-03-10",
+   "t": "20:00",
+   "title": "Louis Janssens/Toneelhuis",
+   "note": "Amour",
+   "url": "https://www.viernulvier.gent/nl/agenda/louis-janssens-toneelhuis-nyrh",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "campo",
+   "d": "2027-03-10",
+   "t": "20:30",
+   "title": "RANT",
+   "note": "Anna Franziska Jäger & Nathan Ooms / CAMPO",
+   "url": "https://www.campo.nu/nl/agenda/rant-r2f7",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "CAMPO nieuwpoort"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-03-11",
+   "t": "14:00",
+   "title": "Lijfbouwers",
+   "note": "",
+   "url": "https://kopergietery.be/programma/lijfbouwers",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Kopergietery Rabot"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-03-11",
+   "t": "20:00",
+   "title": "Lijfbouwers",
+   "note": "",
+   "url": "https://kopergietery.be/programma/lijfbouwers",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Kopergietery Rabot"
+  },
+  {
+   "v": "ntgent",
+   "d": "2027-03-11",
+   "t": "20:00",
+   "title": "Perzen. Triomf van Empathie",
+   "note": "Chokri Ben Chikha, NTGent & Action Zoo Humain",
+   "url": "https://www.ntgent.be/nl/producties/perzen",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "NTGent Schouwburg"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-03-11",
+   "t": "20:00",
+   "title": "Louis Janssens/Toneelhuis",
+   "note": "Amour",
+   "url": "https://www.viernulvier.gent/nl/agenda/louis-janssens-toneelhuis-nyrh",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "campo",
+   "d": "2027-03-11",
+   "t": "20:30",
+   "title": "RANT",
+   "note": "Anna Franziska Jäger & Nathan Ooms / CAMPO",
+   "url": "https://www.campo.nu/nl/agenda/rant-r2f7",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "CAMPO nieuwpoort"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-03-12",
+   "t": "14:00",
+   "title": "Lijfbouwers",
+   "note": "",
+   "url": "https://kopergietery.be/programma/lijfbouwers",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Kopergietery Rabot"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-03-12",
+   "t": "20:00",
+   "title": "Lijfbouwers",
+   "note": "",
+   "url": "https://kopergietery.be/programma/lijfbouwers",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Kopergietery Rabot"
+  },
+  {
+   "v": "ntgent",
+   "d": "2027-03-12",
+   "t": "20:00",
+   "title": "Perzen. Triomf van Empathie",
+   "note": "Chokri Ben Chikha, NTGent & Action Zoo Humain",
+   "url": "https://www.ntgent.be/nl/producties/perzen",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "NTGent Schouwburg"
+  },
+  {
+   "v": "arca",
+   "d": "2027-03-13",
+   "t": "20:00",
+   "title": "DANSYARTE | Even Weg",
+   "note": "",
+   "url": "https://www.arcatheater.be/evenement/dansyarte-even-weg/",
+   "k": "theatre",
+   "city": "Gent"
+  },
+  {
+   "v": "ntgent",
+   "d": "2027-03-13",
+   "t": "20:00",
+   "title": "Perzen. Triomf van Empathie",
+   "note": "Chokri Ben Chikha, NTGent & Action Zoo Humain",
+   "url": "https://www.ntgent.be/nl/producties/perzen",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "NTGent Schouwburg"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-03-13",
+   "t": "20:00",
+   "title": "Bilal El Had",
+   "note": "Ch'ttahh",
+   "url": "https://www.viernulvier.gent/nl/agenda/bilal-el-had-fl74",
+   "k": "dance",
+   "city": "Gent",
+   "place": "De Vooruit · Balzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-03-13",
+   "t": "20:00",
+   "title": "Jeroen Leenders",
+   "note": "Heiden",
+   "url": "https://www.viernulvier.gent/nl/agenda/jeroen-leenders-14zv",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-03-16",
+   "t": "20:00",
+   "title": "Nits",
+   "note": "",
+   "url": "https://www.viernulvier.gent/nl/agenda/nits-ny2p",
+   "k": "music",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "campo",
+   "d": "2027-03-17",
+   "t": "20:00",
+   "title": "ha ha ha ha ha ha ha",
+   "note": "Julia Masli",
+   "url": "https://www.campo.nu/nl/agenda/ha-ha-ha-ha-ha-ha-ha-q1qt",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Minard"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-03-17",
+   "t": "20:00",
+   "title": "Julia Masli",
+   "note": "ha ha ha ha ha ha ha",
+   "url": "https://www.viernulvier.gent/nl/agenda/julia-masli-8w4y",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Minardschouwburg"
+  },
+  {
    "v": "gentleest",
    "d": "2027-03-18",
    "t": "12:15",
@@ -7163,6 +11039,519 @@
    "city": "Gent"
   },
   {
+   "v": "campo",
+   "d": "2027-03-18",
+   "t": "20:00",
+   "title": "ha ha ha ha ha ha ha",
+   "note": "Julia Masli",
+   "url": "https://www.campo.nu/nl/agenda/ha-ha-ha-ha-ha-ha-ha-q1qt",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Minard"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-03-18",
+   "t": "20:00",
+   "title": "Anne Teresa De Keersmaeker / Rosas, Ictus & BL!NDMAN",
+   "note": "GLA55",
+   "url": "https://www.viernulvier.gent/nl/agenda/anne-teresa-de-keersmaeker-rosas-ictus-bl-ndman-7p3k",
+   "k": "dance",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-03-18",
+   "t": "20:00",
+   "title": "Julia Masli",
+   "note": "ha ha ha ha ha ha ha",
+   "url": "https://www.viernulvier.gent/nl/agenda/julia-masli-8w4y",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Minardschouwburg"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-03-19",
+   "t": "20:00",
+   "title": "Anne Teresa De Keersmaeker / Rosas, Ictus & BL!NDMAN",
+   "note": "GLA55",
+   "url": "https://www.viernulvier.gent/nl/agenda/anne-teresa-de-keersmaeker-rosas-ictus-bl-ndman-7p3k",
+   "k": "dance",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-03-19",
+   "t": "20:00",
+   "title": "Heideroosjes",
+   "note": "",
+   "url": "https://www.viernulvier.gent/nl/agenda/heideroosjes-nyj3",
+   "k": "music",
+   "city": "Gent",
+   "place": "De Vooruit · Concertzaal"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-03-20",
+   "t": "19:00",
+   "title": "Fabels",
+   "note": "",
+   "url": "https://kopergietery.be/programma/fabels",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Arca Theater"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-03-20",
+   "t": "20:00",
+   "title": "Anne Teresa De Keersmaeker / Rosas, Ictus & BL!NDMAN",
+   "note": "GLA55",
+   "url": "https://www.viernulvier.gent/nl/agenda/anne-teresa-de-keersmaeker-rosas-ictus-bl-ndman-7p3k",
+   "k": "dance",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-03-21",
+   "t": "15:00",
+   "title": "Fabels",
+   "note": "",
+   "url": "https://kopergietery.be/programma/fabels",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Arca Theater"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-03-22",
+   "t": "10:00",
+   "title": "Fabels",
+   "note": "",
+   "url": "https://kopergietery.be/programma/fabels",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Arca Theater"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-03-22",
+   "t": "14:00",
+   "title": "Fabels",
+   "note": "",
+   "url": "https://kopergietery.be/programma/fabels",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Arca Theater"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-03-23",
+   "t": "10:00",
+   "title": "Fabels",
+   "note": "",
+   "url": "https://kopergietery.be/programma/fabels",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Arca Theater"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-03-23",
+   "t": "14:00",
+   "title": "Fabels",
+   "note": "",
+   "url": "https://kopergietery.be/programma/fabels",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Arca Theater"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-03-24",
+   "t": "20:00",
+   "title": "Zoë Demoustier",
+   "note": "A Wave",
+   "url": "https://www.viernulvier.gent/nl/agenda/zoe-demoustier-z9vc",
+   "k": "dance",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "campo",
+   "d": "2027-03-24",
+   "t": "20:30",
+   "title": "I ❤️ Performance",
+   "note": "",
+   "url": "https://www.campo.nu/nl/agenda/i-performance-4kk3",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "CAMPO nieuwpoort"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-03-25",
+   "t": "20:00",
+   "title": "Zoë Demoustier",
+   "note": "A Wave",
+   "url": "https://www.viernulvier.gent/nl/agenda/zoe-demoustier-z9vc",
+   "k": "dance",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "campo",
+   "d": "2027-03-25",
+   "t": "20:30",
+   "title": "I ❤️ Performance",
+   "note": "",
+   "url": "https://www.campo.nu/nl/agenda/i-performance-4kk3",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "CAMPO nieuwpoort"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-03-25",
+   "t": "20:30",
+   "title": "Merol",
+   "note": "",
+   "url": "https://www.viernulvier.gent/nl/agenda/merol-xrqr",
+   "k": "music",
+   "city": "Gent",
+   "place": "De Vooruit · Concertzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-03-26",
+   "t": "20:00",
+   "title": "Zoë Demoustier",
+   "note": "A Wave",
+   "url": "https://www.viernulvier.gent/nl/agenda/zoe-demoustier-z9vc",
+   "k": "dance",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-03-27",
+   "t": "17:00",
+   "title": "Zoë Demoustier",
+   "note": "A Wave",
+   "url": "https://www.viernulvier.gent/nl/agenda/zoe-demoustier-z9vc",
+   "k": "dance",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-03-30",
+   "t": "19:30",
+   "title": "Uitgelezen",
+   "note": "met Ruth Joos & guests",
+   "url": "https://www.viernulvier.gent/nl/agenda/uitgelezen-xrc8",
+   "k": "talk",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-04-01",
+   "t": "20:00",
+   "title": "Nona Demey Gallagher / KVS",
+   "note": "Don Quixote",
+   "url": "https://www.viernulvier.gent/nl/agenda/nona-demey-gallagher-kvs-5j13",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-04-02",
+   "t": "20:00",
+   "title": "Nona Demey Gallagher / KVS",
+   "note": "Don Quixote",
+   "url": "https://www.viernulvier.gent/nl/agenda/nona-demey-gallagher-kvs-5j13",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "decentrale",
+   "d": "2027-04-03",
+   "t": "",
+   "title": "Tribute aan Marokkaanse Klassiekers - Aghani zaman",
+   "note": "",
+   "url": "https://www.decentrale.be/nl/agenda/muziek/tribute-aan-marokkaanse-klassiekers-aghani-zaman",
+   "k": "music",
+   "city": "Gent"
+  },
+  {
+   "v": "decentrale",
+   "d": "2027-04-04",
+   "t": "",
+   "title": "TAHSİN HASOĞLU STAND UP",
+   "note": "",
+   "url": "https://www.decentrale.be/nl/agenda/theater-film/tahsIn-hasoGlu-stand-up",
+   "k": "theatre",
+   "city": "Gent"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-04-07",
+   "t": "19:30",
+   "title": "Jeroen Baert",
+   "note": "Bedankt voor uw data: over artificiële (on)intelligentie",
+   "url": "https://www.viernulvier.gent/nl/agenda/jeroen-baert-fl2w",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "ntgent",
+   "d": "2027-04-07",
+   "t": "20:00",
+   "title": "Summit Gent",
+   "note": "Ontroerend Goed & ntgent",
+   "url": "https://www.ntgent.be/nl/producties/summit",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "NTGent Schouwburg"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-04-08",
+   "t": "20:00",
+   "title": "You're Sorry",
+   "note": "",
+   "url": "https://kopergietery.be/programma/youre-sorry",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Kopergietery Het Pand"
+  },
+  {
+   "v": "ntgent",
+   "d": "2027-04-08",
+   "t": "20:00",
+   "title": "Summit Gent",
+   "note": "Ontroerend Goed & ntgent",
+   "url": "https://www.ntgent.be/nl/producties/summit",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "NTGent Schouwburg"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-04-09",
+   "t": "20:00",
+   "title": "You're Sorry",
+   "note": "",
+   "url": "https://kopergietery.be/programma/youre-sorry",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Kopergietery Het Pand"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-04-09",
+   "t": "20:00",
+   "title": "Frank Boeijen",
+   "note": "In concert - theatertournee 2027",
+   "url": "https://www.viernulvier.gent/nl/agenda/frank-boeijen-th2s",
+   "k": "music",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "campo",
+   "d": "2027-04-10",
+   "t": "20:00",
+   "title": "The more I see you (The more I want you)",
+   "note": "Charlotte Bouckaert / BRONKS",
+   "url": "https://www.campo.nu/nl/agenda/the-more-i-see-you-the-more-i-want-you-t8hc",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "CAMPO nieuwpoort"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-04-10",
+   "t": "20:00",
+   "title": "Frank Boeijen",
+   "note": "In concert - theatertournee 2027",
+   "url": "https://www.viernulvier.gent/nl/agenda/frank-boeijen-th2s",
+   "k": "music",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-04-12",
+   "t": "10:00",
+   "title": "The more I see you (The more I want you)",
+   "note": "",
+   "url": "https://kopergietery.be/programma/the-more-i-see-you-the-more-i-want-you",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "CAMPO Nieuwpoort"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-04-13",
+   "t": "10:00",
+   "title": "You're Sorry",
+   "note": "",
+   "url": "https://kopergietery.be/programma/youre-sorry",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Kopergietery Het Pand"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-04-13",
+   "t": "14:00",
+   "title": "You're Sorry",
+   "note": "",
+   "url": "https://kopergietery.be/programma/youre-sorry",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Kopergietery Het Pand"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-04-13",
+   "t": "19:30",
+   "title": "Jan Verheyen",
+   "note": "Het Beste Van Het Slechtste",
+   "url": "https://www.viernulvier.gent/nl/agenda/jan-verheyen-qg7x",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-04-14",
+   "t": "10:00",
+   "title": "You're Sorry",
+   "note": "",
+   "url": "https://kopergietery.be/programma/youre-sorry",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "Kopergietery Het Pand"
+  },
+  {
+   "v": "campo",
+   "d": "2027-04-14",
+   "t": "20:30",
+   "title": "CHRONIC",
+   "note": "Tibau Beirnaert & Laurens Aneca",
+   "url": "https://www.campo.nu/nl/agenda/chronic-9qn5",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "CAMPO nieuwpoort"
+  },
+  {
+   "v": "campo",
+   "d": "2027-04-15",
+   "t": "20:30",
+   "title": "CHRONIC",
+   "note": "Tibau Beirnaert & Laurens Aneca",
+   "url": "https://www.campo.nu/nl/agenda/chronic-9qn5",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "CAMPO nieuwpoort"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-04-16",
+   "t": "19:30",
+   "title": "Duo Játékok",
+   "note": "Rammstein on the Beach",
+   "url": "https://www.viernulvier.gent/nl/agenda/duo-jatekok-b82r",
+   "k": "music",
+   "city": "Gent",
+   "place": "De Vooruit · Concertzaal"
+  },
+  {
+   "v": "decentrale",
+   "d": "2027-04-16",
+   "t": "",
+   "title": "FREE",
+   "note": "",
+   "url": "https://www.decentrale.be/nl/agenda/muziek/free",
+   "k": "music",
+   "city": "Gent"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-04-21",
+   "t": "19:30",
+   "title": "Daniel Norgren",
+   "note": "",
+   "url": "https://www.viernulvier.gent/nl/agenda/daniel-norgren-yxkm",
+   "k": "music",
+   "city": "Gent",
+   "place": "De Vooruit · Concertzaal"
+  },
+  {
+   "v": "decentrale",
+   "d": "2027-04-21",
+   "t": "",
+   "title": "Bassekou Kouyate & Amy Sacko",
+   "note": "",
+   "url": "https://www.decentrale.be/nl/agenda/muziek/bassekou-kouyate-en-amy-sacko",
+   "k": "music",
+   "city": "Gent"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-04-22",
+   "t": "20:00",
+   "title": "Rebecca Chaillon",
+   "note": "La Parabole du seum [Parable of the sour]",
+   "url": "https://www.viernulvier.gent/nl/agenda/rebecca-chaillon-qg8v",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "campo",
+   "d": "2027-04-22",
+   "t": "20:30",
+   "title": "I ❤️ Performance",
+   "note": "",
+   "url": "https://www.campo.nu/nl/agenda/i-performance-18cr",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "CAMPO nieuwpoort"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-04-27",
+   "t": "19:30",
+   "title": "Uitgelezen",
+   "note": "met Ruth Joos & guests",
+   "url": "https://www.viernulvier.gent/nl/agenda/uitgelezen-14hk",
+   "k": "talk",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-04-28",
+   "t": "19:30",
+   "title": "Stefaan Van Brabandt, Frank Focketyn & Sien Eggers",
+   "note": "Sartre & De Beauvoir",
+   "url": "https://www.viernulvier.gent/nl/agenda/stefaan-van-brabandt-frank-focketyn-sien-eggers-928b",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
    "v": "gentleest",
    "d": "2027-04-28",
    "t": "20:00",
@@ -7173,6 +11562,258 @@
    "th": "literature",
    "place": "Bibliotheek De Krook",
    "city": "Gent"
+  },
+  {
+   "v": "campo",
+   "d": "2027-04-28",
+   "t": "20:30",
+   "title": "PETRUSHKA GAME OVER",
+   "note": "Michiel Vandevelde / CAMPO",
+   "url": "https://www.campo.nu/nl/agenda/petrushka-game-over-q15t",
+   "k": "dance",
+   "city": "Gent",
+   "place": "CAMPO nieuwpoort"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-04-29",
+   "t": "19:30",
+   "title": "Stefaan Van Brabandt, Frank Focketyn & Sien Eggers",
+   "note": "Sartre & De Beauvoir",
+   "url": "https://www.viernulvier.gent/nl/agenda/stefaan-van-brabandt-frank-focketyn-sien-eggers-928b",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "campo",
+   "d": "2027-04-29",
+   "t": "20:30",
+   "title": "PETRUSHKA GAME OVER",
+   "note": "Michiel Vandevelde / CAMPO",
+   "url": "https://www.campo.nu/nl/agenda/petrushka-game-over-q15t",
+   "k": "dance",
+   "city": "Gent",
+   "place": "CAMPO nieuwpoort"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-04-29",
+   "t": "20:30",
+   "title": "Celebrating Meat Loaf",
+   "note": "",
+   "url": "https://www.viernulvier.gent/nl/agenda/celebrating-meat-loaf-ds8q",
+   "k": "music",
+   "city": "Gent",
+   "place": "De Vooruit · Concertzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-04-30",
+   "t": "20:00",
+   "title": "Jan Delvaux & DJ Bobby Ewing",
+   "note": "Belpop Bonanza Songfestival Special",
+   "url": "https://www.viernulvier.gent/nl/agenda/jan-delvaux-dj-bobby-ewing-z967",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-05-12",
+   "t": "20:00",
+   "title": "Trajal Harrell / Franz Schubert / Opera Ballet Vlaanderen",
+   "note": "Winterreise",
+   "url": "https://www.viernulvier.gent/nl/agenda/trajal-harrell-franz-schubert-opera-ballet-vlaanderen-l6pc",
+   "k": "dance",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "kopergietery",
+   "d": "2027-05-13",
+   "t": "14:00",
+   "title": "Gummi",
+   "note": "",
+   "url": "https://kopergietery.be/programma/gummi",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "CAMPO Nieuwpoort"
+  },
+  {
+   "v": "campo",
+   "d": "2027-05-13",
+   "t": "20:00",
+   "title": "GUMMI",
+   "note": "Ballet Dommage / BRONKS",
+   "url": "https://www.campo.nu/nl/agenda/gummi-cs41",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "CAMPO nieuwpoort"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-05-13",
+   "t": "20:00",
+   "title": "Trajal Harrell / Franz Schubert / Opera Ballet Vlaanderen",
+   "note": "Winterreise",
+   "url": "https://www.viernulvier.gent/nl/agenda/trajal-harrell-franz-schubert-opera-ballet-vlaanderen-l6pc",
+   "k": "dance",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "campo",
+   "d": "2027-05-14",
+   "t": "20:00",
+   "title": "GUMMI",
+   "note": "Ballet Dommage / BRONKS",
+   "url": "https://www.campo.nu/nl/agenda/gummi-cs41",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "CAMPO nieuwpoort"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-05-14",
+   "t": "20:00",
+   "title": "Trajal Harrell / Franz Schubert / Opera Ballet Vlaanderen",
+   "note": "Winterreise",
+   "url": "https://www.viernulvier.gent/nl/agenda/trajal-harrell-franz-schubert-opera-ballet-vlaanderen-l6pc",
+   "k": "dance",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-05-15",
+   "t": "17:00",
+   "title": "Trajal Harrell / Franz Schubert / Opera Ballet Vlaanderen",
+   "note": "Winterreise",
+   "url": "https://www.viernulvier.gent/nl/agenda/trajal-harrell-franz-schubert-opera-ballet-vlaanderen-l6pc",
+   "k": "dance",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-05-18",
+   "t": "19:30",
+   "title": "Grof Geschud",
+   "note": "VIEREN",
+   "url": "https://www.viernulvier.gent/nl/agenda/grof-geschud-r3lx",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-05-19",
+   "t": "20:00",
+   "title": "Grof Geschud",
+   "note": "VIEREN",
+   "url": "https://www.viernulvier.gent/nl/agenda/grof-geschud-r3lx",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "campo",
+   "d": "2027-05-19",
+   "t": "20:30",
+   "title": "Long voyage home",
+   "note": "Marthe Koning & Gerben Vaillant",
+   "url": "https://www.campo.nu/nl/agenda/long-voyage-home-5q6n",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "CAMPO nieuwpoort"
+  },
+  {
+   "v": "campo",
+   "d": "2027-05-20",
+   "t": "20:30",
+   "title": "Long voyage home",
+   "note": "Marthe Koning & Gerben Vaillant",
+   "url": "https://www.campo.nu/nl/agenda/long-voyage-home-5q6n",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "CAMPO nieuwpoort"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-05-21",
+   "t": "20:00",
+   "title": "Aries Spears",
+   "note": "Aries Spears Live",
+   "url": "https://www.viernulvier.gent/nl/agenda/aries-spears-th4g",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-05-25",
+   "t": "19:30",
+   "title": "Uitgelezen",
+   "note": "met Ruth Joos & guests",
+   "url": "https://www.viernulvier.gent/nl/agenda/uitgelezen-5js4",
+   "k": "talk",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "arca",
+   "d": "2027-05-26",
+   "t": "15:00",
+   "title": "KLEIN DRAMA | Huis Man",
+   "note": "",
+   "url": "https://www.arcatheater.be/evenement/klein-drama-huis-man-4/",
+   "k": "theatre",
+   "city": "Gent"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-05-26",
+   "t": "19:30",
+   "title": "de volksjury live",
+   "note": "De millennium case",
+   "url": "https://www.viernulvier.gent/nl/agenda/de-volksjury-live-5j8z",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-05-27",
+   "t": "19:30",
+   "title": "de volksjury live",
+   "note": "De millennium case",
+   "url": "https://www.viernulvier.gent/nl/agenda/de-volksjury-live-5j8z",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-05-29",
+   "t": "20:00",
+   "title": "Thomas Smith",
+   "note": "Typisch Thomas",
+   "url": "https://www.viernulvier.gent/nl/agenda/thomas-smith-r3wf",
+   "k": "theatre",
+   "city": "Gent",
+   "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "viernulvier",
+   "d": "2027-09-10",
+   "t": "19:30",
+   "title": "Pongo",
+   "note": "support: TBC",
+   "url": "https://www.viernulvier.gent/nl/agenda/pongo-9276",
+   "k": "music",
+   "city": "Gent",
+   "place": "Club Wintercircus"
   },
   {
    "v": "stam",
