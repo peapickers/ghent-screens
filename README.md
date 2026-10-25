@@ -1,6 +1,6 @@
 # Ghent Screens
 
-Daily screenings at Ghent's arthouse cinemas and film clubs (Sphinx, Studio Skoop, KASKcinema, Ciné Rio), rarest films first, with a **Funding** article on who paid for each film. Kinepolis is not included.
+Film, theatre, dance, music, talks and exhibitions in and around Ghent (arthouse cinemas and film clubs such as Sphinx, Studio Skoop, KASKcinema and Ciné Rio), with a **Funding** article on who paid for each film. Kinepolis is not included.
 
 This repository is the public site. GitHub Pages serves it for free at `https://peapickers.github.io/ghent-screens/`:
 
@@ -13,7 +13,19 @@ This repository is the public site. GitHub Pages serves it for free at `https://
 | `scripts/` | The free Python scripts that build the post, the feed and the film data |
 | `igmcp/` | Files for the Instagram posting server on your Mac |
 
-Claude's scheduled task updates everything each morning at 06:51 (Brussels).
+## Automatic updates
+
+A GitHub Actions workflow (`.github/workflows/update-listings.yml`) runs every Wednesday morning, for free and without Claude:
+
+1. `scripts/update_films.py` reads the official programme pages of Sphinx, Studio Skoop, KASKcinema and Ciné Rio. It keeps only facts (date, time, title, a short label, the link) and copies no images or descriptions.
+2. `scripts/build_feed.py` rebuilds `feed.xml`.
+3. The workflow commits the changes and GitHub Pages republishes the site.
+
+If a venue's page can't be read (for example after a site redesign), its last known listings stay and a notice on the site says so. To run it by hand: **Actions → Weekly listings update → Run workflow**.
+
+Not automatic: Funding articles (new films show "Funding: unknown" until a sourced article is added), theatre, talks and exhibitions. Those are updated in a Claude session.
+
+Robots.txt of the four film venues allows these pages (checked 25-10-2026); none of their sites has terms that forbid automated reading.
 
 Everything below is free. Steps 1–2 take about 5 minutes. Steps 3–5 take about 30 minutes, once.
 

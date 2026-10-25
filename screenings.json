@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T16:09:01+00:00",
+ "updated": "2026-10-25T16:51:10+00:00",
  "city": "Gent",
  "excluded": [
   "Kinepolis"
@@ -198,9 +198,119 @@
   "Funding for theatre, music and talks: unknown until a source (credits, Kunstendecreet database) is found.",
   "Ciné Rio, Kopergietery, Masereelfonds, Liberas and some poetry events list dates without start times; check the event page.",
   "Talks outside Ghent are included (Antwerp, Brussels, Bruges, Sint-Niklaas and more): use the city filter.",
-  "Archives: exhibitions from archives, heritage institutes and museums in and around Ghent (Antwerp included), shown while they run. Opening hours differ per house; check the page."
+  "Exhibitions: temporary exhibitions from archives, heritage institutes and museums in and around Ghent (Antwerp included), shown while they run. Opening hours differ per house; check the page."
  ],
  "screenings": [
+  {
+   "v": "guislain",
+   "d": "2024-11-23",
+   "e": "2027-06-27",
+   "t": "",
+   "title": "Eigen huis: Het geheugen van een museum",
+   "note": "The museum's own memory and collection",
+   "url": "https://www.museumdrguislain.be/nl/home",
+   "k": "archive",
+   "city": "Gent"
+  },
+  {
+   "v": "fomu",
+   "d": "2026-03-20",
+   "e": "2027-05-23",
+   "t": "",
+   "title": "Families",
+   "note": "",
+   "url": "https://fomu.be/en/exhibitions/families",
+   "k": "archive",
+   "city": "Antwerpen"
+  },
+  {
+   "v": "alijn",
+   "d": "2026-07-04",
+   "e": "2027-09-30",
+   "t": "",
+   "title": "C'est Party!",
+   "note": "100 years of nightlife in Flanders and Brussels, with archive images",
+   "url": "https://huisvanalijn.be/nl/agenda/c-est-party",
+   "k": "archive",
+   "city": "Gent"
+  },
+  {
+   "v": "guislain",
+   "d": "2026-07-04",
+   "e": "2026-12-31",
+   "t": "",
+   "title": "Verkleurmannetje: de kunstcollectie volgens Roger Ballen",
+   "note": "The art collection, selected by Roger Ballen",
+   "url": "https://www.museumdrguislain.be/nl/home",
+   "k": "archive",
+   "city": "Gent"
+  },
+  {
+   "v": "letterenhuis",
+   "d": "2026-09-01",
+   "e": "2026-10-30",
+   "t": "",
+   "title": "Barakstad: JMH Berckmans verzameld",
+   "note": "De Vitrine #11 · pieces from Berckmans' archive, with Ellen Van Pelt",
+   "url": "https://letterenhuis.be/nl/activiteit/barakstad-jmh-berckmans-verzameld",
+   "k": "archive",
+   "city": "Antwerpen"
+  },
+  {
+   "v": "fomu",
+   "d": "2026-09-18",
+   "e": "2026-11-08",
+   "t": "",
+   "title": "Beurre sculpté par ma mère 2021 2026 (Lola Pertsowsky)",
+   "note": "",
+   "url": "https://fomu.be/en/exhibitions/lola-pertsowsky",
+   "k": "archive",
+   "city": "Antwerpen"
+  },
+  {
+   "v": "fomu",
+   "d": "2026-09-18",
+   "e": "2027-01-17",
+   "t": "",
+   "title": "Graciela Iturbide",
+   "note": "",
+   "url": "https://fomu.be/en/exhibitions/graciela-iturbide",
+   "k": "archive",
+   "city": "Antwerpen"
+  },
+  {
+   "v": "fomu",
+   "d": "2026-09-18",
+   "e": "2027-01-17",
+   "t": "",
+   "title": "Léonard Pongo",
+   "note": "",
+   "url": "https://fomu.be/en/exhibitions/leonard-pongo",
+   "k": "archive",
+   "city": "Antwerpen"
+  },
+  {
+   "v": "stam",
+   "d": "2026-10-16",
+   "e": "2027-05-18",
+   "t": "",
+   "title": "De Parade",
+   "note": "Temporary show built from the museum's own collection",
+   "url": "https://stamgent.be/nl_be/evenementen/de-parade",
+   "k": "archive",
+   "city": "Gent"
+  },
+  {
+   "v": "design",
+   "d": "2026-10-17",
+   "e": "2027-04-11",
+   "t": "",
+   "title": "Public Matter(s): Design and Democracy",
+   "note": "Temporary exhibition in the reopened museum",
+   "url": "https://designmuseumgent.be/en/programme/public-matters-design-and-democracy-guided-tour",
+   "k": "archive",
+   "city": "Gent"
+  },
   {
    "v": "skoop",
    "d": "2026-10-21",
@@ -1400,6 +1510,17 @@
    "city": "Gent"
   },
   {
+   "v": "amsab",
+   "d": "2026-10-23",
+   "e": "2027-04-18",
+   "t": "",
+   "title": "Sporen van vergeten natuur",
+   "note": "Herbaria, old photos and nature diaries from the archive · free, weekdays 9–17",
+   "url": "https://www.amsab.be/en/publieksaanbod/publieksevenementen/expo-sporen-van-vergeten-natuur",
+   "k": "archive",
+   "city": "Gent"
+  },
+  {
    "v": "masereel",
    "d": "2026-10-23",
    "t": "",
@@ -1864,6 +1985,17 @@
    "city": "Gent"
   },
   {
+   "v": "guislain",
+   "d": "2026-10-24",
+   "e": "2027-02-14",
+   "t": "",
+   "title": "In de schaduw van de grote bomen",
+   "note": "",
+   "url": "https://www.museumdrguislain.be/nl/home",
+   "k": "archive",
+   "city": "Gent"
+  },
+  {
    "v": "masereel",
    "d": "2026-10-24",
    "t": "",
@@ -1909,7 +2041,7 @@
    "v": "skoop",
    "d": "2026-10-25",
    "t": "11:00",
-   "title": "Shaun Het Schaap: Het Beest op de Boerderij",
+   "title": "Shaun Het Schaap: Het Beest van de Boerderij",
    "note": "familiefilm",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
    "k": "film",
@@ -1930,7 +2062,7 @@
    "d": "2026-10-25",
    "t": "11:00",
    "title": "Yugly",
-   "note": "familiefilm; Vlaamse versie",
+   "note": "familiefilm",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
    "k": "film",
    "city": "Gent"
@@ -2029,7 +2161,7 @@
    "v": "skoop",
    "d": "2026-10-25",
    "t": "14:30",
-   "title": "Shaun Het Schaap: Het Beest op de Boerderij",
+   "title": "Shaun Het Schaap: Het Beest van de Boerderij",
    "note": "familiefilm",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
    "k": "film",
@@ -2099,7 +2231,7 @@
    "v": "skoop",
    "d": "2026-10-25",
    "t": "16:30",
-   "title": "The Odyssey",
+   "title": "The Odyssey -",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
    "k": "film",
@@ -2139,7 +2271,7 @@
    "v": "skoop",
    "d": "2026-10-25",
    "t": "17:00",
-   "title": "Shaun Het Schaap: Het Beest op de Boerderij",
+   "title": "Shaun Het Schaap: Het Beest van de Boerderij",
    "note": "familiefilm",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
    "k": "film",
@@ -2432,7 +2564,7 @@
    "d": "2026-10-26",
    "t": "17:15",
    "title": "Akira (1988)",
-   "note": "4k restauratie",
+   "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
    "k": "film",
    "city": "Gent"
@@ -2712,7 +2844,7 @@
    "d": "2026-10-27",
    "t": "17:00",
    "title": "Trainspotting (1996)",
-   "note": "4k restauratie",
+   "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
    "k": "film",
    "city": "Gent"
@@ -2958,6 +3090,56 @@
    "city": "Lokeren"
   },
   {
+   "v": "skoop",
+   "d": "2026-10-28",
+   "t": "14:30",
+   "title": "Coward",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-28",
+   "t": "14:30",
+   "title": "Sense and Sensibility",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-28",
+   "t": "14:30",
+   "title": "Shaun Het Schaap: Het Beest van de Boerderij",
+   "note": "familiefilm",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-28",
+   "t": "14:30",
+   "title": "The Invite",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-28",
+   "t": "14:30",
+   "title": "Wicker",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
    "v": "kasklez",
    "d": "2026-10-28",
    "t": "17:00",
@@ -2967,6 +3149,56 @@
    "k": "talk",
    "city": "Gent",
    "th": "art"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-28",
+   "t": "17:15",
+   "title": "Coward",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-28",
+   "t": "17:15",
+   "title": "Digger",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-28",
+   "t": "17:15",
+   "title": "The Only Living Pickpocket in New York",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-28",
+   "t": "17:15",
+   "title": "The Return (2003)",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-28",
+   "t": "17:30",
+   "title": "Shaun Het Schaap: Het Beest van de Boerderij",
+   "note": "familiefilm",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
   },
   {
    "v": "sphinx",
@@ -2992,6 +3224,16 @@
    "v": "skoop",
    "d": "2026-10-28",
    "t": "19:30",
+   "title": "Hope",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-28",
+   "t": "19:30",
    "title": "La Gradiva",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
@@ -3008,6 +3250,16 @@
    "k": "talk",
    "th": "poetry",
    "place": "UGent",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-28",
+   "t": "19:45",
+   "title": "Coward",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
    "city": "Gent"
   },
   {
@@ -3043,6 +3295,26 @@
    "city": "Gent"
   },
   {
+   "v": "skoop",
+   "d": "2026-10-28",
+   "t": "20:00",
+   "title": "The Invite",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "sphinx",
+   "d": "2026-10-28",
+   "t": "20:00",
+   "title": "Coward",
+   "note": "",
+   "url": "https://www.sphinx-cinema.be/programma",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
    "v": "kask",
    "d": "2026-10-28",
    "t": "20:30",
@@ -3059,6 +3331,56 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-28",
+   "t": "22:15",
+   "title": "Coward",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-28",
+   "t": "22:15",
+   "title": "Franz",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-28",
+   "t": "22:15",
+   "title": "Ken Russell's The Devils (1971)",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-28",
+   "t": "22:30",
+   "title": "Primetime",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-28",
+   "t": "22:30",
+   "title": "Wicker",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
    "k": "film",
    "city": "Gent"
   },
@@ -3080,7 +3402,7 @@
    "t": "",
    "title": "Cinéconcert voor kinderen (4+)",
    "note": "ism FilemKING",
-   "url": "https://dekoer.be/cine-rio/",
+   "url": "https://dekoer.be/programma/cineconcert-voor-kinderen-kinderfilm/",
    "k": "film",
    "city": "Gent"
   },
@@ -3096,12 +3418,102 @@
    "th": "sociology"
   },
   {
+   "v": "skoop",
+   "d": "2026-10-29",
+   "t": "14:30",
+   "title": "Coward",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-29",
+   "t": "14:30",
+   "title": "Franz",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-29",
+   "t": "14:30",
+   "title": "The Invite",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-29",
+   "t": "14:30",
+   "title": "The Only Living Pickpocket in New York",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
    "v": "sphinx",
    "d": "2026-10-29",
    "t": "14:30",
    "title": "Coward",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-29",
+   "t": "17:15",
+   "title": "Coward",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-29",
+   "t": "17:15",
+   "title": "La Gradiva",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-29",
+   "t": "17:15",
+   "title": "Mémoire de fille",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-29",
+   "t": "17:15",
+   "title": "Sense and Sensibility",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-29",
+   "t": "17:15",
+   "title": "Wicker",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
    "k": "film",
    "city": "Gent"
   },
@@ -3115,6 +3527,26 @@
    "k": "talk",
    "th": "politics",
    "place": "Bibliotheek De Krook",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-29",
+   "t": "19:45",
+   "title": "Coward",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-29",
+   "t": "19:45",
+   "title": "The Only Living Pickpocket in New York",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
    "city": "Gent"
   },
   {
@@ -3148,6 +3580,26 @@
    "city": "Gent"
   },
   {
+   "v": "skoop",
+   "d": "2026-10-29",
+   "t": "20:00",
+   "title": "Coward",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-29",
+   "t": "20:00",
+   "title": "The Invite",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
    "v": "sphinx",
    "d": "2026-10-29",
    "t": "20:00",
@@ -3174,6 +3626,56 @@
    "title": "Coward",
    "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-29",
+   "t": "21:45",
+   "title": "Hope",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-29",
+   "t": "22:15",
+   "title": "Coward",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-29",
+   "t": "22:15",
+   "title": "The Texas Chain Saw Massacre (1974)",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-29",
+   "t": "22:30",
+   "title": "Digger",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-29",
+   "t": "22:30",
+   "title": "Primetime",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
    "k": "film",
    "city": "Gent"
   },
@@ -3231,7 +3733,87 @@
    "t": "",
    "title": "Near Dark (Kathryn Bigelow, 1987)",
    "note": "ism Kuru",
-   "url": "https://dekoer.be/cine-rio/",
+   "url": "https://dekoer.be/programma/near-dark-film/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-30",
+   "t": "14:30",
+   "title": "Coward",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-30",
+   "t": "14:30",
+   "title": "Sense and Sensibility",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-30",
+   "t": "14:30",
+   "title": "Wicker",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-30",
+   "t": "17:15",
+   "title": "Coward",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-30",
+   "t": "17:15",
+   "title": "Digger",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-30",
+   "t": "17:15",
+   "title": "Mémoire de fille",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-30",
+   "t": "17:15",
+   "title": "The Return (2003)",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-30",
+   "t": "17:30",
+   "title": "The Only Living Pickpocket in New York",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
    "k": "film",
    "city": "Gent"
   },
@@ -3243,6 +3825,56 @@
    "note": "slotweekend Broei Nieuwland",
    "url": "https://nieuwland.broei.be/agenda/event/12741/",
    "k": "music",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-30",
+   "t": "19:30",
+   "title": "Primetime",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-30",
+   "t": "19:45",
+   "title": "Coward",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-30",
+   "t": "19:45",
+   "title": "La Gradiva",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-30",
+   "t": "19:45",
+   "title": "The Invite",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-30",
+   "t": "19:45",
+   "title": "Wicker",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
    "city": "Gent"
   },
   {
@@ -3270,7 +3902,7 @@
    "d": "2026-10-30",
    "t": "20:00",
    "title": "Un anno di scuola",
-   "note": "Italiaans Cineforum",
+   "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
    "k": "film",
    "city": "Gent"
@@ -3280,8 +3912,58 @@
    "d": "2026-10-30",
    "t": "20:30",
    "title": "Night of the Horror: Bad Trip",
-   "note": "Night of the Horror",
+   "note": "",
    "url": "https://kaskcinema.be/film/night-of-the-horror-bad-trip/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-30",
+   "t": "21:45",
+   "title": "Hope",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-30",
+   "t": "22:00",
+   "title": "Coward",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-30",
+   "t": "22:15",
+   "title": "Franz",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-30",
+   "t": "22:15",
+   "title": "Ken Russell's The Devils (1971)",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-30",
+   "t": "22:30",
+   "title": "Digger",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
    "k": "film",
    "city": "Gent"
   },
@@ -3293,6 +3975,17 @@
    "note": "KOPERGIETERY & KGbe · Arsenaalsite · loopt tot 13/11",
    "url": "https://kopergietery.be/programma/donkey-shot-gangstershit",
    "k": "theatre",
+   "city": "Gent"
+  },
+  {
+   "v": "liberas",
+   "d": "2026-10-30",
+   "e": "2027-01-29",
+   "t": "",
+   "title": "De Kunst en De Generaal. Het dubbelleven van Piet De Groof",
+   "note": "Air force general and, as Walter Korun, Cobra-linked artist · opening 29 Oct 19:00 (register)",
+   "url": "https://www.liberas.eu/nl/actueel/agenda/tentoonstelling-de-kunst-en-de-generaal-het-dubbelleven-van-piet-de-groof",
+   "k": "archive",
    "city": "Gent"
   },
   {
@@ -3312,7 +4005,7 @@
    "d": "2026-10-31",
    "t": "11:00",
    "title": "Mumbo",
-   "note": "De kijkdoos / FilemKING",
+   "note": "De kijkdoos",
    "url": "https://www.sphinx-cinema.be/programma",
    "k": "film",
    "city": "Gent"
@@ -3320,9 +4013,129 @@
   {
    "v": "skoop",
    "d": "2026-10-31",
+   "t": "14:00",
+   "title": "The Odyssey -",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-31",
    "t": "14:30",
-   "title": "Shaun Het Schaap: Het Beest op de Boerderij",
+   "title": "Coward",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-31",
+   "t": "14:30",
+   "title": "Shaun Het Schaap: Het Beest van de Boerderij",
    "note": "familiefilm",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-31",
+   "t": "14:30",
+   "title": "The Invite",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-31",
+   "t": "14:30",
+   "title": "The Only Living Pickpocket in New York",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-31",
+   "t": "17:00",
+   "title": "Franz",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-31",
+   "t": "17:00",
+   "title": "La Gradiva",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-31",
+   "t": "17:00",
+   "title": "Sense and Sensibility",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-31",
+   "t": "17:15",
+   "title": "Coward",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-31",
+   "t": "17:30",
+   "title": "Shaun Het Schaap: Het Beest van de Boerderij",
+   "note": "familiefilm",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-31",
+   "t": "19:45",
+   "title": "Coward",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-31",
+   "t": "19:45",
+   "title": "Primetime",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-31",
+   "t": "19:45",
+   "title": "Wicker",
+   "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
    "k": "film",
    "city": "Gent"
@@ -3335,6 +4148,76 @@
    "note": "BRT",
    "url": "https://theaterbox.be/kalender.html",
    "k": "theatre",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-31",
+   "t": "20:00",
+   "title": "The Invite",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-31",
+   "t": "20:00",
+   "title": "The Only Living Pickpocket in New York",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-31",
+   "t": "22:00",
+   "title": "Coward",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-31",
+   "t": "22:00",
+   "title": "Digger",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-31",
+   "t": "22:00",
+   "title": "Hope",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-31",
+   "t": "22:15",
+   "title": "The Texas Chain Saw Massacre (1974)",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-10-31",
+   "t": "22:15",
+   "title": "Wild Horse Nine",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
    "city": "Gent"
   },
   {
@@ -3363,6 +4246,26 @@
    "v": "skoop",
    "d": "2026-11-01",
    "t": "11:00",
+   "title": "Coward",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-01",
+   "t": "11:00",
+   "title": "Iron Boy (Le Corset)",
+   "note": "familiefilm",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-01",
+   "t": "11:00",
    "title": "Minotaur",
    "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
@@ -3373,8 +4276,8 @@
    "v": "skoop",
    "d": "2026-11-01",
    "t": "11:00",
-   "title": "The Six",
-   "note": "",
+   "title": "Shaun Het Schaap: Het Beest van de Boerderij",
+   "note": "familiefilm",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
    "k": "film",
    "city": "Gent"
@@ -3410,12 +4313,162 @@
    "city": "Gent"
   },
   {
+   "v": "skoop",
+   "d": "2026-11-01",
+   "t": "14:15",
+   "title": "The Odyssey -",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-01",
+   "t": "14:30",
+   "title": "Coward",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-01",
+   "t": "14:30",
+   "title": "Sense and Sensibility",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-01",
+   "t": "14:30",
+   "title": "Shaun Het Schaap: Het Beest van de Boerderij",
+   "note": "familiefilm",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-01",
+   "t": "14:30",
+   "title": "The Invite",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
    "v": "sphinx",
    "d": "2026-11-01",
    "t": "15:00",
    "title": "Manon",
    "note": "Opera & Ballet: on Screen",
    "url": "https://www.sphinx-cinema.be/programma",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-01",
+   "t": "17:00",
+   "title": "Coward",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-01",
+   "t": "17:15",
+   "title": "Franz",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-01",
+   "t": "17:15",
+   "title": "Shaun Het Schaap: Het Beest van de Boerderij",
+   "note": "familiefilm",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-01",
+   "t": "17:15",
+   "title": "Wicker",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-01",
+   "t": "17:30",
+   "title": "The Only Living Pickpocket in New York",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-01",
+   "t": "19:30",
+   "title": "Hope",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-01",
+   "t": "19:30",
+   "title": "La Gradiva",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-01",
+   "t": "19:30",
+   "title": "The Invite",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-01",
+   "t": "19:45",
+   "title": "Coward",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-01",
+   "t": "19:45",
+   "title": "Primetime",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
    "k": "film",
    "city": "Gent"
   },
@@ -3430,6 +4483,56 @@
    "city": "Gent"
   },
   {
+   "v": "skoop",
+   "d": "2026-11-02",
+   "t": "11:00",
+   "title": "Coward",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-02",
+   "t": "11:00",
+   "title": "La Gradiva",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-02",
+   "t": "11:00",
+   "title": "Monster Mia",
+   "note": "familiefilm",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-02",
+   "t": "11:00",
+   "title": "Mumbo",
+   "note": "familiefilm",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-02",
+   "t": "11:00",
+   "title": "Shaun Het Schaap: Het Beest van de Boerderij",
+   "note": "familiefilm",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
    "v": "sphinx",
    "d": "2026-11-02",
    "t": "14:00",
@@ -3440,12 +4543,212 @@
    "city": "Gent"
   },
   {
+   "v": "skoop",
+   "d": "2026-11-02",
+   "t": "14:30",
+   "title": "Coward",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-02",
+   "t": "14:30",
+   "title": "De Club van Sinterklaas: Paniek in het Pietendorp",
+   "note": "familiefilm",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-02",
+   "t": "14:30",
+   "title": "Shaun Het Schaap: Het Beest van de Boerderij",
+   "note": "familiefilm",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-02",
+   "t": "14:30",
+   "title": "The Invite",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-02",
+   "t": "14:30",
+   "title": "The Only Living Pickpocket in New York",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-02",
+   "t": "17:00",
+   "title": "La Gradiva",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-02",
+   "t": "17:15",
+   "title": "Coward",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-02",
+   "t": "17:15",
+   "title": "Digger",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-02",
+   "t": "17:15",
+   "title": "Primetime",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-02",
+   "t": "17:30",
+   "title": "Wicker",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-02",
+   "t": "20:00",
+   "title": "Coward",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-02",
+   "t": "20:00",
+   "title": "Ken Russell's The Devils (1971)",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-02",
+   "t": "20:00",
+   "title": "Sense and Sensibility",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-02",
+   "t": "20:00",
+   "title": "The Invite",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-02",
+   "t": "20:00",
+   "title": "The Only Living Pickpocket in New York",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
    "v": "sphinx",
    "d": "2026-11-03",
    "t": "10:30",
    "title": "Kinderen van de Zilverstraat: komen in actie!",
    "note": "FilemKING",
    "url": "https://www.sphinx-cinema.be/programma",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-03",
+   "t": "11:00",
+   "title": "Coward",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-03",
+   "t": "11:00",
+   "title": "De Club van Sinterklaas: Paniek in het Pietendorp",
+   "note": "familiefilm",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-03",
+   "t": "11:00",
+   "title": "Shaun Het Schaap: Het Beest van de Boerderij",
+   "note": "familiefilm",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-03",
+   "t": "11:00",
+   "title": "The Only Living Pickpocket in New York",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-03",
+   "t": "11:00",
+   "title": "Yugly",
+   "note": "familiefilm",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
    "k": "film",
    "city": "Gent"
   },
@@ -3470,12 +4773,162 @@
    "city": "Gent"
   },
   {
+   "v": "skoop",
+   "d": "2026-11-03",
+   "t": "14:30",
+   "title": "Coward",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-03",
+   "t": "14:30",
+   "title": "Iron Boy (Le Corset)",
+   "note": "familiefilm",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-03",
+   "t": "14:30",
+   "title": "Sense and Sensibility",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-03",
+   "t": "14:30",
+   "title": "Shaun Het Schaap: Het Beest van de Boerderij",
+   "note": "familiefilm",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-03",
+   "t": "14:30",
+   "title": "The Invite",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-03",
+   "t": "17:00",
+   "title": "Hope",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-03",
+   "t": "17:15",
+   "title": "Coward",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-03",
+   "t": "17:15",
+   "title": "Digger",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-03",
+   "t": "17:15",
+   "title": "The Texas Chain Saw Massacre (1974)",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-03",
+   "t": "17:30",
+   "title": "The Only Living Pickpocket in New York",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-03",
+   "t": "19:45",
+   "title": "La Gradiva",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-03",
+   "t": "19:45",
+   "title": "The Invite",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-03",
+   "t": "20:00",
+   "title": "Coward",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-03",
+   "t": "20:00",
+   "title": "Primetime",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-03",
+   "t": "20:00",
+   "title": "Wicker",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
    "v": "kask",
    "d": "2026-11-03",
    "t": "20:30",
    "title": "Ich glaub' nie mehr an eine Frau (1929)",
    "note": "",
-   "url": "https://schoolofartsgent.be/agenda/ich-glaub-nie-mehr-an-eine-frau",
+   "url": "https://kaskcinema.be/film/ich-glaub-nie-mehr-an-eine-frau/",
    "k": "film",
    "city": "Gent"
   },
@@ -3524,7 +4977,7 @@
    "d": "2026-11-04",
    "t": "20:30",
    "title": "Kinoclub #53: Erik of het klein insectenboek (2004)",
-   "note": "Kinoclub",
+   "note": "",
    "url": "https://kaskcinema.be/film/kinoclub-53-erik-of-het-klein-insectenboek/",
    "k": "film",
    "city": "Gent"
@@ -3594,6 +5047,16 @@
    "city": "Gent"
   },
   {
+   "v": "sphinx",
+   "d": "2026-11-05",
+   "t": "14:15",
+   "title": "Coward",
+   "note": "",
+   "url": "https://www.sphinx-cinema.be/programma",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
    "v": "gentleest",
    "d": "2026-11-05",
    "t": "19:00",
@@ -3632,7 +5095,7 @@
    "d": "2026-11-05",
    "t": "20:00",
    "title": "Earth's Greatest Enemy",
-   "note": "Senioren Filmdagen / Groene Loper",
+   "note": "Groene Loper",
    "url": "https://www.sphinx-cinema.be/programma",
    "k": "film",
    "city": "Gent"
@@ -3663,7 +5126,7 @@
    "t": "",
    "title": "Fat City (John Huston, 1972)",
    "note": "",
-   "url": "https://dekoer.be/cine-rio/",
+   "url": "https://dekoer.be/programma/fat-city-film/",
    "k": "film",
    "city": "Gent"
   },
@@ -3673,7 +5136,7 @@
    "t": "",
    "title": "For Mouna (Spencer Bogaert, 2023)",
    "note": "kortfilm",
-   "url": "https://dekoer.be/cine-rio/",
+   "url": "https://dekoer.be/programma/fat-city-film/",
    "k": "film",
    "city": "Gent"
   },
@@ -3734,7 +5197,7 @@
    "d": "2026-11-06",
    "t": "20:30",
    "title": "Erupcja",
-   "note": "Speciale vertoningen",
+   "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
    "k": "film",
    "city": "Gent"
@@ -3800,7 +5263,7 @@
    "d": "2026-11-08",
    "t": "10:30",
    "title": "Wild Horse Nine",
-   "note": "Ontbijtfilm",
+   "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
    "k": "film",
    "city": "Gent"
@@ -3841,7 +5304,7 @@
    "t": "",
    "title": "De Ijzeren Reus (6+, Brad Bird, 1999)",
    "note": "",
-   "url": "https://dekoer.be/cine-rio/",
+   "url": "https://dekoer.be/programma/de-ijzeren-reus-kinderfilm/",
    "k": "film",
    "city": "Gent"
   },
@@ -3851,7 +5314,7 @@
    "t": "",
    "title": "INMATE SESSIONS LIVE! + Gesprek over cinema in de Gentse gevangenis",
    "note": "ism Lucinda Ra, kleinVerhaal en De Rode Antraciet",
-   "url": "https://dekoer.be/cine-rio/",
+   "url": "https://dekoer.be/programma/inmate-sessions-live/",
    "k": "film",
    "city": "Gent"
   },
@@ -3892,7 +5355,7 @@
    "d": "2026-11-10",
    "t": "20:00",
    "title": "An American Werewolf in London",
-   "note": "special; Kuru Cult Night",
+   "note": "special",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
    "k": "film",
    "city": "Gent"
@@ -3924,7 +5387,7 @@
    "d": "2026-11-10",
    "t": "20:30",
    "title": "Club Kid",
-   "note": "Avant-première",
+   "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
    "k": "film",
    "city": "Gent"
@@ -4123,7 +5586,7 @@
    "d": "2026-11-13",
    "t": "19:45",
    "title": "Urchin",
-   "note": "Speciale vertoningen",
+   "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
    "k": "film",
    "city": "Gent"
@@ -4156,7 +5619,7 @@
    "t": "",
    "title": "Cocktail (Roger Donaldson, 1988)",
    "note": "films & cocktails",
-   "url": "https://dekoer.be/cine-rio/",
+   "url": "https://dekoer.be/programma/coyote-ugly-cocktail-film/",
    "k": "film",
    "city": "Gent"
   },
@@ -4166,7 +5629,7 @@
    "t": "",
    "title": "Coyote Ugly (David McNally, 2000)",
    "note": "films & cocktails",
-   "url": "https://dekoer.be/cine-rio/",
+   "url": "https://dekoer.be/programma/coyote-ugly-cocktail-film/",
    "k": "film",
    "city": "Gent"
   },
@@ -4178,6 +5641,27 @@
    "note": "BRT",
    "url": "https://theaterbox.be/kalender.html",
    "k": "theatre",
+   "city": "Gent"
+  },
+  {
+   "v": "industrie",
+   "d": "2026-11-14",
+   "e": "2027-09-26",
+   "t": "",
+   "title": "Computer says hello",
+   "note": "",
+   "url": "https://www.industriemuseum.be/nl/agenda/expo-computer-says-hello",
+   "k": "archive",
+   "city": "Gent"
+  },
+  {
+   "v": "skoop",
+   "d": "2026-11-15",
+   "t": "11:00",
+   "title": "Heysel 85",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
    "city": "Gent"
   },
   {
@@ -4327,7 +5811,7 @@
    "d": "2026-11-18",
    "t": "20:00",
    "title": "Donnie Darko (2001)",
-   "note": "4k restauratie",
+   "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
    "k": "film",
    "city": "Gent"
@@ -4403,8 +5887,8 @@
    "v": "skoop",
    "d": "2026-11-19",
    "t": "20:00",
-   "title": "Freeride Filmfestival",
-   "note": "special; cinema edition",
+   "title": "Freeride Filmfestival (cinema edition)",
+   "note": "special",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
    "k": "film",
    "city": "Gent"
@@ -4444,7 +5928,7 @@
    "d": "2026-11-19",
    "t": "22:15",
    "title": "Donnie Darko (2001)",
-   "note": "4k restauratie",
+   "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
    "k": "film",
    "city": "Gent"
@@ -4578,7 +6062,7 @@
    "d": "2026-11-20",
    "t": "22:15",
    "title": "Donnie Darko (2001)",
-   "note": "4k restauratie",
+   "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
    "k": "film",
    "city": "Gent"
@@ -4594,6 +6078,17 @@
    "th": "history",
    "place": "",
    "city": "Oostende"
+  },
+  {
+   "v": "stam",
+   "d": "2026-11-20",
+   "e": "2027-04-18",
+   "t": "",
+   "title": "Pier es ier",
+   "note": "Puppet-theatre heritage around Ghent's Pierke",
+   "url": "https://stamgent.be/nl_be/evenementen/pier-es-ier",
+   "k": "archive",
+   "city": "Gent"
   },
   {
    "v": "gentleest",
@@ -4662,7 +6157,7 @@
    "d": "2026-11-21",
    "t": "22:10",
    "title": "Donnie Darko (2001)",
-   "note": "4k restauratie",
+   "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
    "k": "film",
    "city": "Gent"
@@ -4672,7 +6167,7 @@
    "d": "2026-11-22",
    "t": "13:00",
    "title": "Kinokwartet: Vampire Empire",
-   "note": "Kinokwartet",
+   "note": "",
    "url": "https://kaskcinema.be/film/kinokwartet-vampire-empire/",
    "k": "film",
    "city": "Gent"
@@ -4702,7 +6197,7 @@
    "d": "2026-11-22",
    "t": "19:45",
    "title": "Donnie Darko (2001)",
-   "note": "4k restauratie",
+   "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
    "k": "film",
    "city": "Gent"
@@ -4722,7 +6217,7 @@
    "d": "2026-11-23",
    "t": "17:30",
    "title": "Donnie Darko (2001)",
-   "note": "4k restauratie",
+   "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
    "k": "film",
    "city": "Gent"
@@ -4742,7 +6237,7 @@
    "d": "2026-11-24",
    "t": "20:00",
    "title": "Donnie Darko (2001)",
-   "note": "4k restauratie",
+   "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
    "k": "film",
    "city": "Gent"
@@ -4877,7 +6372,7 @@
    "t": "",
    "title": "Rio, Zona Norte (Nelson Pereira Dos Santos, 1957)",
    "note": "ism FilmLabo",
-   "url": "https://dekoer.be/cine-rio/",
+   "url": "https://dekoer.be/programma/rio-zona-norte-film/",
    "k": "film",
    "city": "Gent"
   },
@@ -4892,11 +6387,21 @@
    "city": "Gent"
   },
   {
+   "v": "skoop",
+   "d": "2026-11-27",
+   "t": "20:00",
+   "title": "Le Faux Soir",
+   "note": "",
+   "url": "https://www.studioskoop.be/agenda-studio-skoop/",
+   "k": "film",
+   "city": "Gent"
+  },
+  {
    "v": "sphinx",
    "d": "2026-11-27",
    "t": "20:00",
    "title": "Le Faux Soir",
-   "note": "Avant-première",
+   "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
    "k": "film",
    "city": "Gent"
@@ -4906,7 +6411,7 @@
    "d": "2026-11-27",
    "t": "20:00",
    "title": "The Last One for the Road (Andiamo a bere l'ultima)",
-   "note": "Italiaans Cineforum",
+   "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
    "k": "film",
    "city": "Gent"
@@ -4988,8 +6493,8 @@
    "d": "2026-11-29",
    "t": "",
    "title": "How to Make Kimchi (or How to Be Korean) (Jonathan Seangjoon Lee, 2020)",
-   "note": "kortfilm, ism Local Growth & Asian Movie Night",
-   "url": "https://dekoer.be/cine-rio/",
+   "note": "kortfilm",
+   "url": "https://dekoer.be/programma/the-day-after-how-to-make-kimchi-or-how-to-be-korean-film/",
    "k": "film",
    "city": "Gent"
   },
@@ -4999,7 +6504,7 @@
    "t": "",
    "title": "My Neighbor Totoro (6+, Hayao Miyazaki, 1988)",
    "note": "ism Local Growth",
-   "url": "https://dekoer.be/cine-rio/",
+   "url": "https://dekoer.be/programma/my-neighbor-totoro-kinderfilm/",
    "k": "film",
    "city": "Gent"
   },
@@ -5009,7 +6514,7 @@
    "t": "",
    "title": "The Day After (Hong Sang-soo, 2017)",
    "note": "ism Local Growth & Asian Movie Night",
-   "url": "https://dekoer.be/cine-rio/",
+   "url": "https://dekoer.be/programma/the-day-after-how-to-make-kimchi-or-how-to-be-korean-film/",
    "k": "film",
    "city": "Gent"
   },
@@ -5113,7 +6618,7 @@
    "t": "",
    "title": "Lost in Translation (Sofia Coppola, 2003)",
    "note": "",
-   "url": "https://dekoer.be/cine-rio/",
+   "url": "https://dekoer.be/programma/lost-in-translation-film/",
    "k": "film",
    "city": "Gent"
   },
@@ -5307,7 +6812,7 @@
    "t": "",
    "title": "Generations: intergenerationeel filmcafé",
    "note": "",
-   "url": "https://dekoer.be/cine-rio/",
+   "url": "https://dekoer.be/programma/generations-intergenerationeel-filmcafe-film/",
    "k": "film",
    "city": "Gent"
   },
@@ -5316,8 +6821,8 @@
    "d": "2026-12-10",
    "t": "",
    "title": "Neo Nahda (May Zaidé, 2023)",
-   "note": "kortfilm, ism PinX",
-   "url": "https://dekoer.be/cine-rio/",
+   "note": "kortfilm ism PinX",
+   "url": "https://dekoer.be/programma/shinjuku-boys-film/",
    "k": "film",
    "city": "Gent"
   },
@@ -5327,7 +6832,7 @@
    "t": "",
    "title": "Shinjuku Boys (Kim Longinotto en Jano Williams, 1995)",
    "note": "ism PinX",
-   "url": "https://dekoer.be/cine-rio/",
+   "url": "https://dekoer.be/programma/shinjuku-boys-film/",
    "k": "film",
    "city": "Gent"
   },
@@ -5412,7 +6917,7 @@
    "t": "",
    "title": "Drifting Clouds (Aki Kaurismäki, 1996)",
    "note": "ism Wintermarkt",
-   "url": "https://dekoer.be/cine-rio/",
+   "url": "https://dekoer.be/programma/drifting-clouds-film/",
    "k": "film",
    "city": "Gent"
   },
@@ -5422,7 +6927,7 @@
    "t": "",
    "title": "Meneer papier ziet het groots (3+, Ben Tesseur, Steven De Beul, 2026)",
    "note": "ism Wintermarkt",
-   "url": "https://dekoer.be/cine-rio/",
+   "url": "https://dekoer.be/programma/meneer-papier-ziet-het-groots-film/",
    "k": "film",
    "city": "Gent"
   },
@@ -5430,9 +6935,9 @@
    "v": "rio",
    "d": "2026-12-13",
    "t": "",
-   "title": "My Fern and I are Fine (Lidewij Deroo, 2025)",
+   "title": "My Fern and I Are Fine (Lidewij Deroo, 2025)",
    "note": "kortfilm",
-   "url": "https://dekoer.be/cine-rio/",
+   "url": "https://dekoer.be/programma/drifting-clouds-film/",
    "k": "film",
    "city": "Gent"
   },
@@ -5475,7 +6980,7 @@
    "d": "2026-12-15",
    "t": "20:00",
    "title": "Dune: Part Three",
-   "note": "avant-première; 7.1",
+   "note": "",
    "url": "https://www.studioskoop.be/agenda-studio-skoop/",
    "k": "film",
    "city": "Gent"
@@ -5485,7 +6990,7 @@
    "d": "2026-12-15",
    "t": "20:00",
    "title": "Dune: Part Three",
-   "note": "Avant-première",
+   "note": "",
    "url": "https://www.sphinx-cinema.be/programma",
    "k": "film",
    "city": "Gent"
@@ -5555,7 +7060,7 @@
    "t": "",
    "title": "C'est arrivé près de chez vous (Rémy Belvaux, André Bonzel en Benoît Poelvoorde, 1992)",
    "note": "ism flaneur uitgevers",
-   "url": "https://dekoer.be/cine-rio/",
+   "url": "https://dekoer.be/programma/cest-arrive-pres-de-chez-vous-film/",
    "k": "film",
    "city": "Gent"
   },
@@ -5670,61 +7175,6 @@
    "city": "Gent"
   },
   {
-   "v": "amsab",
-   "d": "2026-10-23",
-   "e": "2027-04-18",
-   "t": "",
-   "title": "Sporen van vergeten natuur",
-   "note": "Herbaria, old photos and nature diaries from the archive · free, weekdays 9–17",
-   "url": "https://www.amsab.be/en/publieksaanbod/publieksevenementen/expo-sporen-van-vergeten-natuur",
-   "k": "archive",
-   "city": "Gent"
-  },
-  {
-   "v": "liberas",
-   "d": "2026-10-30",
-   "e": "2027-01-29",
-   "t": "",
-   "title": "De Kunst en De Generaal. Het dubbelleven van Piet De Groof",
-   "note": "Air force general and, as Walter Korun, Cobra-linked artist · opening 29 Oct 19:00 (register)",
-   "url": "https://www.liberas.eu/nl/actueel/agenda/tentoonstelling-de-kunst-en-de-generaal-het-dubbelleven-van-piet-de-groof",
-   "k": "archive",
-   "city": "Gent"
-  },
-  {
-   "v": "alijn",
-   "d": "2026-07-04",
-   "e": "2027-09-30",
-   "t": "",
-   "title": "C'est Party!",
-   "note": "100 years of nightlife in Flanders and Brussels, with archive images",
-   "url": "https://huisvanalijn.be/nl/agenda/c-est-party",
-   "k": "archive",
-   "city": "Gent"
-  },
-  {
-   "v": "stam",
-   "d": "2026-10-16",
-   "e": "2027-05-18",
-   "t": "",
-   "title": "De Parade",
-   "note": "Temporary show built from the museum's own collection",
-   "url": "https://stamgent.be/nl_be/evenementen/de-parade",
-   "k": "archive",
-   "city": "Gent"
-  },
-  {
-   "v": "stam",
-   "d": "2026-11-20",
-   "e": "2027-04-18",
-   "t": "",
-   "title": "Pier es ier",
-   "note": "Puppet-theatre heritage around Ghent's Pierke",
-   "url": "https://stamgent.be/nl_be/evenementen/pier-es-ier",
-   "k": "archive",
-   "city": "Gent"
-  },
-  {
    "v": "stam",
    "d": "2027-10-28",
    "e": "2028-01-30",
@@ -5734,116 +7184,6 @@
    "url": "https://stamgent.be/nl_be/evenementen/ketterse-steden",
    "k": "archive",
    "city": "Gent"
-  },
-  {
-   "v": "guislain",
-   "d": "2024-11-23",
-   "e": "2027-06-27",
-   "t": "",
-   "title": "Eigen huis: Het geheugen van een museum",
-   "note": "The museum's own memory and collection",
-   "url": "https://www.museumdrguislain.be/nl/home",
-   "k": "archive",
-   "city": "Gent"
-  },
-  {
-   "v": "guislain",
-   "d": "2026-07-04",
-   "e": "2026-12-31",
-   "t": "",
-   "title": "Verkleurmannetje: de kunstcollectie volgens Roger Ballen",
-   "note": "The art collection, selected by Roger Ballen",
-   "url": "https://www.museumdrguislain.be/nl/home",
-   "k": "archive",
-   "city": "Gent"
-  },
-  {
-   "v": "guislain",
-   "d": "2026-10-24",
-   "e": "2027-02-14",
-   "t": "",
-   "title": "In de schaduw van de grote bomen",
-   "note": "",
-   "url": "https://www.museumdrguislain.be/nl/home",
-   "k": "archive",
-   "city": "Gent"
-  },
-  {
-   "v": "industrie",
-   "d": "2026-11-14",
-   "e": "2027-09-26",
-   "t": "",
-   "title": "Computer says hello",
-   "note": "",
-   "url": "https://www.industriemuseum.be/nl/agenda/expo-computer-says-hello",
-   "k": "archive",
-   "city": "Gent"
-  },
-  {
-   "v": "design",
-   "d": "2026-10-17",
-   "e": "2027-04-11",
-   "t": "",
-   "title": "Public Matter(s): Design and Democracy",
-   "note": "Temporary exhibition in the reopened museum",
-   "url": "https://designmuseumgent.be/en/programme/public-matters-design-and-democracy-guided-tour",
-   "k": "archive",
-   "city": "Gent"
-  },
-  {
-   "v": "letterenhuis",
-   "d": "2026-09-01",
-   "e": "2026-10-30",
-   "t": "",
-   "title": "Barakstad: JMH Berckmans verzameld",
-   "note": "De Vitrine #11 · pieces from Berckmans' archive, with Ellen Van Pelt",
-   "url": "https://letterenhuis.be/nl/activiteit/barakstad-jmh-berckmans-verzameld",
-   "k": "archive",
-   "city": "Antwerpen"
-  },
-  {
-   "v": "fomu",
-   "d": "2026-03-20",
-   "e": "2027-05-23",
-   "t": "",
-   "title": "Families",
-   "note": "",
-   "url": "https://fomu.be/en/exhibitions/families",
-   "k": "archive",
-   "city": "Antwerpen"
-  },
-  {
-   "v": "fomu",
-   "d": "2026-09-18",
-   "e": "2026-11-08",
-   "t": "",
-   "title": "Beurre sculpté par ma mère 2021 2026 (Lola Pertsowsky)",
-   "note": "",
-   "url": "https://fomu.be/en/exhibitions/lola-pertsowsky",
-   "k": "archive",
-   "city": "Antwerpen"
-  },
-  {
-   "v": "fomu",
-   "d": "2026-09-18",
-   "e": "2027-01-17",
-   "t": "",
-   "title": "Léonard Pongo",
-   "note": "",
-   "url": "https://fomu.be/en/exhibitions/leonard-pongo",
-   "k": "archive",
-   "city": "Antwerpen"
-  },
-  {
-   "v": "fomu",
-   "d": "2026-09-18",
-   "e": "2027-01-17",
-   "t": "",
-   "title": "Graciela Iturbide",
-   "note": "",
-   "url": "https://fomu.be/en/exhibitions/graciela-iturbide",
-   "k": "archive",
-   "city": "Antwerpen"
   }
  ]
 }

@@ -110,7 +110,7 @@ dd{margin:0;min-width:0;display:flex;flex-wrap:wrap;gap:4px}
 <div class="wrap">
   <header>
     <h1>Ghent Screens</h1>
-    <p class="sub">Film, theatre, dance, music, talks and archive exhibitions in Ghent, and the money behind each production. Kinepolis left out.</p>
+    <p class="sub">Film, theatre, dance, music, talks and exhibitions in Ghent, and the money behind each production. Kinepolis left out.</p>
     <p class="links"><a href="https://peapickers.io" target="_blank" rel="noopener">A Peapickers project</a><button class="link" type="button" id="install">Install on your phone</button></p>
   </header>
 
@@ -119,7 +119,7 @@ dd{margin:0;min-width:0;display:flex;flex-wrap:wrap;gap:4px}
     <div id="hitsbox" hidden><h2 class="daytitle" id="hitstitle"></h2><ul class="hits" id="hits"></ul></div>
   </section>
 
-  <div class="mode" role="group" aria-label="Category"><button type="button" data-mode="film" aria-pressed="true">Film</button><button type="button" data-mode="theatre" aria-pressed="false">Theatre</button><button type="button" data-mode="dance" aria-pressed="false">Dance</button><button type="button" data-mode="music" aria-pressed="false">Music</button><button type="button" data-mode="talk" aria-pressed="false">Talks</button><button type="button" data-mode="archive" aria-pressed="false">Archives</button></div>
+  <div class="mode" role="group" aria-label="Category"><button type="button" data-mode="film" aria-pressed="true">Film</button><button type="button" data-mode="theatre" aria-pressed="false">Theatre</button><button type="button" data-mode="dance" aria-pressed="false">Dance</button><button type="button" data-mode="music" aria-pressed="false">Music</button><button type="button" data-mode="talk" aria-pressed="false">Talks</button><button type="button" data-mode="archive" aria-pressed="false">Exhibitions</button></div>
 
   <nav class="days" id="days" aria-label="Choose a day"></nav>
 
@@ -255,13 +255,13 @@ function render(){
     const money=f&&f.studios.length?f.studios.slice(0,2).join(" · "):"";
     html+=`<li class="s ${past?"past":""}"><button type="button" class="head" aria-expanded="${ex}" data-open="${esc(id)}"><span class="time ${s.t||ARC?"":"tba"}">${ARC?span(s,now.d):s.t||"time on site"}</span><span class="info"><span class="title">${esc(s.title)}</span><span class="meta"><span class="ven" style="--c:${vc(s.v)}">${esc(v.name)}</span>${s.th?`<span class="cat">${esc(THL[s.th]||s.th)}</span>`:""}${where(s)?`<span>@ ${esc(where(s))}</span>`:""}${s.note?`<span>${esc(s.note)}</span>`:""}</span>${money?`<span class="moneyline">Money: ${esc(money)}</span>`:""}</span><span class="caret">▾</span></button>${ex?fundingHTML(s):""}</li>`;
   });
-  $("list").innerHTML=html||(!D.screenings.some(s=>(s.k||"film")===st.mode)?`<li class="empty">${{dance:"Dance listings are on their way: Viernulvier, CAMPO and De Expeditie.",theatre:"Theatre listings are on their way.",music:"Music listings are on their way.",talk:"Talks are on their way.",archive:"Archive exhibitions are on their way."}[st.mode]||"Listings are on their way."}</li>`:"")||`<li class="empty">No screenings match these filters. <button class="link" type="button" data-reset>Clear filters</button></li>`;
+  $("list").innerHTML=html||(!D.screenings.some(s=>(s.k||"film")===st.mode)?`<li class="empty">${{dance:"Dance listings are on their way: Viernulvier, CAMPO and De Expeditie.",theatre:"Theatre listings are on their way.",music:"Music listings are on their way.",talk:"Talks are on their way.",archive:"Exhibitions are on their way."}[st.mode]||"Listings are on their way."}</li>`:"")||`<li class="empty">No screenings match these filters. <button class="link" type="button" data-reset>Clear filters</button></li>`;
   activeChips();
 }
 function renderStatic(){
   $("notes").innerHTML=(D.notices||[]).map(n=>`<li>${esc(n)}</li>`).join("");
   $("venues").innerHTML=Object.entries(D.venues).map(([k,v])=>`<div style="--c:${vc(k)}"><a href="${esc(v.url)}" target="_blank" rel="noopener">${esc(v.name)}</a><br>${esc(v.addr)}<br>${esc(v.kind)}</div>`).join("");
-  $("foot").textContent=`Listings refreshed ${new Date(D.updated).toLocaleString("en-GB",{timeZone:"Europe/Brussels",weekday:"short",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"})}. Funding comes from festival, fund and trade-press records linked under each film. Times can change; check the venue before you go.`;
+  $("foot").textContent=`Listings refreshed ${new Date(D.updated).toLocaleString("en-GB",{timeZone:"Europe/Brussels",weekday:"short",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"})}. Funding comes from festival, fund and trade-press records linked under each film. Programme facts (date, time, title) come from each venue's official site, and every listing links to its source; no images are copied. Film listings update automatically every Wednesday. Times can change; check the venue before you go.`;
 }
 const SETS=["venue","theme","city","kind","backing","country","extra","part"];
 document.addEventListener("click",e=>{

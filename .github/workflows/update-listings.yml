@@ -1,0 +1,38 @@
+# Weekly automatic update of Ghent Screens (wave 1: film).
+# Runs on GitHub's free runners, without Claude: reads the official programme pages,
+# updates screenings.json and feed.xml, and pushes the result. GitHub Pages then republishes the site.
+name: Weekly listings update
+on:
+  schedule:
+    - cron: "17 4 * * 3"   # Wednesday 04:17 UTC = 05:17 (winter) / 06:17 (summer) in Brussels
+  workflow_dispatch: {}     # "Run workflow" button in the Actions tab, for a manual run
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: listings-update
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Read the venue programmes (film)
+        run: python3 scripts/update_films.py
+      - name: Rebuild the RSS feed
+        run: SITE_URL=https://peapickers.github.io/ghent-screens python3 scripts/build_feed.py
+      - name: Save and publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add screenings.json feed.xml
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Weekly listings update $(date -u +%Y-%m-%d)"
+          git push
+          gh api -X POST "repos/${{ github.repository }}/pages/builds" >/dev/null || echo "Pages will rebuild on its own"
