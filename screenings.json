@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T17:44:17+00:00",
+ "updated": "2026-10-25T17:58:56+00:00",
  "city": "Gent",
  "excluded": [
   "Kinepolis"
@@ -39,7 +39,13 @@
    "name": "Kunsthal Gent",
    "addr": "Lange Steenstraat 14",
    "url": "https://kunsthal.gent/en/agenda",
-   "kind": "art centre"
+   "kind": "art centre",
+   "bg": "Cultural house",
+   "tied": "Art centre in Ghent",
+   "funded": "unknown",
+   "src": [
+    "https://kunsthal.gent/en/agenda"
+   ]
   },
   "ntgent": {
    "name": "NTGent",
@@ -69,7 +75,13 @@
    "name": "Viernulvier",
    "addr": "Sint-Pietersnieuwstraat 23",
    "url": "https://www.viernulvier.gent/",
-   "kind": "arts centre"
+   "kind": "arts centre",
+   "bg": "Cultural house",
+   "tied": "Arts centre in Ghent",
+   "funded": "unknown",
+   "src": [
+    "https://www.viernulvier.gent/"
+   ]
   },
   "bijloke": {
    "name": "De Bijloke",
@@ -93,55 +105,110 @@
    "name": "KASK & Conservatorium",
    "addr": "Gent",
    "url": "https://schoolofartsgent.be/agenda",
-   "kind": "KASKlezingen · Studium Generale"
+   "kind": "KASKlezingen · Studium Generale",
+   "bg": "University",
+   "tied": "KASK & Conservatorium, School of Arts Gent (own agenda)",
+   "funded": "unknown",
+   "src": [
+    "https://schoolofartsgent.be/agenda"
+   ]
   },
   "broei": {
    "name": "BROEI Nieuwland",
    "addr": "Nieuwland 69",
    "url": "https://nieuwland.broei.be/agenda",
-   "kind": "youth culture hub · ±20 organisations"
+   "kind": "youth culture hub · ±20 organisations",
+   "bg": "Cultural house",
+   "tied": "Youth culture hub with ±20 organisations",
+   "funded": "unknown",
+   "src": [
+    "https://nieuwland.broei.be/agenda"
+   ]
   },
   "poeziecentrum": {
    "name": "Poëziecentrum",
    "addr": "Vrijdagmarkt 36, Gent (organiser)",
    "url": "https://www.poeziecentrum.be/agenda",
-   "kind": "poetry centre"
+   "kind": "poetry centre",
+   "bg": "Cultural house",
+   "tied": "Poetry centre in Ghent",
+   "funded": "City of Ghent, Literatuur Vlaanderen and EU logos in the footer, role not stated",
+   "src": [
+    "https://www.poeziecentrum.be/"
+   ]
   },
   "begeerte": {
    "name": "Behoud de Begeerte",
    "addr": "Antwerpen (organiser)",
    "url": "https://www.begeerte.be/kalender",
-   "kind": "literature organiser"
+   "kind": "literature organiser",
+   "bg": "Cultural house",
+   "tied": "Literature organiser; presents Uitgelezen with VIERNULVIER",
+   "funded": "unknown (own site does not say)",
+   "src": [
+    "https://www.begeerte.be/"
+   ]
   },
   "ugent": {
    "name": "UGent",
    "addr": "Gent",
    "url": "https://www.ugent.be/lw/nl/actueel/agenda",
-   "kind": "university · public lectures"
+   "kind": "university · public lectures",
+   "bg": "University",
+   "tied": "Ghent University (own agenda)",
+   "funded": "unknown",
+   "src": [
+    "https://www.ugent.be/nl/agenda"
+   ]
   },
   "liberas": {
    "name": "Liberas",
    "addr": "Kramersplein 23, Gent (organiser)",
    "url": "https://www.liberas.eu/nl/actueel/agenda",
-   "kind": "liberal archive · lectures"
+   "kind": "liberal archive · lectures",
+   "bg": "Movement / ideological",
+   "tied": "Describes itself as the reference point for the history of the liberal movement",
+   "funded": "unknown (own site does not say)",
+   "src": [
+    "https://www.liberas.eu/nl/over-ons"
+   ]
   },
   "gentleest": {
    "name": "Gent Leest",
    "addr": "Gent (city library network)",
    "url": "https://www.gentleest.be/events",
-   "kind": "literature & talks"
+   "kind": "literature & talks",
+   "bg": "Public body / city",
+   "tied": "City of Ghent reading initiative (own site)",
+   "funded": "City of Ghent, Cultuurconnect, Flemish government (listed under 'met steun van')",
+   "src": [
+    "https://www.gentleest.be/"
+   ]
   },
   "masereel": {
    "name": "Masereelfonds",
    "addr": "Flanders & Brussels (organiser)",
    "url": "https://www.masereelfonds.be/activiteiten/",
-   "kind": "lectures & debates"
+   "kind": "lectures & debates",
+   "bg": "Movement / ideological",
+   "tied": "Calls itself a critical, progressive and independent cultural fund; founded 1971 by progressive forces, including communist party members",
+   "funded": "Members and donations (own site); Flemish government and VGC logos in the footer, role not stated",
+   "src": [
+    "https://www.masereelfonds.be/wie-we-zijn/ons-verhaal/",
+    "https://www.masereelfonds.be/"
+   ]
   },
   "ekonomika": {
    "name": "Ekonomika",
    "addr": "KU Leuven alumni (organiser)",
    "url": "https://www.ekonomika-alumni.be/activiteiten",
-   "kind": "economics lectures"
+   "kind": "economics lectures",
+   "bg": "University",
+   "tied": "KU Leuven, Faculty of Economics and Business: alumni association (own site)",
+   "funded": "unknown",
+   "src": [
+    "https://www.ekonomika-alumni.be/activiteiten"
+   ]
   },
   "amsab": {
    "name": "Amsab-ISG",
@@ -183,7 +250,13 @@
    "name": "Letterenhuis",
    "addr": "Antwerpen (address on the venue site)",
    "url": "https://letterenhuis.be/nl/kalender",
-   "kind": "literary archive"
+   "kind": "literary archive",
+   "bg": "Cultural house",
+   "tied": "Literary archive in Antwerp",
+   "funded": "unknown",
+   "src": [
+    "https://letterenhuis.be/nl/kalender"
+   ]
   },
   "fomu": {
    "name": "FOMU Fotomuseum",
@@ -201,7 +274,13 @@
    "name": "Arca Theater",
    "addr": "Sint-Widostraat 4, 9000 Gent",
    "url": "https://www.arcatheater.be/agenda/",
-   "kind": "theatre"
+   "kind": "theatre",
+   "bg": "Cultural house",
+   "tied": "Theatre in Ghent",
+   "funded": "unknown",
+   "src": [
+    "https://www.arcatheater.be/agenda/"
+   ]
   },
   "opera": {
    "name": "Opera Ballet Vlaanderen",
@@ -220,6 +299,102 @@
    "addr": "various, within 25 km of Gent",
    "url": "https://www.opendoek.be/beleven/kalender",
    "kind": "amateur theatre companies"
+  },
+  "deburen": {
+   "name": "deBuren",
+   "addr": "Leopoldstraat 6, 1000 Brussel",
+   "url": "https://deburen.eu/programma",
+   "kind": "Flemish-Dutch house for culture and debate",
+   "bg": "Debate house",
+   "tied": "Calls itself the Flemish-Dutch house for culture and debate",
+   "funded": "unknown (own site does not say)",
+   "src": [
+    "https://deburen.eu/"
+   ]
+  },
+  "passaporta": {
+   "name": "Passa Porta",
+   "addr": "Brussel",
+   "url": "https://www.passaporta.be/nl/kalender",
+   "kind": "international house of literature",
+   "bg": "Cultural house",
+   "tied": "International house of literature, Brussels",
+   "funded": "Partners listed: Literatuur Vlaanderen, Fédération Wallonie-Bruxelles, VGC, City of Brussels, De Standaard, Le Soir (contribution not stated)",
+   "src": [
+    "https://www.passaporta.be/nl"
+   ]
+  },
+  "bozar": {
+   "name": "Bozar",
+   "addr": "Ravensteinstraat 23, 1000 Brussel",
+   "url": "https://www.bozar.be/nl/talks-debates",
+   "kind": "arts centre · talks & debates",
+   "bg": "Cultural house",
+   "tied": "Palais des Beaux-Arts / Paleis voor Schone Kunsten, Brussels",
+   "funded": "Partners listed: federal government, Nationale Loterij, BNP Paribas Fortis, Proximus, Denys, NextGenerationEU, media partners (contribution not stated)",
+   "src": [
+    "https://www.bozar.be/nl"
+   ]
+  },
+  "desingel": {
+   "name": "deSingel",
+   "addr": "Desguinlei 25, 2000 Antwerpen",
+   "url": "https://desingel.be/nl/programma",
+   "kind": "international arts centre · think, talk & do",
+   "bg": "Cultural house",
+   "tied": "Calls itself the international arts centre of Flanders",
+   "funded": "Sponsors listed: Flemish government, City of Antwerp, Klara, Canvas, De Standaard, Knack (contribution not stated)",
+   "src": [
+    "https://desingel.be/nl"
+   ]
+  },
+  "destudio": {
+   "name": "De Studio",
+   "addr": "Antwerpen",
+   "url": "https://www.destudio.com/nl/programma/grid/all",
+   "kind": "arts centre · weerwoord (talks)",
+   "bg": "Cultural house",
+   "tied": "Arts centre in Antwerp",
+   "funded": "unknown (own site does not say)",
+   "src": [
+    "https://www.destudio.com/nl"
+   ]
+  },
+  "kvab": {
+   "name": "KVAB (Royal Flemish Academy)",
+   "addr": "Paleis der Academiën, Hertogsstraat 1, 1000 Brussel (seat)",
+   "url": "https://kvab.be/nl/activiteiten",
+   "kind": "academy of sciences and arts",
+   "bg": "Academy",
+   "tied": "Royal Flemish Academy of Belgium for Science and the Arts",
+   "funded": "Flemish government logo under 'met steun van' (form and amount not stated)",
+   "src": [
+    "https://kvab.be/nl/activiteiten"
+   ]
+  },
+  "kantl": {
+   "name": "KANTL (Royal Academy of Dutch Language and Literature)",
+   "addr": "Koningstraat 18, 9000 Gent (seat)",
+   "url": "https://kantl.be/agenda",
+   "kind": "academy of language and literature",
+   "bg": "Academy",
+   "tied": "Public legal entity sui generis in the Flemish policy domain Culture, Youth, Sport and Media",
+   "funded": "Flemish government (policy domain, per vlaanderen.be)",
+   "src": [
+    "https://www.vlaanderen.be/Organisation/OVO000184"
+   ]
+  },
+  "dekrook": {
+   "name": "Bibliotheek De Krook",
+   "addr": "Miriam Makebaplein 1, 9000 Gent",
+   "url": "https://dekrook.be/agenda",
+   "kind": "city library",
+   "bg": "Public body / city",
+   "tied": "Ghent city library (own agenda)",
+   "funded": "unknown",
+   "src": [
+    "https://dekrook.be/agenda"
+   ]
   }
  },
  "notices": [
@@ -228,7 +403,8 @@
   "Funding for theatre, music and talks: unknown until a source (credits, Kunstendecreet database) is found.",
   "Ciné Rio, Kopergietery, Masereelfonds, Liberas and some poetry events list dates without start times; check the event page.",
   "Talks outside Ghent are included (Antwerp, Brussels, Bruges, Sint-Niklaas and more): use the city filter.",
-  "Exhibitions: temporary exhibitions from archives, heritage institutes and museums in and around Ghent (Antwerp included), shown while they run. Opening hours differ per house; check the page."
+  "Exhibitions: temporary exhibitions from archives, heritage institutes and museums in and around Ghent (Antwerp included), shown while they run. Opening hours differ per house; check the page.",
+  "Talks: debates, lectures, research and poetry evenings in Ghent, Brussels and Antwerp (plus earlier sources elsewhere in Flanders). Each organiser has a fiche with what it is tied to and who funds it, from its own site; otherwise 'unknown'. Party study centres were searched with the same effort for every party; none had public events that could be read (most block automatic reading)."
  ],
  "screenings": [
   {
@@ -241,6 +417,17 @@
    "url": "https://www.museumdrguislain.be/nl/home",
    "k": "archive",
    "city": "Gent"
+  },
+  {
+   "v": "letterenhuis",
+   "d": "2025-09-26",
+   "e": "2026-12-11",
+   "t": "",
+   "title": "Moeders (thema-expo)",
+   "note": "Curated by Anneleen Van Offel, with stories from the archive",
+   "url": "https://letterenhuis.be/nl/kalender",
+   "k": "archive",
+   "city": "Antwerpen"
   },
   {
    "v": "fomu",
@@ -340,6 +527,17 @@
    "url": "https://designmuseumgent.be/en/programme/public-matters-design-and-democracy-guided-tour",
    "k": "archive",
    "city": "Gent"
+  },
+  {
+   "v": "letterenhuis",
+   "d": "2026-10-19",
+   "e": "2026-10-30",
+   "t": "",
+   "title": "Vrouwen in Beeld",
+   "note": "Sculpture students add women writers to the archive's bust collection",
+   "url": "https://letterenhuis.be/nl/kalender",
+   "k": "archive",
+   "city": "Antwerpen"
   },
   {
    "v": "skoop",
@@ -541,7 +739,8 @@
    "k": "talk",
    "city": "Gent",
    "th": "art",
-   "place": "KASK, Zwarte Zaal"
+   "place": "KASK, Zwarte Zaal",
+   "fmt": "lecture"
   },
   {
    "v": "skoop",
@@ -593,7 +792,8 @@
    "k": "talk",
    "th": "politics",
    "place": "UGent",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "debate"
   },
   {
    "v": "skoop",
@@ -615,7 +815,8 @@
    "k": "talk",
    "th": "sociology",
    "place": "UGent",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "lecture"
   },
   {
    "v": "sphinx",
@@ -737,7 +938,8 @@
    "k": "talk",
    "th": "poetry",
    "place": "Kunstcafé Art Base",
-   "city": "Brussel"
+   "city": "Brussel",
+   "fmt": "poetry"
   },
   {
    "v": "ugent",
@@ -749,7 +951,8 @@
    "k": "talk",
    "th": "literature",
    "place": "Bibliotheek De Krook",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "research"
   },
   {
    "v": "skoop",
@@ -1001,7 +1204,8 @@
    "k": "talk",
    "th": "history",
    "place": "Herberg Macharius",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "lecture"
   },
   {
    "v": "ntgent",
@@ -1143,7 +1347,8 @@
    "k": "talk",
    "th": "economics",
    "place": "",
-   "city": ""
+   "city": "",
+   "fmt": "lecture"
   },
   {
    "v": "liberas",
@@ -1155,7 +1360,8 @@
    "k": "talk",
    "th": "history",
    "place": "",
-   "city": ""
+   "city": "",
+   "fmt": "lecture"
   },
   {
    "v": "masereel",
@@ -1167,7 +1373,8 @@
    "k": "talk",
    "th": "sociology",
    "place": "",
-   "city": "Brussel"
+   "city": "Brussel",
+   "fmt": "lecture"
   },
   {
    "v": "rio",
@@ -1560,7 +1767,8 @@
    "k": "talk",
    "th": "history",
    "place": "",
-   "city": "Antwerpen"
+   "city": "Antwerpen",
+   "fmt": "lecture"
   },
   {
    "v": "masereel",
@@ -1572,7 +1780,8 @@
    "k": "talk",
    "th": "politics",
    "place": "",
-   "city": "Sint-Niklaas"
+   "city": "Sint-Niklaas",
+   "fmt": "lecture"
   },
   {
    "v": "viernulvier",
@@ -2035,7 +2244,8 @@
    "k": "talk",
    "th": "politics",
    "place": "",
-   "city": "Brugge"
+   "city": "Brugge",
+   "fmt": "lecture"
   },
   {
    "v": "kask",
@@ -2478,7 +2688,8 @@
    "k": "talk",
    "th": "history",
    "place": "",
-   "city": ""
+   "city": "",
+   "fmt": "lecture"
   },
   {
    "v": "sphinx",
@@ -2709,6 +2920,18 @@
    "url": "https://offoff.be/en/program/te-gast-louis-gahide-brutalités-amoureuses",
    "k": "film",
    "city": "Gent"
+  },
+  {
+   "v": "passaporta",
+   "d": "2026-10-26",
+   "t": "20:00",
+   "title": "Benoît. Artist in architecture",
+   "note": "waiting list",
+   "url": "https://www.passaporta.be/nl/kalender",
+   "k": "talk",
+   "th": "art",
+   "fmt": "lecture",
+   "city": "Brussel"
   },
   {
    "v": "skoop",
@@ -2971,6 +3194,30 @@
    "city": "Gent"
   },
   {
+   "v": "bozar",
+   "d": "2026-10-27",
+   "t": "19:00",
+   "title": "Meet the Artist: Gerard Byrne",
+   "note": "",
+   "url": "https://www.bozar.be/nl/talks-debates",
+   "k": "talk",
+   "th": "art",
+   "fmt": "lecture",
+   "city": "Brussel"
+  },
+  {
+   "v": "bozar",
+   "d": "2026-10-27",
+   "t": "19:30",
+   "title": "Meet the Writer: Deborah Levy",
+   "note": "sold out",
+   "url": "https://www.bozar.be/nl/talks-debates",
+   "k": "talk",
+   "th": "literature",
+   "fmt": "lecture",
+   "city": "Brussel"
+  },
+  {
    "v": "gentleest",
    "d": "2026-10-27",
    "t": "19:30",
@@ -2980,7 +3227,8 @@
    "k": "talk",
    "th": "literature",
    "place": "Blandijn, Auditorium 1",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "lecture"
   },
   {
    "v": "gentleest",
@@ -2992,7 +3240,8 @@
    "k": "talk",
    "th": "literature",
    "place": "Viernulvier",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "lecture"
   },
   {
    "v": "viernulvier",
@@ -3003,7 +3252,8 @@
    "url": "https://www.viernulvier.gent/nl/agenda/uitgelezen-92cv",
    "k": "talk",
    "city": "Gent",
-   "place": "De Vooruit · Theaterzaal"
+   "place": "De Vooruit · Theaterzaal",
+   "fmt": "lecture"
   },
   {
    "v": "skoop",
@@ -3025,7 +3275,8 @@
    "k": "talk",
    "th": "philosophy",
    "place": "Minardschouwburg",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "lecture"
   },
   {
    "v": "skoop",
@@ -3077,7 +3328,8 @@
    "k": "talk",
    "th": "religion",
    "place": "UGent",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "lecture"
   },
   {
    "v": "kask",
@@ -3149,7 +3401,8 @@
    "k": "talk",
    "th": "politics",
    "place": "",
-   "city": "Lokeren"
+   "city": "Lokeren",
+   "fmt": "lecture"
   },
   {
    "v": "skoop",
@@ -3210,7 +3463,8 @@
    "url": "https://schoolofartsgent.be/agenda/jacob-kirkegaard",
    "k": "talk",
    "city": "Gent",
-   "th": "art"
+   "th": "art",
+   "fmt": "research"
   },
   {
    "v": "skoop",
@@ -3312,7 +3566,8 @@
    "k": "talk",
    "th": "poetry",
    "place": "UGent",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "poetry"
   },
   {
    "v": "skoop",
@@ -3325,6 +3580,18 @@
    "city": "Gent"
   },
   {
+   "v": "destudio",
+   "d": "2026-10-28",
+   "t": "20:00",
+   "title": "Boekpresentatie: Misschien komt het (n)ooit",
+   "note": "Sofie Laureys & Kim Parys, on the emotional reality of infertility",
+   "url": "https://www.destudio.com/nl/programma/grid/all",
+   "k": "talk",
+   "th": "psychology",
+   "fmt": "lecture",
+   "city": "Antwerpen"
+  },
+  {
    "v": "miry",
    "d": "2026-10-28",
    "t": "20:00",
@@ -3333,6 +3600,18 @@
    "url": "https://schoolofartsgent.be/agenda/an-sofie-perneel-jef-kolacny-rodrigo-evangelista",
    "k": "music",
    "city": "Gent"
+  },
+  {
+   "v": "passaporta",
+   "d": "2026-10-28",
+   "t": "20:00",
+   "title": "Kaleidoscope 3: geloof, spiritualiteit en kunst op het Ierse eiland",
+   "note": "",
+   "url": "https://www.passaporta.be/nl/kalender",
+   "k": "talk",
+   "th": "religion",
+   "fmt": "lecture",
+   "city": "Brussel"
   },
   {
    "v": "poeziecentrum",
@@ -3344,7 +3623,8 @@
    "k": "talk",
    "th": "poetry",
    "place": "De Krook, zaal Vos en Haas",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "poetry"
   },
   {
    "v": "skoop",
@@ -3478,7 +3758,8 @@
    "k": "talk",
    "th": "politics",
    "place": "",
-   "city": "Antwerpen"
+   "city": "Antwerpen",
+   "fmt": "lecture"
   },
   {
    "v": "rio",
@@ -3491,6 +3772,19 @@
    "city": "Gent"
   },
   {
+   "v": "ugent",
+   "d": "2026-10-28",
+   "t": "",
+   "title": "Symposium: Announcement and implementation effects of central bank asset purchases",
+   "note": "academic symposium",
+   "url": "https://www.ugent.be/nl/agenda",
+   "k": "talk",
+   "th": "economics",
+   "fmt": "research",
+   "city": "Gent",
+   "place": "Buffer Links, Sint-Pietersplein 7"
+  },
+  {
    "v": "broei",
    "d": "2026-10-29",
    "t": "13:00",
@@ -3499,7 +3793,21 @@
    "url": "https://nieuwland.broei.be/agenda/event/12533/",
    "k": "talk",
    "city": "Gent",
-   "th": "sociology"
+   "th": "sociology",
+   "fmt": "debate"
+  },
+  {
+   "v": "dekrook",
+   "d": "2026-10-29",
+   "t": "14:00",
+   "title": "Pluslezing: kunstfilosoof Jacques Rancière",
+   "note": "full",
+   "url": "https://dekrook.be/agenda",
+   "k": "talk",
+   "th": "philosophy",
+   "fmt": "lecture",
+   "city": "Gent",
+   "place": "Bibliotheek De Krook"
   },
   {
    "v": "skoop",
@@ -3611,7 +3919,8 @@
    "k": "talk",
    "th": "politics",
    "place": "Bibliotheek De Krook",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "lecture"
   },
   {
    "v": "skoop",
@@ -3643,6 +3952,18 @@
    "k": "theatre",
    "city": "Gent",
    "place": "Minard"
+  },
+  {
+   "v": "destudio",
+   "d": "2026-10-29",
+   "t": "20:00",
+   "title": "Boekpresentatie: Nooit te klein om groot te denken",
+   "note": "Ilse Daems & Paulien Hilbrink",
+   "url": "https://www.destudio.com/nl/programma/grid/all",
+   "k": "talk",
+   "th": "literature",
+   "fmt": "lecture",
+   "city": "Antwerpen"
   },
   {
    "v": "minard",
@@ -3831,6 +4152,18 @@
    "city": "Gent"
   },
   {
+   "v": "desingel",
+   "d": "2026-10-29",
+   "t": "",
+   "title": "Fauna Talks: Wildvreemd. Waarom onze relatie met wilde dieren een reset nodig heeft",
+   "note": "",
+   "url": "https://desingel.be/nl/programma",
+   "k": "talk",
+   "th": "science",
+   "fmt": "debate",
+   "city": "Antwerpen"
+  },
+  {
    "v": "masereel",
    "d": "2026-10-29",
    "t": "",
@@ -3840,7 +4173,8 @@
    "k": "talk",
    "th": "history",
    "place": "",
-   "city": "Antwerpen"
+   "city": "Antwerpen",
+   "fmt": "lecture"
   },
   {
    "v": "masereel",
@@ -3852,7 +4186,8 @@
    "k": "talk",
    "th": "history",
    "place": "",
-   "city": "Edegem"
+   "city": "Edegem",
+   "fmt": "lecture"
   },
   {
    "v": "masereel",
@@ -3864,7 +4199,8 @@
    "k": "talk",
    "th": "politics",
    "place": "",
-   "city": "Sint-Niklaas"
+   "city": "Sint-Niklaas",
+   "fmt": "lecture"
   },
   {
    "v": "masereel",
@@ -3876,7 +4212,8 @@
    "k": "talk",
    "th": "sociology",
    "place": "",
-   "city": "Oostende"
+   "city": "Oostende",
+   "fmt": "lecture"
   },
   {
    "v": "rio",
@@ -4237,7 +4574,8 @@
    "k": "talk",
    "th": "history",
    "place": "",
-   "city": "Sint-Niklaas"
+   "city": "Sint-Niklaas",
+   "fmt": "lecture"
   },
   {
    "v": "sphinx",
@@ -4462,7 +4800,8 @@
    "url": "https://www.viernulvier.gent/nl/agenda/de-groote-sluitingsprijs-bahamontes-14gw",
    "k": "talk",
    "city": "Gent",
-   "place": "De Vooruit · Theaterzaal"
+   "place": "De Vooruit · Theaterzaal",
+   "fmt": "lecture"
   },
   {
    "v": "viernulvier",
@@ -4556,7 +4895,8 @@
    "k": "talk",
    "th": "poetry",
    "place": "Concertgebouw Brugge",
-   "city": "Brugge"
+   "city": "Brugge",
+   "fmt": "poetry"
   },
   {
    "v": "broei",
@@ -4991,6 +5331,18 @@
    "city": "Gent"
   },
   {
+   "v": "destudio",
+   "d": "2026-11-02",
+   "t": "20:00",
+   "title": "Maandagavonden",
+   "note": "De NWE Tijd",
+   "url": "https://www.destudio.com/nl/programma/grid/all",
+   "k": "talk",
+   "th": "politics",
+   "fmt": "debate",
+   "city": "Antwerpen"
+  },
+  {
    "v": "skoop",
    "d": "2026-11-02",
    "t": "20:00",
@@ -5231,6 +5583,31 @@
    "city": "Gent"
   },
   {
+   "v": "deburen",
+   "d": "2026-11-03",
+   "t": "19:30",
+   "title": "Wat zou Jezus doen? Geloof in tijden van politieke polarisatie",
+   "note": "",
+   "url": "https://deburen.eu/programma",
+   "k": "talk",
+   "th": "religion",
+   "fmt": "debate",
+   "city": "Brussel"
+  },
+  {
+   "v": "ugent",
+   "d": "2026-11-03",
+   "t": "19:30",
+   "title": "Debat: Over datum. Een andere kijk op voedselhulp",
+   "note": "",
+   "url": "https://www.ugent.be/nl/agenda/voedselhulp",
+   "k": "talk",
+   "th": "sociology",
+   "fmt": "debate",
+   "city": "Gent",
+   "place": "De Krook"
+  },
+  {
    "v": "viernulvier",
    "d": "2026-11-03",
    "t": "19:30",
@@ -5239,7 +5616,8 @@
    "url": "https://www.viernulvier.gent/nl/agenda/de-arena-hdk2",
    "k": "talk",
    "city": "Gent",
-   "place": "De Vooruit · Theaterzaal"
+   "place": "De Vooruit · Theaterzaal",
+   "fmt": "lecture"
   },
   {
    "v": "skoop",
@@ -5311,7 +5689,8 @@
    "url": "https://www.viernulvier.gent/nl/agenda/jack-halberstam-x-lisa-vereertbrugghen-z95j",
    "k": "talk",
    "city": "Gent",
-   "place": "De Vooruit · Balzaal"
+   "place": "De Vooruit · Balzaal",
+   "fmt": "lecture"
   },
   {
    "v": "viernulvier",
@@ -5373,6 +5752,18 @@
    "url": "https://www.sphinx-cinema.be/programma",
    "k": "film",
    "city": "Gent"
+  },
+  {
+   "v": "bozar",
+   "d": "2026-11-04",
+   "t": "19:30",
+   "title": "Meet the Writer: Asmaa Azaizeh",
+   "note": "",
+   "url": "https://www.bozar.be/nl/talks-debates",
+   "k": "talk",
+   "th": "poetry",
+   "fmt": "lecture",
+   "city": "Brussel"
   },
   {
    "v": "viernulvier",
@@ -5468,7 +5859,8 @@
    "k": "talk",
    "th": "economics",
    "place": "KU Leuven Campus Brussels",
-   "city": "Brussel"
+   "city": "Brussel",
+   "fmt": "lecture"
   },
   {
    "v": "poeziecentrum",
@@ -5480,7 +5872,8 @@
    "k": "talk",
    "th": "poetry",
    "place": "Arenberg, zaal De Grote",
-   "city": "Antwerpen"
+   "city": "Antwerpen",
+   "fmt": "poetry"
   },
   {
    "v": "sphinx",
@@ -5532,7 +5925,8 @@
    "k": "talk",
    "th": "literature",
    "place": "Boekhandel rokko",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "lecture"
   },
   {
    "v": "gentleest",
@@ -5544,7 +5938,8 @@
    "k": "talk",
    "th": "literature",
    "place": "Auditorium 61",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "lecture"
   },
   {
    "v": "viernulvier",
@@ -5597,7 +5992,8 @@
    "url": "https://www.viernulvier.gent/nl/agenda/boekpresentatie-annie-ernaux-het-werkelijke-leven-jm6b",
    "k": "talk",
    "city": "Gent",
-   "place": "De Vooruit · Balzaal"
+   "place": "De Vooruit · Balzaal",
+   "fmt": "lecture"
   },
   {
    "v": "viernulvier",
@@ -5619,6 +6015,18 @@
    "url": "https://kaskcinema.be/film/the-moment/",
    "k": "film",
    "city": "Gent"
+  },
+  {
+   "v": "desingel",
+   "d": "2026-11-05",
+   "t": "",
+   "title": "In conversation with Olga Ravn: on mysticism, motherhood and writing",
+   "note": "",
+   "url": "https://desingel.be/nl/programma",
+   "k": "talk",
+   "th": "literature",
+   "fmt": "lecture",
+   "city": "Antwerpen"
   },
   {
    "v": "rio",
@@ -5669,7 +6077,8 @@
    "url": "https://www.viernulvier.gent/nl/agenda/olga-ravn-7pwm",
    "k": "talk",
    "city": "Gent",
-   "place": "De Vooruit · Foyer Theaterzaal"
+   "place": "De Vooruit · Foyer Theaterzaal",
+   "fmt": "lecture"
   },
   {
    "v": "viernulvier",
@@ -5692,7 +6101,8 @@
    "k": "talk",
    "th": "poetry",
    "place": "Stadsschouwburg",
-   "city": "Sint-Niklaas"
+   "city": "Sint-Niklaas",
+   "fmt": "poetry"
   },
   {
    "v": "box",
@@ -5759,6 +6169,30 @@
    "place": "De Bijloke Muziekcentrum"
   },
   {
+   "v": "passaporta",
+   "d": "2026-11-06",
+   "t": "20:00",
+   "title": "Christophe Lebold over Leonard Cohen",
+   "note": "sold out",
+   "url": "https://www.passaporta.be/nl/kalender",
+   "k": "talk",
+   "th": "literature",
+   "fmt": "lecture",
+   "city": "Brussel"
+  },
+  {
+   "v": "passaporta",
+   "d": "2026-11-06",
+   "t": "20:00",
+   "title": "Ontmoetingen rond Wozzeck",
+   "note": "",
+   "url": "https://www.passaporta.be/nl/kalender",
+   "k": "talk",
+   "th": "art",
+   "fmt": "lecture",
+   "city": "Brussel"
+  },
+  {
    "v": "viernulvier",
    "d": "2026-11-06",
    "t": "20:00",
@@ -5789,7 +6223,8 @@
    "k": "talk",
    "th": "poetry",
    "place": "Kunsthal Gent",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "poetry"
   },
   {
    "v": "poeziecentrum",
@@ -5801,7 +6236,8 @@
    "k": "talk",
    "th": "poetry",
    "place": "CC CasinoKoksijde",
-   "city": "Koksijde"
+   "city": "Koksijde",
+   "fmt": "poetry"
   },
   {
    "v": "viernulvier",
@@ -5824,7 +6260,8 @@
    "k": "talk",
    "th": "poetry",
    "place": "Stadsschouwburg",
-   "city": "Sint-Niklaas"
+   "city": "Sint-Niklaas",
+   "fmt": "poetry"
   },
   {
    "v": "box",
@@ -5868,6 +6305,18 @@
    "k": "theatre",
    "city": "Gent",
    "place": "NTGent Schouwburg"
+  },
+  {
+   "v": "passaporta",
+   "d": "2026-11-07",
+   "t": "20:00",
+   "title": "Meet the author: Katie Kitamura",
+   "note": "sold out",
+   "url": "https://www.passaporta.be/nl/kalender",
+   "k": "talk",
+   "th": "literature",
+   "fmt": "lecture",
+   "city": "Brussel"
   },
   {
    "v": "viernulvier",
@@ -6081,6 +6530,18 @@
    "city": "Gent"
   },
   {
+   "v": "passaporta",
+   "d": "2026-11-09",
+   "t": "20:00",
+   "title": "Poeticafé: Sandrine Verstraete en Maarten van der Graaff",
+   "note": "",
+   "url": "https://www.passaporta.be/nl/kalender",
+   "k": "talk",
+   "th": "poetry",
+   "fmt": "poetry",
+   "city": "Brussel"
+  },
+  {
    "v": "kask",
    "d": "2026-11-09",
    "t": "20:30",
@@ -6113,6 +6574,18 @@
    "place": "Arsenaalsite"
   },
   {
+   "v": "bozar",
+   "d": "2026-11-10",
+   "t": "19:00",
+   "title": "Meet the Architects: Central",
+   "note": "",
+   "url": "https://www.bozar.be/nl/talks-debates",
+   "k": "talk",
+   "th": "art",
+   "fmt": "lecture",
+   "city": "Brussel"
+  },
+  {
    "v": "gentleest",
    "d": "2026-11-10",
    "t": "19:00",
@@ -6122,7 +6595,8 @@
    "k": "talk",
    "th": "philosophy",
    "place": "Bibliotheek De Krook",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "lecture"
   },
   {
    "v": "viernulvier",
@@ -6177,7 +6651,8 @@
    "k": "talk",
    "th": "sociology",
    "place": "UGent",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "lecture"
   },
   {
    "v": "kask",
@@ -6220,7 +6695,8 @@
    "k": "talk",
    "th": "poetry",
    "place": "De Centrale",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "poetry"
   },
   {
    "v": "masereel",
@@ -6232,7 +6708,8 @@
    "k": "talk",
    "th": "philosophy",
    "place": "",
-   "city": "Brugge"
+   "city": "Brugge",
+   "fmt": "lecture"
   },
   {
    "v": "masereel",
@@ -6244,7 +6721,8 @@
    "k": "talk",
    "th": "sociology",
    "place": "",
-   "city": "Brussel"
+   "city": "Brussel",
+   "fmt": "lecture"
   },
   {
    "v": "miry",
@@ -6297,6 +6775,18 @@
    "city": "Gent"
   },
   {
+   "v": "kantl",
+   "d": "2026-11-11",
+   "t": "",
+   "title": "De KANTL op Boektopia: Maarten Inghels en Julien Neirynck",
+   "note": "",
+   "url": "https://kantl.be/agenda/de-kantl-op-boektopia-maarten-inghels-en-julien-neirynck",
+   "k": "talk",
+   "th": "literature",
+   "fmt": "lecture",
+   "city": "Antwerpen"
+  },
+  {
    "v": "kopergietery",
    "d": "2026-11-12",
    "t": "10:00",
@@ -6308,6 +6798,18 @@
    "place": "Arsenaalsite"
   },
   {
+   "v": "letterenhuis",
+   "d": "2026-11-12",
+   "t": "11:00",
+   "title": "Kom dichter: Myriem El-Kaddouri",
+   "note": "in conversation with Anke Verschueren",
+   "url": "https://letterenhuis.be/nl/kalender",
+   "k": "talk",
+   "th": "poetry",
+   "fmt": "poetry",
+   "city": "Antwerpen"
+  },
+  {
    "v": "gentleest",
    "d": "2026-11-12",
    "t": "12:15",
@@ -6317,7 +6819,8 @@
    "k": "talk",
    "th": "literature",
    "place": "Bibliotheek De Krook",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "lecture"
   },
   {
    "v": "kopergietery",
@@ -6339,7 +6842,21 @@
    "url": "https://schoolofartsgent.be/agenda/laure-prouvost",
    "k": "talk",
    "city": "Gent",
-   "th": "art"
+   "th": "art",
+   "fmt": "lecture"
+  },
+  {
+   "v": "ugent",
+   "d": "2026-11-12",
+   "t": "19:30",
+   "title": "Boekvoorstelling: The Value of Feminist Rage",
+   "note": "",
+   "url": "https://www.ugent.be/nl/agenda/feminist-rage",
+   "k": "talk",
+   "th": "philosophy",
+   "fmt": "lecture",
+   "city": "Gent",
+   "place": "Blandijnberg, Auditorium 4"
   },
   {
    "v": "viernulvier",
@@ -6350,7 +6867,8 @@
    "url": "https://www.viernulvier.gent/nl/agenda/bjorn-gens-nygm",
    "k": "talk",
    "city": "Gent",
-   "place": "De Vooruit · Foyer Theaterzaal"
+   "place": "De Vooruit · Foyer Theaterzaal",
+   "fmt": "lecture"
   },
   {
    "v": "arca",
@@ -6371,6 +6889,18 @@
    "url": "https://www.brtgent.be/",
    "k": "theatre",
    "city": "Gent"
+  },
+  {
+   "v": "bozar",
+   "d": "2026-11-12",
+   "t": "20:00",
+   "title": "Meet the Writer: Zadie Smith",
+   "note": "sold out",
+   "url": "https://www.bozar.be/nl/talks-debates",
+   "k": "talk",
+   "th": "literature",
+   "fmt": "lecture",
+   "city": "Brussel"
   },
   {
    "v": "miry",
@@ -6455,7 +6985,8 @@
    "k": "talk",
    "th": "economics",
    "place": "",
-   "city": ""
+   "city": "",
+   "fmt": "lecture"
   },
   {
    "v": "liberas",
@@ -6467,7 +6998,8 @@
    "k": "talk",
    "th": "history",
    "place": "",
-   "city": ""
+   "city": "",
+   "fmt": "lecture"
   },
   {
    "v": "masereel",
@@ -6479,7 +7011,8 @@
    "k": "talk",
    "th": "history",
    "place": "",
-   "city": "Sint-Niklaas"
+   "city": "Sint-Niklaas",
+   "fmt": "lecture"
   },
   {
    "v": "masereel",
@@ -6491,7 +7024,8 @@
    "k": "talk",
    "th": "history",
    "place": "",
-   "city": "Brussel"
+   "city": "Brussel",
+   "fmt": "lecture"
   },
   {
    "v": "masereel",
@@ -6503,7 +7037,21 @@
    "k": "talk",
    "th": "politics",
    "place": "",
-   "city": "Mortsel"
+   "city": "Mortsel",
+   "fmt": "lecture"
+  },
+  {
+   "v": "ugent",
+   "d": "2026-11-12",
+   "t": "",
+   "title": "Sarton-medaille: Van zorg tot handelswaar, een geschiedenis van de geneeskunde",
+   "note": "",
+   "url": "https://www.ugent.be/nl/agenda",
+   "k": "talk",
+   "th": "history",
+   "fmt": "lecture",
+   "city": "Gent",
+   "place": "UZ Gent, Auditorium Nobel"
   },
   {
    "v": "kopergietery",
@@ -6525,7 +7073,8 @@
    "url": "https://www.viernulvier.gent/nl/agenda/kunst-onder-druk-flh6",
    "k": "talk",
    "city": "Gent",
-   "place": "De Vooruit · Foyer Theaterzaal"
+   "place": "De Vooruit · Foyer Theaterzaal",
+   "fmt": "lecture"
   },
   {
    "v": "viernulvier",
@@ -6621,8 +7170,9 @@
    "url": "https://www.ugent.be/nl/agenda/masha-gessen",
    "k": "talk",
    "th": "politics",
-   "place": "UGent",
-   "city": "Gent"
+   "place": "De Singel",
+   "city": "Antwerpen",
+   "fmt": "lecture"
   },
   {
    "v": "viernulvier",
@@ -6667,6 +7217,19 @@
    "k": "dance",
    "city": "Gent",
    "place": "CAMPO nieuwpoort"
+  },
+  {
+   "v": "deburen",
+   "d": "2026-11-13",
+   "t": "",
+   "title": "We zullen doorgaan: festival van twijfel, hoop en vervoering",
+   "note": "13 and 14 Nov",
+   "url": "https://deburen.eu/programma",
+   "k": "talk",
+   "th": "literature",
+   "fmt": "lecture",
+   "city": "Antwerpen",
+   "place": "De Studio"
   },
   {
    "v": "decentrale",
@@ -6828,6 +7391,18 @@
    "city": "Gent"
   },
   {
+   "v": "kantl",
+   "d": "2026-11-14",
+   "t": "",
+   "title": "Maurice Gilliams-lezing: Wij zijn de afleiding",
+   "note": "with Stichting Vita Brevis",
+   "url": "https://kantl.be/agenda/maurice-gilliams-lezing-wij-zijn-de-afleiding",
+   "k": "talk",
+   "th": "literature",
+   "fmt": "lecture",
+   "city": ""
+  },
+  {
    "v": "kopergietery",
    "d": "2026-11-15",
    "t": "11:00",
@@ -6911,7 +7486,8 @@
    "k": "talk",
    "th": "politics",
    "place": "",
-   "city": ""
+   "city": "",
+   "fmt": "lecture"
   },
   {
    "v": "sphinx",
@@ -6933,7 +7509,8 @@
    "k": "talk",
    "th": "politics",
    "place": "UGent",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "lecture"
   },
   {
    "v": "kasklez",
@@ -6944,7 +7521,20 @@
    "url": "https://schoolofartsgent.be/agenda/yasmine-ostendorf-rodríguez",
    "k": "talk",
    "city": "Gent",
-   "th": "art"
+   "th": "art",
+   "fmt": "lecture"
+  },
+  {
+   "v": "bozar",
+   "d": "2026-11-17",
+   "t": "19:00",
+   "title": "Checkpoint Brussels: a live news programme",
+   "note": "",
+   "url": "https://www.bozar.be/nl/talks-debates",
+   "k": "talk",
+   "th": "politics",
+   "fmt": "debate",
+   "city": "Brussel"
   },
   {
    "v": "gentleest",
@@ -6956,7 +7546,8 @@
    "k": "talk",
    "th": "literature",
    "place": "Viernulvier",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "lecture"
   },
   {
    "v": "kasklez",
@@ -6968,7 +7559,8 @@
    "k": "talk",
    "city": "Gent",
    "th": "politics",
-   "place": "MIRY Concertzaal"
+   "place": "MIRY Concertzaal",
+   "fmt": "lecture"
   },
   {
    "v": "viernulvier",
@@ -6979,7 +7571,20 @@
    "url": "https://www.viernulvier.gent/nl/agenda/uitgelezen-45ml",
    "k": "talk",
    "city": "Gent",
-   "place": "De Vooruit · Theaterzaal"
+   "place": "De Vooruit · Theaterzaal",
+   "fmt": "lecture"
+  },
+  {
+   "v": "passaporta",
+   "d": "2026-11-17",
+   "t": "20:00",
+   "title": "Verschijningen: Jaap Robben, Sien Volders, Els Snick en Wout Vermijs",
+   "note": "",
+   "url": "https://www.passaporta.be/nl/kalender/verschijningen-jaap-robben-sien-volders-els-snick-en-wout-vermijs",
+   "k": "talk",
+   "th": "literature",
+   "fmt": "lecture",
+   "city": "Brussel"
   },
   {
    "v": "ugent",
@@ -6991,7 +7596,8 @@
    "k": "talk",
    "th": "sociology",
    "place": "UGent",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "lecture"
   },
   {
    "v": "kask",
@@ -7014,6 +7620,18 @@
    "city": "Gent"
   },
   {
+   "v": "kvab",
+   "d": "2026-11-17",
+   "t": "",
+   "title": "De toekomst van onderzoek in het tijdperk van generatieve en agentic AI",
+   "note": "",
+   "url": "https://kvab.be/nl/activiteiten/de-toekomst-van-onderzoek-het-tijdperk-van-generatieve-en-agentic-ai",
+   "k": "talk",
+   "th": "science",
+   "fmt": "research",
+   "city": ""
+  },
+  {
    "v": "sphinx",
    "d": "2026-11-18",
    "t": "17:30",
@@ -7022,6 +7640,18 @@
    "url": "https://www.sphinx-cinema.be/programma",
    "k": "film",
    "city": "Gent"
+  },
+  {
+   "v": "bozar",
+   "d": "2026-11-18",
+   "t": "19:30",
+   "title": "Meet the Writer: Georgi Gospodinov",
+   "note": "sold out",
+   "url": "https://www.bozar.be/nl/talks-debates",
+   "k": "talk",
+   "th": "literature",
+   "fmt": "lecture",
+   "city": "Brussel"
   },
   {
    "v": "viernulvier",
@@ -7096,7 +7726,32 @@
    "k": "talk",
    "th": "economics",
    "place": "",
+   "city": "",
+   "fmt": "lecture"
+  },
+  {
+   "v": "kvab",
+   "d": "2026-11-18",
+   "t": "",
+   "title": "Da Vincilezing: Panamarenko, een man tussen kunst en wetenschap",
+   "note": "Jo Coucke",
+   "url": "https://kvab.be/en/activiteiten/da-vincilezing-panamarenko-een-man-tussen-kunst-en-wetenschap",
+   "k": "talk",
+   "th": "art",
+   "fmt": "lecture",
    "city": ""
+  },
+  {
+   "v": "letterenhuis",
+   "d": "2026-11-18",
+   "t": "",
+   "title": "Studiedag Versnipperde moeders: moederschap in/en het archief",
+   "note": "with UAntwerpen and AP School of Arts",
+   "url": "https://letterenhuis.be/nl/kalender",
+   "k": "talk",
+   "th": "literature",
+   "fmt": "research",
+   "city": "Antwerpen"
   },
   {
    "v": "kopergietery",
@@ -7130,7 +7785,8 @@
    "k": "talk",
    "th": "religion",
    "place": "UGent",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "lecture"
   },
   {
    "v": "kasklez",
@@ -7141,7 +7797,8 @@
    "url": "https://schoolofartsgent.be/agenda/minne-kersten",
    "k": "talk",
    "city": "Gent",
-   "th": "art"
+   "th": "art",
+   "fmt": "lecture"
   },
   {
    "v": "gentleest",
@@ -7153,7 +7810,8 @@
    "k": "talk",
    "th": "politics",
    "place": "Bibliotheek De Krook",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "debate"
   },
   {
    "v": "viernulvier",
@@ -7290,7 +7948,8 @@
    "k": "talk",
    "th": "history",
    "place": "",
-   "city": ""
+   "city": "",
+   "fmt": "lecture"
   },
   {
    "v": "masereel",
@@ -7302,7 +7961,8 @@
    "k": "talk",
    "th": "history",
    "place": "",
-   "city": "Oostende"
+   "city": "Oostende",
+   "fmt": "lecture"
   },
   {
    "v": "masereel",
@@ -7314,7 +7974,8 @@
    "k": "talk",
    "th": "sociology",
    "place": "",
-   "city": "Antwerpen"
+   "city": "Antwerpen",
+   "fmt": "lecture"
   },
   {
    "v": "masereel",
@@ -7326,7 +7987,8 @@
    "k": "talk",
    "th": "sociology",
    "place": "",
-   "city": "Brugge"
+   "city": "Brugge",
+   "fmt": "lecture"
   },
   {
    "v": "masereel",
@@ -7338,7 +8000,8 @@
    "k": "talk",
    "th": "politics",
    "place": "",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "lecture"
   },
   {
    "v": "masereel",
@@ -7350,7 +8013,8 @@
    "k": "talk",
    "th": "history",
    "place": "",
-   "city": "Edegem"
+   "city": "Edegem",
+   "fmt": "lecture"
   },
   {
    "v": "sphinx",
@@ -7437,7 +8101,8 @@
    "k": "talk",
    "th": "poetry",
    "place": "CAMPO nieuwpoort",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "poetry"
   },
   {
    "v": "sphinx",
@@ -7490,7 +8155,8 @@
    "k": "talk",
    "th": "history",
    "place": "",
-   "city": "Oostende"
+   "city": "Oostende",
+   "fmt": "lecture"
   },
   {
    "v": "stam",
@@ -7504,6 +8170,19 @@
    "city": "Gent"
   },
   {
+   "v": "ugent",
+   "d": "2026-11-20",
+   "t": "",
+   "title": "Moving towards value-based healthcare: economic evaluations in new models of care",
+   "note": "",
+   "url": "https://www.ugent.be/nl/agenda",
+   "k": "talk",
+   "th": "economics",
+   "fmt": "research",
+   "city": "Gent",
+   "place": "The Core, UZ Gent (or livestream)"
+  },
+  {
    "v": "gentleest",
    "d": "2026-11-21",
    "t": "10:15",
@@ -7513,7 +8192,8 @@
    "k": "talk",
    "th": "poetry",
    "place": "Bibliotheek De Krook",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "poetry"
   },
   {
    "v": "viernulvier",
@@ -7524,7 +8204,8 @@
    "url": "https://www.viernulvier.gent/nl/agenda/nacht-van-de-vrijdenker-2026-143x",
    "k": "talk",
    "city": "Gent",
-   "place": "Diverse locaties"
+   "place": "Diverse locaties",
+   "fmt": "lecture"
   },
   {
    "v": "sphinx",
@@ -7903,7 +8584,8 @@
    "k": "talk",
    "th": "religion",
    "place": "UGent",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "lecture"
   },
   {
    "v": "viernulvier",
@@ -7936,7 +8618,21 @@
    "k": "talk",
    "th": "politics",
    "place": "",
-   "city": "Lokeren"
+   "city": "Lokeren",
+   "fmt": "lecture"
+  },
+  {
+   "v": "ugent",
+   "d": "2026-11-24",
+   "t": "",
+   "title": "Wetenschapscafé: Chips, spitstechnologie in je binnenzak",
+   "note": "",
+   "url": "https://www.ugent.be/nl/agenda",
+   "k": "talk",
+   "th": "science",
+   "fmt": "research",
+   "city": "Gent",
+   "place": "Eetcafé Toreke"
   },
   {
    "v": "viernulvier",
@@ -8004,6 +8700,19 @@
   },
   {
    "v": "ugent",
+   "d": "2026-11-25",
+   "t": "",
+   "title": "Symposium: Institutional Dramaturgies. Histories, Encounters, Disruptions",
+   "note": "",
+   "url": "https://www.ugent.be/nl/agenda/institutional-dramaturgies",
+   "k": "talk",
+   "th": "art",
+   "fmt": "research",
+   "city": "Gent",
+   "place": "GUM"
+  },
+  {
+   "v": "ugent",
    "d": "2026-11-26",
    "t": "16:00",
    "title": "Waqf Economy and Power Networks in Fifteenth-Century Cairo",
@@ -8012,7 +8721,8 @@
    "k": "talk",
    "th": "economics",
    "place": "UGent",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "lecture"
   },
   {
    "v": "viernulvier",
@@ -8024,6 +8734,18 @@
    "k": "theatre",
    "city": "Gent",
    "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "destudio",
+   "d": "2026-11-26",
+   "t": "20:00",
+   "title": "Wat is een moeder eigenlijk?",
+   "note": "closing night of the Letterenhuis theme year 'Moeders'",
+   "url": "https://www.destudio.com/nl/programma/grid/all",
+   "k": "talk",
+   "th": "literature",
+   "fmt": "lecture",
+   "city": "Antwerpen"
   },
   {
    "v": "ntgent",
@@ -8112,6 +8834,18 @@
    "city": "Gent"
   },
   {
+   "v": "kantl",
+   "d": "2026-11-26",
+   "t": "",
+   "title": "Streektaalconferentie 2026: over Menno, Vandenbussche en Muilebeik",
+   "note": "",
+   "url": "https://kantl.be/agenda/streektaalconferentie-2026-over-menno-vandenbussche-en-muilebeik",
+   "k": "talk",
+   "th": "literature",
+   "fmt": "research",
+   "city": ""
+  },
+  {
    "v": "masereel",
    "d": "2026-11-26",
    "t": "",
@@ -8121,7 +8855,8 @@
    "k": "talk",
    "th": "history",
    "place": "",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "lecture"
   },
   {
    "v": "masereel",
@@ -8133,7 +8868,8 @@
    "k": "talk",
    "th": "psychology",
    "place": "",
-   "city": "Antwerpen"
+   "city": "Antwerpen",
+   "fmt": "lecture"
   },
   {
    "v": "masereel",
@@ -8145,7 +8881,8 @@
    "k": "talk",
    "th": "history",
    "place": "",
-   "city": "Sint-Niklaas"
+   "city": "Sint-Niklaas",
+   "fmt": "lecture"
   },
   {
    "v": "masereel",
@@ -8157,7 +8894,8 @@
    "k": "talk",
    "th": "history",
    "place": "",
-   "city": "Hasselt"
+   "city": "Hasselt",
+   "fmt": "lecture"
   },
   {
    "v": "rio",
@@ -8168,6 +8906,19 @@
    "url": "https://dekoer.be/programma/rio-zona-norte-film/",
    "k": "film",
    "city": "Gent"
+  },
+  {
+   "v": "ugent",
+   "d": "2026-11-26",
+   "t": "",
+   "title": "Van infectieziekten tot chronische aandoeningen: doodsoorzaken in België sinds de 18e eeuw",
+   "note": "",
+   "url": "https://www.ugent.be/nl/agenda",
+   "k": "talk",
+   "th": "history",
+   "fmt": "lecture",
+   "city": "Gent",
+   "place": "Campus UZ Gent"
   },
   {
    "v": "viernulvier",
@@ -8190,6 +8941,18 @@
    "k": "music",
    "city": "Gent",
    "place": "Meerdere locaties"
+  },
+  {
+   "v": "deburen",
+   "d": "2026-11-27",
+   "t": "19:30",
+   "title": "Debatdate",
+   "note": "",
+   "url": "https://deburen.eu/programma",
+   "k": "talk",
+   "th": "politics",
+   "fmt": "debate",
+   "city": "Brussel"
   },
   {
    "v": "viernulvier",
@@ -8331,6 +9094,18 @@
    "place": "De Vooruit · Concertzaal"
   },
   {
+   "v": "kantl",
+   "d": "2026-11-27",
+   "t": "",
+   "title": "Colloquium Taal & Tongval: taalvariatie en AI",
+   "note": "",
+   "url": "https://kantl.be/agenda",
+   "k": "talk",
+   "th": "literature",
+   "fmt": "research",
+   "city": ""
+  },
+  {
    "v": "opendoek",
    "d": "2026-11-28",
    "t": "14:00",
@@ -8350,7 +9125,8 @@
    "url": "https://www.viernulvier.gent/nl/agenda/cbk-poetry-slam-b8s1",
    "k": "talk",
    "city": "Gent",
-   "place": "De Vooruit · Theaterzaal"
+   "place": "De Vooruit · Theaterzaal",
+   "fmt": "lecture"
   },
   {
    "v": "opendoek",
@@ -8522,7 +9298,8 @@
    "k": "talk",
    "th": "politics",
    "place": "",
-   "city": "Halle"
+   "city": "Halle",
+   "fmt": "lecture"
   },
   {
    "v": "rio",
@@ -8553,6 +9330,18 @@
    "url": "https://dekoer.be/programma/the-day-after-how-to-make-kimchi-or-how-to-be-korean-film/",
    "k": "film",
    "city": "Gent"
+  },
+  {
+   "v": "bozar",
+   "d": "2026-11-30",
+   "t": "19:30",
+   "title": "State of Cinema 2026: Nicolas Philibert",
+   "note": "with a screening",
+   "url": "https://www.bozar.be/nl/talks-debates",
+   "k": "talk",
+   "th": "art",
+   "fmt": "lecture",
+   "city": "Brussel"
   },
   {
    "v": "opendoek",
@@ -8586,7 +9375,20 @@
    "k": "talk",
    "th": "philosophy",
    "place": "",
-   "city": "Brugge"
+   "city": "Brugge",
+   "fmt": "lecture"
+  },
+  {
+   "v": "bozar",
+   "d": "2026-12-01",
+   "t": "19:00",
+   "title": "Meet the Architects: So-IL",
+   "note": "",
+   "url": "https://www.bozar.be/nl/talks-debates",
+   "k": "talk",
+   "th": "art",
+   "fmt": "lecture",
+   "city": "Brussel"
   },
   {
    "v": "kasklez",
@@ -8598,7 +9400,8 @@
    "k": "talk",
    "city": "Gent",
    "th": "politics",
-   "place": "Vooruit, Balzaal"
+   "place": "Vooruit, Balzaal",
+   "fmt": "lecture"
   },
   {
    "v": "viernulvier",
@@ -8609,7 +9412,8 @@
    "url": "https://www.viernulvier.gent/nl/agenda/de-arena-fl79",
    "k": "talk",
    "city": "Gent",
-   "place": "De Vooruit · Theaterzaal"
+   "place": "De Vooruit · Theaterzaal",
+   "fmt": "lecture"
   },
   {
    "v": "viernulvier",
@@ -8620,7 +9424,8 @@
    "url": "https://www.viernulvier.gent/nl/agenda/nele-buyst-yx6d",
    "k": "talk",
    "city": "Gent",
-   "place": "De Vooruit · Balzaal"
+   "place": "De Vooruit · Balzaal",
+   "fmt": "lecture"
   },
   {
    "v": "ugent",
@@ -8632,7 +9437,8 @@
    "k": "talk",
    "th": "history",
    "place": "UGent",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "lecture"
   },
   {
    "v": "kasklez",
@@ -8643,7 +9449,8 @@
    "url": "https://schoolofartsgent.be/agenda/peter-cusack",
    "k": "talk",
    "city": "Gent",
-   "th": "art"
+   "th": "art",
+   "fmt": "research"
   },
   {
    "v": "campo",
@@ -8720,7 +9527,8 @@
    "url": "https://schoolofartsgent.be/agenda/apparatus-22",
    "k": "talk",
    "city": "Gent",
-   "th": "art"
+   "th": "art",
+   "fmt": "lecture"
   },
   {
    "v": "campo",
@@ -8789,6 +9597,18 @@
    "place": "CAMPO victoria"
   },
   {
+   "v": "kantl",
+   "d": "2026-12-03",
+   "t": "",
+   "title": "Ωhm-sessie: Durf dichten. Poëzie en engagement",
+   "note": "",
+   "url": "https://kantl.be/agenda",
+   "k": "talk",
+   "th": "poetry",
+   "fmt": "poetry",
+   "city": ""
+  },
+  {
    "v": "liberas",
    "d": "2026-12-03",
    "t": "",
@@ -8798,7 +9618,8 @@
    "k": "talk",
    "th": "history",
    "place": "",
-   "city": ""
+   "city": "",
+   "fmt": "lecture"
   },
   {
    "v": "masereel",
@@ -8810,7 +9631,8 @@
    "k": "talk",
    "th": "economics",
    "place": "",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "lecture"
   },
   {
    "v": "masereel",
@@ -8822,7 +9644,8 @@
    "k": "talk",
    "th": "politics",
    "place": "",
-   "city": "Antwerpen"
+   "city": "Antwerpen",
+   "fmt": "lecture"
   },
   {
    "v": "rio",
@@ -8876,6 +9699,18 @@
    "url": "/programma/dossier-bert.html",
    "k": "theatre",
    "city": "Gent"
+  },
+  {
+   "v": "deburen",
+   "d": "2026-12-04",
+   "t": "20:00",
+   "title": "Wie wint Het Rode Oor & De Stoute Stift 2026?",
+   "note": "",
+   "url": "https://deburen.eu/programma",
+   "k": "talk",
+   "th": "literature",
+   "fmt": "lecture",
+   "city": "Antwerpen"
   },
   {
    "v": "miry",
@@ -9047,6 +9882,43 @@
    "city": "Gent"
   },
   {
+   "v": "destudio",
+   "d": "2026-12-07",
+   "t": "20:00",
+   "title": "Maandagavonden",
+   "note": "De NWE Tijd",
+   "url": "https://www.destudio.com/nl/programma/grid/all",
+   "k": "talk",
+   "th": "politics",
+   "fmt": "debate",
+   "city": "Antwerpen"
+  },
+  {
+   "v": "ugent",
+   "d": "2026-12-08",
+   "t": "08:30",
+   "title": "Symposium GAPSYM19: Voices, Rights, Justice in Africa",
+   "note": "",
+   "url": "https://www.ugent.be/nl/agenda/gapsym19",
+   "k": "talk",
+   "th": "politics",
+   "fmt": "research",
+   "city": "Gent",
+   "place": "De Krook, zaal De Blauwe Vogel"
+  },
+  {
+   "v": "bozar",
+   "d": "2026-12-08",
+   "t": "19:30",
+   "title": "Meet the Writers: José Eduardo Agualusa & Mohamed Mbougar Sarr",
+   "note": "",
+   "url": "https://www.bozar.be/nl/talks-debates",
+   "k": "talk",
+   "th": "literature",
+   "fmt": "lecture",
+   "city": "Brussel"
+  },
+  {
    "v": "ugent",
    "d": "2026-12-08",
    "t": "19:30",
@@ -9056,7 +9928,8 @@
    "k": "talk",
    "th": "politics",
    "place": "UGent",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "lecture"
   },
   {
    "v": "viernulvier",
@@ -9067,7 +9940,8 @@
    "url": "https://www.viernulvier.gent/nl/agenda/de-spreekbeurt-13-flgx",
    "k": "talk",
    "city": "Gent",
-   "place": "De Vooruit · Theaterzaal"
+   "place": "De Vooruit · Theaterzaal",
+   "fmt": "lecture"
   },
   {
    "v": "ugent",
@@ -9079,7 +9953,8 @@
    "k": "talk",
    "th": "religion",
    "place": "UGent",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "lecture"
   },
   {
    "v": "masereel",
@@ -9091,7 +9966,8 @@
    "k": "talk",
    "th": "philosophy",
    "place": "",
-   "city": "Brugge"
+   "city": "Brugge",
+   "fmt": "lecture"
   },
   {
    "v": "kasklez",
@@ -9102,7 +9978,8 @@
    "url": "https://schoolofartsgent.be/agenda/hannah-kemp-welch",
    "k": "talk",
    "city": "Gent",
-   "th": "art"
+   "th": "art",
+   "fmt": "research"
   },
   {
    "v": "kasklez",
@@ -9114,7 +9991,8 @@
    "k": "talk",
    "city": "Gent",
    "th": "sociology",
-   "place": "KASKcinema"
+   "place": "KASKcinema",
+   "fmt": "lecture"
   },
   {
    "v": "viernulvier",
@@ -9190,7 +10068,8 @@
    "url": "https://schoolofartsgent.be/agenda/larry-achiampong",
    "k": "talk",
    "city": "Gent",
-   "th": "art"
+   "th": "art",
+   "fmt": "lecture"
   },
   {
    "v": "box",
@@ -9223,7 +10102,8 @@
    "k": "talk",
    "th": "literature",
    "place": "",
-   "city": "Antwerpen"
+   "city": "Antwerpen",
+   "fmt": "lecture"
   },
   {
    "v": "masereel",
@@ -9235,7 +10115,8 @@
    "k": "talk",
    "th": "history",
    "place": "",
-   "city": "Brussel"
+   "city": "Brussel",
+   "fmt": "lecture"
   },
   {
    "v": "rio",
@@ -9308,7 +10189,8 @@
    "url": "https://kunsthal.gent/en/agenda/gaza-cultural-infrastructure-1970s-1990s",
    "k": "talk",
    "city": "Gent",
-   "th": "history"
+   "th": "history",
+   "fmt": "lecture"
   },
   {
    "v": "miry",
@@ -9341,7 +10223,20 @@
    "k": "talk",
    "th": "history",
    "place": "",
-   "city": "Brugge"
+   "city": "Brugge",
+   "fmt": "lecture"
+  },
+  {
+   "v": "bozar",
+   "d": "2026-12-12",
+   "t": "19:30",
+   "title": "Meet the Thinker: Claire Marin",
+   "note": "",
+   "url": "https://www.bozar.be/nl/talks-debates",
+   "k": "talk",
+   "th": "philosophy",
+   "fmt": "lecture",
+   "city": "Brussel"
   },
   {
    "v": "opendoek",
@@ -9364,7 +10259,8 @@
    "k": "talk",
    "th": "sociology",
    "place": "",
-   "city": "Brugge"
+   "city": "Brugge",
+   "fmt": "lecture"
   },
   {
    "v": "opendoek",
@@ -9478,7 +10374,8 @@
    "k": "talk",
    "th": "history",
    "place": "",
-   "city": "Sint-Niklaas"
+   "city": "Sint-Niklaas",
+   "fmt": "lecture"
   },
   {
    "v": "masereel",
@@ -9490,7 +10387,8 @@
    "k": "talk",
    "th": "philosophy",
    "place": "",
-   "city": "Brugge"
+   "city": "Brugge",
+   "fmt": "lecture"
   },
   {
    "v": "skoop",
@@ -9544,7 +10442,20 @@
    "k": "talk",
    "th": "sociology",
    "place": "UGent",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "research"
+  },
+  {
+   "v": "bozar",
+   "d": "2026-12-16",
+   "t": "19:00",
+   "title": "Checkpoint Brussels: a live news programme",
+   "note": "",
+   "url": "https://www.bozar.be/nl/talks-debates",
+   "k": "talk",
+   "th": "politics",
+   "fmt": "debate",
+   "city": "Brussel"
   },
   {
    "v": "viernulvier",
@@ -9555,7 +10466,8 @@
    "url": "https://www.viernulvier.gent/nl/agenda/nacht-van-de-schrijvers-en-denkers-143c",
    "k": "talk",
    "city": "Gent",
-   "place": "De Vooruit · Theaterzaal"
+   "place": "De Vooruit · Theaterzaal",
+   "fmt": "lecture"
   },
   {
    "v": "gentleest",
@@ -9567,7 +10479,8 @@
    "k": "talk",
    "th": "literature",
    "place": "Bibliotheek De Krook",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "lecture"
   },
   {
    "v": "arca",
@@ -9577,7 +10490,8 @@
    "note": "",
    "url": "https://www.arcatheater.be/evenement/visual-disruption-day/",
    "k": "talk",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "lecture"
   },
   {
    "v": "kasklez",
@@ -9588,7 +10502,8 @@
    "url": "https://schoolofartsgent.be/agenda/mike-sperlinger-ian-white",
    "k": "talk",
    "city": "Gent",
-   "th": "art"
+   "th": "art",
+   "fmt": "lecture"
   },
   {
    "v": "gentleest",
@@ -9600,7 +10515,8 @@
    "k": "talk",
    "th": "philosophy",
    "place": "Bibliotheek De Krook",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "debate"
   },
   {
    "v": "decentrale",
@@ -9622,7 +10538,8 @@
    "k": "talk",
    "th": "history",
    "place": "",
-   "city": ""
+   "city": "",
+   "fmt": "lecture"
   },
   {
    "v": "rio",
@@ -9730,6 +10647,19 @@
    "place": "De Expeditie"
   },
   {
+   "v": "ugent",
+   "d": "2027-01-04",
+   "t": "",
+   "title": "Symposium: Bridging Borders. International academic collaboration in a fragmented world",
+   "note": "",
+   "url": "https://www.ugent.be/nl/agenda",
+   "k": "talk",
+   "th": "politics",
+   "fmt": "research",
+   "city": "Gent",
+   "place": "Wintercircus"
+  },
+  {
    "v": "kopergietery",
    "d": "2027-01-05",
    "t": "10:00",
@@ -9761,6 +10691,18 @@
    "k": "theatre",
    "city": "Gent",
    "place": "De Expeditie"
+  },
+  {
+   "v": "bozar",
+   "d": "2027-01-06",
+   "t": "",
+   "title": "Meet the Thinker: Benjamin Moser",
+   "note": "",
+   "url": "https://www.bozar.be/nl/talks-debates",
+   "k": "talk",
+   "th": "literature",
+   "fmt": "lecture",
+   "city": "Brussel"
   },
   {
    "v": "kopergietery",
@@ -9838,6 +10780,18 @@
    "city": "Gent"
   },
   {
+   "v": "bozar",
+   "d": "2027-01-13",
+   "t": "19:30",
+   "title": "Mark Fisher Tribute",
+   "note": "talk + film",
+   "url": "https://www.bozar.be/nl/talks-debates",
+   "k": "talk",
+   "th": "philosophy",
+   "fmt": "lecture",
+   "city": "Brussel"
+  },
+  {
    "v": "decentrale",
    "d": "2027-01-14",
    "t": "",
@@ -9846,6 +10800,19 @@
    "url": "https://www.decentrale.be/nl/agenda/muziek/call-to-prayer",
    "k": "music",
    "city": "Gent"
+  },
+  {
+   "v": "ugent",
+   "d": "2027-01-14",
+   "t": "",
+   "title": "Bepaalde astma het leven en werk van beroemde componisten?",
+   "note": "",
+   "url": "https://www.ugent.be/nl/agenda",
+   "k": "talk",
+   "th": "science",
+   "fmt": "lecture",
+   "city": "Gent",
+   "place": "Campus UZ Gent"
   },
   {
    "v": "box",
@@ -9944,6 +10911,18 @@
    "k": "theatre",
    "city": "Gent",
    "place": "de Vooruit"
+  },
+  {
+   "v": "bozar",
+   "d": "2027-01-21",
+   "t": "19:30",
+   "title": "Meet the Writers: Priya Basil & Maaza Mengiste",
+   "note": "",
+   "url": "https://www.bozar.be/nl/talks-debates",
+   "k": "talk",
+   "th": "literature",
+   "fmt": "lecture",
+   "city": "Brussel"
   },
   {
    "v": "campo",
@@ -10063,7 +11042,20 @@
    "url": "https://www.viernulvier.gent/nl/agenda/uitgelezen-m1tt",
    "k": "talk",
    "city": "Gent",
-   "place": "De Vooruit · Theaterzaal"
+   "place": "De Vooruit · Theaterzaal",
+   "fmt": "lecture"
+  },
+  {
+   "v": "bozar",
+   "d": "2027-01-27",
+   "t": "20:00",
+   "title": "Literaire nocturne Jean Brusselmans",
+   "note": "Tülin Erkan, Bart Meuleman, Tijl Nuyts, Aya Sabi & Lize Spit",
+   "url": "https://www.bozar.be/nl/talks-debates",
+   "k": "talk",
+   "th": "literature",
+   "fmt": "lecture",
+   "city": "Brussel"
   },
   {
    "v": "campo",
@@ -10097,7 +11089,8 @@
    "k": "talk",
    "th": "poetry",
    "place": "Bibliotheek De Krook",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "poetry"
   },
   {
    "v": "campo",
@@ -10207,6 +11200,18 @@
    "place": "CAMPO Nieuwpoort"
   },
   {
+   "v": "destudio",
+   "d": "2027-02-01",
+   "t": "20:00",
+   "title": "Maandagavonden",
+   "note": "De NWE Tijd",
+   "url": "https://www.destudio.com/nl/programma/grid/all",
+   "k": "talk",
+   "th": "politics",
+   "fmt": "debate",
+   "city": "Antwerpen"
+  },
+  {
    "v": "ntgent",
    "d": "2027-02-02",
    "t": "20:00",
@@ -10228,6 +11233,18 @@
    "city": "Gent"
   },
   {
+   "v": "destudio",
+   "d": "2027-02-03",
+   "t": "20:00",
+   "title": "Vijfde Verzetscafé",
+   "note": "12+",
+   "url": "https://www.destudio.com/nl/programma/grid/all",
+   "k": "talk",
+   "th": "politics",
+   "fmt": "debate",
+   "city": "Antwerpen"
+  },
+  {
    "v": "gentleest",
    "d": "2027-02-03",
    "t": "20:00",
@@ -10237,7 +11254,8 @@
    "k": "talk",
    "th": "literature",
    "place": "Bibliotheek De Krook",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "lecture"
   },
   {
    "v": "ntgent",
@@ -10270,7 +11288,8 @@
    "url": "https://www.viernulvier.gent/nl/agenda/bart-schols-karel-van-mileghem-5jsv",
    "k": "talk",
    "city": "Gent",
-   "place": "De Vooruit · Theaterzaal"
+   "place": "De Vooruit · Theaterzaal",
+   "fmt": "lecture"
   },
   {
    "v": "sphinx",
@@ -10510,7 +11529,8 @@
    "url": "https://www.viernulvier.gent/nl/agenda/uitgelezen-yxvx",
    "k": "talk",
    "city": "Gent",
-   "place": "De Vooruit · Theaterzaal"
+   "place": "De Vooruit · Theaterzaal",
+   "fmt": "lecture"
   },
   {
    "v": "kopergietery",
@@ -10555,7 +11575,8 @@
    "k": "talk",
    "th": "literature",
    "place": "Bibliotheek De Krook",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "lecture"
   },
   {
    "v": "campo",
@@ -11036,7 +12057,8 @@
    "k": "talk",
    "th": "literature",
    "place": "Bibliotheek De Krook",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "lecture"
   },
   {
    "v": "campo",
@@ -11256,7 +12278,8 @@
    "url": "https://www.viernulvier.gent/nl/agenda/uitgelezen-xrc8",
    "k": "talk",
    "city": "Gent",
-   "place": "De Vooruit · Theaterzaal"
+   "place": "De Vooruit · Theaterzaal",
+   "fmt": "lecture"
   },
   {
    "v": "viernulvier",
@@ -11299,6 +12322,18 @@
    "url": "https://www.decentrale.be/nl/agenda/theater-film/tahsIn-hasoGlu-stand-up",
    "k": "theatre",
    "city": "Gent"
+  },
+  {
+   "v": "destudio",
+   "d": "2027-04-05",
+   "t": "20:00",
+   "title": "Maandagavonden",
+   "note": "De NWE Tijd",
+   "url": "https://www.destudio.com/nl/programma/grid/all",
+   "k": "talk",
+   "th": "politics",
+   "fmt": "debate",
+   "city": "Antwerpen"
   },
   {
    "v": "viernulvier",
@@ -11538,7 +12573,8 @@
    "url": "https://www.viernulvier.gent/nl/agenda/uitgelezen-14hk",
    "k": "talk",
    "city": "Gent",
-   "place": "De Vooruit · Theaterzaal"
+   "place": "De Vooruit · Theaterzaal",
+   "fmt": "lecture"
   },
   {
    "v": "viernulvier",
@@ -11561,7 +12597,8 @@
    "k": "talk",
    "th": "literature",
    "place": "Bibliotheek De Krook",
-   "city": "Gent"
+   "city": "Gent",
+   "fmt": "lecture"
   },
   {
    "v": "campo",
@@ -11617,6 +12654,18 @@
    "k": "theatre",
    "city": "Gent",
    "place": "De Vooruit · Theaterzaal"
+  },
+  {
+   "v": "destudio",
+   "d": "2027-05-03",
+   "t": "20:00",
+   "title": "Maandagavonden",
+   "note": "De NWE Tijd",
+   "url": "https://www.destudio.com/nl/programma/grid/all",
+   "k": "talk",
+   "th": "politics",
+   "fmt": "debate",
+   "city": "Antwerpen"
   },
   {
    "v": "viernulvier",
@@ -11759,7 +12808,8 @@
    "url": "https://www.viernulvier.gent/nl/agenda/uitgelezen-5js4",
    "k": "talk",
    "city": "Gent",
-   "place": "De Vooruit · Theaterzaal"
+   "place": "De Vooruit · Theaterzaal",
+   "fmt": "lecture"
   },
   {
    "v": "arca",

@@ -129,6 +129,8 @@ dd{margin:0;min-width:0;display:flex;flex-wrap:wrap;gap:4px}
     <div class="dhead"><h2>Filter index</h2><button type="button" id="fclose" aria-label="Close filters">×</button></div>
     <details open><summary>Search</summary><div class="gbody"><input type="search" id="q" placeholder="title, maker, fund…" aria-label="Search within this category"></div></details>
     <details open id="grp-theme"><summary>Theme</summary><div class="gbody chips" id="g-theme"></div></details>
+    <details open data-talk><summary>Format</summary><div class="gbody chips" id="g-fmt"></div></details>
+    <details data-talk><summary>Organiser background</summary><div class="gbody chips" id="g-bg"></div></details>
     <details open><summary>City</summary><div class="gbody chips" id="g-city"></div></details>
     <details><summary>Venue / organiser</summary><div class="gbody chips" id="g-venue"></div></details>
     <details><summary>Start time</summary><div class="gbody"><div class="row"><select id="tfrom" aria-label="From"></select><select id="tto" aria-label="To"></select></div><div class="chips" id="g-part" style="margin-top:6px"></div></div></details>
@@ -164,11 +166,13 @@ const MODES=["film","theatre","dance","music","talk","archive"];
 const endOf=s=>s.e||s.d;
 const dshort=d=>{const x=dt(d);return x.getDate()+" "+MON[x.getMonth()]+(d.slice(0,4)!==nowBxl().d.slice(0,4)?" "+d.slice(0,4):"")};
 const span=(s,today)=>s.d>today?"from "+dshort(s.d):s.e?"until "+dshort(s.e):"";
+const FMTL={debate:"Debate",lecture:"Lecture",research:"Research",poetry:"Poetry evening"};
+const fmtOf=s=>s.fmt||"lecture",bgOf=s=>D.venues[s.v]?.bg||"Unknown";
 const THL={poetry:"Poetry",literature:"Literature",philosophy:"Philosophy",psychology:"Psychology",sociology:"Sociology",economics:"Economics",politics:"Politics & debate",history:"History",religion:"Religion",art:"Art",science:"Science & tech"};
 const where=s=>{const c=s.city&&s.city!=="Gent"?s.city:"";const p=s.place||"";return [p,c].filter(Boolean).join(", ")};
-const st={mode:"film",venue:new Set(),theme:new Set(),city:new Set(),kind:new Set(),backing:new Set(),country:new Set(),extra:new Set(),part:new Set(),company:"",q:"",from:"",to:""};
-function save(){try{localStorage.setItem("gs-f2",JSON.stringify({...st,venue:[...st.venue],theme:[...st.theme],city:[...st.city],kind:[...st.kind],backing:[...st.backing],country:[...st.country],extra:[...st.extra],part:[...st.part]}))}catch(e){}}
-function load(){try{const j=JSON.parse(localStorage.getItem("gs-f2")||"null");if(!j)return;for(const k of ["venue","theme","city","kind","backing","country","extra","part"])st[k]=new Set(j[k]||[]);st.mode=MODES.includes(j.mode)?j.mode:"film";st.company=j.company||"";st.q=j.q||"";st.from=j.from||"";st.to=j.to||""}catch(e){}}
+const st={mode:"film",fmt:new Set(),bg:new Set(),venue:new Set(),theme:new Set(),city:new Set(),kind:new Set(),backing:new Set(),country:new Set(),extra:new Set(),part:new Set(),company:"",q:"",from:"",to:""};
+function save(){try{localStorage.setItem("gs-f2",JSON.stringify({...st,fmt:[...st.fmt],bg:[...st.bg],venue:[...st.venue],theme:[...st.theme],city:[...st.city],kind:[...st.kind],backing:[...st.backing],country:[...st.country],extra:[...st.extra],part:[...st.part]}))}catch(e){}}
+function load(){try{const j=JSON.parse(localStorage.getItem("gs-f2")||"null");if(!j)return;for(const k of ["fmt","bg","venue","theme","city","kind","backing","country","extra","part"])st[k]=new Set(j[k]||[]);st.mode=MODES.includes(j.mode)?j.mode:"film";st.company=j.company||"";st.q=j.q||"";st.from=j.from||"";st.to=j.to||""}catch(e){}}
 function nowBxl(){const p=new Intl.DateTimeFormat("en-CA",{timeZone:"Europe/Brussels",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hour12:false}).formatToParts(new Date());const g=t=>p.find(x=>x.type===t).value;return{d:`${g("year")}-${g("month")}-${g("day")}`,t:`${g("hour")}:${g("minute")}`}}
 const dt=s=>new Date(s+"T12:00:00");
 const companies=f=>f?[...f.studios,...f.public,...f.broadcasters,...f.distributors,...f.sales]:[];
@@ -180,6 +184,8 @@ function matches(s){
   if(st.venue.size&&!st.venue.has(s.v))return false;
   if(st.city.size&&!st.city.has(s.city??"Gent"))return false;
   if(st.theme.size&&!st.theme.has(s.th))return false;
+  if(st.mode==="talk"&&st.fmt.size&&!st.fmt.has(fmtOf(s)))return false;
+  if(st.mode==="talk"&&st.bg.size&&!st.bg.has(bgOf(s)))return false;
   if(st.kind.size&&!(f&&st.kind.has(f.kind)))return false;
   if(st.backing.size&&!(f&&f.backing.some(b=>st.backing.has(b))))return false;
   if(st.country.size&&!countries(f).some(c=>st.country.has(c)))return false;
@@ -198,6 +204,9 @@ function buildFilters(){
   const inMode=D.screenings.filter(s=>(s.k||"film")===st.mode);
   const cities=[...new Set(inMode.map(s=>s.city??"Gent"))].sort((a,b)=>a==="Gent"?-1:b==="Gent"?1:a===""?1:b===""?-1:a.localeCompare(b));
   document.querySelectorAll("[data-film]").forEach(d=>d.hidden=st.mode!=="film");
+  document.querySelectorAll("[data-talk]").forEach(d=>d.hidden=st.mode!=="talk");
+  chipGroup("g-fmt",Object.entries(FMTL).filter(([k])=>inMode.some(s=>fmtOf(s)===k)),st.fmt);
+  chipGroup("g-bg",[...new Set(inMode.map(bgOf))].sort((a,b)=>a==="Unknown"?1:b==="Unknown"?-1:a.localeCompare(b)).map(b=>[b,b]),st.bg);
   chipGroup("g-city",cities.map(c=>[c,c||"City unknown"]),st.city);
   const ths=[...new Set(inMode.map(s=>s.th).filter(Boolean))].sort((a,b)=>(THL[a]||a).localeCompare(THL[b]||b));
   chipGroup("g-theme",ths.map(t=>[t,THL[t]||t]),st.theme);$("grp-theme").hidden=!ths.length;
@@ -221,13 +230,14 @@ function activeChips(){
   st.venue.forEach(k=>add("venue",k,D.venues[k]?.name||k));st.part.forEach(k=>add("part",k,PARTS.find(p=>p[0]===k)[1]));
   st.kind.forEach(k=>add("kind",k,KINDS[k]));st.backing.forEach(k=>add("backing",k,"Funding: "+k));st.country.forEach(k=>add("country",k,k));
   st.extra.forEach(k=>add("extra",k,EXTRAS.find(e=>e[0]===k)[1]));
-  st.theme.forEach(k=>add("theme",k,THL[k]||k));st.city.forEach(k=>add("city",k,k||"City unknown"));
+  st.theme.forEach(k=>add("theme",k,THL[k]||k));st.fmt.forEach(k=>add("fmt",k,FMTL[k]));st.bg.forEach(k=>add("bg",k,k));st.city.forEach(k=>add("city",k,k||"City unknown"));
   if(st.company)add("company","",st.company);if(st.q)add("q","",`“${st.q}”`);if(st.from)add("from","","from "+st.from);if(st.to)add("to","","until "+st.to);
   $("active").innerHTML=a.join("");$("fcount").textContent=a.length?`· ${a.length} active`:"";
 }
 function fundingHTML(s){
   const f=s.film;
-  if(!f)return `<div class="funding"><h4>Funding</h4><p class="sub">Unknown: no source found yet.</p>${s.url?`<p class="ext"><a href="${esc(s.url)}" target="_blank" rel="noopener">Event page ↗</a></p>`:""}</div>`;
+  if(!f){const v=D.venues[s.v]||{};const fiche=v.tied||v.funded?`<h4>Organiser: ${esc(v.name)}</h4><dl><dt>Background</dt><dd><span>${esc(v.bg||"Unknown")}</span></dd><dt>Tied to</dt><dd><span>${esc(v.tied||"unknown")}</span></dd><dt>Funded by</dt><dd><span>${esc(v.funded||"unknown")}</span></dd></dl>${(v.src||[]).length?`<div class="src">Sources: ${v.src.map(u=>`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(new URL(u).hostname.replace("www.",""))}</a>`).join("")}</div>`:""}`:"";
+    return `<div class="funding">${fiche}${s.k==="talk"?"":`<h4>Funding</h4><p class="sub">Unknown: no source found yet.</p>`}${s.url?`<p class="ext"><a href="${esc(s.url)}" target="_blank" rel="noopener">Event page ↗</a></p>`:""}</div>`}
   const row=(label,arr,click=true)=>arr&&arr.length?`<dt>${label}</dt><dd>${arr.map(x=>click?`<button type="button" class="chip" data-company="${esc(x)}">${esc(x)}</button>`:`<span>${esc(x)}</span>`).join("")}</dd>`:"";
   const tags=`<dt>Money type</dt><dd>${f.backing.map(b=>`<button type="button" class="chip money" data-backing="${esc(b)}">${esc(b)}</button>`).join("")}</dd>`;
   return `<div class="funding"><h4>Funding</h4><p>${esc(f.funding)}</p><dl>${tags}${row("Studios & producers",f.studios)}${row("Public money",f.public)}${row("Broadcasters",f.broadcasters)}${row("Distribution",f.distributors)}${row("World sales",f.sales)}${f.budget?`<dt>Budget</dt><dd><span>${esc(f.budget)}</span></dd>`:""}${f.director?`<dt>Director</dt><dd><span>${esc(f.director)}</span></dd>`:""}${f.country?`<dt>Country</dt><dd><span>${esc(f.country)}${f.year?" · "+f.year:""}</span></dd>`:""}</dl>
@@ -253,7 +263,7 @@ function render(){
     if(sel==="all"&&!ARC&&s.d!==last){const y=dt(s.d);html+=`<li class="daybreak">${DAYL[y.getDay()]} ${y.getDate()} ${MON[y.getMonth()]}</li>`;last=s.d}
     const id=s.d+s.t+s.v+s.title, v=D.venues[s.v], f=s.film, past=s.d===now.d&&s.t&&s.t<now.t, ex=open.has(id);
     const money=f&&f.studios.length?f.studios.slice(0,2).join(" · "):"";
-    html+=`<li class="s ${past?"past":""}"><button type="button" class="head" aria-expanded="${ex}" data-open="${esc(id)}"><span class="time ${s.t||ARC?"":"tba"}">${ARC?span(s,now.d):s.t||"time on site"}</span><span class="info"><span class="title">${esc(s.title)}</span><span class="meta"><span class="ven" style="--c:${vc(s.v)}">${esc(v.name)}</span>${s.th?`<span class="cat">${esc(THL[s.th]||s.th)}</span>`:""}${where(s)?`<span>@ ${esc(where(s))}</span>`:""}${s.note?`<span>${esc(s.note)}</span>`:""}</span>${money?`<span class="moneyline">Money: ${esc(money)}</span>`:""}</span><span class="caret">▾</span></button>${ex?fundingHTML(s):""}</li>`;
+    html+=`<li class="s ${past?"past":""}"><button type="button" class="head" aria-expanded="${ex}" data-open="${esc(id)}"><span class="time ${s.t||ARC?"":"tba"}">${ARC?span(s,now.d):s.t||"time on site"}</span><span class="info"><span class="title">${esc(s.title)}</span><span class="meta"><span class="ven" style="--c:${vc(s.v)}">${esc(v.name)}</span>${s.k==="talk"?`<span class="cat">${FMTL[fmtOf(s)]}</span>`:""}${s.th?`<span class="cat">${esc(THL[s.th]||s.th)}</span>`:""}${where(s)?`<span>@ ${esc(where(s))}</span>`:""}${s.note?`<span>${esc(s.note)}</span>`:""}</span>${money?`<span class="moneyline">Money: ${esc(money)}</span>`:""}</span><span class="caret">▾</span></button>${ex?fundingHTML(s):""}</li>`;
   });
   $("list").innerHTML=html||(!D.screenings.some(s=>(s.k||"film")===st.mode)?`<li class="empty">${{dance:"Dance listings are on their way: Viernulvier, CAMPO and De Expeditie.",theatre:"Theatre listings are on their way.",music:"Music listings are on their way.",talk:"Talks are on their way.",archive:"Exhibitions are on their way."}[st.mode]||"Listings are on their way."}</li>`:"")||`<li class="empty">No screenings match these filters. <button class="link" type="button" data-reset>Clear filters</button></li>`;
   activeChips();
@@ -263,7 +273,7 @@ function renderStatic(){
   $("venues").innerHTML=Object.entries(D.venues).map(([k,v])=>`<div style="--c:${vc(k)}"><a href="${esc(v.url)}" target="_blank" rel="noopener">${esc(v.name)}</a><br>${esc(v.addr)}<br>${esc(v.kind)}</div>`).join("");
   $("foot").textContent=`Listings refreshed ${new Date(D.updated).toLocaleString("en-GB",{timeZone:"Europe/Brussels",weekday:"short",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"})}. Funding comes from festival, fund and trade-press records linked under each film. Programme facts (date, time, title) come from each venue's official site, and every listing links to its source; no images are copied. Film listings update automatically every Wednesday. Times can change; check the venue before you go.`;
 }
-const SETS=["venue","theme","city","kind","backing","country","extra","part"];
+const SETS=["fmt","bg","venue","theme","city","kind","backing","country","extra","part"];
 document.addEventListener("click",e=>{
   const t=e.target.closest("button");if(!t)return;
   if(t.dataset.d){sel=t.dataset.d;render();return}
