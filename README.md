@@ -1,4 +1,6 @@
-# two-step
+# Gentse cultuuragenda (prototype)
+
+Formerly called two-step. A prototype within peapickers; the repository is still named `two-step` until it is renamed.
 
 Film, theatre, dance, music, talks and exhibitions in and around Ghent (arthouse cinemas and film clubs such as Sphinx, Studio Skoop, KASKcinema and Ciné Rio), with a **Funding** article on who paid for each film. Kinepolis is not included.
 

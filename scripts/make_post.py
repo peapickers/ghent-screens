@@ -103,7 +103,7 @@ def wrap(d, text, font, width):
 
 def footer(d, page, total):
     d.line([(72, H - 110), (W - 72, H - 110)], fill=LINE, width=2)
-    d.text((72, H - 82), "TWO-STEP · Kinepolis not included", font=SEMI(26), fill=MUTED)
+    d.text((72, H - 82), "GENTSE CULTUURAGENDA · Kinepolis not included", font=SEMI(26), fill=MUTED)
     d.text((W - 72, H - 82), f"{page}/{total}", font=SEMI(26), fill=MUTED, anchor="ra")
 
 # measure film blocks, then paginate
