@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """Write feed.xml (RSS 2.0) for the public GitHub Pages site.
 One item per day for the next 7 days: every film, rarest first, with venue, times and who paid.
-Usage: SITE_URL=https://<user>.github.io/two-step python3 build_feed.py
+Usage: SITE_URL=https://<user>.github.io/peapickersfeed python3 build_feed.py
 Free software only: Python standard library."""
 import json, os, datetime, zoneinfo, html
 from email.utils import format_datetime
 
-SITE = os.environ.get("SITE_URL", "https://example.github.io/two-step").rstrip("/")
+SITE = os.environ.get("SITE_URL", "https://example.github.io/peapickersfeed").rstrip("/")
 TZ = zoneinfo.ZoneInfo("Europe/Brussels")
 D = json.load(open("screenings.json", encoding="utf-8"))
 FILMS = {}

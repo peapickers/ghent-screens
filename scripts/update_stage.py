@@ -18,7 +18,7 @@ import datetime, html, http.cookiejar, json, re, sys, time, unicodedata, urllib.
 
 TZ = zoneinfo.ZoneInfo("Europe/Brussels")
 TODAY = datetime.datetime.now(TZ).date()
-UA = "TwoStepBot/1.0 (+https://peapickers.github.io/two-step/; weekly, programme facts only)"
+UA = "PeapickersFeedBot/1.0 (+https://peapickers.github.io/peapickersfeed/; weekly, programme facts only)"
 AUTO = "Automatic update (stage):"
 MONTHS = {m: i + 1 for i, m in enumerate("januari februari maart april mei juni juli augustus september oktober november december".split())}
 MON3 = {"jan": 1, "feb": 2, "mrt": 3, "maa": 3, "apr": 4, "mei": 5, "jun": 6, "jul": 7, "aug": 8, "sep": 9, "okt": 10, "nov": 11, "dec": 12}
